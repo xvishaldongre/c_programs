@@ -3,6 +3,7 @@ title = "C Programs"
 theme = "pulp"
 canonifyurls = true
 hasCJKLanguage = true
+publishDir = "docs"
 # pygmentsCodefences = true
 # pygmentsUseClasses = true
 # googleAnalytics = "{your tracking code}"
@@ -60,4 +61,4 @@ hasCJKLanguage = true
     url = "mailto:username@example.com"
     weight = 40
 
-publishDir = "docs"
+

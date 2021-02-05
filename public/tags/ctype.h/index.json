@@ -1,6 +1,6 @@
 [
     {
-        "ref": "https://example.com/c-program-to-check-for-punctuation-characters-using-the-ispunct-function/",
+        "ref": "https://xvishaldongre.github.io/c_programs/c-program-to-check-for-punctuation-characters-using-the-ispunct-function/",
         "title": "C program to check for punctuation characters using the ispunct() Function",
         "section": "",
         "tags": ["CTYPE.H"],
@@ -9,7 +9,7 @@
     }
 ,
     {
-        "ref": "https://example.com/c-program-to-check-for-whitespace-using-isspace-function/",
+        "ref": "https://xvishaldongre.github.io/c_programs/c-program-to-check-for-whitespace-using-isspace-function/",
         "title": "C Program to check for whitespace using isspace() Function",
         "section": "",
         "tags": ["CTYPE.H"],
@@ -18,7 +18,7 @@
     }
 ,
     {
-        "ref": "https://example.com/c-program-to-check-if-character-is-alphabet-using-isalpha-function/",
+        "ref": "https://xvishaldongre.github.io/c_programs/c-program-to-check-if-character-is-alphabet-using-isalpha-function/",
         "title": "C Program to check if character is alphabet using isalpha() Function",
         "section": "",
         "tags": ["CTYPE.H"],
@@ -27,7 +27,7 @@
     }
 ,
     {
-        "ref": "https://example.com/c-program-to-check-if-character-string-is-alphanumeric-using-isalnum-function/",
+        "ref": "https://xvishaldongre.github.io/c_programs/c-program-to-check-if-character-string-is-alphanumeric-using-isalnum-function/",
         "title": "C Program to check if character string is alphanumeric using isalnum() Function",
         "section": "",
         "tags": ["CTYPE.H"],
@@ -36,7 +36,7 @@
     }
 ,
     {
-        "ref": "https://example.com/c-program-to-check-lowercase-using-islower-function/",
+        "ref": "https://xvishaldongre.github.io/c_programs/c-program-to-check-lowercase-using-islower-function/",
         "title": "C Program to check lowercase using islower() Function",
         "section": "",
         "tags": ["CTYPE.H"],
@@ -45,7 +45,7 @@
     }
 ,
     {
-        "ref": "https://example.com/c-program-to-check-uppercase-using-isupper-function/",
+        "ref": "https://xvishaldongre.github.io/c_programs/c-program-to-check-uppercase-using-isupper-function/",
         "title": "C Program to check uppercase using isupper() Function",
         "section": "",
         "tags": ["CTYPE.H"],
@@ -54,7 +54,7 @@
     }
 ,
     {
-        "ref": "https://example.com/c-program-to-convert-characters-to-uppercase-using-the-toupper-function/",
+        "ref": "https://xvishaldongre.github.io/c_programs/c-program-to-convert-characters-to-uppercase-using-the-toupper-function/",
         "title": "C Program to convert character(s) to uppercase using the toupper() Function",
         "section": "",
         "tags": ["CTYPE.H"],
@@ -63,7 +63,7 @@
     }
 ,
     {
-        "ref": "https://example.com/c-program-to-covert-character-to-lowercase-using-tolower-function/",
+        "ref": "https://xvishaldongre.github.io/c_programs/c-program-to-covert-character-to-lowercase-using-tolower-function/",
         "title": "C Program to covert character to lowercase using tolower() Function",
         "section": "",
         "tags": ["CTYPE.H"],
@@ -72,7 +72,7 @@
     }
 ,
     {
-        "ref": "https://example.com/using-isgraph-and-isprint-function-in-c-program/",
+        "ref": "https://xvishaldongre.github.io/c_programs/using-isgraph-and-isprint-function-in-c-program/",
         "title": "Using isgraph() and isprint() Function in C Program",
         "section": "",
         "tags": ["CTYPE.H"],

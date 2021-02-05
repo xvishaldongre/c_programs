@@ -1,6 +1,6 @@
 [
     {
-        "ref": "https://example.com/c-gets-and-strlen-function/",
+        "ref": "https://xvishaldongre.github.io/c_programs/c-gets-and-strlen-function/",
         "title": "C gets() and strlen() function",
         "section": "",
         "tags": ["string"],
@@ -9,7 +9,7 @@
     }
 ,
     {
-        "ref": "https://example.com/c-program-for-removing-whitespaces-in-a-string/",
+        "ref": "https://xvishaldongre.github.io/c_programs/c-program-for-removing-whitespaces-in-a-string/",
         "title": "C Program for removing Whitespaces in a String",
         "section": "",
         "tags": ["string"],
@@ -18,7 +18,7 @@
     }
 ,
     {
-        "ref": "https://example.com/c-program-to-calculate-the-frequency-of-characters-in-a-string/",
+        "ref": "https://xvishaldongre.github.io/c_programs/c-program-to-calculate-the-frequency-of-characters-in-a-string/",
         "title": "C Program to calculate the Frequency of characters in a string",
         "section": "",
         "tags": ["string"],
@@ -27,7 +27,7 @@
     }
 ,
     {
-        "ref": "https://example.com/c-program-to-compare-two-strings-using-strcmp-function/",
+        "ref": "https://xvishaldongre.github.io/c_programs/c-program-to-compare-two-strings-using-strcmp-function/",
         "title": "C Program to compare two strings using strcmp() Function",
         "section": "",
         "tags": ["string"],
@@ -36,7 +36,7 @@
     }
 ,
     {
-        "ref": "https://example.com/c-program-to-copy-string-using-strcpy-function/",
+        "ref": "https://xvishaldongre.github.io/c_programs/c-program-to-copy-string-using-strcpy-function/",
         "title": "C Program to copy string using strcpy() Function",
         "section": "",
         "tags": ["string"],
@@ -45,7 +45,7 @@
     }
 ,
     {
-        "ref": "https://example.com/c-program-to-count-number-of-vowels-in-a-string/",
+        "ref": "https://xvishaldongre.github.io/c_programs/c-program-to-count-number-of-vowels-in-a-string/",
         "title": "C Program to Count number of vowels in a String",
         "section": "",
         "tags": ["string"],
@@ -54,7 +54,7 @@
     }
 ,
     {
-        "ref": "https://example.com/c-program-to-reverse-a-string-using-strrev-function/",
+        "ref": "https://xvishaldongre.github.io/c_programs/c-program-to-reverse-a-string-using-strrev-function/",
         "title": "C Program to reverse a string using strrev() Function",
         "section": "",
         "tags": ["string"],
@@ -63,7 +63,7 @@
     }
 ,
     {
-        "ref": "https://example.com/difference-between-strlen-and-sizeof-function/",
+        "ref": "https://xvishaldongre.github.io/c_programs/difference-between-strlen-and-sizeof-function/",
         "title": "Difference between strlen() and sizeof() function",
         "section": "",
         "tags": ["string"],

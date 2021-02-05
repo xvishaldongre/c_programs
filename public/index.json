@@ -1,6 +1,6 @@
 [
     {
-        "ref": "https://example.com/about/",
+        "ref": "https://xvishaldongre.github.io/c_programs/about/",
         "title": "About me",
         "section": "",
         "tags": null,
@@ -9,7 +9,7 @@
     }
 ,
     {
-        "ref": "https://example.com/contact/",
+        "ref": "https://xvishaldongre.github.io/c_programs/contact/",
         "title": "Contact",
         "section": "",
         "tags": null,
@@ -18,7 +18,7 @@
     }
 ,
     {
-        "ref": "https://example.com/accessing-array-elementstraversing-array-by-incrementing-a-pointer/",
+        "ref": "https://xvishaldongre.github.io/c_programs/accessing-array-elementstraversing-array-by-incrementing-a-pointer/",
         "title": "Accessing array elements(Traversing array) by incrementing a Pointer",
         "section": "",
         "tags": ["pointers"],
@@ -27,7 +27,7 @@
     }
 ,
     {
-        "ref": "https://example.com/ascii-value-of-character/",
+        "ref": "https://xvishaldongre.github.io/c_programs/ascii-value-of-character/",
         "title": "ASCII value of Character",
         "section": "",
         "tags": ["Basic Programs"],
@@ -36,7 +36,7 @@
     }
 ,
     {
-        "ref": "https://example.com/basic-c-program-for-pointer-to-a-pointer/",
+        "ref": "https://xvishaldongre.github.io/c_programs/basic-c-program-for-pointer-to-a-pointer/",
         "title": "Basic C Program for Pointer to a Pointer",
         "section": "",
         "tags": ["pointers"],
@@ -45,7 +45,7 @@
     }
 ,
     {
-        "ref": "https://example.com/basic-c-program-to-concatenate-strings-using-pointer/",
+        "ref": "https://xvishaldongre.github.io/c_programs/basic-c-program-to-concatenate-strings-using-pointer/",
         "title": "Basic C Program to Concatenate Strings using Pointer",
         "section": "",
         "tags": ["pointers"],
@@ -54,7 +54,7 @@
     }
 ,
     {
-        "ref": "https://example.com/basic-do-while-loop-program/",
+        "ref": "https://xvishaldongre.github.io/c_programs/basic-do-while-loop-program/",
         "title": "Basic do while Loop Program",
         "section": "",
         "tags": ["loops"],
@@ -63,7 +63,7 @@
     }
 ,
     {
-        "ref": "https://example.com/basic-ifelse-condition-program/",
+        "ref": "https://xvishaldongre.github.io/c_programs/basic-ifelse-condition-program/",
         "title": "Basic ifelse condition program",
         "section": "",
         "tags": ["Basic Programs"],
@@ -72,7 +72,7 @@
     }
 ,
     {
-        "ref": "https://example.com/basic-program-for-pointers/",
+        "ref": "https://xvishaldongre.github.io/c_programs/basic-program-for-pointers/",
         "title": "Basic Program for Pointers",
         "section": "",
         "tags": ["pointers"],
@@ -81,7 +81,7 @@
     }
 ,
     {
-        "ref": "https://example.com/basic-program-to-show-use-of-nested-for-loops/",
+        "ref": "https://xvishaldongre.github.io/c_programs/basic-program-to-show-use-of-nested-for-loops/",
         "title": "Basic program to show use of nested for Loops",
         "section": "",
         "tags": ["loops"],
@@ -90,7 +90,7 @@
     }
 ,
     {
-        "ref": "https://example.com/c-gets-and-strlen-function/",
+        "ref": "https://xvishaldongre.github.io/c_programs/c-gets-and-strlen-function/",
         "title": "C gets() and strlen() function",
         "section": "",
         "tags": ["string"],
@@ -99,7 +99,7 @@
     }
 ,
     {
-        "ref": "https://example.com/c-program-for-adding-two-numbers-using-recursion/",
+        "ref": "https://xvishaldongre.github.io/c_programs/c-program-for-adding-two-numbers-using-recursion/",
         "title": "C Program for Adding Two Numbers Using Recursion",
         "section": "",
         "tags": ["recursion"],
@@ -108,7 +108,7 @@
     }
 ,
     {
-        "ref": "https://example.com/c-program-for-pointer-to-a-function/",
+        "ref": "https://xvishaldongre.github.io/c_programs/c-program-for-pointer-to-a-function/",
         "title": "C program for Pointer to a Function",
         "section": "",
         "tags": ["pointers"],
@@ -117,7 +117,7 @@
     }
 ,
     {
-        "ref": "https://example.com/c-program-for-removing-whitespaces-in-a-string/",
+        "ref": "https://xvishaldongre.github.io/c_programs/c-program-for-removing-whitespaces-in-a-string/",
         "title": "C Program for removing Whitespaces in a String",
         "section": "",
         "tags": ["string"],
@@ -126,7 +126,7 @@
     }
 ,
     {
-        "ref": "https://example.com/c-program-to-add-two-user-input-numbers-using-pointers/",
+        "ref": "https://xvishaldongre.github.io/c_programs/c-program-to-add-two-user-input-numbers-using-pointers/",
         "title": "C Program to Add two user input numbers using Pointers",
         "section": "",
         "tags": ["important_concepts"],
@@ -135,7 +135,7 @@
     }
 ,
     {
-        "ref": "https://example.com/c-program-to-calculate-a-number-raised-to-the-power-of-n-using-recursion/",
+        "ref": "https://xvishaldongre.github.io/c_programs/c-program-to-calculate-a-number-raised-to-the-power-of-n-using-recursion/",
         "title": "C Program to calculate a Number raised to the Power of N using Recursion",
         "section": "",
         "tags": ["recursion"],
@@ -144,7 +144,7 @@
     }
 ,
     {
-        "ref": "https://example.com/c-program-to-calculate-permutation-npr-and-combination-ncr/",
+        "ref": "https://xvishaldongre.github.io/c_programs/c-program-to-calculate-permutation-npr-and-combination-ncr/",
         "title": "C Program to Calculate Permutation (nPr) and Combination (nCr)",
         "section": "",
         "tags": ["important_concepts"],
@@ -153,7 +153,7 @@
     }
 ,
     {
-        "ref": "https://example.com/c-program-to-calculate-simple-interest/",
+        "ref": "https://xvishaldongre.github.io/c_programs/c-program-to-calculate-simple-interest/",
         "title": "C Program to calculate Simple Interest",
         "section": "",
         "tags": ["important_concepts"],
@@ -162,7 +162,7 @@
     }
 ,
     {
-        "ref": "https://example.com/c-program-to-calculate-the-frequency-of-characters-in-a-string/",
+        "ref": "https://xvishaldongre.github.io/c_programs/c-program-to-calculate-the-frequency-of-characters-in-a-string/",
         "title": "C Program to calculate the Frequency of characters in a string",
         "section": "",
         "tags": ["string"],
@@ -171,7 +171,7 @@
     }
 ,
     {
-        "ref": "https://example.com/c-program-to-change-the-text-background-color/",
+        "ref": "https://xvishaldongre.github.io/c_programs/c-program-to-change-the-text-background-color/",
         "title": "C program to Change the Text Background Color",
         "section": "",
         "tags": ["miscellaneous"],
@@ -180,7 +180,7 @@
     }
 ,
     {
-        "ref": "https://example.com/c-program-to-check-for-a-perfect-square/",
+        "ref": "https://xvishaldongre.github.io/c_programs/c-program-to-check-for-a-perfect-square/",
         "title": "C program to Check for a Perfect Square",
         "section": "",
         "tags": ["important_concepts"],
@@ -189,7 +189,7 @@
     }
 ,
     {
-        "ref": "https://example.com/c-program-to-check-for-punctuation-characters-using-the-ispunct-function/",
+        "ref": "https://xvishaldongre.github.io/c_programs/c-program-to-check-for-punctuation-characters-using-the-ispunct-function/",
         "title": "C program to check for punctuation characters using the ispunct() Function",
         "section": "",
         "tags": ["CTYPE.H"],
@@ -198,7 +198,7 @@
     }
 ,
     {
-        "ref": "https://example.com/c-program-to-check-for-whitespace-using-isspace-function/",
+        "ref": "https://xvishaldongre.github.io/c_programs/c-program-to-check-for-whitespace-using-isspace-function/",
         "title": "C Program to check for whitespace using isspace() Function",
         "section": "",
         "tags": ["CTYPE.H"],
@@ -207,7 +207,7 @@
     }
 ,
     {
-        "ref": "https://example.com/c-program-to-check-if-character-is-alphabet-using-isalpha-function/",
+        "ref": "https://xvishaldongre.github.io/c_programs/c-program-to-check-if-character-is-alphabet-using-isalpha-function/",
         "title": "C Program to check if character is alphabet using isalpha() Function",
         "section": "",
         "tags": ["CTYPE.H"],
@@ -216,7 +216,7 @@
     }
 ,
     {
-        "ref": "https://example.com/c-program-to-check-if-character-string-is-alphanumeric-using-isalnum-function/",
+        "ref": "https://xvishaldongre.github.io/c_programs/c-program-to-check-if-character-string-is-alphanumeric-using-isalnum-function/",
         "title": "C Program to check if character string is alphanumeric using isalnum() Function",
         "section": "",
         "tags": ["CTYPE.H"],
@@ -225,7 +225,7 @@
     }
 ,
     {
-        "ref": "https://example.com/c-program-to-check-lowercase-using-islower-function/",
+        "ref": "https://xvishaldongre.github.io/c_programs/c-program-to-check-lowercase-using-islower-function/",
         "title": "C Program to check lowercase using islower() Function",
         "section": "",
         "tags": ["CTYPE.H"],
@@ -234,7 +234,7 @@
     }
 ,
     {
-        "ref": "https://example.com/c-program-to-check-uppercase-using-isupper-function/",
+        "ref": "https://xvishaldongre.github.io/c_programs/c-program-to-check-uppercase-using-isupper-function/",
         "title": "C Program to check uppercase using isupper() Function",
         "section": "",
         "tags": ["CTYPE.H"],
@@ -243,7 +243,7 @@
     }
 ,
     {
-        "ref": "https://example.com/c-program-to-compare-two-strings-using-strcmp-function/",
+        "ref": "https://xvishaldongre.github.io/c_programs/c-program-to-compare-two-strings-using-strcmp-function/",
         "title": "C Program to compare two strings using strcmp() Function",
         "section": "",
         "tags": ["string"],
@@ -252,7 +252,7 @@
     }
 ,
     {
-        "ref": "https://example.com/c-program-to-convert-characters-to-uppercase-using-the-toupper-function/",
+        "ref": "https://xvishaldongre.github.io/c_programs/c-program-to-convert-characters-to-uppercase-using-the-toupper-function/",
         "title": "C Program to convert character(s) to uppercase using the toupper() Function",
         "section": "",
         "tags": ["CTYPE.H"],
@@ -261,7 +261,7 @@
     }
 ,
     {
-        "ref": "https://example.com/c-program-to-convert-temparature-in-celsius-to-fahrenheit/",
+        "ref": "https://xvishaldongre.github.io/c_programs/c-program-to-convert-temparature-in-celsius-to-fahrenheit/",
         "title": "C Program to convert Temparature in Celsius to Fahrenheit",
         "section": "",
         "tags": ["important_concepts"],
@@ -270,7 +270,7 @@
     }
 ,
     {
-        "ref": "https://example.com/c-program-to-copy-content-of-one-file-into-another-file/",
+        "ref": "https://xvishaldongre.github.io/c_programs/c-program-to-copy-content-of-one-file-into-another-file/",
         "title": "C Program to copy content of one File into another File",
         "section": "",
         "tags": ["files_and_streams"],
@@ -279,7 +279,7 @@
     }
 ,
     {
-        "ref": "https://example.com/c-program-to-copy-string-using-strcpy-function/",
+        "ref": "https://xvishaldongre.github.io/c_programs/c-program-to-copy-string-using-strcpy-function/",
         "title": "C Program to copy string using strcpy() Function",
         "section": "",
         "tags": ["string"],
@@ -288,7 +288,7 @@
     }
 ,
     {
-        "ref": "https://example.com/c-program-to-count-number-of-vowels-in-a-string/",
+        "ref": "https://xvishaldongre.github.io/c_programs/c-program-to-count-number-of-vowels-in-a-string/",
         "title": "C Program to Count number of vowels in a String",
         "section": "",
         "tags": ["string"],
@@ -297,7 +297,7 @@
     }
 ,
     {
-        "ref": "https://example.com/c-program-to-covert-character-to-lowercase-using-tolower-function/",
+        "ref": "https://xvishaldongre.github.io/c_programs/c-program-to-covert-character-to-lowercase-using-tolower-function/",
         "title": "C Program to covert character to lowercase using tolower() Function",
         "section": "",
         "tags": ["CTYPE.H"],
@@ -306,7 +306,7 @@
     }
 ,
     {
-        "ref": "https://example.com/c-program-to-create-a-file-write-data-in-it/",
+        "ref": "https://xvishaldongre.github.io/c_programs/c-program-to-create-a-file-write-data-in-it/",
         "title": "C Program to create a File \u0026 write Data in it",
         "section": "",
         "tags": ["files_and_streams"],
@@ -315,7 +315,7 @@
     }
 ,
     {
-        "ref": "https://example.com/c-program-to-create-a-menu-driven-software-using-switch-case/",
+        "ref": "https://xvishaldongre.github.io/c_programs/c-program-to-create-a-menu-driven-software-using-switch-case/",
         "title": "C Program to create a Menu Driven software using Switch Case",
         "section": "",
         "tags": ["miscellaneous"],
@@ -324,7 +324,7 @@
     }
 ,
     {
-        "ref": "https://example.com/c-program-to-display-the-current-date-and-time/",
+        "ref": "https://xvishaldongre.github.io/c_programs/c-program-to-display-the-current-date-and-time/",
         "title": "C Program to Display the current Date and Time",
         "section": "",
         "tags": ["miscellaneous"],
@@ -333,7 +333,7 @@
     }
 ,
     {
-        "ref": "https://example.com/c-program-to-find-gcd-of-n-numbers/",
+        "ref": "https://xvishaldongre.github.io/c_programs/c-program-to-find-gcd-of-n-numbers/",
         "title": "C Program to find GCD of N Numbers",
         "section": "",
         "tags": ["important_concepts"],
@@ -342,7 +342,7 @@
     }
 ,
     {
-        "ref": "https://example.com/c-program-to-find-gcd-of-two-numbers-using-recursion/",
+        "ref": "https://xvishaldongre.github.io/c_programs/c-program-to-find-gcd-of-two-numbers-using-recursion/",
         "title": "C Program to find GCD of two Numbers using Recursion",
         "section": "",
         "tags": ["recursion"],
@@ -351,7 +351,7 @@
     }
 ,
     {
-        "ref": "https://example.com/c-program-to-find-lcm-of-two-numbers-using-recursion/",
+        "ref": "https://xvishaldongre.github.io/c_programs/c-program-to-find-lcm-of-two-numbers-using-recursion/",
         "title": "C Program to find LCM of two Numbers using Recursion",
         "section": "",
         "tags": ["recursion"],
@@ -360,7 +360,7 @@
     }
 ,
     {
-        "ref": "https://example.com/c-program-to-find-roots-of-quadratic-equation/",
+        "ref": "https://xvishaldongre.github.io/c_programs/c-program-to-find-roots-of-quadratic-equation/",
         "title": "C Program to Find Roots of Quadratic Equation",
         "section": "",
         "tags": ["important_concepts"],
@@ -369,7 +369,7 @@
     }
 ,
     {
-        "ref": "https://example.com/c-program-to-find-sum-of-first-and-last-digits-of-a-number/",
+        "ref": "https://xvishaldongre.github.io/c_programs/c-program-to-find-sum-of-first-and-last-digits-of-a-number/",
         "title": "C program to find Sum of First and Last Digits of a Number",
         "section": "",
         "tags": ["important_concepts"],
@@ -378,7 +378,7 @@
     }
 ,
     {
-        "ref": "https://example.com/c-program-to-find-the-area-and-circumference-of-a-circle/",
+        "ref": "https://xvishaldongre.github.io/c_programs/c-program-to-find-the-area-and-circumference-of-a-circle/",
         "title": "C Program to find the Area and Circumference of a Circle",
         "section": "",
         "tags": ["important_concepts"],
@@ -387,7 +387,7 @@
     }
 ,
     {
-        "ref": "https://example.com/c-program-to-find-the-area-of-triangle-using-base-and-height/",
+        "ref": "https://xvishaldongre.github.io/c_programs/c-program-to-find-the-area-of-triangle-using-base-and-height/",
         "title": "C Program to find the Area of Triangle using Base and Height",
         "section": "",
         "tags": ["important_concepts"],
@@ -396,7 +396,7 @@
     }
 ,
     {
-        "ref": "https://example.com/c-program-to-find-the-largest-element-in-an-array-using-recursion/",
+        "ref": "https://xvishaldongre.github.io/c_programs/c-program-to-find-the-largest-element-in-an-array-using-recursion/",
         "title": "C Program to find the largest Element in an Array using Recursion",
         "section": "",
         "tags": ["recursion"],
@@ -405,7 +405,7 @@
     }
 ,
     {
-        "ref": "https://example.com/c-program-to-find-the-largest-of-three-numbers/",
+        "ref": "https://xvishaldongre.github.io/c_programs/c-program-to-find-the-largest-of-three-numbers/",
         "title": "C Program to find the Largest of Three Numbers",
         "section": "",
         "tags": ["important_concepts"],
@@ -414,7 +414,7 @@
     }
 ,
     {
-        "ref": "https://example.com/c-program-to-find-the-second-largest-number-among-three-user-input-numbers/",
+        "ref": "https://xvishaldongre.github.io/c_programs/c-program-to-find-the-second-largest-number-among-three-user-input-numbers/",
         "title": "C program to find the second Largest number among Three user input Numbers",
         "section": "",
         "tags": ["important_concepts"],
@@ -423,7 +423,7 @@
     }
 ,
     {
-        "ref": "https://example.com/c-program-to-find-the-size-of-any-file/",
+        "ref": "https://xvishaldongre.github.io/c_programs/c-program-to-find-the-size-of-any-file/",
         "title": "C Program to find the Size of any File",
         "section": "",
         "tags": ["files_and_streams"],
@@ -432,7 +432,7 @@
     }
 ,
     {
-        "ref": "https://example.com/c-program-to-find-whether-a-number-is-prime-or-composite-using-recursion/",
+        "ref": "https://xvishaldongre.github.io/c_programs/c-program-to-find-whether-a-number-is-prime-or-composite-using-recursion/",
         "title": "C Program to find whether a Number is Prime Or Composite using Recursion",
         "section": "",
         "tags": ["recursion"],
@@ -441,7 +441,7 @@
     }
 ,
     {
-        "ref": "https://example.com/c-program-to-identify-a-leap-year/",
+        "ref": "https://xvishaldongre.github.io/c_programs/c-program-to-identify-a-leap-year/",
         "title": "C Program to identify a Leap Year",
         "section": "",
         "tags": ["important_concepts"],
@@ -450,7 +450,7 @@
     }
 ,
     {
-        "ref": "https://example.com/c-program-to-print-names-of-all-files-present-in-a-directory/",
+        "ref": "https://xvishaldongre.github.io/c_programs/c-program-to-print-names-of-all-files-present-in-a-directory/",
         "title": "C Program to Print names of all Files present in a Directory",
         "section": "",
         "tags": ["files_and_streams"],
@@ -459,7 +459,7 @@
     }
 ,
     {
-        "ref": "https://example.com/c-program-to-reverse-a-string-using-pointer/",
+        "ref": "https://xvishaldongre.github.io/c_programs/c-program-to-reverse-a-string-using-pointer/",
         "title": "C Program to Reverse a String using Pointer",
         "section": "",
         "tags": ["pointers"],
@@ -468,7 +468,7 @@
     }
 ,
     {
-        "ref": "https://example.com/c-program-to-reverse-a-string-using-strrev-function/",
+        "ref": "https://xvishaldongre.github.io/c_programs/c-program-to-reverse-a-string-using-strrev-function/",
         "title": "C Program to reverse a string using strrev() Function",
         "section": "",
         "tags": ["string"],
@@ -477,7 +477,7 @@
     }
 ,
     {
-        "ref": "https://example.com/c-program-to-reverse-the-content-of-a-file/",
+        "ref": "https://xvishaldongre.github.io/c_programs/c-program-to-reverse-the-content-of-a-file/",
         "title": "C Program to reverse the content of a File",
         "section": "",
         "tags": ["files_and_streams"],
@@ -486,7 +486,7 @@
     }
 ,
     {
-        "ref": "https://example.com/c-program-to-show-basic-arithmetic-operations-and-role-of-typecasting/",
+        "ref": "https://xvishaldongre.github.io/c_programs/c-program-to-show-basic-arithmetic-operations-and-role-of-typecasting/",
         "title": "C program to show basic Arithmetic Operations and role of Typecasting",
         "section": "",
         "tags": ["important_concepts"],
@@ -495,7 +495,7 @@
     }
 ,
     {
-        "ref": "https://example.com/c-program-to-swap-two-numbers-using-pointers/",
+        "ref": "https://xvishaldongre.github.io/c_programs/c-program-to-swap-two-numbers-using-pointers/",
         "title": "C Program to Swap Two Numbers using Pointers",
         "section": "",
         "tags": ["pointers"],
@@ -504,7 +504,7 @@
     }
 ,
     {
-        "ref": "https://example.com/c-program-without-a-main-function/",
+        "ref": "https://xvishaldongre.github.io/c_programs/c-program-without-a-main-function/",
         "title": "C Program without a main() function",
         "section": "",
         "tags": ["miscellaneous"],
@@ -513,7 +513,7 @@
     }
 ,
     {
-        "ref": "https://example.com/c-programs-to-showcase-the-conversion-between-various-number-systems/",
+        "ref": "https://xvishaldongre.github.io/c_programs/c-programs-to-showcase-the-conversion-between-various-number-systems/",
         "title": "C Programs to showcase the conversion between various Number Systems",
         "section": "",
         "tags": ["important_concepts"],
@@ -522,7 +522,7 @@
     }
 ,
     {
-        "ref": "https://example.com/checking-for-odd-and-even-numbers-using-bitwise-operator/",
+        "ref": "https://xvishaldongre.github.io/c_programs/checking-for-odd-and-even-numbers-using-bitwise-operator/",
         "title": "Checking for Odd and Even Numbers using Bitwise Operator",
         "section": "",
         "tags": ["numbers"],
@@ -531,7 +531,7 @@
     }
 ,
     {
-        "ref": "https://example.com/difference-between-strlen-and-sizeof-function/",
+        "ref": "https://xvishaldongre.github.io/c_programs/difference-between-strlen-and-sizeof-function/",
         "title": "Difference between strlen() and sizeof() function",
         "section": "",
         "tags": ["string"],
@@ -540,7 +540,7 @@
     }
 ,
     {
-        "ref": "https://example.com/hello-world-program/",
+        "ref": "https://xvishaldongre.github.io/c_programs/hello-world-program/",
         "title": "Hello World Program",
         "section": "",
         "tags": ["Basic Programs"],
@@ -549,7 +549,7 @@
     }
 ,
     {
-        "ref": "https://example.com/how-to-use-gets-function/",
+        "ref": "https://xvishaldongre.github.io/c_programs/how-to-use-gets-function/",
         "title": "How to use gets() function",
         "section": "",
         "tags": ["Basic Programs"],
@@ -558,7 +558,7 @@
     }
 ,
     {
-        "ref": "https://example.com/null-pointer-program/",
+        "ref": "https://xvishaldongre.github.io/c_programs/null-pointer-program/",
         "title": "Null Pointer Program",
         "section": "",
         "tags": ["pointers"],
@@ -567,7 +567,7 @@
     }
 ,
     {
-        "ref": "https://example.com/pointer-comparison-in-c/",
+        "ref": "https://xvishaldongre.github.io/c_programs/pointer-comparison-in-c/",
         "title": "Pointer Comparison in C",
         "section": "",
         "tags": ["pointers"],
@@ -576,7 +576,7 @@
     }
 ,
     {
-        "ref": "https://example.com/program-for-dynamic-memory-allocation-using-malloc/",
+        "ref": "https://xvishaldongre.github.io/c_programs/program-for-dynamic-memory-allocation-using-malloc/",
         "title": "Program for Dynamic Memory Allocation using malloc()",
         "section": "",
         "tags": ["pointers"],
@@ -585,7 +585,7 @@
     }
 ,
     {
-        "ref": "https://example.com/program-to-access-array-of-int-pointers/",
+        "ref": "https://xvishaldongre.github.io/c_programs/program-to-access-array-of-int-pointers/",
         "title": "Program to access Array of int Pointers",
         "section": "",
         "tags": ["pointers"],
@@ -594,7 +594,7 @@
     }
 ,
     {
-        "ref": "https://example.com/program-to-check-if-input-character-is-a-vowel-using-switch-case/",
+        "ref": "https://xvishaldongre.github.io/c_programs/program-to-check-if-input-character-is-a-vowel-using-switch-case/",
         "title": "Program to check if input character is a vowel using Switch Case",
         "section": "",
         "tags": ["Basic Programs"],
@@ -603,7 +603,7 @@
     }
 ,
     {
-        "ref": "https://example.com/program-to-check-if-input-number-is-int-or-float/",
+        "ref": "https://xvishaldongre.github.io/c_programs/program-to-check-if-input-number-is-int-or-float/",
         "title": "Program to check if input Number is int or float",
         "section": "",
         "tags": ["numbers"],
@@ -612,7 +612,7 @@
     }
 ,
     {
-        "ref": "https://example.com/program-to-check-whether-a-number-is-a-palindrome/",
+        "ref": "https://xvishaldongre.github.io/c_programs/program-to-check-whether-a-number-is-a-palindrome/",
         "title": "Program to check whether a Number is a Palindrome",
         "section": "",
         "tags": ["loops"],
@@ -621,7 +621,7 @@
     }
 ,
     {
-        "ref": "https://example.com/program-to-check-whether-a-two-dimensional-array-is-a-sparse-matrix/",
+        "ref": "https://xvishaldongre.github.io/c_programs/program-to-check-whether-a-two-dimensional-array-is-a-sparse-matrix/",
         "title": "Program to check whether a two dimensional array is a Sparse Matrix",
         "section": "",
         "tags": ["array"],
@@ -630,7 +630,7 @@
     }
 ,
     {
-        "ref": "https://example.com/program-to-check-whether-given-square-matrix-is-symmetric-or-not/",
+        "ref": "https://xvishaldongre.github.io/c_programs/program-to-check-whether-given-square-matrix-is-symmetric-or-not/",
         "title": "Program to check whether given Square Matrix is symmetric or not",
         "section": "",
         "tags": ["array"],
@@ -639,7 +639,7 @@
     }
 ,
     {
-        "ref": "https://example.com/program-to-delete-an-element-from-array-in-c/",
+        "ref": "https://xvishaldongre.github.io/c_programs/program-to-delete-an-element-from-array-in-c/",
         "title": "Program to Delete an Element from Array in C",
         "section": "",
         "tags": ["array"],
@@ -648,7 +648,7 @@
     }
 ,
     {
-        "ref": "https://example.com/program-to-find-armstrong-number-between-1-to-500/",
+        "ref": "https://xvishaldongre.github.io/c_programs/program-to-find-armstrong-number-between-1-to-500/",
         "title": "Program to find Armstrong Number between 1 to 500",
         "section": "",
         "tags": ["numbers"],
@@ -657,7 +657,7 @@
     }
 ,
     {
-        "ref": "https://example.com/program-to-find-average-of-n-numbers/",
+        "ref": "https://xvishaldongre.github.io/c_programs/program-to-find-average-of-n-numbers/",
         "title": "Program to find average of N Numbers",
         "section": "",
         "tags": ["numbers"],
@@ -666,7 +666,7 @@
     }
 ,
     {
-        "ref": "https://example.com/program-to-find-deteminant-of-2x2-matrix/",
+        "ref": "https://xvishaldongre.github.io/c_programs/program-to-find-deteminant-of-2x2-matrix/",
         "title": "Program to find Deteminant of 2x2 Matrix",
         "section": "",
         "tags": ["array"],
@@ -675,7 +675,7 @@
     }
 ,
     {
-        "ref": "https://example.com/program-to-find-exponential-without-using-pow-method/",
+        "ref": "https://xvishaldongre.github.io/c_programs/program-to-find-exponential-without-using-pow-method/",
         "title": "Program to find exponential without using pow() method",
         "section": "",
         "tags": ["numbers"],
@@ -684,7 +684,7 @@
     }
 ,
     {
-        "ref": "https://example.com/program-to-find-factorial-of-a-number-using-recursion/",
+        "ref": "https://xvishaldongre.github.io/c_programs/program-to-find-factorial-of-a-number-using-recursion/",
         "title": "Program to find Factorial of a Number using Recursion",
         "section": "",
         "tags": ["recursion"],
@@ -693,7 +693,7 @@
     }
 ,
     {
-        "ref": "https://example.com/program-to-find-factors-of-a-number/",
+        "ref": "https://xvishaldongre.github.io/c_programs/program-to-find-factors-of-a-number/",
         "title": "Program to find Factors of a Number",
         "section": "",
         "tags": ["numbers"],
@@ -702,7 +702,7 @@
     }
 ,
     {
-        "ref": "https://example.com/program-to-find-first-n-prime-numbers/",
+        "ref": "https://xvishaldongre.github.io/c_programs/program-to-find-first-n-prime-numbers/",
         "title": "Program to find first N Prime Numbers",
         "section": "",
         "tags": ["numbers"],
@@ -711,7 +711,7 @@
     }
 ,
     {
-        "ref": "https://example.com/program-to-find-largest-and-smallest-element-in-an-array/",
+        "ref": "https://xvishaldongre.github.io/c_programs/program-to-find-largest-and-smallest-element-in-an-array/",
         "title": "Program to find Largest and Smallest Element in an Array",
         "section": "",
         "tags": ["array"],
@@ -720,7 +720,7 @@
     }
 ,
     {
-        "ref": "https://example.com/program-to-find-normal-and-trace-of-a-square-matrix/",
+        "ref": "https://xvishaldongre.github.io/c_programs/program-to-find-normal-and-trace-of-a-square-matrix/",
         "title": "Program to find Normal and Trace of a Square Matrix",
         "section": "",
         "tags": ["array"],
@@ -729,7 +729,7 @@
     }
 ,
     {
-        "ref": "https://example.com/program-to-find-palindrome-using-recursion/",
+        "ref": "https://xvishaldongre.github.io/c_programs/program-to-find-palindrome-using-recursion/",
         "title": "Program to find Palindrome using Recursion",
         "section": "",
         "tags": ["recursion"],
@@ -738,7 +738,7 @@
     }
 ,
     {
-        "ref": "https://example.com/program-to-find-sum-of-digits-of-a-number/",
+        "ref": "https://xvishaldongre.github.io/c_programs/program-to-find-sum-of-digits-of-a-number/",
         "title": "Program to find Sum of Digits of a Number",
         "section": "",
         "tags": ["loops"],
@@ -747,7 +747,7 @@
     }
 ,
     {
-        "ref": "https://example.com/program-to-find-sum-of-digits-of-a-number-using-recursion/",
+        "ref": "https://xvishaldongre.github.io/c_programs/program-to-find-sum-of-digits-of-a-number-using-recursion/",
         "title": "Program to find Sum of digits of a Number using Recursion",
         "section": "",
         "tags": ["recursion"],
@@ -756,7 +756,7 @@
     }
 ,
     {
-        "ref": "https://example.com/program-to-find-sum-of-first-n-numbers/",
+        "ref": "https://xvishaldongre.github.io/c_programs/program-to-find-sum-of-first-n-numbers/",
         "title": "Program to find Sum of First N Numbers",
         "section": "",
         "tags": ["recursion"],
@@ -765,7 +765,7 @@
     }
 ,
     {
-        "ref": "https://example.com/program-to-find-sum-of-n-input-numbers-in-c/",
+        "ref": "https://xvishaldongre.github.io/c_programs/program-to-find-sum-of-n-input-numbers-in-c/",
         "title": "Program to find Sum of N input Numbers in C",
         "section": "",
         "tags": ["numbers"],
@@ -774,7 +774,7 @@
     }
 ,
     {
-        "ref": "https://example.com/program-to-find-sum-of-n-input-numbers-using-array/",
+        "ref": "https://xvishaldongre.github.io/c_programs/program-to-find-sum-of-n-input-numbers-using-array/",
         "title": "Program to find Sum of N input Numbers using Array",
         "section": "",
         "tags": ["array"],
@@ -783,7 +783,7 @@
     }
 ,
     {
-        "ref": "https://example.com/program-to-find-the-largest-number-among-n-input-numbers/",
+        "ref": "https://xvishaldongre.github.io/c_programs/program-to-find-the-largest-number-among-n-input-numbers/",
         "title": "Program to find the Largest number among n input Numbers",
         "section": "",
         "tags": ["numbers"],
@@ -792,7 +792,7 @@
     }
 ,
     {
-        "ref": "https://example.com/program-to-insert-an-element-in-an-array/",
+        "ref": "https://xvishaldongre.github.io/c_programs/program-to-insert-an-element-in-an-array/",
         "title": "Program to insert an element in an Array",
         "section": "",
         "tags": ["array"],
@@ -801,7 +801,7 @@
     }
 ,
     {
-        "ref": "https://example.com/program-to-perform-addition-and-subtraction-of-matrices/",
+        "ref": "https://xvishaldongre.github.io/c_programs/program-to-perform-addition-and-subtraction-of-matrices/",
         "title": "Program to perform addition and subtraction of Matrices",
         "section": "",
         "tags": ["array"],
@@ -810,7 +810,7 @@
     }
 ,
     {
-        "ref": "https://example.com/program-to-print-factorial-of-a-number/",
+        "ref": "https://xvishaldongre.github.io/c_programs/program-to-print-factorial-of-a-number/",
         "title": "Program to print Factorial of a Number",
         "section": "",
         "tags": ["loops"],
@@ -819,7 +819,7 @@
     }
 ,
     {
-        "ref": "https://example.com/program-to-print-fibonacci-series-using-recursion/",
+        "ref": "https://xvishaldongre.github.io/c_programs/program-to-print-fibonacci-series-using-recursion/",
         "title": "Program to print Fibonacci Series using Recursion",
         "section": "",
         "tags": ["recursion"],
@@ -828,7 +828,7 @@
     }
 ,
     {
-        "ref": "https://example.com/program-to-print-the-fibonacci-series/",
+        "ref": "https://xvishaldongre.github.io/c_programs/program-to-print-the-fibonacci-series/",
         "title": "Program to print the Fibonacci Series",
         "section": "",
         "tags": ["loops"],
@@ -837,7 +837,7 @@
     }
 ,
     {
-        "ref": "https://example.com/program-to-print-the-largest-and-smallest-using-global-declaration/",
+        "ref": "https://xvishaldongre.github.io/c_programs/program-to-print-the-largest-and-smallest-using-global-declaration/",
         "title": "Program to print the Largest and Smallest using Global Declaration",
         "section": "",
         "tags": ["Basic Programs"],
@@ -846,7 +846,7 @@
     }
 ,
     {
-        "ref": "https://example.com/program-to-print-the-multiplication-table-of-any-number/",
+        "ref": "https://xvishaldongre.github.io/c_programs/program-to-print-the-multiplication-table-of-any-number/",
         "title": "Program to print the Multiplication Table of any Number",
         "section": "",
         "tags": ["numbers"],
@@ -855,7 +855,7 @@
     }
 ,
     {
-        "ref": "https://example.com/program-to-print-the-reverse-of-an-array/",
+        "ref": "https://xvishaldongre.github.io/c_programs/program-to-print-the-reverse-of-an-array/",
         "title": "Program to print the reverse of an Array",
         "section": "",
         "tags": ["array"],
@@ -864,7 +864,7 @@
     }
 ,
     {
-        "ref": "https://example.com/program-to-reverse-a-string/",
+        "ref": "https://xvishaldongre.github.io/c_programs/program-to-reverse-a-string/",
         "title": "Program to reverse a String",
         "section": "",
         "tags": ["loops"],
@@ -873,7 +873,7 @@
     }
 ,
     {
-        "ref": "https://example.com/program-to-reverse-a-string-using-recursion/",
+        "ref": "https://xvishaldongre.github.io/c_programs/program-to-reverse-a-string-using-recursion/",
         "title": "Program to Reverse a String Using Recursion",
         "section": "",
         "tags": ["recursion"],
@@ -882,7 +882,7 @@
     }
 ,
     {
-        "ref": "https://example.com/program-to-reverse-the-case-of-input-character/",
+        "ref": "https://xvishaldongre.github.io/c_programs/program-to-reverse-the-case-of-input-character/",
         "title": "Program to reverse the case of input character",
         "section": "",
         "tags": ["Basic Programs"],
@@ -891,7 +891,7 @@
     }
 ,
     {
-        "ref": "https://example.com/program-to-take-input-of-various-datatypes-in-c/",
+        "ref": "https://xvishaldongre.github.io/c_programs/program-to-take-input-of-various-datatypes-in-c/",
         "title": "Program to take input of various datatypes in C",
         "section": "",
         "tags": ["Basic Programs"],
@@ -900,7 +900,7 @@
     }
 ,
     {
-        "ref": "https://example.com/simple-program-to-remove-duplicate-element-in-an-array/",
+        "ref": "https://xvishaldongre.github.io/c_programs/simple-program-to-remove-duplicate-element-in-an-array/",
         "title": "Simple Program to remove Duplicate Element in an Array",
         "section": "",
         "tags": ["array"],
@@ -909,7 +909,7 @@
     }
 ,
     {
-        "ref": "https://example.com/simple-program-to-sort-array-elements/",
+        "ref": "https://xvishaldongre.github.io/c_programs/simple-program-to-sort-array-elements/",
         "title": "Simple Program to Sort Array elements",
         "section": "",
         "tags": ["array"],
@@ -918,7 +918,7 @@
     }
 ,
     {
-        "ref": "https://example.com/simple-while-loop-program/",
+        "ref": "https://xvishaldongre.github.io/c_programs/simple-while-loop-program/",
         "title": "Simple while Loop Program",
         "section": "",
         "tags": ["loops"],
@@ -927,7 +927,7 @@
     }
 ,
     {
-        "ref": "https://example.com/swapping-two-numbers-using-a-temporary-variable/",
+        "ref": "https://xvishaldongre.github.io/c_programs/swapping-two-numbers-using-a-temporary-variable/",
         "title": "Swapping two Numbers using a Temporary Variable",
         "section": "",
         "tags": ["Basic Programs"],
@@ -936,7 +936,7 @@
     }
 ,
     {
-        "ref": "https://example.com/switch-case-with-break/",
+        "ref": "https://xvishaldongre.github.io/c_programs/switch-case-with-break/",
         "title": "Switch Case with break",
         "section": "",
         "tags": ["Basic Programs"],
@@ -945,7 +945,7 @@
     }
 ,
     {
-        "ref": "https://example.com/using-isgraph-and-isprint-function-in-c-program/",
+        "ref": "https://xvishaldongre.github.io/c_programs/using-isgraph-and-isprint-function-in-c-program/",
         "title": "Using isgraph() and isprint() Function in C Program",
         "section": "",
         "tags": ["CTYPE.H"],

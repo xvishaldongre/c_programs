@@ -1,6 +1,6 @@
 [
     {
-        "ref": "https://example.com/ascii-value-of-character/",
+        "ref": "https://xvishaldongre.github.io/c_programs/ascii-value-of-character/",
         "title": "ASCII value of Character",
         "section": "",
         "tags": ["Basic Programs"],
@@ -9,7 +9,7 @@
     }
 ,
     {
-        "ref": "https://example.com/basic-ifelse-condition-program/",
+        "ref": "https://xvishaldongre.github.io/c_programs/basic-ifelse-condition-program/",
         "title": "Basic ifelse condition program",
         "section": "",
         "tags": ["Basic Programs"],
@@ -18,7 +18,7 @@
     }
 ,
     {
-        "ref": "https://example.com/hello-world-program/",
+        "ref": "https://xvishaldongre.github.io/c_programs/hello-world-program/",
         "title": "Hello World Program",
         "section": "",
         "tags": ["Basic Programs"],
@@ -27,7 +27,7 @@
     }
 ,
     {
-        "ref": "https://example.com/how-to-use-gets-function/",
+        "ref": "https://xvishaldongre.github.io/c_programs/how-to-use-gets-function/",
         "title": "How to use gets() function",
         "section": "",
         "tags": ["Basic Programs"],
@@ -36,7 +36,7 @@
     }
 ,
     {
-        "ref": "https://example.com/program-to-check-if-input-character-is-a-vowel-using-switch-case/",
+        "ref": "https://xvishaldongre.github.io/c_programs/program-to-check-if-input-character-is-a-vowel-using-switch-case/",
         "title": "Program to check if input character is a vowel using Switch Case",
         "section": "",
         "tags": ["Basic Programs"],
@@ -45,7 +45,7 @@
     }
 ,
     {
-        "ref": "https://example.com/program-to-print-the-largest-and-smallest-using-global-declaration/",
+        "ref": "https://xvishaldongre.github.io/c_programs/program-to-print-the-largest-and-smallest-using-global-declaration/",
         "title": "Program to print the Largest and Smallest using Global Declaration",
         "section": "",
         "tags": ["Basic Programs"],
@@ -54,7 +54,7 @@
     }
 ,
     {
-        "ref": "https://example.com/program-to-reverse-the-case-of-input-character/",
+        "ref": "https://xvishaldongre.github.io/c_programs/program-to-reverse-the-case-of-input-character/",
         "title": "Program to reverse the case of input character",
         "section": "",
         "tags": ["Basic Programs"],
@@ -63,7 +63,7 @@
     }
 ,
     {
-        "ref": "https://example.com/program-to-take-input-of-various-datatypes-in-c/",
+        "ref": "https://xvishaldongre.github.io/c_programs/program-to-take-input-of-various-datatypes-in-c/",
         "title": "Program to take input of various datatypes in C",
         "section": "",
         "tags": ["Basic Programs"],
@@ -72,7 +72,7 @@
     }
 ,
     {
-        "ref": "https://example.com/swapping-two-numbers-using-a-temporary-variable/",
+        "ref": "https://xvishaldongre.github.io/c_programs/swapping-two-numbers-using-a-temporary-variable/",
         "title": "Swapping two Numbers using a Temporary Variable",
         "section": "",
         "tags": ["Basic Programs"],
@@ -81,7 +81,7 @@
     }
 ,
     {
-        "ref": "https://example.com/switch-case-with-break/",
+        "ref": "https://xvishaldongre.github.io/c_programs/switch-case-with-break/",
         "title": "Switch Case with break",
         "section": "",
         "tags": ["Basic Programs"],

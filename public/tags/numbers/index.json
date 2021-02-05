@@ -1,6 +1,6 @@
 [
     {
-        "ref": "https://example.com/checking-for-odd-and-even-numbers-using-bitwise-operator/",
+        "ref": "https://xvishaldongre.github.io/c_programs/checking-for-odd-and-even-numbers-using-bitwise-operator/",
         "title": "Checking for Odd and Even Numbers using Bitwise Operator",
         "section": "",
         "tags": ["numbers"],
@@ -9,7 +9,7 @@
     }
 ,
     {
-        "ref": "https://example.com/program-to-check-if-input-number-is-int-or-float/",
+        "ref": "https://xvishaldongre.github.io/c_programs/program-to-check-if-input-number-is-int-or-float/",
         "title": "Program to check if input Number is int or float",
         "section": "",
         "tags": ["numbers"],
@@ -18,7 +18,7 @@
     }
 ,
     {
-        "ref": "https://example.com/program-to-find-armstrong-number-between-1-to-500/",
+        "ref": "https://xvishaldongre.github.io/c_programs/program-to-find-armstrong-number-between-1-to-500/",
         "title": "Program to find Armstrong Number between 1 to 500",
         "section": "",
         "tags": ["numbers"],
@@ -27,7 +27,7 @@
     }
 ,
     {
-        "ref": "https://example.com/program-to-find-average-of-n-numbers/",
+        "ref": "https://xvishaldongre.github.io/c_programs/program-to-find-average-of-n-numbers/",
         "title": "Program to find average of N Numbers",
         "section": "",
         "tags": ["numbers"],
@@ -36,7 +36,7 @@
     }
 ,
     {
-        "ref": "https://example.com/program-to-find-exponential-without-using-pow-method/",
+        "ref": "https://xvishaldongre.github.io/c_programs/program-to-find-exponential-without-using-pow-method/",
         "title": "Program to find exponential without using pow() method",
         "section": "",
         "tags": ["numbers"],
@@ -45,7 +45,7 @@
     }
 ,
     {
-        "ref": "https://example.com/program-to-find-factors-of-a-number/",
+        "ref": "https://xvishaldongre.github.io/c_programs/program-to-find-factors-of-a-number/",
         "title": "Program to find Factors of a Number",
         "section": "",
         "tags": ["numbers"],
@@ -54,7 +54,7 @@
     }
 ,
     {
-        "ref": "https://example.com/program-to-find-first-n-prime-numbers/",
+        "ref": "https://xvishaldongre.github.io/c_programs/program-to-find-first-n-prime-numbers/",
         "title": "Program to find first N Prime Numbers",
         "section": "",
         "tags": ["numbers"],
@@ -63,7 +63,7 @@
     }
 ,
     {
-        "ref": "https://example.com/program-to-find-sum-of-n-input-numbers-in-c/",
+        "ref": "https://xvishaldongre.github.io/c_programs/program-to-find-sum-of-n-input-numbers-in-c/",
         "title": "Program to find Sum of N input Numbers in C",
         "section": "",
         "tags": ["numbers"],
@@ -72,7 +72,7 @@
     }
 ,
     {
-        "ref": "https://example.com/program-to-find-the-largest-number-among-n-input-numbers/",
+        "ref": "https://xvishaldongre.github.io/c_programs/program-to-find-the-largest-number-among-n-input-numbers/",
         "title": "Program to find the Largest number among n input Numbers",
         "section": "",
         "tags": ["numbers"],
@@ -81,7 +81,7 @@
     }
 ,
     {
-        "ref": "https://example.com/program-to-print-the-multiplication-table-of-any-number/",
+        "ref": "https://xvishaldongre.github.io/c_programs/program-to-print-the-multiplication-table-of-any-number/",
         "title": "Program to print the Multiplication Table of any Number",
         "section": "",
         "tags": ["numbers"],

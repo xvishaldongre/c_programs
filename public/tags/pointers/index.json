@@ -1,6 +1,6 @@
 [
     {
-        "ref": "https://example.com/accessing-array-elementstraversing-array-by-incrementing-a-pointer/",
+        "ref": "https://xvishaldongre.github.io/c_programs/accessing-array-elementstraversing-array-by-incrementing-a-pointer/",
         "title": "Accessing array elements(Traversing array) by incrementing a Pointer",
         "section": "",
         "tags": ["pointers"],
@@ -9,7 +9,7 @@
     }
 ,
     {
-        "ref": "https://example.com/basic-c-program-for-pointer-to-a-pointer/",
+        "ref": "https://xvishaldongre.github.io/c_programs/basic-c-program-for-pointer-to-a-pointer/",
         "title": "Basic C Program for Pointer to a Pointer",
         "section": "",
         "tags": ["pointers"],
@@ -18,7 +18,7 @@
     }
 ,
     {
-        "ref": "https://example.com/basic-c-program-to-concatenate-strings-using-pointer/",
+        "ref": "https://xvishaldongre.github.io/c_programs/basic-c-program-to-concatenate-strings-using-pointer/",
         "title": "Basic C Program to Concatenate Strings using Pointer",
         "section": "",
         "tags": ["pointers"],
@@ -27,7 +27,7 @@
     }
 ,
     {
-        "ref": "https://example.com/basic-program-for-pointers/",
+        "ref": "https://xvishaldongre.github.io/c_programs/basic-program-for-pointers/",
         "title": "Basic Program for Pointers",
         "section": "",
         "tags": ["pointers"],
@@ -36,7 +36,7 @@
     }
 ,
     {
-        "ref": "https://example.com/c-program-for-pointer-to-a-function/",
+        "ref": "https://xvishaldongre.github.io/c_programs/c-program-for-pointer-to-a-function/",
         "title": "C program for Pointer to a Function",
         "section": "",
         "tags": ["pointers"],
@@ -45,7 +45,7 @@
     }
 ,
     {
-        "ref": "https://example.com/c-program-to-reverse-a-string-using-pointer/",
+        "ref": "https://xvishaldongre.github.io/c_programs/c-program-to-reverse-a-string-using-pointer/",
         "title": "C Program to Reverse a String using Pointer",
         "section": "",
         "tags": ["pointers"],
@@ -54,7 +54,7 @@
     }
 ,
     {
-        "ref": "https://example.com/c-program-to-swap-two-numbers-using-pointers/",
+        "ref": "https://xvishaldongre.github.io/c_programs/c-program-to-swap-two-numbers-using-pointers/",
         "title": "C Program to Swap Two Numbers using Pointers",
         "section": "",
         "tags": ["pointers"],
@@ -63,7 +63,7 @@
     }
 ,
     {
-        "ref": "https://example.com/null-pointer-program/",
+        "ref": "https://xvishaldongre.github.io/c_programs/null-pointer-program/",
         "title": "Null Pointer Program",
         "section": "",
         "tags": ["pointers"],
@@ -72,7 +72,7 @@
     }
 ,
     {
-        "ref": "https://example.com/pointer-comparison-in-c/",
+        "ref": "https://xvishaldongre.github.io/c_programs/pointer-comparison-in-c/",
         "title": "Pointer Comparison in C",
         "section": "",
         "tags": ["pointers"],
@@ -81,7 +81,7 @@
     }
 ,
     {
-        "ref": "https://example.com/program-for-dynamic-memory-allocation-using-malloc/",
+        "ref": "https://xvishaldongre.github.io/c_programs/program-for-dynamic-memory-allocation-using-malloc/",
         "title": "Program for Dynamic Memory Allocation using malloc()",
         "section": "",
         "tags": ["pointers"],
@@ -90,7 +90,7 @@
     }
 ,
     {
-        "ref": "https://example.com/program-to-access-array-of-int-pointers/",
+        "ref": "https://xvishaldongre.github.io/c_programs/program-to-access-array-of-int-pointers/",
         "title": "Program to access Array of int Pointers",
         "section": "",
         "tags": ["pointers"],

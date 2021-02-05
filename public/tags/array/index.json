@@ -1,0 +1,109 @@
+[
+    {
+        "ref": "https://example.com/program-to-check-whether-a-two-dimensional-array-is-a-sparse-matrix/",
+        "title": "Program to check whether a two dimensional array is a Sparse Matrix",
+        "section": "",
+        "tags": ["array"],
+        "date" : "0001.01.01",
+        "body": "Program to check whether a two dimensional array is a Sparse Matrix A Sparse Matrix is a matrix(two-dimensional array) in which number of 0\u0026rsquo;s is greater than the number of non-zero elements.\nBelow is a program to check whether a matrix is sparse or not.\n#include\u0026lt;stdio.h\u0026gt; int main() { printf(\u0026#34;\\n\\n\\t\\tC Programs\\n\\n\\n\u0026#34;); int n, m, c, d, matrix[10][10]; int counter = 0; printf(\u0026#34;\\nEnter the number of rows and columns of the matrix \\n\\n\u0026#34;); scanf(\u0026#34;%d%d\u0026#34;,\u0026amp;m,\u0026amp;n); printf(\u0026#34;\\nEnter the %d elements of the matrix \\n\\n\u0026#34;, m*n); for(c = 0; c \u0026lt; m; c++) // to iterate the rows  { for(d = 0; d \u0026lt; n; d++) // to iterate the columns  { scanf(\u0026#34;%d\u0026#34;, \u0026amp;matrix[c][d]); if(matrix[c][d] == 0) counter++; // same as counter=counter +1  } } // printing the matrix  printf(\u0026#34;\\n\\nThe entered matrix is: \\n\\n\u0026#34;); for(c = 0; c \u0026lt; m; c++) // to iterate the rows  { for(d = 0; d \u0026lt; n; d++) // to iterate the columns  { printf(\u0026#34;%d\\t\u0026#34;, matrix[c][d]); } printf(\u0026#34;\\n\u0026#34;); // to take the control to the next row  } // checking if the matrix is sparse or not  if(counter \u0026gt; (m*n)/2) printf(\u0026#34;\\n\\nThe entered matrix is a sparse matrix\\n\\n\u0026#34;); else printf(\u0026#34;\\n\\nThe entered matrix is not a sparse matrix\\n\\n\u0026#34;); printf(\u0026#34;\\n\\n\\t\\t\\tCoding is Fun !\\n\\n\\n\u0026#34;); return 0; } "
+    }
+,
+    {
+        "ref": "https://example.com/program-to-check-whether-given-square-matrix-is-symmetric-or-not/",
+        "title": "Program to check whether given Square Matrix is symmetric or not",
+        "section": "",
+        "tags": ["array"],
+        "date" : "0001.01.01",
+        "body": "Program to check whether given Square Matrix is symmetric or not Few important points to remember:\nBelow is a program to check whether sqaure matrix is symmetric or not.\n#include\u0026lt;stdio.h\u0026gt; int main() { printf(\u0026#34;\\n\\n\\t\\tC Programs\\n\\n\\n\u0026#34;); int c, d, a[10][10], b[10][10], n, temp; printf(\u0026#34;\\nEnter the dimension of the matrix: \\n\\n\u0026#34;); scanf(\u0026#34;%d\u0026#34;, \u0026amp;n); printf(\u0026#34;\\nEnter the %d elements of the matrix: \\n\\n\u0026#34;,n*n); for(c = 0; c \u0026lt; n; c++) // to iterate the rows  for(d = 0; d \u0026lt; n; d++) // to iterate the columns  scanf(\u0026#34;%d\u0026#34;, \u0026amp;a[c][d]); // finding transpose of a matrix and storing it in b[][]  for(c = 0; c \u0026lt; n; c++) // to iterate the rows  for(d = 0; d \u0026lt; n; d++) //to iterate the columns  b[d][c] = a[c][d]; // printing the original matrix  printf(\u0026#34;\\n\\nThe original matrix is: \\n\\n\u0026#34;); for(c = 0; c \u0026lt; n; c++) // to iterate the rows  { for(d = 0; d \u0026lt; n; d++) // to iterate the columns  { printf(\u0026#34;%d\\t\u0026#34;, a[c][d]); } printf(\u0026#34;\\n\u0026#34;); } // printing the transpose of the entered matrix  printf(\u0026#34;\\n\\nThe Transpose matrix is: \\n\\n\u0026#34;); for(c = 0; c \u0026lt; n; c++) // to iterate the rows  { for(d = 0; d \u0026lt; n; d++) // to iterate the columns  { printf(\u0026#34;%d\\t\u0026#34;, b[c][d]); } printf(\u0026#34;\\n\u0026#34;); } // checking if the original matrix is same as its transpose  for(c = 0; c \u0026lt; n; c++) // to iterate the rows  { for(d = 0; d \u0026lt; n; d++) // to iterate the columns  { /* even if they differ by a single element, the matrix is not symmetric */ if(a[c][d] != b[c][d]) { printf(\u0026#34;\\n\\nMatrix is not Symmetric\\n\\n\u0026#34;); exit(0); // a system defined method to terminate the program  } } } /* if the program is not terminated yet, it means the matrix is symmetric */ printf(\u0026#34;\\n\\nMatrix is Symmetric\\n\\n\u0026#34;); printf(\u0026#34;\\n\\n\\t\\t\\tCoding is Fun !\\n\\n\\n\u0026#34;); return 0; } "
+    }
+,
+    {
+        "ref": "https://example.com/program-to-delete-an-element-from-array-in-c/",
+        "title": "Program to Delete an Element from Array in C",
+        "section": "",
+        "tags": ["array"],
+        "date" : "0001.01.01",
+        "body": "Program to Delete an Element from Array in C Below is a simple program to delete an element from array, where the position of element to be deleted is given by user.\n#include\u0026lt;stdio.h\u0026gt; int main() { printf(\u0026#34;\\n\\n\\t\\tC Programs\\n\\n\\n\u0026#34;); int array[100], position, c, n; printf(\u0026#34;\\n\\nEnter number of elements in array:\u0026#34;); scanf(\u0026#34;%d\u0026#34;, \u0026amp;n); printf(\u0026#34;\\n\\nEnter %d elements\\n\u0026#34;, n); for(c = 0; c \u0026lt; n; c++) scanf(\u0026#34;%d\u0026#34;, \u0026amp;array[c]); printf(\u0026#34;\\n\\nEnter the location where you want to delete element from: \u0026#34;); scanf(\u0026#34;%d\u0026#34;, \u0026amp;position); if(position \u0026gt;= n+1) printf(\u0026#34;\\n\\nDeletion not possible\\n\\n\u0026#34;); else // updating the locations with next elements  for(c = position-1; c \u0026lt; n-1; c++) array[c] = array[c+1]; printf(\u0026#34;\\n\\nResultant array is: \u0026#34;); /* the array size gets reduced by 1 after deletion of the element */ for(c = 0; c \u0026lt; n-1; c++) printf(\u0026#34;%d \u0026#34;, array[c]); printf(\u0026#34;\\n\\n\\t\\t\\tCoding is Fun !\\n\\n\\n\u0026#34;); return 0; } Program to Delete an element from array based on value Below is a simple program to delete an element from array, where the element to be deleted is given by user:\n#include\u0026lt;stdio.h\u0026gt; int main() { printf(\u0026#34;\\n\\n\\t\\tC Programs\\n\\n\\n\u0026#34;); int array[10], element, c, n, pos; /* initialization as garbage value is stored by default in c variables */ int found = 0; printf(\u0026#34;\\n\\nEnter number of elements in array:\u0026#34;); scanf(\u0026#34;%d\u0026#34;, \u0026amp;n); printf(\u0026#34;\\n\\nEnter %d elements\\n\u0026#34;, n); for(c = 0; c \u0026lt; n; c++) scanf(\u0026#34;%d\u0026#34;, \u0026amp;array[c]); printf(\u0026#34;\\n\\nThe input array is: \u0026#34;); for(c = 0; c \u0026lt; n; c++) printf(\u0026#34;%d\u0026#34;, array[c]); printf(\u0026#34;\\n\\nEnter the element to be deleted: \u0026#34;); scanf(\u0026#34;%d\u0026#34;, \u0026amp;element); // check the element to be deleted is in array or not  for(c = 0; c \u0026lt; n; c++) { if(array[c] == element) { found = 1; pos = c; break; // terminate the loop  } } if(found == 1) // the element to be deleted exists in the array  { for(c = pos; c \u0026lt; n-1; c++) array[c] = array[c+1]; } else printf(\u0026#34;\\n\\nElement %d is not found in the array\\n\\n\u0026#34;, element); printf(\u0026#34;\\n\\nResultant array is: \u0026#34;); /* the array size gets reduced by 1 after deletion of the element */ for(c = 0; c \u0026lt; n-1; c++) printf(\u0026#34;%d \u0026#34;,array[c]); printf(\u0026#34;\\n\\n\\t\\t\\tCoding is Fun !\\n\\n\\n\u0026#34;); return 0; } "
+    }
+,
+    {
+        "ref": "https://example.com/program-to-find-deteminant-of-2x2-matrix/",
+        "title": "Program to find Deteminant of 2x2 Matrix",
+        "section": "",
+        "tags": ["array"],
+        "date" : "0001.01.01",
+        "body": "Program to find Deteminant of 2x2 Matrix Below is a program to find the determinant of a 2x2 matrix.\nPlease note that, when we say a 2x2 matrix, we mean an array of 2x2.\n#include\u0026lt;stdio.h\u0026gt; int main() { printf(\u0026#34;\\n\\n\\t\\tC Programs\\n\\n\\n\u0026#34;); int a[2][2], i, j; long determinant; printf(\u0026#34;\\n\\nEnter the 4 elements of the array\\n\u0026#34;); for(i = 0; i \u0026lt; 2; i++) for(j = 0; j \u0026lt; 2; j++) scanf(\u0026#34;%d\u0026#34;, \u0026amp;a[i][j]); printf(\u0026#34;\\n\\nThe entered matrix is: \\n\\n\u0026#34;); for(i = 0; i \u0026lt; 2; i++) { for(j = 0; j \u0026lt; 2; j++) { printf(\u0026#34;%d\\t\u0026#34;, a[i][j]); // to print the complete row  } printf(\u0026#34;\\n\u0026#34;); // to move to the next row  } // finding the determinant of a 2x2 matrix  determinant = a[0][0]*a[1][1] - a[1][0]*a[0][1]; printf(\u0026#34;\\n\\nDterminant of 2x2 matrix is : %d - %d = %d\u0026#34;, a[0][0]*a[1][1], a[1][0]*a[0][1], determinant); printf(\u0026#34;\\n\\n\\t\\t\\tCoding is Fun !\\n\\n\\n\u0026#34;); return 0; } "
+    }
+,
+    {
+        "ref": "https://example.com/program-to-find-largest-and-smallest-element-in-an-array/",
+        "title": "Program to find Largest and Smallest Element in an Array",
+        "section": "",
+        "tags": ["array"],
+        "date" : "0001.01.01",
+        "body": "Program to find Largest and Smallest Element in an Array Below is a program to find the largest and smallest elements in array.\n#include\u0026lt;stdio.h\u0026gt; int main() { printf(\u0026#34;\\n\\n\\t\\tC Programs\\n\\n\\n\u0026#34;); int a[50], size, i, big, small; printf(\u0026#34;\\nEnter the size of the array: \u0026#34;); scanf(\u0026#34;%d\u0026#34;, \u0026amp;size); printf(\u0026#34;\\n\\nEnter the %d elements of the array: \\n\\n\u0026#34;, size); for(i = 0; i \u0026lt; size; i++) scanf(\u0026#34;%d\u0026#34;, \u0026amp;a[i]); big = a[0]; // initializing  /* from 2nd element to the last element find the bigger element than big and update the value of big */ for(i = 1; i \u0026lt; size; i++) { if(big \u0026lt; a[i]) // if larger value is encountered  { big = a[i]; // update the value of big  } } printf(\u0026#34;\\n\\nThe largest element is: %d\u0026#34;, big); small = a[0]; // initializing  /* from 2nd element to the last element find the smaller element than small and update the value of small */ for(i = 1; i \u0026lt; size; i++) { if(small\u0026gt;a[i]) // if smaller value is encountered  { small = a[i]; // update the value of small  } } printf(\u0026#34;\\n\\nThe smallest element is: %d\u0026#34;, small); printf(\u0026#34;\\n\\n\\t\\t\\tCoding is Fun !\\n\\n\\n\u0026#34;); return 0; } "
+    }
+,
+    {
+        "ref": "https://example.com/program-to-find-normal-and-trace-of-a-square-matrix/",
+        "title": "Program to find Normal and Trace of a Square Matrix",
+        "section": "",
+        "tags": ["array"],
+        "date" : "0001.01.01",
+        "body": "Program to find Normal and Trace of a Square Matrix Few important points to remember:\nLet\u0026rsquo;s have a simple example to understand these terms better:\nBelow is a program to find Normal and Trace of Square Matrix.\n#include\u0026lt;stdio.h\u0026gt;/* to use the sqrt method to find the square root of a number we include math.h header file */ #include\u0026lt;math.h\u0026gt; int main() { printf(\u0026#34;\\n\\n\\t\\tC Programs\\n\\n\\n\u0026#34;); int i, j, n, aj[10][10], sum = 0, sum1 = 0, a = 0, normal; printf(\u0026#34;\\nEnter the number of rows (columns) of the matrix: \\n\\n\u0026#34;); scanf(\u0026#34;%d\u0026#34;, \u0026amp;n); printf(\u0026#34;\\nEnter the %d elements of the first matrix: \\n\\n\u0026#34;, n*n); for(i = 0; i \u0026lt; n; i++) // to iterate the rows  { for(j = 0; j \u0026lt; n; j++) // to iterate the columns  { scanf(\u0026#34;%d\u0026#34;, \u0026amp;aj[i][j]); a = aj[i][j]*aj[i][j]; // finding square of each element  sum1 += a; // same as sum1 = sum1 + a  } } normal = sqrt((double)sum1); // typecasting to double value  printf(\u0026#34;\\n\\nThe normal of the given matrix is: %d\u0026#34;, normal); for(i = 0; i \u0026lt; n; i++) { sum = sum + aj[i][i]; // sum of the diagonal elements  } printf(\u0026#34;\\n\\nThe Trace of the given matrix is: %d\u0026#34;, sum); printf(\u0026#34;\\n\\n\\t\\t\\tCoding is Fun !\\n\\n\\n\u0026#34;); return 0; } "
+    }
+,
+    {
+        "ref": "https://example.com/program-to-find-sum-of-n-input-numbers-using-array/",
+        "title": "Program to find Sum of N input Numbers using Array",
+        "section": "",
+        "tags": ["array"],
+        "date" : "0001.01.01",
+        "body": "Program to find Sum of N input Numbers using Array Below is a program to find and print the sum of n numbers using arrays.\n#include\u0026lt;stdio.h\u0026gt; int main() { printf(\u0026#34;\\n\\n\\t\\tC Programs\\n\\n\\n\u0026#34;); int n, sum = 0, c, array[100]; printf(\u0026#34;Enter the number of integers you want to add: \u0026#34;); scanf(\u0026#34;%d\u0026#34;, \u0026amp;n); printf(\u0026#34;\\n\\nEnter %d integers \\n\\n\u0026#34;, n); for(c = 0; c \u0026lt; n; c++) { scanf(\u0026#34;%d\u0026#34;, \u0026amp;array[c]); sum += array[c]; // same as sum = sum + array[c]  } printf(\u0026#34;\\n\\nSum = %d\\n\\n\u0026#34;, sum); printf(\u0026#34;\\n\\n\\t\\t\\tCoding is Fun !\\n\\n\\n\u0026#34;); return 0; } "
+    }
+,
+    {
+        "ref": "https://example.com/program-to-insert-an-element-in-an-array/",
+        "title": "Program to insert an element in an Array",
+        "section": "",
+        "tags": ["array"],
+        "date" : "0001.01.01",
+        "body": "Program to insert an element in an Array Below is a simple program to insert an element in an array.\nIn the above program we take an array as user input and then ask the user for a new number that they wish to add to the original array, and the position where they want to add the new number.\nThe we shift the existing numbers from the index position to the end of the array one position to the right, therby vacating a space for the new element. And then we add the new number at the user specified position index.\n#include\u0026lt;stdio.h\u0026gt; int main() { printf(\u0026#34;\\n\\n\\t\\tC Programs\\n\\n\\n\u0026#34;); int array[100], position, c, n, value; printf(\u0026#34;\\n\\nEnter number of elements in array:\u0026#34;); scanf(\u0026#34;%d\u0026#34;, \u0026amp;n); printf(\u0026#34;\\n\\nEnter %d elements\\n\u0026#34;, n); for(c = 0; c \u0026lt; n; c++) scanf(\u0026#34;%d\u0026#34;, \u0026amp;array[c]); printf(\u0026#34;\\n\\nEnter the location where you want to insert new element: \u0026#34;); scanf(\u0026#34;%d\u0026#34;, \u0026amp;position); printf(\u0026#34;\\n\\nEnter the value to insert: \u0026#34;); scanf(\u0026#34;%d\u0026#34;, \u0026amp;value); // shifting the elements from (position to n) to right  for(c = n-1; c \u0026gt;= position-1; c--) array[c+1] = array[c]; array[position - 1] = value; // inserting the given value  printf(\u0026#34;\\n\\nResultant array is: \u0026#34;); /* the array size gets increased by 1 after insertion of the element */ for(c = 0; c \u0026lt;= n; c++) printf(\u0026#34;%d \u0026#34;, array[c]); printf(\u0026#34;\\n\\n\\t\\t\\tCoding is Fun !\\n\\n\\n\u0026#34;); return 0; } "
+    }
+,
+    {
+        "ref": "https://example.com/program-to-perform-addition-and-subtraction-of-matrices/",
+        "title": "Program to perform addition and subtraction of Matrices",
+        "section": "",
+        "tags": ["array"],
+        "date" : "0001.01.01",
+        "body": "Program to perform addition and subtraction of Matrices Below is a program to perform Addition and Subtraction on two matrices.\n\\n is used to take the control to the next row.\n\\t is used to take control 5 spaces(tab) ahead.\n#include\u0026lt;stdio.h\u0026gt; int main() { printf(\u0026#34;\\n\\n\\t\\tC Programs\\n\\n\\n\u0026#34;); int n, m, c, d, first[10][10], second[10][10], sum[10][10], diff[10][10]; printf(\u0026#34;\\nEnter the number of rows and columns of the first matrix \\n\\n\u0026#34;); scanf(\u0026#34;%d%d\u0026#34;, \u0026amp;m, \u0026amp;n); printf(\u0026#34;\\nEnter the %d elements of the first matrix \\n\\n\u0026#34;, m*n); for(c = 0; c \u0026lt; m; c++) // to iterate the rows  for(d = 0; d \u0026lt; n; d++) // to iterate the columns  scanf(\u0026#34;%d\u0026#34;, \u0026amp;first[c][d]); printf(\u0026#34;\\nEnter the %d elements of the second matrix \\n\\n\u0026#34;, m*n); for(c = 0; c \u0026lt; m; c++) // to iterate the rows  for(d = 0; d \u0026lt; n; d++) // to iterate the columns  scanf(\u0026#34;%d\u0026#34;, \u0026amp;second[c][d]); /* printing the first matrix */ printf(\u0026#34;\\n\\nThe first matrix is: \\n\\n\u0026#34;); for(c = 0; c \u0026lt; m; c++) // to iterate the rows  { for(d = 0; d \u0026lt; n; d++) // to iterate the columns  { printf(\u0026#34;%d\\t\u0026#34;, first[c][d]); } printf(\u0026#34;\\n\u0026#34;); } /* printing the second matrix */ printf(\u0026#34;\\n\\nThe second matrix is: \\n\\n\u0026#34;); for(c = 0; c \u0026lt; m; c++) // to iterate the rows  { for(d = 0; d \u0026lt; n; d++) // to iterate the columns  { printf(\u0026#34;%d\\t\u0026#34;, second[c][d]); } printf(\u0026#34;\\n\u0026#34;); } /* finding the SUM of the two matrices and storing in another matrix sum of the same size */ for(c = 0; c \u0026lt; m; c++) for(d = 0; d \u0026lt; n; d++) sum[c][d] = first[c][d] + second[c][d]; // printing the elements of the sum matrix  printf(\u0026#34;\\n\\nThe sum of the two entered matrices is: \\n\\n\u0026#34;); for(c = 0; c \u0026lt; m; c++) { for(d = 0; d \u0026lt; n; d++) { printf(\u0026#34;%d\\t\u0026#34;, sum[c][d]); } printf(\u0026#34;\\n\u0026#34;); } /* finding the DIFFERENCE of the two matrices and storing in another matrix difference of the same size */ for(c = 0; c \u0026lt; m; c++) for(d = 0; d \u0026lt; n; d++) diff[c][d] = first[c][d] - second[c][d]; // printing the elements of the diff matrix  printf(\u0026#34;\\n\\nThe difference(subtraction) of the two entered matrices is: \\n\\n\u0026#34;); for(c = 0; c \u0026lt; m; c++) { for(d = 0; d \u0026lt; n; d++) { printf(\u0026#34;%d\\t\u0026#34;, diff[c][d]); } printf(\u0026#34;\\n\u0026#34;); } printf(\u0026#34;\\n\\n\\t\\t\\tCoding is Fun !\\n\\n\\n\u0026#34;); return 0; } "
+    }
+,
+    {
+        "ref": "https://example.com/program-to-print-the-reverse-of-an-array/",
+        "title": "Program to print the reverse of an Array",
+        "section": "",
+        "tags": ["array"],
+        "date" : "0001.01.01",
+        "body": "Program to print the reverse of an Array Below is a simple program to reverse an array.\n#include\u0026lt;stdio.h\u0026gt; int main() { printf(\u0026#34;\\n\\n\\t\\tC Programs\\n\\n\\n\u0026#34;); int c, d, n, a[100], b[100]; printf(\u0026#34;\\n\\nEnter number of elements in array :\u0026#34;); scanf(\u0026#34;%d\u0026#34;, \u0026amp;n); printf(\u0026#34;\\n\\nEnter %d elements\\n\u0026#34;, n); for(c = 0; c \u0026lt; n; c++) scanf(\u0026#34;%d\u0026#34;, \u0026amp;a[c]); /* temporarily storing elements into array b starting from end of array a */ for(c = n-1, d = 0; c \u0026gt;= 0; c--, d++) b[d] = a[c]; /* copying reversed array into original. Here we are modifying original array to reverse it. */ for(c = 0; c \u0026lt; n; c++) a[c] = b[c]; printf(\u0026#34;\\n\\nResultant array is: \u0026#34;); for(c = 0; c \u0026lt; n; c++) printf(\u0026#34;%d\u0026#34;, a[c]); printf(\u0026#34;\\n\\n\\t\\t\\tCoding is Fun !\\n\\n\\n\u0026#34;); return 0; } "
+    }
+,
+    {
+        "ref": "https://example.com/simple-program-to-remove-duplicate-element-in-an-array/",
+        "title": "Simple Program to remove Duplicate Element in an Array",
+        "section": "",
+        "tags": ["array"],
+        "date" : "0001.01.01",
+        "body": "Simple Program to remove Duplicate Element in an Array Below is a program to find and remove any duplicate element present in the specified array.\n#include\u0026lt;stdio.h\u0026gt;#include\u0026lt;conio.h\u0026gt;void main() { int a[20], i, j, k, n; clrscr(); printf(\u0026#34;\\nEnter array size: \u0026#34;); scanf(\u0026#34;%d\u0026#34;, \u0026amp;n;); printf(\u0026#34;\\nEnter %d array element: \u0026#34;, n); for(i = 0; i \u0026lt; n; i++) { scanf(\u0026#34;%d\u0026#34;, \u0026amp;a;[i]); } printf(\u0026#34;\\nOriginal array is: \u0026#34;); for(i = 0; i \u0026lt; n; i++) { printf(\u0026#34; %d\u0026#34;, a[i]); } printf(\u0026#34;\\nNew array is: \u0026#34;); for(i = 0; i \u0026lt; n; i++) { for(j = i+1; j \u0026lt; n; ) { if(a[j] == a[i]) { for(k = j; k \u0026lt; n; k++) { a[k] = a[k+1]; } n--; } else { j++; } } } for(i = 0; i \u0026lt; n; i++) { printf(\u0026#34;%d \u0026#34;, a[i]); } getch(); } "
+    }
+,
+    {
+        "ref": "https://example.com/simple-program-to-sort-array-elements/",
+        "title": "Simple Program to Sort Array elements",
+        "section": "",
+        "tags": ["array"],
+        "date" : "0001.01.01",
+        "body": "Simple Program to Sort Array elements Below is a program to sort array elements in an array.\n#include\u0026lt;stdio.h\u0026gt;#include\u0026lt;conio.h\u0026gt; void sorting(int *x, int y); void main() { int a[20], i, c, n; clrscr(); printf(\u0026#34;Enter number of elements you want to sort: \u0026#34;); scanf(\u0026#34;%d\u0026#34;, \u0026amp;n); for(i = 0; i \u0026lt; n; i++) scanf(\u0026#34;%d\u0026#34;, \u0026amp;a[i]); sorting(a, n); for(i = 0; i \u0026lt;n; i++) printf(\u0026#34;%d\\t\u0026#34;, a[i]); getch(); } void sorting(int *x, int y) { int i, j, temp; for(i = 1; i \u0026lt;= y-1; i++) { for(j = 0; j \u0026lt; y-i; j++) { if(*(x+j) \u0026gt; *(x+j+1)) { temp = *(x+j); *(x+j) = *(x+j+1); *(x+j+1) = temp; } } } } "
+    }
+]

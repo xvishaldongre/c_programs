@@ -1,0 +1,91 @@
+[
+    {
+        "ref": "https://example.com/checking-for-odd-and-even-numbers-using-bitwise-operator/",
+        "title": "Checking for Odd and Even Numbers using Bitwise Operator",
+        "section": "",
+        "tags": ["numbers"],
+        "date" : "0001.01.01",
+        "body": "Checking for Odd and Even Numbers using Bitwise Operator Below is a program to find whether a number is even or odd using bitwise operator.\nx\u0026amp;1 returns true if the LSB(Least significant Bit) of binary representation of an integer x is 1. It returns false if the LSB or the Right most bit in a binary sequence is 0.\nIn binary representation of an integer, if LSB is 1 then it is odd and if LSB is 0 then it is even.\nWe have used a simple for loop to input numbers and show how to use the Bitwise operator. You can take input from user using scanf() and use th same logic to find if the input number is odd or even.\n#include\u0026lt;stdio.h\u0026gt; int main() { printf(\u0026#34;\\n\\n\\t\\tC Programs\\n\\n\\n\u0026#34;); int x; for(x = 0; x \u0026lt;= 10; x++) { if(x\u0026amp;1) // if number is odd  printf(\u0026#34;\\t\\t\\t%d is odd\\n\u0026#34;,x); else if(!(x\u0026amp;1)) // ! is used inside if to reverse the boolean value  printf(\u0026#34;\\t\\t\\t%d is even\\n\u0026#34;,x); } printf(\u0026#34;\\n\\n\\n\\n\\t\\t\\tCoding is Fun !\\n\\n\\n\u0026#34;); return 0; } Checking if inout number is Odd or Even without using %(Mod) Operator Below is a program to find whether a number is even or odd without using %(Mod) operator.\n#include\u0026lt;stdio.h\u0026gt; int main() { printf(\u0026#34;\\n\\n\\t\\tC Programs\\n\\n\\n\u0026#34;); int n; printf(\u0026#34;Enter a number: \u0026#34;); scanf(\u0026#34;%d\u0026#34;,\u0026amp;n); if((n/2)*2 == n) printf(\u0026#34;\\n\\n\\t\\t%d is Even\\n\u0026#34;, n); else printf(\u0026#34;\\n\\n\\t\\t%d is Odd\\n\u0026#34;, n); printf(\u0026#34;\\n\\n\\n\\n\\t\\t\\tCoding is Fun !\\n\\n\\n\u0026#34;); return 0; } "
+    }
+,
+    {
+        "ref": "https://example.com/program-to-check-if-input-number-is-int-or-float/",
+        "title": "Program to check if input Number is int or float",
+        "section": "",
+        "tags": ["numbers"],
+        "date" : "0001.01.01",
+        "body": "Program to check if input Number is int or float Below is a program to check whether the user input number is of integer or float datatype.\nstrlen() does not count the null character \u0026lsquo;\\0\u0026rsquo;.\n#include\u0026lt;stdio.h\u0026gt; #include\u0026lt;conio.h\u0026gt;#include\u0026lt;string.h\u0026gt; int main() { printf(\u0026#34;\\n\\n\\t\\tC Programs\\n\\n\\n\u0026#34;); char number[10]; int flag = 0; int length, i = 0; printf(\u0026#34;\\n\\nEnter a number: \u0026#34;); scanf(\u0026#34;%s\u0026#34;, number); length = strlen(number); // till string does not end  while(number[i++] != \u0026#39;\\0\u0026#39;) // same as while(length--\u0026gt;0)  { if(number[i] == \u0026#39;.\u0026#39;) // decimal point is present  { flag = 1; break; } } // if(0) is same as if(false)  if(flag) printf(\u0026#34;\\n\\n\\n\\tEntered Number is a Floating point Number\\n\\n\u0026#34;); else printf(\u0026#34;\\n\\n\\n\\tEntered Number is a integer Number\\n\\n\u0026#34;); printf(\u0026#34;\\n\\n\\n\\n\\t\\t\\tCoding is Fun !\\n\\n\\n\u0026#34;); return 0; } "
+    }
+,
+    {
+        "ref": "https://example.com/program-to-find-armstrong-number-between-1-to-500/",
+        "title": "Program to find Armstrong Number between 1 to 500",
+        "section": "",
+        "tags": ["numbers"],
+        "date" : "0001.01.01",
+        "body": "Program to find Armstrong Number between 1 to 500 An Armstrong number or Narcissistic number is a n digit number such that the sum of its digits raised to the nth power is equal to the number itself.\nFor example, Let\u0026rsquo;s take an armstrong number: 153, which is 3 digit number, here 13 + 53 + 33 is 1 + 125 + 27 which is equal to 153.\nBelow is a program to find armstrong numbers between 1 to 500.\n#include\u0026lt;stdio.h\u0026gt;#include\u0026lt;math.h\u0026gt; int main() { printf(\u0026#34;\\n\\n\\t\\tC Programs\\n\\n\\n\u0026#34;); int n,sum,i,t,a; printf(\u0026#34;\\n\\n\\nThe Armstrong numbers in between 1 to 500 are : \\n\\n\\n\u0026#34;); for(i = 1; i \u0026lt;= 500; i++) { t = i; // as we need to retain the original number  sum = 0; while(t != 0) { a = t%10; sum += a*a*a; t = t/10; } if(sum == i) printf(\u0026#34;\\n\\t\\t\\t%d\u0026#34;, i); } printf(\u0026#34;\\n\\n\\n\\n\\t\\t\\tCoding is Fun !\\n\\n\\n\u0026#34;); return 0; } Program to check whether a number is Armstrong Number Below is a program to check whether a number is armstrong or not.\n#include\u0026lt;stdio.h\u0026gt;#include\u0026lt;math.h\u0026gt; int main() { printf(\u0026#34;\\n\\n\\t\\tC Programs\\n\\n\\n\u0026#34;); int n, sum = 0, c, t, a; printf(\u0026#34;Enter a number: \u0026#34;); scanf(\u0026#34;%d\u0026#34;, \u0026amp;n); t = n; // as need to retain the original number  while(n != 0) { a = n%10; sum += a*a*a; n = n/10; } printf(\u0026#34;\\n\\n\\n\\t\\t\\tsum = %d\u0026#34;, sum); if(sum == t) printf(\u0026#34;\\n\\n\\t\\t%d is an armstrong number\\n\u0026#34;, t); else printf(\u0026#34;\\n\\n\\t\\t%d is not an armstrong number\\n\u0026#34;, t); printf(\u0026#34;\\n\\n\\n\\n\\t\\t\\tCoding is Fun !\\n\\n\\n\u0026#34;); return 0; } "
+    }
+,
+    {
+        "ref": "https://example.com/program-to-find-average-of-n-numbers/",
+        "title": "Program to find average of N Numbers",
+        "section": "",
+        "tags": ["numbers"],
+        "date" : "0001.01.01",
+        "body": "Program to find average of N Numbers Below is a program to calculate average of n numbers.\n#include\u0026lt;stdio.h\u0026gt; int main() { printf(\u0026#34;\\n\\n\\t\\tC Programs\\n\\n\\n\u0026#34;); int n, i; float sum = 0, x; printf(\u0026#34;Enter number of elements: \u0026#34;); scanf(\u0026#34;%d\u0026#34;, \u0026amp;n); printf(\u0026#34;\\n\\n\\nEnter %d elements\\n\\n\u0026#34;, n); for(i = 0; i \u0026lt; n; i++) { scanf(\u0026#34;%f\u0026#34;, \u0026amp;x); sum += x; } printf(\u0026#34;\\n\\n\\nAverage of the entered numbers is = %f\u0026#34;, (sum/n)); printf(\u0026#34;\\n\\n\\n\\n\\t\\t\\tCoding is Fun !\\n\\n\\n\u0026#34;); return 0; } "
+    }
+,
+    {
+        "ref": "https://example.com/program-to-find-exponential-without-using-pow-method/",
+        "title": "Program to find exponential without using pow() method",
+        "section": "",
+        "tags": ["numbers"],
+        "date" : "0001.01.01",
+        "body": "Program to find exponential without using pow() method Below is a program to find exponential without using pow() method.\nlong long int is of double the size of long int.\n%lld is the format specifier for long long int.\n#include\u0026lt;stdio.h\u0026gt;int main() { printf(\u0026#34;\\n\\n\\t\\tC Programs\\n\\n\\n\u0026#34;); int n, exp, exp1; long long int value = 1; printf(\u0026#34;Enter the number and its exponential:\\n\\n\u0026#34;); scanf(\u0026#34;%d%d\u0026#34;,\u0026amp;n, \u0026amp;exp); exp1 = exp; // storing original value for future use  // same as while((--exp)!=-1)  while(exp-- \u0026gt; 0) { value *= n; // multiply n to itself exp times  } printf(\u0026#34;\\n\\n%d^%d = %lld\\n\\n\u0026#34;, n, exp1, value); printf(\u0026#34;\\n\\n\\n\\n\\t\\t\\tCoding is Fun !\\n\\n\\n\u0026#34;); return 0; } "
+    }
+,
+    {
+        "ref": "https://example.com/program-to-find-factors-of-a-number/",
+        "title": "Program to find Factors of a Number",
+        "section": "",
+        "tags": ["numbers"],
+        "date" : "0001.01.01",
+        "body": "Program to find Factors of a Number Below is a program to find factors of a number.\n#include\u0026lt;stdio.h\u0026gt; int main() { printf(\u0026#34;\\n\\n\\t\\tC Programs\\n\\n\\n\u0026#34;); int num, i; printf(\u0026#34;Enter the number to find the factors of : \u0026#34;); scanf(\u0026#34;%d\u0026#34;,\u0026amp;num); printf(\u0026#34;\\n\\n\\nFactors of %d are \\n\\n\u0026#34;, num); for(i = 1; i \u0026lt;= num/2; i++) { if(num%i == 0) printf(\u0026#34;\\t\\t\\t%d\\n\u0026#34;, i); } printf(\u0026#34;\\n\\n\\n\\n\\t\\t\\tCoding is Fun !\\n\\n\\n\u0026#34;); return 0; } "
+    }
+,
+    {
+        "ref": "https://example.com/program-to-find-first-n-prime-numbers/",
+        "title": "Program to find first N Prime Numbers",
+        "section": "",
+        "tags": ["numbers"],
+        "date" : "0001.01.01",
+        "body": "Program to find first N Prime Numbers Below is a program to find first n prime numbers using nested for loops, where the value of n is input by the user.\n#include\u0026lt;stdio.h\u0026gt; int main() { printf(\u0026#34;\\n\\n\\t\\tC Programs\\n\\n\\n\u0026#34;); int n,i = 3, count, c; printf(\u0026#34;\\nEnter the number of prime numbers required : \u0026#34;); scanf(\u0026#34;%d\u0026#34;, \u0026amp;n); if(n \u0026gt;= 1) { printf(\u0026#34;\\n\\nFirst %d prime numbers are : \u0026#34;, n); printf(\u0026#34;2 \u0026#34;); } // iteration for n prime numbers  // i is the number to be checked in each iteration starting from 3  for(count = 2; count \u0026lt;= n; i++) { // iteration to check c is prime or not  for(c = 2; c \u0026lt; i; c++) { if(i%c == 0) break; } if(c == i) // c is prime  { printf(\u0026#34;%d \u0026#34;, i); count++; // increment the count of prime numbers  } } printf(\u0026#34;\\n\\n\\n\\n\\t\\t\\tCoding is Fun !\\n\\n\\n\u0026#34;); return 0; } "
+    }
+,
+    {
+        "ref": "https://example.com/program-to-find-sum-of-n-input-numbers-in-c/",
+        "title": "Program to find Sum of N input Numbers in C",
+        "section": "",
+        "tags": ["numbers"],
+        "date" : "0001.01.01",
+        "body": "Program to find Sum of N input Numbers in C Below is a program on sum of n numbers.\n#include\u0026lt;stdio.h\u0026gt; int main() { printf(\u0026#34;\\n\\n\\t\\tC Programs\\n\\n\\n\u0026#34;); int n,sum=0,c,value; printf(\u0026#34;\\n\\nEnter the number of integers you want to add: \u0026#34;); scanf(\u0026#34;%d\u0026#34;, \u0026amp;n); printf(\u0026#34;Enter %d integers\\n\\n\u0026#34;,n); for(c = 1; c \u0026lt;= n; c++) { scanf(\u0026#34;%d\u0026#34;, \u0026amp;value); /* need to initialise sum before using otherwise garbage value will get printed */ sum += value; } printf(\u0026#34;\\n\\n\\nsum of entered numbers = %d\u0026#34;, sum); printf(\u0026#34;\\n\\n\\t\\t\\tCoding is Fun !\\n\\n\\n\u0026#34;); return 0; } "
+    }
+,
+    {
+        "ref": "https://example.com/program-to-find-the-largest-number-among-n-input-numbers/",
+        "title": "Program to find the Largest number among n input Numbers",
+        "section": "",
+        "tags": ["numbers"],
+        "date" : "0001.01.01",
+        "body": "Program to find the Largest number among n input Numbers Below is a program to find largest number among n user input numbers.\n#include\u0026lt;stdio.h\u0026gt; int main() { printf(\u0026#34;\\n\\n\\t\\tC Programs\\n\\n\\n\u0026#34;); int n,i; float c,big; printf(\u0026#34;\\n\\nEnter the number of elements you wish to find the greatest element of: \u0026#34;); scanf(\u0026#34;%d\u0026#34;, \u0026amp;n); printf(\u0026#34;\\n\\nEnter %d numbers :\\n\u0026#34;, n); printf(\u0026#34;\\n\\n\\t\\t\\tElement 1: \u0026#34;); //Important step- always initialize big to the first element  scanf(\u0026#34;%f\u0026#34;, \u0026amp;big); for(i = 2; i \u0026lt;= n; i++) { printf(\u0026#34;\\n\\t\\t\\tElement %d : \u0026#34;, i); scanf(\u0026#34;%f\u0026#34;, \u0026amp;c); /* if input number is larger than the current largest number */ if(big \u0026lt; c) big = c; // update big to the larger value  } printf(\u0026#34;\\n\\n\\nThe largest of the %d numbers is %f \u0026#34;, n, big); printf(\u0026#34;\\n\\n\\n\\n\\t\\t\\tCoding is Fun !\\n\\n\\n\u0026#34;); return 0; } "
+    }
+,
+    {
+        "ref": "https://example.com/program-to-print-the-multiplication-table-of-any-number/",
+        "title": "Program to print the Multiplication Table of any Number",
+        "section": "",
+        "tags": ["numbers"],
+        "date" : "0001.01.01",
+        "body": "Program to print the Multiplication Table of any Number Below is a program to print the multiplication table of any user input number.\n#include\u0026lt;stdio.h\u0026gt; int main() { printf(\u0026#34;\\n\\n\\t\\tC Programs\\n\\n\\n\u0026#34;); int n,i; printf(\u0026#34;Enter an integer you need to print the table of: \u0026#34;); scanf(\u0026#34;%d\u0026#34;, \u0026amp;n); printf(\u0026#34;\\n\\n\\n\u0026#34;); for(i = 1; i \u0026lt;= 10; i++) { printf(\u0026#34;\\n\\t\\t\\t%d * %d = %d \\n\u0026#34;, n, i, n*i); } printf(\u0026#34;\\n\\n\\n\\n\\t\\t\\tCoding is Fun !\\n\\n\\n\u0026#34;); return 0; } "
+    }
+]

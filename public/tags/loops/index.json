@@ -1,0 +1,73 @@
+[
+    {
+        "ref": "https://example.com/basic-do-while-loop-program/",
+        "title": "Basic do while Loop Program",
+        "section": "",
+        "tags": ["loops"],
+        "date" : "0001.01.01",
+        "body": "Basic do while Loop Program Every loop consists of three parts in sequence:\nDo while loop is used when the actual code must be executed atleast once. For example: Incase of menu driven functions.\nBelow is a simple program on do while loop.\n#include\u0026lt;stdio.h\u0026gt; int main() { printf(\u0026#34;\\n\\n\\t\\tC Programs\\n\\n\\n\u0026#34;); /* always declare the variables before using them */ int i = 10; // declaration and initialization at the same time  do // do contains the actual code and the updation  { printf(\u0026#34;i = %d\\n\u0026#34;,i); i = i-1; // updation  } // while loop doesn\u0026#39;t contain any code but just the condition  while(i \u0026gt; 0); printf(\u0026#34;\\n\\The value of i after exiting the loop is %d\\n\\n\u0026#34;, i); printf(\u0026#34;\\n\\n\\t\\t\\tCoding is Fun !\\n\\n\\n\u0026#34;); return 0; } "
+    }
+,
+    {
+        "ref": "https://example.com/basic-program-to-show-use-of-nested-for-loops/",
+        "title": "Basic program to show use of nested for Loops",
+        "section": "",
+        "tags": ["loops"],
+        "date" : "0001.01.01",
+        "body": "Basic program to show use of nested for Loops Nested loops are usually used to print a pattern in C. They are also used to print out the matrix using a 2 dimensional array and a lot of other patterns like pyramid of numbers etc.\nUsing a loop inside another loop is called nested loop.\nBelow is a simple program on nested loops.\n#include\u0026lt;stdio.h\u0026gt; int main() { printf(\u0026#34;\\n\\n\\t\\tC Programs\\n\\n\\n\u0026#34;); printf(\u0026#34;\\n\\nNested loops are usually used to print a pattern in c. \\n\\n\u0026#34;); printf(\u0026#34;\\n\\nThey are also used to print out the matrix using a 2 dimensional array. \\n\\n\u0026#34;); int i,j,k; printf(\u0026#34;\\n\\nOutput of the nested loop is :\\n\\n\u0026#34;); for(i = 0; i \u0026lt; 5; i++) { printf(\u0026#34;\\t\\t\\t\\t\u0026#34;); for(j = 0; j \u0026lt; 5; j++) printf(\u0026#34;* \u0026#34;); printf(\u0026#34;\\n\u0026#34;); } printf(\u0026#34;\\n\\n\\t\\t\\tCoding is Fun !\\n\\n\\n\u0026#34;); return 0; } "
+    }
+,
+    {
+        "ref": "https://example.com/program-to-check-whether-a-number-is-a-palindrome/",
+        "title": "Program to check whether a Number is a Palindrome",
+        "section": "",
+        "tags": ["loops"],
+        "date" : "0001.01.01",
+        "body": "Program to check whether a Number is a Palindrome Below is a program to check whether a number is a palindrome or not.\nA palindrome is a number or a string which is similar when read from the front and from the rear. For example: 121 or Oppo etc.\n#include\u0026lt;stdio.h\u0026gt;#include\u0026lt;conio.h\u0026gt; void main() { int a, b, c, s = 0; clrscr(); printf(\u0026#34;Enter a number:\\t\u0026#34;); scanf(\u0026#34;%d\u0026#34;, \u0026amp;a;); c = a; // the number is reversed inside the while loop.  while(a \u0026gt; 0) { b = a%10; s = (s*10)+b; a = a/10; } // here the reversed number is compared with the given number.  if(s == c) { printf(\u0026#34;The number %d is a palindrome\u0026#34;, c); } else { printf(\u0026#34;The number %d is not a palindrome\u0026#34;, c); } getch(); } "
+    }
+,
+    {
+        "ref": "https://example.com/program-to-find-sum-of-digits-of-a-number/",
+        "title": "Program to find Sum of Digits of a Number",
+        "section": "",
+        "tags": ["loops"],
+        "date" : "0001.01.01",
+        "body": "Program to find Sum of Digits of a Number Below is a program for sum of digits of a number.\n#include\u0026lt;stdio.h\u0026gt; int main() { printf(\u0026#34;\\n\\n\\t\\tC Programs\\n\\n\\n\u0026#34;); int n, sum = 0, c, remainder; printf(\u0026#34;Enter the number you want to add digits of: \u0026#34;); scanf(\u0026#34;%d\u0026#34;, \u0026amp;n); while(n != 0) { remainder = n%10; sum += remainder; n = n/10; } printf(\u0026#34;\\n\\nSum of the digits of the entered number is = %d\\n\\n\u0026#34;, sum); printf(\u0026#34;\\n\\n\\n\\n\\t\\t\\tCoding is Fun !\\n\\n\\n\u0026#34;); return 0; } "
+    }
+,
+    {
+        "ref": "https://example.com/program-to-print-factorial-of-a-number/",
+        "title": "Program to print Factorial of a Number",
+        "section": "",
+        "tags": ["loops"],
+        "date" : "0001.01.01",
+        "body": "Program to print Factorial of a Number #include\u0026lt;stdio.h\u0026gt;#include\u0026lt;conio.h\u0026gt;void main() { int fact, i, n; fact = 1; printf(\u0026#34;Enter the number\\t\u0026#34;); scanf(\u0026#34;%d\u0026#34; , \u0026amp;n;); for(i = 1; i \u0026lt;= n; i++) { fact = fact*i; } printf(\u0026#34;Factorial of %d is %d\u0026#34;, n , fact); getch(); } "
+    }
+,
+    {
+        "ref": "https://example.com/program-to-print-the-fibonacci-series/",
+        "title": "Program to print the Fibonacci Series",
+        "section": "",
+        "tags": ["loops"],
+        "date" : "0001.01.01",
+        "body": "Program to print the Fibonacci Series #include\u0026lt;stdio.h\u0026gt;#include\u0026lt;conio.h\u0026gt; void fibonacci(int num); void main() { int num = 0; clrscr(); printf(\u0026#34;Enter number of terms\\t\u0026#34;); scanf(\u0026#34;%d\u0026#34;, \u0026amp;num); fibonacci(num); getch(); } void fibonacci(int num) { int a, b, c, i = 3; a = 0; b = 1; if(num == 1) printf(\u0026#34;%d\u0026#34;,a); if(num \u0026gt;= 2) printf(\u0026#34;%d\\t%d\u0026#34;,a,b); while(i \u0026lt;= num) { c = a+b; printf(\u0026#34;\\t%d\u0026#34;, c); a = b; b = c; i++; } } "
+    }
+,
+    {
+        "ref": "https://example.com/program-to-reverse-a-string/",
+        "title": "Program to reverse a String",
+        "section": "",
+        "tags": ["loops"],
+        "date" : "0001.01.01",
+        "body": "Program to reverse a String It is advised to go through these topics if you are not familiar with C programs\nBelow is a program to reverse a string in C language.\n#include\u0026lt;stdio.h\u0026gt;#include\u0026lt;conio.h\u0026gt;void main() { int i, j, k; char str[100]; char rev[100]; printf(\u0026#34;Enter a string:\\t\u0026#34;); scanf(\u0026#34;%s\u0026#34;, str); printf(\u0026#34;The original string is %s\\n\u0026#34;, str); for(i = 0; str[i] != \u0026#39;\\0\u0026#39;; i++); { k = i-1; } for(j = 0; j \u0026lt;= i-1; j++) { rev[j] = str[k]; k--; } printf(\u0026#34;The reverse string is %s\\n\u0026#34;, rev); getch(); } "
+    }
+,
+    {
+        "ref": "https://example.com/simple-while-loop-program/",
+        "title": "Simple while Loop Program",
+        "section": "",
+        "tags": ["loops"],
+        "date" : "0001.01.01",
+        "body": "Simple while Loop Program Every loop consists of three parts in sequence\nBelow is a simple program on while loop.\n#include\u0026lt;stdio.h\u0026gt; int main() { printf(\u0026#34;\\n\\n\\t\\tC Programs\\n\\n\\n\u0026#34;); /* always declare the variables before using them */ int i = 0; // declaration and initialization at the same time  printf(\u0026#34;\\nPrinting numbers using while loop from 0 to 9\\n\\n\u0026#34;); /* while i is less than 10 */ while(i\u0026lt;10) { printf(\u0026#34;%d\\n\u0026#34;,i); /* Update i so the condition can be met eventually to terminate the loop */ i++; // same as i=i+1;  } printf(\u0026#34;\\n\\n\\t\\t\\tCoding is Fun !\\n\\n\\n\u0026#34;); return 0; } "
+    }
+]

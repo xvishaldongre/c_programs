@@ -1,0 +1,109 @@
+[
+    {
+        "ref": "https://example.com/c-program-for-adding-two-numbers-using-recursion/",
+        "title": "C Program for Adding Two Numbers Using Recursion",
+        "section": "",
+        "tags": ["recursion"],
+        "date" : "0001.01.01",
+        "body": "C Program for Adding Two Numbers Using Recursion Below is a program on adding two numbers using recursion.\n#include\u0026lt;stdio.h\u0026gt; int y; /* Function to add two numbers and return the result */ int add(int m, int n) { if(n == 0) return m; /* Recursion: adding 1, n times and then at the end adding m to it */ y = add(m, n-1) + 1; return y; // return the result } int main() { printf(\u0026#34;\\n\\n\\t\\tC Programs\\n\\n\\n\u0026#34;); int a, b, r; printf(\u0026#34;Enter the two numbers:\\n\u0026#34;); scanf(\u0026#34;%d%d\u0026#34;, \u0026amp;a, \u0026amp;b); r = add(a, b); // function call  printf(\u0026#34;\\n\\nSum of two numbers is: %d\\n\\n\u0026#34;, r); printf(\u0026#34;\\n\\n\\t\\t\\tCoding is Fun !\\n\\n\\n\u0026#34;); return 0; } "
+    }
+,
+    {
+        "ref": "https://example.com/c-program-to-calculate-a-number-raised-to-the-power-of-n-using-recursion/",
+        "title": "C Program to calculate a Number raised to the Power of N using Recursion",
+        "section": "",
+        "tags": ["recursion"],
+        "date" : "0001.01.01",
+        "body": "C Program to calculate a Number raised to the Power of N using Recursion Below is a program to calculate the result of a given number, raised to the power of n using recursion.\n#include\u0026lt;stdio.h\u0026gt; // function prototype declaration int power(int n1, int n2); int main() { printf(\u0026#34;\\n\\n\\t\\tC Programs\\n\\n\\n\u0026#34;); int base, exp; printf(\u0026#34;Enter base number: \u0026#34;); scanf(\u0026#34;%d\u0026#34;, \u0026amp;base); printf(\u0026#34;\\n\\nEnter Power factor: \u0026#34;); scanf(\u0026#34;%d\u0026#34;, \u0026amp;exp); printf(\u0026#34;\\n\\n\\n\\t\\t\\t%d^%d = %d\u0026#34;, base, exp, power(base, exp)); printf(\u0026#34;\\n\\n\\t\\t\\tCoding is Fun !\\n\\n\\n\u0026#34;); return 0; } int power(int b, int e) { if(e == 0) return 1; return (b*power(b, e-1)); } "
+    }
+,
+    {
+        "ref": "https://example.com/c-program-to-find-gcd-of-two-numbers-using-recursion/",
+        "title": "C Program to find GCD of two Numbers using Recursion",
+        "section": "",
+        "tags": ["recursion"],
+        "date" : "0001.01.01",
+        "body": "C Program to find GCD of two Numbers using Recursion Greatest Common Divisor(GCD) of two numbers is a number that divides both of them.\nBelow is a program to the GCD of the two user input numbers using recursion.\n#include\u0026lt;stdio.h\u0026gt; // declaring the recursive function int find_gcd(int , int ); int main() { printf(\u0026#34;\\n\\n\\t\\tC Programs\\n\\n\\n\u0026#34;); int a, b, gcd; printf(\u0026#34;\\n\\nEnter two numbers to find GCD of \\n\u0026#34;); scanf(\u0026#34;%d%d\u0026#34;, \u0026amp;a, \u0026amp;b); gcd = find_gcd(a, b); printf(\u0026#34;\\n\\nGCD of %d and %d is: %d\\n\\n\u0026#34;, a, b, gcd); printf(\u0026#34;\\n\\n\\t\\t\\tCoding is Fun !\\n\\n\\n\u0026#34;); return 0; } // defining the function int find_gcd(int x, int y) { if(x \u0026gt; y) find_gcd(x-y, y); else if(y \u0026gt; x) find_gcd(x, y-x); else return x; } "
+    }
+,
+    {
+        "ref": "https://example.com/c-program-to-find-lcm-of-two-numbers-using-recursion/",
+        "title": "C Program to find LCM of two Numbers using Recursion",
+        "section": "",
+        "tags": ["recursion"],
+        "date" : "0001.01.01",
+        "body": "C Program to find LCM of two Numbers using Recursion LCM: Least Common Multiple of two numbers is the number that is a common multiple of the both the numbers.\nBelow is a program to find LCM of two numbers using recursion.\n#include\u0026lt;stdio.h\u0026gt; int find_lcm(int, int); // function prototype declaration  int main() { printf(\u0026#34;\\n\\n\\t\\tC Programs\\n\\n\\n\u0026#34;); int a, b, lcm; printf(\u0026#34;\\n\\nEnter 2 integers to find LCM of:\\n\u0026#34;); scanf(\u0026#34;%d%d\u0026#34;, \u0026amp;a, \u0026amp;b); lcm = find_lcm(a,b); // function call  printf(\u0026#34;\\n\\nLCM of %d and %d is: %d\\n\\n\u0026#34;, a, b, lcm); printf(\u0026#34;\\n\\n\\t\\t\\tCoding is Fun !\\n\\n\\n\u0026#34;); return 0; } int find_lcm(int a, int b) // function definition { /* static variable is initialized only once for each function call */ static int temp = 1; if(temp%a == 0 \u0026amp;\u0026amp; temp%b == 0) { return temp; } else { temp++; find_lcm(a,b); return temp; } } "
+    }
+,
+    {
+        "ref": "https://example.com/c-program-to-find-the-largest-element-in-an-array-using-recursion/",
+        "title": "C Program to find the largest Element in an Array using Recursion",
+        "section": "",
+        "tags": ["recursion"],
+        "date" : "0001.01.01",
+        "body": "C Program to find the largest Element in an Array using Recursion Below is a program to find the largest array element in a given array using recursion.\n#define is used to initialize a value which is more like a constant.\n#include\u0026lt;stdio.h\u0026gt; #define MAX 100  int getMaxElement(int []); // takes array of int as parameter int size; int main() { printf(\u0026#34;\\n\\n\\t\\tC Programs\\n\\n\\n\u0026#34;); int arr[MAX], max, i; printf(\u0026#34;\\n\\nEnter the size of the array: \u0026#34;); scanf(\u0026#34;%d\u0026#34;, \u0026amp;size); printf(\u0026#34;\\n\\nEnter %d elements\\n\\n\u0026#34;, size); for(i = 0; i \u0026lt; size; i++) { scanf(\u0026#34;%d\u0026#34;, \u0026amp;arr[i]); } max = getMaxElement(arr); // passing the complete array as parameter  printf(\u0026#34;\\n\\nLargest element of the array is %d\\n\\n\u0026#34;, max); printf(\u0026#34;\\n\\n\\t\\t\\tCoding is Fun !\\n\\n\\n\u0026#34;); return 0; } int getMaxElement(int a[]) { static int i = 0, max =- 9999; // static int max=a[0] is invalid  if(i \u0026lt; size) // till the last element  { if(max \u0026lt; a[i]) max = a[i]; i++; // to check the next element in the next iteration  getMaxElement(a); // recursive call  } return max; } "
+    }
+,
+    {
+        "ref": "https://example.com/c-program-to-find-whether-a-number-is-prime-or-composite-using-recursion/",
+        "title": "C Program to find whether a Number is Prime Or Composite using Recursion",
+        "section": "",
+        "tags": ["recursion"],
+        "date" : "0001.01.01",
+        "body": "C Program to find whether a Number is Prime Or Composite using Recursion Note: 1 is neither prime nor composite.\n"
+    }
+,
+    {
+        "ref": "https://example.com/program-to-find-factorial-of-a-number-using-recursion/",
+        "title": "Program to find Factorial of a Number using Recursion",
+        "section": "",
+        "tags": ["recursion"],
+        "date" : "0001.01.01",
+        "body": "Program to find Factorial of a Number using Recursion Below is a program for finding factorial of a given number using recursion.\n#include\u0026lt;stdio.h\u0026gt;// declaring the function int fact(int); int main() { printf(\u0026#34;\\n\\n\\t\\tC Programs\\n\\n\\n\u0026#34;); int num, f; printf(\u0026#34;\\n\\nEnter a number: \u0026#34;); scanf(\u0026#34;%d\u0026#34;, \u0026amp;num); f= fact(num); printf(\u0026#34;\\n\\nFactorial of %d is %d\\n\\n\u0026#34;, num, f); printf(\u0026#34;\\n\\n\\t\\t\\tCoding is Fun !\\n\\n\\n\u0026#34;); return 0; } int fact(int aj) { if(aj==1 || aj==0) return 1; else return (aj*fact(aj-1)); } "
+    }
+,
+    {
+        "ref": "https://example.com/program-to-find-palindrome-using-recursion/",
+        "title": "Program to find Palindrome using Recursion",
+        "section": "",
+        "tags": ["recursion"],
+        "date" : "0001.01.01",
+        "body": "Program to find Palindrome using Recursion A Palindrome is a sequence that if reversed looks identical to the original sequence Eg : abba, level, 999 etc.\nBelow is a simple C program to find whether the user input number is a palindrome or not using recursion:\n#include\u0026lt;stdio.h\u0026gt; // declaring the recursive function int isPal(int ); /* global declaration to use the same value in both the functions */ int n; int main() { printf(\u0026#34;\\n\\n\\t\\tC Programs\\n\\n\\n\u0026#34;); int palindrome; printf(\u0026#34;\\n\\nEnter a number to check for Palindrome: \u0026#34;); scanf(\u0026#34;%d\u0026#34;, \u0026amp;n); palindrome = isPal(n); if(palindrome == 1) printf(\u0026#34;\\n\\n\\n%d is palindrome\\n\\n\u0026#34;, n); else printf(\u0026#34;\\n\\n\\n%d is not palindrome\\n\\n\u0026#34;, n); printf(\u0026#34;\\n\\n\\t\\t\\tCoding is Fun !\\n\\n\\n\u0026#34;); return 0; } int isPal(int aj) { static int sum = 0; if(aj != 0) { sum = sum *10 + aj%10; isPal(aj/10); // recursive call same as while(n!=0) using loop  } else if(sum == n) return 1; else return 0; } "
+    }
+,
+    {
+        "ref": "https://example.com/program-to-find-sum-of-digits-of-a-number-using-recursion/",
+        "title": "Program to find Sum of digits of a Number using Recursion",
+        "section": "",
+        "tags": ["recursion"],
+        "date" : "0001.01.01",
+        "body": "Program to find Sum of digits of a Number using Recursion Below is a program to find sum of digits of a given number using recursion.\n#include\u0026lt;stdio.h\u0026gt;#include\u0026lt;conio.h\u0026gt; //declaring the recursive function int sumOfDigit(int num); void main() { int num, sum; clrscr(); printf(\u0026#34;Enter a number:\\t\u0026#34;); scanf(\u0026#34;%d\u0026#34;, \u0026amp;num;); sum = sumOfDigit(num); printf(\u0026#34;The sum of digits of %d is: %d\u0026#34;, num, sum); getch(); } int sumOfDigit(int num) { int s, a; s = s + (num%10); a = num/10; if(a \u0026gt; 0) { sumOfDigit(a); } return s; } "
+    }
+,
+    {
+        "ref": "https://example.com/program-to-find-sum-of-first-n-numbers/",
+        "title": "Program to find Sum of First N Numbers",
+        "section": "",
+        "tags": ["recursion"],
+        "date" : "0001.01.01",
+        "body": "Program to find Sum of First N Numbers Below is a program to find sum of the first n numbers using recursion, where the value of n is provided by the user.\n#include\u0026lt;stdio.h\u0026gt;// declaring the recursive function int getSum(int); int main() { printf(\u0026#34;\\n\\n\\t\\tC Programs\\n\\n\\n\u0026#34;); int n, sum; printf(\u0026#34;\\n\\nEnter the range of n: \u0026#34;); scanf(\u0026#34;%d\u0026#34;, \u0026amp;n); sum = getSum(n); printf(\u0026#34;\\n\\nThe sum of first %d numbers is %d\\n\u0026#34;, n, sum); printf(\u0026#34;\\n\\n\\t\\t\\tCoding is Fun !\\n\\n\\n\u0026#34;); return 0; } // function definition int getSum(int aj) { /* static variables hold their values till the end of the program */ static int sum = 0; if(aj \u0026gt; 0) { sum = sum + aj; getSum(aj-1); } return sum ; } "
+    }
+,
+    {
+        "ref": "https://example.com/program-to-print-fibonacci-series-using-recursion/",
+        "title": "Program to print Fibonacci Series using Recursion",
+        "section": "",
+        "tags": ["recursion"],
+        "date" : "0001.01.01",
+        "body": "Program to print Fibonacci Series using Recursion A Fibonacci series is defined as a series in which each number is the sum of the previous two numbers with 1, 1 being the first two elements of the series.\nstatic keyword is used to initialize the variables only once.\nBelow is a program to print the fibonacci series using recursion.\n#include\u0026lt;stdio.h\u0026gt;// declaring the function void printFibo(int ); int main() { printf(\u0026#34;\\n\\n\\t\\tC Programs\\n\\n\\n\u0026#34;); int k, n; long int i = 0, j = 1; printf(\u0026#34;Enter the length of the Fibonacci series: \u0026#34;); scanf(\u0026#34;%d\u0026#34;, \u0026amp;n); printf(\u0026#34;\\n\\nfirst %d terms of Fibonacci series are:\\n\\n\\n\u0026#34;,n); printf(\u0026#34;%d \u0026#34;, 1); printFibo(n); printf(\u0026#34;\\n\\n\\t\\t\\tCoding is Fun !\\n\\n\\n\u0026#34;); return 0; } void printFibo(int aj) { static long int first = 0, second = 1, sum; if(aj \u0026gt; 1) { sum = first + second; first = second; second = sum; printf(\u0026#34;%ld \u0026#34;, sum); printFibo(aj-1); // recursive call  } else { // after the elements, for line break  printf(\u0026#34;\\n\\n\\n\u0026#34;); } } "
+    }
+,
+    {
+        "ref": "https://example.com/program-to-reverse-a-string-using-recursion/",
+        "title": "Program to Reverse a String Using Recursion",
+        "section": "",
+        "tags": ["recursion"],
+        "date" : "0001.01.01",
+        "body": "Program to Reverse a String Using Recursion Below is a program to reverse a user input string using recursion in C language.\n#include\u0026lt;stdio.h\u0026gt;#include\u0026lt;conio.h\u0026gt; // declaring recursive function char* reverse(char* str); void main() { int i, j, k; char str[100]; char *rev; printf(\u0026#34;Enter the string:\\t\u0026#34;); scanf(\u0026#34;%s\u0026#34;, str); printf(\u0026#34;The original string is: %s\\n\u0026#34;, str); rev = reverse(str); printf(\u0026#34;The reversed string is: %s\\n\u0026#34;, rev); getch(); } // defining the function char* reverse(char *str) { static int i = 0; static char rev[100]; if(*str) { reverse(str+1); rev[i++] = *str; } return rev; } "
+    }
+]

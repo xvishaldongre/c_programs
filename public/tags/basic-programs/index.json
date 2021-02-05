@@ -1,0 +1,91 @@
+[
+    {
+        "ref": "https://example.com/ascii-value-of-character/",
+        "title": "ASCII value of Character",
+        "section": "",
+        "tags": ["Basic Programs"],
+        "date" : "0001.01.01",
+        "body": "ASCII value of Character Below is a program to find ASCII value of any input character.\n%c is the format specifier to take character as input\n#include\u0026lt;stdio.h\u0026gt; int main() { printf(\u0026#34;\\n\\n\\t\\tC Programs\\n\\n\\n\u0026#34;); char c; printf(\u0026#34;Enter a character : \u0026#34;); scanf(\u0026#34;%c\u0026#34; , \u0026amp;c); printf(\u0026#34;\\n\\nASCII value of %c = %d\u0026#34;,c,c); printf(\u0026#34;\\n\\n\\t\\t\\tCoding is Fun !\\n\\n\\n\u0026#34;); return 0; } "
+    }
+,
+    {
+        "ref": "https://example.com/basic-ifelse-condition-program/",
+        "title": "Basic ifelse condition program",
+        "section": "",
+        "tags": ["Basic Programs"],
+        "date" : "0001.01.01",
+        "body": "Basic ifelse condition program Below is a program on if-else.\n#include\u0026lt;stdio.h\u0026gt; int main() { printf(\u0026#34;\\n\\n\\t\\tC Programs\\n\\n\\n\u0026#34;); int number; printf(\u0026#34;Please enter a number:\\n\u0026#34;); scanf(\u0026#34;%d\u0026#34;,\u0026amp;number); /* For single statements we can skip the curly brackets */ if(number \u0026lt; 100) printf(\u0026#34;Number is less than 100!\\n\u0026#34;); else if(number == 100) printf(\u0026#34;Number is 100!\\n\u0026#34;); else printf(\u0026#34;Number is greater than 100!\\n\u0026#34;); printf(\u0026#34;\\n\\n\\t\\t\\tCoding is Fun !\\n\\n\\n\u0026#34;); return 0; } "
+    }
+,
+    {
+        "ref": "https://example.com/hello-world-program/",
+        "title": "Hello World Program",
+        "section": "",
+        "tags": ["Basic Programs"],
+        "date" : "0001.01.01",
+        "body": "Hello World Program Below is a simple program printing Hello World in C language.\nprintf() is a system defined function under the header file stdio.h, used to print data onto the screen\n\\n is used to move the control onto the next line\n\\t is used to give a horizontal tab i.e. continuous five spaces\n#include \u0026lt;stdio.h\u0026gt; int main() { printf(\u0026#34;\\n\\n\\t\\tC Programs\\n\\n\\n\u0026#34;); int num; printf(\u0026#34;\\nHello world!\\nWelcome to C Programs: Best place to learn\\n\u0026#34;); printf(\u0026#34;\\n\\n\\t\\t\\tCoding is Fun !\\n\\n\\n\u0026#34;); return 0; } "
+    }
+,
+    {
+        "ref": "https://example.com/how-to-use-gets-function/",
+        "title": "How to use gets() function",
+        "section": "",
+        "tags": ["Basic Programs"],
+        "date" : "0001.01.01",
+        "body": "How to use gets() function Some of the important points about scanf() and gets() are:\nBelow is a program on use of gets().\ngets() takes only a single line at a time i.e all the words before hitting \\n(enter key).\n#include\u0026lt;stdio.h\u0026gt; int main() { printf(\u0026#34;\\n\\n\\t\\tC Programs\\n\\n\\n\u0026#34;); char str[50]; // char array of size 50  printf(\u0026#34;Enter your complete name:\\n\\n\\n\u0026#34;); gets(str); printf(\u0026#34;\\n\\nWelcome to C Programs %s\\n\\n\\n\u0026#34;, str); printf(\u0026#34;\\n\\n\\t\\t\\tCoding is Fun !\\n\\n\\n\u0026#34;); return 0; } "
+    }
+,
+    {
+        "ref": "https://example.com/program-to-check-if-input-character-is-a-vowel-using-switch-case/",
+        "title": "Program to check if input character is a vowel using Switch Case",
+        "section": "",
+        "tags": ["Basic Programs"],
+        "date" : "0001.01.01",
+        "body": "Program to check if input character is a vowel using Switch Case Below is a program to check vowel using switch case.\n#include\u0026lt;stdio.h\u0026gt; int main() { printf(\u0026#34;\\n\\n\\t\\tC Programs\\n\\n\\n\u0026#34;); char ch; printf(\u0026#34;Input a Character : \u0026#34;); scanf(\u0026#34;%c\u0026#34;, \u0026amp;ch); switch(ch) { case \u0026#39;a\u0026#39;: case \u0026#39;A\u0026#39;: case \u0026#39;e\u0026#39;: case \u0026#39;E\u0026#39;: case \u0026#39;i\u0026#39;: case \u0026#39;I\u0026#39;: case \u0026#39;o\u0026#39;: case \u0026#39;O\u0026#39;: case \u0026#39;u\u0026#39;: case \u0026#39;U\u0026#39;: printf(\u0026#34;\\n\\n%c is a vowel.\\n\\n\u0026#34;, ch); break; default: printf(\u0026#34;%c is not a vowel.\\n\\n\u0026#34;, ch); } printf(\u0026#34;\\n\\n\\t\\t\\tCoding is Fun !\\n\\n\\n\u0026#34;); return 0; } "
+    }
+,
+    {
+        "ref": "https://example.com/program-to-print-the-largest-and-smallest-using-global-declaration/",
+        "title": "Program to print the Largest and Smallest using Global Declaration",
+        "section": "",
+        "tags": ["Basic Programs"],
+        "date" : "0001.01.01",
+        "body": "Program to print the Largest and Smallest using Global Declaration Some important points about Global variable declaration are:\n%0nd is used to represent numbers in n digit format with leading 0\u0026rsquo;s.\nBelow is a program to find largest and smallest value using global declaration.\n#include\u0026lt;stdio.h\u0026gt; int a,b; int main() { printf(\u0026#34;\\n\\n\\t\\tC Programs\\n\\n\\n\u0026#34;); printf(\u0026#34;\\n\\nEnter the two values to find the greatest and smallest number: \\n\u0026#34;); scanf(\u0026#34;%d%d\u0026#34;, \u0026amp;a, \u0026amp;b); if(a == b) printf(\u0026#34;Both are equal\\n\u0026#34;); else if(a \u0026lt; b) { printf(\u0026#34;\\n\\nThe largest number is %03d\\n\u0026#34;, b); printf(\u0026#34;\\nThe smallest number is %03d\\n\u0026#34;, a); printf(\u0026#34;\\nThe largest number is %03d\\n\u0026#34;, b); } else //Only possibility remaining  { printf(\u0026#34;The largest number is %03d\\n\u0026#34;, a); printf(\u0026#34;The smallest number is %03d\\n\u0026#34;, b); } printf(\u0026#34;\\n\\n\\t\\t\\tCoding is Fun !\\n\\n\\n\u0026#34;); return 0; } "
+    }
+,
+    {
+        "ref": "https://example.com/program-to-reverse-the-case-of-input-character/",
+        "title": "Program to reverse the case of input character",
+        "section": "",
+        "tags": ["Basic Programs"],
+        "date" : "0001.01.01",
+        "body": "Program to reverse the case of input character Below is a program to reverse the case of input character.\ngetchar() is similar to scanf().\nislower() is system defined function under ctype.h header file to check if the character is in lowercase or not.\ntoupper() converts the input parameter into equivalent uppercase char.\nputchar() is similar to printf().\n#include\u0026lt;stdio.h\u0026gt;#include\u0026lt;ctype.h\u0026gt; // to use system defined function islower \u0026amp; toupper int main() { printf(\u0026#34;\\n\\n\\t\\tC Programs\\n\\n\\n\u0026#34;); char alphabet; printf(\u0026#34;Enter an alphabet : \u0026#34;); putchar(\u0026#39;\\n\u0026#39;); // to move to next Line  alphabet=getchar(); printf(\u0026#34;\\n\\nReverse case of %c is : \u0026#34;,alphabet); if(islower(alphabet)) putchar(toupper(alphabet)); else // must be an uppercase character  printf(\u0026#34;%c\u0026#34;,tolower(alphabet)) ; printf(\u0026#34;\\n\\n\\t\\t\\tCoding is Fun !\\n\\n\\n\u0026#34;); return 0; } "
+    }
+,
+    {
+        "ref": "https://example.com/program-to-take-input-of-various-datatypes-in-c/",
+        "title": "Program to take input of various datatypes in C",
+        "section": "",
+        "tags": ["Basic Programs"],
+        "date" : "0001.01.01",
+        "body": "Program to take input of various datatypes in C Below is a program to explain how to take input from user for different datatypes available in C language. The different datatypes are int(integer values), float(decimal values) and char(character values).\nprintf() is used to display text onto the screen\n\u0026amp; is used to assign the input value to the variable and store it at that particular location.\nscanf() is uded to take input from the user using format specifier discussed in upcoming tutorials\n%d and %i, both are used to take numbers as input from the user.\n%f is the format specifier to take float as input from the user\n%s is the format specifier to take character as input from the user\n#include\u0026lt;stdio.h\u0026gt; int main() { printf(\u0026#34;\\n\\n\\t\\tC Programs\\n\\n\\n\u0026#34;); int num1, num2; float fraction; char character; printf(\u0026#34;Enter two numbers number\\n\u0026#34;); // Taking integer as input from user  scanf(\u0026#34;%d%i\u0026#34;, \u0026amp;num1, \u0026amp;num2); printf(\u0026#34;\\n\\nThe two numbers You have entered are %d and %i\\n\\n\u0026#34;, num1, num2); // Taking float or fraction as input from the user  printf(\u0026#34;\\n\\nEnter a Decimal number\\n\u0026#34;); scanf(\u0026#34;%f\u0026#34;, \u0026amp;fraction); printf(\u0026#34;\\n\\nThe float or fraction that you have entered is %f\u0026#34;, fraction); // Taking Character as input from the user  printf(\u0026#34;\\n\\nEnter a Character\\n\u0026#34;); scanf(\u0026#34;%c\u0026#34;,\u0026amp;character); printf(\u0026#34;\\n\\nThe character that you have entered is %c\u0026#34;, character); printf(\u0026#34;\\n\\n\\t\\t\\tCoding is Fun !\\n\\n\\n\u0026#34;); return 0; } "
+    }
+,
+    {
+        "ref": "https://example.com/swapping-two-numbers-using-a-temporary-variable/",
+        "title": "Swapping two Numbers using a Temporary Variable",
+        "section": "",
+        "tags": ["Basic Programs"],
+        "date" : "0001.01.01",
+        "body": "Swapping two Numbers using a Temporary Variable Below is a program to swap two numbers using temporary variable.\n#include\u0026lt;stdio.h\u0026gt;#include\u0026lt;conio.h\u0026gt; void main() { int x = 10, y = 15, temp; temp = x; x = y; y = temp; printf(\u0026#34;x = %d and y = %d\u0026#34;, x, y); getch(); } Swapping tow Numbers without using a Temporary Variable Below is a program to swap two numbers without using any temporary variable.\n#include\u0026lt;stdio.h\u0026gt;#include\u0026lt;conio.h\u0026gt; void main() { int x = 10, y = 15; x = x + y - (y = x); printf(\u0026#34;x = %d and y = %d\u0026#34;,x,y); getch(); } Swapping two Numbers using Bitwise Operator Below is a program to swap two numbers using bitwise operator.\n#include\u0026lt;stdio.h\u0026gt;#include\u0026lt;conio.h\u0026gt; void main() { int x = 6, y = 4; x = x^y; y = x^y; x = x^y; printf(\u0026#34;x = %d and y = %d\u0026#34;, x, y); getch(); } Swapping two Numbers using Multiplication and Division Below is a program to swap two numbers using multiplication and division.\n#include\u0026lt;stdio.h\u0026gt;#include\u0026lt;conio.h\u0026gt; void main() { int x = 6, y = 4; x = x*y; y = x/y; x = x/y; printf(\u0026#34;x = %d and y = %d\u0026#34;, x, y); getch(); } "
+    }
+,
+    {
+        "ref": "https://example.com/switch-case-with-break/",
+        "title": "Switch Case with break",
+        "section": "",
+        "tags": ["Basic Programs"],
+        "date" : "0001.01.01",
+        "body": "Switch Case with break Below is a program on switch case with break.\nswitch() can only contain char and int.\nbreak is used to exit from switch statement.\nswitch case can be without default case.\nAnother piece of information here is that a char variable is always initialized within \u0026lsquo;'(single quotes).\n#include\u0026lt;stdio.h\u0026gt; int main() { printf(\u0026#34;\\n\\n\\t\\tC Programs\\n\\n\\n\u0026#34;); // Local Variable Definition  char grade; printf(\u0026#34;Enter your grade:\\n\u0026#34;); scanf(\u0026#34;%c\u0026#34;, \u0026amp;grade); switch(grade) { case \u0026#39;A\u0026#39;: printf(\u0026#34;Excellent\\n\u0026#34;); break; case \u0026#39;B\u0026#39;: printf(\u0026#34;Keep it up!\\n\\n\u0026#34;); break; case \u0026#39;C\u0026#39;: printf(\u0026#34;Well done\\nbreak keyword takes execution to exit the switch case\\n\\n\u0026#34;); break; case \u0026#39;D\u0026#39;: printf(\u0026#34;You passed\\n\u0026#34;); break; case \u0026#39;F\u0026#39;: printf(\u0026#34;Better luck next time\\n\u0026#34;); break; default: printf(\u0026#34;Invalid grade\\n\u0026#34;); } printf(\u0026#34;Your grade is %c\\n\u0026#34;,grade); printf(\u0026#34;\\n\\n\\t\\t\\tCoding is Fun !\\n\\n\\n\u0026#34;); return 0; } Switch Case without break Below is a program on switch case without break.\nIf there is no break statement then the cases following the matched case other than default will get executed.\n#include\u0026lt;stdio.h\u0026gt; int main() { printf(\u0026#34;\\n\\n\\t\\tC Programs\\n\\n\\n\u0026#34;); /* Local Variable Definition */ char grade; printf(\u0026#34;Enter your grade:\\n\u0026#34;); scanf(\u0026#34;%c\u0026#34;, \u0026amp;grade); switch(grade) { case \u0026#39;A\u0026#39;: printf(\u0026#34;Excellent\\n\u0026#34;); case \u0026#39;B\u0026#39;: printf(\u0026#34;\\n\\n\\nKeep it up!\\n\\nNo break statement\\n\\nHence all the case following this(but not the ones above this) except the default case will get executed !\\n\\n\u0026#34;); case \u0026#39;C\u0026#39;: printf(\u0026#34;\\n\\n\\t\\tCase C : Well done !\\n\\n\u0026#34;); case \u0026#39;D\u0026#39;: printf(\u0026#34;\\t\\tCase D : You passed!\\n\\n\u0026#34;); case \u0026#39;F\u0026#39;: printf(\u0026#34;\\t\\tCase E : Better luck next time\\n\\n\\n\u0026#34;); default: printf(\u0026#34;\\t\\tDefault Case : Invalid grade\\n\\n\\n\u0026#34;); } printf(\u0026#34;Your grade is %c\\n\u0026#34;,grade); printf(\u0026#34;\\n\\n\\t\\t\\tCoding is Fun !\\n\\n\\n\u0026#34;); return 0; } "
+    }
+]

@@ -1,0 +1,1151 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>C Programs</title>
+    <link>https://example.com/</link>
+    <description>Recent content on C Programs</description>
+    <generator>Hugo -- gohugo.io</generator><atom:link href="https://example.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>About me</title>
+      <link>https://example.com/about/</link>
+      <pubDate>Thu, 04 Feb 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://example.com/about/</guid>
+      <description> Hi there, I&amp;rsquo;m Vishal Dongre 👋 I&amp;rsquo;m a BCA Student, Programmer &amp;amp; Linux Enthusiast!
+ 🔭 I’m currently doing life related stuff 🌱 I’m currently learning python 🥅 2021 Goals: Improve World little bit. ⚡ Fun fact: I love 🐶 | 👨‍💻   </description>
+    </item>
+    
+    <item>
+      <title>Contact</title>
+      <link>https://example.com/contact/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://example.com/contact/</guid>
+      <description>Connect with me:  E-mail - xvishaldongre@gmail.com Facebook - https://www.facebook.com/xvishaldongre Instagram - https://www.instagram.com/_vishal_dongre Telegram - https://www.t.me/xvishaldongre   </description>
+    </item>
+    
+    <item>
+      <title>Accessing array elements(Traversing array) by incrementing a Pointer</title>
+      <link>https://example.com/accessing-array-elementstraversing-array-by-incrementing-a-pointer/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://example.com/accessing-array-elementstraversing-array-by-incrementing-a-pointer/</guid>
+      <description>Accessing array elements(Traversing array) by incrementing a Pointer Name of the array refers to the base address of the array.
+Below is a program to access elements of an array using pointer increment.
+#include &amp;lt;stdio.h&amp;gt; const int MAX = 3; // Global declaration int main() { printf(&amp;#34;\n\n\t\tC Programs\n\n\n&amp;#34;); int var[] = {100, 200, 300}; int i, *ptr; /* storing address of the first element of the array in pointer variable */ ptr = var; for(i = 0; i &amp;lt; MAX; i++) { printf(&amp;#34;\n\n\nAddress of var[%d] = %x &amp;#34;, i, ptr); printf(&amp;#34;\nValue of var[%d] = %d &amp;#34;, i, *ptr); // move to the next location  ptr++; } printf(&amp;#34;\n\n\t\t\tCoding is Fun !</description>
+    </item>
+    
+    <item>
+      <title>ASCII value of Character</title>
+      <link>https://example.com/ascii-value-of-character/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://example.com/ascii-value-of-character/</guid>
+      <description>ASCII value of Character Below is a program to find ASCII value of any input character.
+%c is the format specifier to take character as input
+#include&amp;lt;stdio.h&amp;gt; int main() { printf(&amp;#34;\n\n\t\tC Programs\n\n\n&amp;#34;); char c; printf(&amp;#34;Enter a character : &amp;#34;); scanf(&amp;#34;%c&amp;#34; , &amp;amp;c); printf(&amp;#34;\n\nASCII value of %c = %d&amp;#34;,c,c); printf(&amp;#34;\n\n\t\t\tCoding is Fun !\n\n\n&amp;#34;); return 0; } </description>
+    </item>
+    
+    <item>
+      <title>Basic C Program for Pointer to a Pointer</title>
+      <link>https://example.com/basic-c-program-for-pointer-to-a-pointer/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://example.com/basic-c-program-for-pointer-to-a-pointer/</guid>
+      <description>Basic C Program for Pointer to a Pointer A pointer variable stores the address of a value. Similarly, a pointer to a pointer stores the address of the pointer variable. Pointer to a pointer is executed making use of **.
+Below is a program on pointer to a pointer.
+int var; is a integer variable which stores value.
+int *ptr; is a pointer variable which stores the address of an integer variable.</description>
+    </item>
+    
+    <item>
+      <title>Basic C Program to Concatenate Strings using Pointer</title>
+      <link>https://example.com/basic-c-program-to-concatenate-strings-using-pointer/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://example.com/basic-c-program-to-concatenate-strings-using-pointer/</guid>
+      <description>Basic C Program to Concatenate Strings using Pointer Below is a program to concatenate strings using pointer:
+#include &amp;lt;stdio.h&amp;gt; int main() { printf(&amp;#34;\n\n\t\tC Programs\n\n\n&amp;#34;); char aa[100], bb[100]; printf(&amp;#34;\nEnter the first string: &amp;#34;); gets(aa); // inputting first string  printf(&amp;#34;\nEnter the second string to be concatenated: &amp;#34;); gets(bb); // inputting second string  char *a = aa; char *b = bb; // pointing to the end of the 1st string  while(*a) // till it doesn&amp;#39;t point to NULL-till string is not empty  { a++; // point to the next letter of the string  } while(*b) // till second string is not empty  { *a = *b; b++; a++; } *a = &amp;#39;\0&amp;#39;; // string must end with &amp;#39;\0&amp;#39;  printf(&amp;#34;\n\n\nThe string after concatenation is: %s &amp;#34;, aa); printf(&amp;#34;\n\n\t\t\tCoding is Fun !</description>
+    </item>
+    
+    <item>
+      <title>Basic do while Loop Program</title>
+      <link>https://example.com/basic-do-while-loop-program/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://example.com/basic-do-while-loop-program/</guid>
+      <description>Basic do while Loop Program Every loop consists of three parts in sequence:
+Do while loop is used when the actual code must be executed atleast once. For example: Incase of menu driven functions.
+Below is a simple program on do while loop.
+#include&amp;lt;stdio.h&amp;gt; int main() { printf(&amp;#34;\n\n\t\tC Programs\n\n\n&amp;#34;); /* always declare the variables before using them */ int i = 10; // declaration and initialization at the same time  do // do contains the actual code and the updation  { printf(&amp;#34;i = %d\n&amp;#34;,i); i = i-1; // updation  } // while loop doesn&amp;#39;t contain any code but just the condition  while(i &amp;gt; 0); printf(&amp;#34;\n\The value of i after exiting the loop is %d\n\n&amp;#34;, i); printf(&amp;#34;\n\n\t\t\tCoding is Fun !</description>
+    </item>
+    
+    <item>
+      <title>Basic ifelse condition program</title>
+      <link>https://example.com/basic-ifelse-condition-program/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://example.com/basic-ifelse-condition-program/</guid>
+      <description>Basic ifelse condition program Below is a program on if-else.
+#include&amp;lt;stdio.h&amp;gt; int main() { printf(&amp;#34;\n\n\t\tC Programs\n\n\n&amp;#34;); int number; printf(&amp;#34;Please enter a number:\n&amp;#34;); scanf(&amp;#34;%d&amp;#34;,&amp;amp;number); /* For single statements we can skip the curly brackets */ if(number &amp;lt; 100) printf(&amp;#34;Number is less than 100!\n&amp;#34;); else if(number == 100) printf(&amp;#34;Number is 100!\n&amp;#34;); else printf(&amp;#34;Number is greater than 100!\n&amp;#34;); printf(&amp;#34;\n\n\t\t\tCoding is Fun !\n\n\n&amp;#34;); return 0; } </description>
+    </item>
+    
+    <item>
+      <title>Basic Program for Pointers</title>
+      <link>https://example.com/basic-program-for-pointers/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://example.com/basic-program-for-pointers/</guid>
+      <description>Basic Program for Pointers Few important points to remember:
+Below is a simple program on pointer.
+int *p; is a pointer variable declaration where p is a pointer to an int variable i.e. it stores the location of an integer.
+%x is a format specifier to print hexadecimal value. It is usually used to print the location.
+#include &amp;lt;stdio.h&amp;gt; int main() { printf(&amp;#34;\n\n\t\tC Programs\n\n\n&amp;#34;); int var = 24; // actual variable declaration  int *p; p = &amp;amp;var; // storing address of int variable var in pointer p  printf(&amp;#34;\n\nAddress of var variable is: %x \n\n&amp;#34;, &amp;amp;var); // address stored in pointer variable  printf(&amp;#34;\n\nAddress stored in pointer variable p is: %x&amp;#34;, p); // access the value using the pointer variable  printf(&amp;#34;\n\nValue of var variable or the value stored at address p is %d &amp;#34;, *p); printf(&amp;#34;\n\n\t\t\tCoding is Fun !</description>
+    </item>
+    
+    <item>
+      <title>Basic program to show use of nested for Loops</title>
+      <link>https://example.com/basic-program-to-show-use-of-nested-for-loops/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://example.com/basic-program-to-show-use-of-nested-for-loops/</guid>
+      <description>Basic program to show use of nested for Loops Nested loops are usually used to print a pattern in C. They are also used to print out the matrix using a 2 dimensional array and a lot of other patterns like pyramid of numbers etc.
+Using a loop inside another loop is called nested loop.
+Below is a simple program on nested loops.
+#include&amp;lt;stdio.h&amp;gt; int main() { printf(&amp;#34;\n\n\t\tC Programs\n\n\n&amp;#34;); printf(&amp;#34;\n\nNested loops are usually used to print a pattern in c.</description>
+    </item>
+    
+    <item>
+      <title>C gets() and strlen() function</title>
+      <link>https://example.com/c-gets-and-strlen-function/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://example.com/c-gets-and-strlen-function/</guid>
+      <description>C gets() and strlen() function Some important points about gets() and scanf() methods are:
+Below is a program on gets() and strlen() function.
+#include&amp;lt;stdio.h&amp;gt;#include&amp;lt;string.h&amp;gt; int main() { printf(&amp;#34;\n\n\t\tC Programs\n\n\n&amp;#34;); char a[100]; int length; printf(&amp;#34;\n\nEnter a string you wish to calculate the length of : &amp;#34;); /* to take a single string (including spaces) as input at a time */ gets(a); /* Return the length of the string or the number of characters in the string */ length = strlen(a); printf(&amp;#34;\n\nThe length of the input string is: %d\n\n&amp;#34;, length); printf(&amp;#34;\n\n\t\t\tCoding is Fun !</description>
+    </item>
+    
+    <item>
+      <title>C Program for Adding Two Numbers Using Recursion</title>
+      <link>https://example.com/c-program-for-adding-two-numbers-using-recursion/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://example.com/c-program-for-adding-two-numbers-using-recursion/</guid>
+      <description>C Program for Adding Two Numbers Using Recursion Below is a program on adding two numbers using recursion.
+#include&amp;lt;stdio.h&amp;gt; int y; /* Function to add two numbers and return the result */ int add(int m, int n) { if(n == 0) return m; /* Recursion: adding 1, n times and then at the end adding m to it */ y = add(m, n-1) + 1; return y; // return the result } int main() { printf(&amp;#34;\n\n\t\tC Programs\n\n\n&amp;#34;); int a, b, r; printf(&amp;#34;Enter the two numbers:\n&amp;#34;); scanf(&amp;#34;%d%d&amp;#34;, &amp;amp;a, &amp;amp;b); r = add(a, b); // function call  printf(&amp;#34;\n\nSum of two numbers is: %d\n\n&amp;#34;, r); printf(&amp;#34;\n\n\t\t\tCoding is Fun !</description>
+    </item>
+    
+    <item>
+      <title>C program for Pointer to a Function</title>
+      <link>https://example.com/c-program-for-pointer-to-a-function/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://example.com/c-program-for-pointer-to-a-function/</guid>
+      <description>C program for Pointer to a Function Below is a program on pointer to a function.
+#include&amp;lt;stdio.h&amp;gt; int func(int a, int b) // function definition { printf(&amp;#34;\n\na = %d \n&amp;#34;, a); printf(&amp;#34;\n\nb = %d \n&amp;#34;, b); } int main() { printf(&amp;#34;\n\n\t\tC Programs\n\n\n&amp;#34;); // function pointer  int(*fptr)(int , int); // assign address to function pointer  fptr = func; // function calling  func(2,3); fptr(2,3); // calling a function referring to pointer to a function  printf(&amp;#34;\n\n\t\t\tCoding is Fun !</description>
+    </item>
+    
+    <item>
+      <title>C Program for removing Whitespaces in a String</title>
+      <link>https://example.com/c-program-for-removing-whitespaces-in-a-string/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://example.com/c-program-for-removing-whitespaces-in-a-string/</guid>
+      <description>C Program for removing Whitespaces in a String Below is a program to remove whitespaces from a given string.
+#include&amp;lt;stdio.h&amp;gt;#include&amp;lt;string.h&amp;gt; int main() { printf(&amp;#34;\n\n\t\tC Programs\n\n\n&amp;#34;); char aj[1000], mj[1000]; int i = 0, j = 0, len; printf(&amp;#34;\n\nEnter the string: &amp;#34;); gets(aj); len = strlen(aj); // len stores the length of the input string  while(aj[i] != &amp;#39;\0&amp;#39;) // till string doesn&amp;#39;t terminate  { if(aj[i] != &amp;#39; &amp;#39;) // if the char is not a white space  { /* incrementing index j only when the char is not space */ mj[j++] = aj[i]; } /* i is the index of the actual string and is incremented irrespective of the spaces */ i++; } mj[j] = &amp;#39;\0&amp;#39;; printf(&amp;#34;\n\nThe string after removing all the spaces is: %s&amp;#34;, mj); printf(&amp;#34;\n\n\t\t\tCoding is Fun !</description>
+    </item>
+    
+    <item>
+      <title>C Program to Add two user input numbers using Pointers</title>
+      <link>https://example.com/c-program-to-add-two-user-input-numbers-using-pointers/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://example.com/c-program-to-add-two-user-input-numbers-using-pointers/</guid>
+      <description>C Program to Add two user input numbers using Pointers Few important points to remember:
+Below is a program adding two numbers using pointers.
+#include&amp;lt;stdio.h&amp;gt; int main() { printf(&amp;#34;\n\n\t\tC Programs\n\n\n&amp;#34;); int first, second, *p , *q, sum; printf(&amp;#34;Enter two integers to add using pointers:\n&amp;#34;); scanf(&amp;#34;%d%d&amp;#34;, &amp;amp;first, &amp;amp;second); p = &amp;amp;first; q = &amp;amp;second; sum = *p + *q; printf(&amp;#34;\n\nThe sum of the entered numbers is: %d&amp;#34;, sum); printf(&amp;#34;\n\n\t\t\tCoding is Fun !</description>
+    </item>
+    
+    <item>
+      <title>C Program to calculate a Number raised to the Power of N using Recursion</title>
+      <link>https://example.com/c-program-to-calculate-a-number-raised-to-the-power-of-n-using-recursion/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://example.com/c-program-to-calculate-a-number-raised-to-the-power-of-n-using-recursion/</guid>
+      <description>C Program to calculate a Number raised to the Power of N using Recursion Below is a program to calculate the result of a given number, raised to the power of n using recursion.
+#include&amp;lt;stdio.h&amp;gt; // function prototype declaration int power(int n1, int n2); int main() { printf(&amp;#34;\n\n\t\tC Programs\n\n\n&amp;#34;); int base, exp; printf(&amp;#34;Enter base number: &amp;#34;); scanf(&amp;#34;%d&amp;#34;, &amp;amp;base); printf(&amp;#34;\n\nEnter Power factor: &amp;#34;); scanf(&amp;#34;%d&amp;#34;, &amp;amp;exp); printf(&amp;#34;\n\n\n\t\t\t%d^%d = %d&amp;#34;, base, exp, power(base, exp)); printf(&amp;#34;\n\n\t\t\tCoding is Fun !</description>
+    </item>
+    
+    <item>
+      <title>C Program to Calculate Permutation (nPr) and Combination (nCr)</title>
+      <link>https://example.com/c-program-to-calculate-permutation-npr-and-combination-ncr/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://example.com/c-program-to-calculate-permutation-npr-and-combination-ncr/</guid>
+      <description>C Program to Calculate Permutation (nPr) and Combination (nCr) Below is a program to calculate nPr and nCr.
+Global declaration scope is within the complete program.
+Local declarations scope is limited to the function only.
+#include&amp;lt;stdio.h&amp;gt; // function prototype declarations long factorial(int); long find_npr(int, int); long find_ncr(int, int); int main() { printf(&amp;#34;\n\n\t\tC Programs\n\n\n&amp;#34;); int n, r; long npr, ncr; printf(&amp;#34;Enter the value of n and r respectively: \n\n&amp;#34;); scanf(&amp;#34;%d%d&amp;#34;, &amp;amp;n, &amp;amp;r); // function calls  npr = find_npr(n, r); ncr = find_ncr(n, r); printf(&amp;#34;\n\n\n\t\t%dC%d = %ld\n&amp;#34;, n, r, ncr); printf(&amp;#34;\n\n\t\t%dP%d = %ld\n&amp;#34;, n, r, npr); printf(&amp;#34;\n\n\t\t\tCoding is Fun !</description>
+    </item>
+    
+    <item>
+      <title>C Program to calculate Simple Interest</title>
+      <link>https://example.com/c-program-to-calculate-simple-interest/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://example.com/c-program-to-calculate-simple-interest/</guid>
+      <description>C Program to calculate Simple Interest Below is a program to calculate the Simple Interest for a given prinicipal amount, rate of interest and time duration.
+%7.3f means the float value will be represented in 7 digits including 3 digits after decimal places.
+#include&amp;lt;stdio.h&amp;gt; void main() { printf(&amp;#34;\n\n\t\tC Programs\n\n\n&amp;#34;); float principal_amt, rate, simple_interest; int time; printf(&amp;#34;Enter the value of principal amount, rate and time\n\n\n&amp;#34;); scanf(&amp;#34;%f%f%d&amp;#34;, &amp;amp;principal_amt, &amp;amp;rate, &amp;amp;time); // considering rate is in percentage  simple_interest = (principal_amt*rate*time)/100.</description>
+    </item>
+    
+    <item>
+      <title>C Program to calculate the Frequency of characters in a string</title>
+      <link>https://example.com/c-program-to-calculate-the-frequency-of-characters-in-a-string/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://example.com/c-program-to-calculate-the-frequency-of-characters-in-a-string/</guid>
+      <description>C Program to calculate the Frequency of characters in a string Below is a program to find the frequency of characters in a given string.
+#include&amp;lt;stdio.h&amp;gt; int main() { printf(&amp;#34;\n\n\t\tC Programs\n\n\n&amp;#34;); char aj[1000]; int c = 0; int count[26] = {0}; // initializing all the elements of array to 0  printf(&amp;#34;\n\nEnter the string : &amp;#34;); gets(aj); while(aj[c] != &amp;#39;\0&amp;#39;) { if(aj[c] &amp;gt;= &amp;#39;a&amp;#39; &amp;amp;&amp;amp; aj[c] &amp;lt;= &amp;#39;z&amp;#39;) { /* Incrementing the count of the letter in the array, converting its index within the range 0 to 25 */ count[aj[c] - &amp;#39;a&amp;#39;]++; } c++; } for(c = 0; c &amp;lt; 26; c++) { /* If the character appears in the input string atleast once */ if(count[c] !</description>
+    </item>
+    
+    <item>
+      <title>C program to Change the Text Background Color</title>
+      <link>https://example.com/c-program-to-change-the-text-background-color/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://example.com/c-program-to-change-the-text-background-color/</guid>
+      <description>C program to Change the Text Background Color Syntax:
+BOOL WINAPI SetConsoleTextAttribute(_In_ HANDLE hConsoleOutput , _In_ WORD wAttributes); Below is the program for changing text background color.
+#include&amp;lt;windows.h&amp;gt;#include&amp;lt;stdio.h&amp;gt; int main() { printf(&amp;#34;\n\n\t\tC Programs\n\n\n&amp;#34;); //BACKGROUND_RED| BACKGROUND_GREEN| BACKGROUND_BLUE| BACKGROUND_INTENSITY  SetConsoleTextAttribute(GetStdHandle(STD_OUTPUT_HANDLE),BACKGROUND_BLUE|BACKGROUND_RED|BACKGROUND_INTENSITY); printf(&amp;#34;\n\nC Programs just showed you how to put colors to your code!!&amp;#34;); SetConsoleTextAttribute(GetStdHandle(STD_OUTPUT_HANDLE),BACKGROUND_GREEN); printf(&amp;#34;\n\nIsn&amp;#39;t this Awesome?&amp;#34;); SetConsoleTextAttribute(GetStdHandle(STD_OUTPUT_HANDLE),BACKGROUND_INTENSITY|BACKGROUND_RED); printf(&amp;#34;\n\nYou just did something that only 1 out of 10 coders are familiar of :)\n&amp;#34;); SetConsoleTextAttribute(GetStdHandle(STD_OUTPUT_HANDLE),BACKGROUND_GREEN|BACKGROUND_INTENSITY); printf(&amp;#34;\n\nYou are doing great!</description>
+    </item>
+    
+    <item>
+      <title>C program to Check for a Perfect Square</title>
+      <link>https://example.com/c-program-to-check-for-a-perfect-square/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://example.com/c-program-to-check-for-a-perfect-square/</guid>
+      <description>C program to Check for a Perfect Square Below is a program to check whether the user input number is a perfect square or not.
+#include&amp;lt;stdio.h&amp;gt;int main() { printf(&amp;#34;\n\n\t\tC Programs\n\n\n&amp;#34;); // variable declaration  int i, number; // take user input  printf(&amp;#34;Enter a number: &amp;#34;); scanf(&amp;#34;%d&amp;#34;, &amp;amp;number); // loop to check number is perfect square or not  for(i = 0; i &amp;lt;= number; i++) { if(number == i*i) { printf(&amp;#34;\n\n\n\t\t\t%d is a perfect square\n\n\n&amp;#34;, number); printf(&amp;#34;\n\n\t\t\tCoding is Fun !</description>
+    </item>
+    
+    <item>
+      <title>C program to check for punctuation characters using the ispunct() Function</title>
+      <link>https://example.com/c-program-to-check-for-punctuation-characters-using-the-ispunct-function/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://example.com/c-program-to-check-for-punctuation-characters-using-the-ispunct-function/</guid>
+      <description>C program to check for punctuation characters using the ispunct() Function In this program we will check if a character is a punctuation character or not. We will be using a system defined function ispunct() defined under the ctype.h library.
+Again, this can be done using if-else block condition using the range of ASCII values of punctuation characters. This method is used for various valid password checking options where atleast one punctuation character is mandatory.</description>
+    </item>
+    
+    <item>
+      <title>C Program to check for whitespace using isspace() Function</title>
+      <link>https://example.com/c-program-to-check-for-whitespace-using-isspace-function/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://example.com/c-program-to-check-for-whitespace-using-isspace-function/</guid>
+      <description>C Program to check for whitespace using isspace() Function In this program we will check white spaces as well as tabs. We will be using a system defined function isspace() defined under the ctype.h library.
+This can be done using if-else block, condition being the ASCII value of the space character.
+This method is used for various valid password checking options as well as the variable names in the C compiler as valid names shall not contain white spaces.</description>
+    </item>
+    
+    <item>
+      <title>C Program to check if character is alphabet using isalpha() Function</title>
+      <link>https://example.com/c-program-to-check-if-character-is-alphabet-using-isalpha-function/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://example.com/c-program-to-check-if-character-is-alphabet-using-isalpha-function/</guid>
+      <description>C Program to check if character is alphabet using isalpha() Function In this program we will check if a character is an alphabet or not. We will be using a system defined function isalpha() defined under the ctype.h library.
+This can also be done using if-else blocks condition using the range of the ASCII values of the alphabets. This method is used for various valid password checking options.
+Below is a program on isalpha() function.</description>
+    </item>
+    
+    <item>
+      <title>C Program to check if character string is alphanumeric using isalnum() Function</title>
+      <link>https://example.com/c-program-to-check-if-character-string-is-alphanumeric-using-isalnum-function/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://example.com/c-program-to-check-if-character-string-is-alphanumeric-using-isalnum-function/</guid>
+      <description>C Program to check if character string is alphanumeric using isalnum() Function In this program we will check if character string is alphanumeric(either an alphabet or a number or both). We will be using a system defined function isalnum() defined under the ctype.h library for this. This method is used for various valid password checking options.
+Below is a program on isalnum() function.
+#include&amp;lt;stdio.h&amp;gt;#include&amp;lt;ctype.h&amp;gt; // to make use of system defined function isalnum() int main() { printf(&amp;#34;\n\n\t\tC Programs\n\n\n&amp;#34;); /* As datatypes are int, hence all the variables store the ASCII values of the character on the RHS */ int var1 = &amp;#39;d&amp;#39;; int var2 = &amp;#39;2&amp;#39;; int var3 = &amp;#39;%&amp;#39;; int var4 = &amp;#39; &amp;#39;; /* Returns true if the input parameter is an ASCII value of an alphanumberic character */ if(isalnum(var1)) { printf(&amp;#34;\nvar1 = |%c| is alphanumeric\n&amp;#34;, var1); } else { printf(&amp;#34;\nvar1 =|%c| is not alphanumeric\n&amp;#34;, var1); } if(isalnum(var2)) { printf(&amp;#34;\nvar2 = |%c| is alphanumeric\n&amp;#34;, var2); } else { printf(&amp;#34;\nvar2 =|%c| is not alphanumeric\n&amp;#34;, var2); } if(isalnum(var3)) { printf(&amp;#34;\nvar3 = |%c| is alphanumeric\n&amp;#34;, var3); } else { printf(&amp;#34;\nvar3 =|%c| is not alphanumeric\n&amp;#34;, var3); } if(isalnum(var4)) { printf(&amp;#34;\nvar4 = |%c| is alphanumeric\n&amp;#34;, var4); } else { printf(&amp;#34;\nvar4 =|%c| is not alphanumeric\n&amp;#34;, var4); } printf(&amp;#34;\n\n\t\t\tCoding is Fun !</description>
+    </item>
+    
+    <item>
+      <title>C Program to check lowercase using islower() Function</title>
+      <link>https://example.com/c-program-to-check-lowercase-using-islower-function/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://example.com/c-program-to-check-lowercase-using-islower-function/</guid>
+      <description>C Program to check lowercase using islower() Function In this program we will check whether a character is in lowercase or not. We will be using a system defined function islower() defined under the ctype.h library. This method is used for various valid password checking options where atleast one lowercase character is mandatory.
+The function returns 0 for any character which is not is lowercase, and it returns a value greater than or equal to 1 if the character is lowercase.</description>
+    </item>
+    
+    <item>
+      <title>C Program to check uppercase using isupper() Function</title>
+      <link>https://example.com/c-program-to-check-uppercase-using-isupper-function/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://example.com/c-program-to-check-uppercase-using-isupper-function/</guid>
+      <description>C Program to check uppercase using isupper() Function In this program we will check whether a character is in upper-case or not. We will be using a system defined function isupper() defined under the ctype.h library.
+This can also be done using if-else blocks condition using the range of the ASCII values of the upper-case alphabets which is 65 to 90.
+This method is used for various valid password checking options where atleast one upper-case character is mandatory.</description>
+    </item>
+    
+    <item>
+      <title>C Program to compare two strings using strcmp() Function</title>
+      <link>https://example.com/c-program-to-compare-two-strings-using-strcmp-function/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://example.com/c-program-to-compare-two-strings-using-strcmp-function/</guid>
+      <description>C Program to compare two strings using strcmp() Function In this program we will compare strings using strcmp() function defined in the string.h library.
+strcmp(a, b) returns 0 if both the strings a and b are exactly same else returns -1.
+It is case sensitive so &amp;lsquo;ABC&amp;rsquo; and &amp;lsquo;abc&amp;rsquo; are considered to be different strings. It can be used with with strrev() function(function to reverse a string) to check whether a given string is a Pallindrome or not.</description>
+    </item>
+    
+    <item>
+      <title>C Program to convert character(s) to uppercase using the toupper() Function</title>
+      <link>https://example.com/c-program-to-convert-characters-to-uppercase-using-the-toupper-function/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://example.com/c-program-to-convert-characters-to-uppercase-using-the-toupper-function/</guid>
+      <description>C Program to convert character(s) to uppercase using the toupper() Function In this program we will convert all the characters of an input string to uppercase characters. We will be using a system defined function toupper() defined under the ctype.h library.
+This can also be achieved by subtracting 32 from each lowercase character to get its equivalent uppercase format.
+Below is the program on toupper() function. Try running the program and you will see all the explanation printed on the output screen.</description>
+    </item>
+    
+    <item>
+      <title>C Program to convert Temparature in Celsius to Fahrenheit</title>
+      <link>https://example.com/c-program-to-convert-temparature-in-celsius-to-fahrenheit/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://example.com/c-program-to-convert-temparature-in-celsius-to-fahrenheit/</guid>
+      <description>C Program to convert Temparature in Celsius to Fahrenheit C Program to convert Temparature in Celsius to Fahrenheit Below is a program for temperature conversion from Celsius to Fahrenheit. All we have to do is use the simple formula in our program, which is, if a temparature value is in Celsius, multiply it with 1.8 or 9/5 and add 32 to the result, this will give the equivalent Fahrenhiet value.</description>
+    </item>
+    
+    <item>
+      <title>C Program to copy content of one File into another File</title>
+      <link>https://example.com/c-program-to-copy-content-of-one-file-into-another-file/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://example.com/c-program-to-copy-content-of-one-file-into-another-file/</guid>
+      <description>C Program to copy content of one File into another File We already know how to open a file, read contents of a file and write into a file. So in this program, we will read from one file and simultaneously write into the other file, till we reach end of first file.
+#include&amp;lt;stdio.h&amp;gt;#include&amp;lt;stdio.h&amp;gt; void main() { /* File_1.txt is the file with content and, File_2.txt is the file in which content of File_1 will be copied.</description>
+    </item>
+    
+    <item>
+      <title>C Program to copy string using strcpy() Function</title>
+      <link>https://example.com/c-program-to-copy-string-using-strcpy-function/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://example.com/c-program-to-copy-string-using-strcpy-function/</guid>
+      <description>C Program to copy string using strcpy() Function In this program we will copy one string into another, using the strcpy() method defined under the string.h library.
+strcpy(destination, source) is a system defined method used to copy the source string into the destination variable.
+Below is a program on strcpy() function.
+#include&amp;lt;stdio.h&amp;gt;#include&amp;lt;string.h&amp;gt; // for using strcpy() function int main() { printf(&amp;#34;\n\n\t\tC Programs\n\n\n&amp;#34;); char mj[100]; char aj[100]; printf(&amp;#34;\n\nstrcpy(destination, source): is a system defined method used to copy the source string into the destination.</description>
+    </item>
+    
+    <item>
+      <title>C Program to Count number of vowels in a String</title>
+      <link>https://example.com/c-program-to-count-number-of-vowels-in-a-string/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://example.com/c-program-to-count-number-of-vowels-in-a-string/</guid>
+      <description>C Program to Count number of vowels in a String Below is a program to count number of vowels in a given string.
+#include&amp;lt;stdio.h&amp;gt; // Global method declaration int count_vowels(char []); int check_vowel(char); int main() { printf(&amp;#34;\n\n\t\tC Programs\n\n\n&amp;#34;); char aj[100]; int mj; printf(&amp;#34;\n\nEnter a string : &amp;#34;); gets(aj); // inputting a string from user  mj = count_vowels(aj); // function call  printf(&amp;#34;\n\nNumber of vowels in string \&amp;#39;%s\&amp;#39;is: %d&amp;#34;, aj, mj); printf(&amp;#34;\n\n\n\n\t\t\tCoding is Fun !</description>
+    </item>
+    
+    <item>
+      <title>C Program to covert character to lowercase using tolower() Function</title>
+      <link>https://example.com/c-program-to-covert-character-to-lowercase-using-tolower-function/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://example.com/c-program-to-covert-character-to-lowercase-using-tolower-function/</guid>
+      <description>C Program to covert character to lowercase using tolower() Function In this program we will convert all the characters of an input string into string of lowercase characters. We will be using a system defined function tolower() defined under the ctype.h library.
+tolower() takes a character as an input and converts it into an equivalent lowercase character
+putchar() is used to print a single character at a time on the console.</description>
+    </item>
+    
+    <item>
+      <title>C Program to create a File &amp; write Data in it</title>
+      <link>https://example.com/c-program-to-create-a-file-write-data-in-it/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://example.com/c-program-to-create-a-file-write-data-in-it/</guid>
+      <description>C Program to create a File &amp;amp; write Data in it Below is a program to create a new file and then storing information in it.
+You can add any information in the file, like we have added Name, Age and Salary for some employees, you can change the program as per your requirements.
+You can even initialise a for loop, to add details of multiple employees to the file. All you have to do is, ask user for number of employees for which data has to be stored, run the for loop that many times and keep on adding the data to the file.</description>
+    </item>
+    
+    <item>
+      <title>C Program to create a Menu Driven software using Switch Case</title>
+      <link>https://example.com/c-program-to-create-a-menu-driven-software-using-switch-case/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://example.com/c-program-to-create-a-menu-driven-software-using-switch-case/</guid>
+      <description>C Program to create a Menu Driven software using Switch Case Below is a menu driven program using switch case.
+unsigned is doubled the size of signed as it only considers positive values.
+%lu is the format specifier for unsigned integer.
+A number divisible by an integer other than 1 and itself is called a composite number.
+#include&amp;lt;stdio.h&amp;gt; int main() { printf(&amp;#34;\n\n\t\tC Programs\n\n\n&amp;#34;); int choice, num, i; unsigned long int fact; while(1) { printf(&amp;#34;1.</description>
+    </item>
+    
+    <item>
+      <title>C Program to Display the current Date and Time</title>
+      <link>https://example.com/c-program-to-display-the-current-date-and-time/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://example.com/c-program-to-display-the-current-date-and-time/</guid>
+      <description>C Program to Display the current Date and Time Below is the program to display current date and time.
+#include&amp;lt;time.h&amp;gt; is used for time and ctime function and time_t datatype.
+#include&amp;lt;stdio.h&amp;gt;#include&amp;lt;time.h&amp;gt; int main() { printf(&amp;#34;\n\n\t\tC Programs\n\n\n&amp;#34;); time_t t; // not a primitive datatype  time(&amp;amp;t); printf(&amp;#34;\nThis program has been writeen at (date and time): %s&amp;#34;, ctime(&amp;amp;t)); printf(&amp;#34;\n\n\t\t\tCoding is Fun !\n\n\n&amp;#34;); return 0; } </description>
+    </item>
+    
+    <item>
+      <title>C Program to find GCD of N Numbers</title>
+      <link>https://example.com/c-program-to-find-gcd-of-n-numbers/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://example.com/c-program-to-find-gcd-of-n-numbers/</guid>
+      <description>C Program to find GCD of N Numbers Below is a program to find GCD of N user input numbers.
+#include&amp;lt;stdio.h&amp;gt; int main() { printf(&amp;#34;\n\n\t\tC Programs\n\n\n&amp;#34;); int x, y =- 1; printf(&amp;#34;Enter numbers. To exit enter 0\n&amp;#34;); while(1) // infinite loop to take input  { scanf(&amp;#34;%d&amp;#34;, &amp;amp;x); if(x &amp;lt; 1) break; else if(y ==- 1) // only 1 number entered, its GCD is itself  y = x; else if(x &amp;lt; y) y = gcd(x, y); else y = gcd(y, x); } printf(&amp;#34;\n\n\nGCD of all the entered number is: %d&amp;#34;, y); printf(&amp;#34;\n\n\t\t\tCoding is Fun !</description>
+    </item>
+    
+    <item>
+      <title>C Program to find GCD of two Numbers using Recursion</title>
+      <link>https://example.com/c-program-to-find-gcd-of-two-numbers-using-recursion/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://example.com/c-program-to-find-gcd-of-two-numbers-using-recursion/</guid>
+      <description>C Program to find GCD of two Numbers using Recursion Greatest Common Divisor(GCD) of two numbers is a number that divides both of them.
+Below is a program to the GCD of the two user input numbers using recursion.
+#include&amp;lt;stdio.h&amp;gt; // declaring the recursive function int find_gcd(int , int ); int main() { printf(&amp;#34;\n\n\t\tC Programs\n\n\n&amp;#34;); int a, b, gcd; printf(&amp;#34;\n\nEnter two numbers to find GCD of \n&amp;#34;); scanf(&amp;#34;%d%d&amp;#34;, &amp;amp;a, &amp;amp;b); gcd = find_gcd(a, b); printf(&amp;#34;\n\nGCD of %d and %d is: %d\n\n&amp;#34;, a, b, gcd); printf(&amp;#34;\n\n\t\t\tCoding is Fun !</description>
+    </item>
+    
+    <item>
+      <title>C Program to find LCM of two Numbers using Recursion</title>
+      <link>https://example.com/c-program-to-find-lcm-of-two-numbers-using-recursion/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://example.com/c-program-to-find-lcm-of-two-numbers-using-recursion/</guid>
+      <description>C Program to find LCM of two Numbers using Recursion LCM: Least Common Multiple of two numbers is the number that is a common multiple of the both the numbers.
+Below is a program to find LCM of two numbers using recursion.
+#include&amp;lt;stdio.h&amp;gt; int find_lcm(int, int); // function prototype declaration  int main() { printf(&amp;#34;\n\n\t\tC Programs\n\n\n&amp;#34;); int a, b, lcm; printf(&amp;#34;\n\nEnter 2 integers to find LCM of:\n&amp;#34;); scanf(&amp;#34;%d%d&amp;#34;, &amp;amp;a, &amp;amp;b); lcm = find_lcm(a,b); // function call  printf(&amp;#34;\n\nLCM of %d and %d is: %d\n\n&amp;#34;, a, b, lcm); printf(&amp;#34;\n\n\t\t\tCoding is Fun !</description>
+    </item>
+    
+    <item>
+      <title>C Program to Find Roots of Quadratic Equation</title>
+      <link>https://example.com/c-program-to-find-roots-of-quadratic-equation/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://example.com/c-program-to-find-roots-of-quadratic-equation/</guid>
+      <description>C Program to Find Roots of Quadratic Equation Below is a program to find roots of a quadratic equation.
+%.nf is used to limit the value of a decimal value to n decimal places.
+#include&amp;lt;stdio.h&amp;gt;#include&amp;lt;math.h&amp;gt; // This is needed to use sqrt() function int main() { printf(&amp;#34;\n\n\t\tC Programs\n\n\n&amp;#34;); float a, b, c, determinant, r1, r2, real, imag; printf(&amp;#34;\n\nEnter coefficients a, b and c: \n\n\n&amp;#34;); scanf(&amp;#34;%f%f%f&amp;#34;, &amp;amp;a, &amp;amp;b, &amp;amp;c); /* mathematical formula to know the nature of the roots */ determinant == b*b - 4*a*c; if(determinant &amp;gt; 0) // both roots are real  { r1 = (-b + sqrt(determinant))/2*a; // Brackets are important  r2 = (-b - sqrt(determinant))/2*a; printf(&amp;#34;\n\n\nRoots are: %.</description>
+    </item>
+    
+    <item>
+      <title>C program to find Sum of First and Last Digits of a Number</title>
+      <link>https://example.com/c-program-to-find-sum-of-first-and-last-digits-of-a-number/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://example.com/c-program-to-find-sum-of-first-and-last-digits-of-a-number/</guid>
+      <description>C program to find Sum of First and Last Digits of a Number Note: % or the mod operator is used to find the remainder of division operation.
+Below is a program to find sum of first and last digits of the user input number.
+#include&amp;lt;stdio.h&amp;gt; int main() { printf(&amp;#34;\n\n\t\tC Programs\n\n\n&amp;#34;); int input, firstNumber, lastNumber; printf(&amp;#34;Enter a number: &amp;#34;); scanf(&amp;#34;%d&amp;#34;, &amp;amp;input); /* gives remainder when the input value is divided by 10 i.</description>
+    </item>
+    
+    <item>
+      <title>C Program to find the Area and Circumference of a Circle</title>
+      <link>https://example.com/c-program-to-find-the-area-and-circumference-of-a-circle/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://example.com/c-program-to-find-the-area-and-circumference-of-a-circle/</guid>
+      <description>C Program to find the Area and Circumference of a Circle Below is a program to find the area and circumference of a circle.
+#include&amp;lt;stdio.h&amp;gt; int main() { printf(&amp;#34;\n\n\t\tC Programs\n\n\n&amp;#34;); int rad; float PI = 3.14, area, ci; printf(&amp;#34;\nEnter the radius of the circle: &amp;#34;); scanf(&amp;#34;%d&amp;#34;, &amp;amp;rad); area = PI*rad*rad; printf(&amp;#34;\n\n\nArea of the circle is: %f &amp;#34;, area); ci = 2*PI*rad; printf(&amp;#34;\n\n\nCircumference of the circle is: %f&amp;#34;, ci); printf(&amp;#34;\n\n\t\t\tCoding is Fun !</description>
+    </item>
+    
+    <item>
+      <title>C Program to find the Area of Triangle using Base and Height</title>
+      <link>https://example.com/c-program-to-find-the-area-of-triangle-using-base-and-height/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://example.com/c-program-to-find-the-area-of-triangle-using-base-and-height/</guid>
+      <description>C Program to find the Area of Triangle using Base and Height Below is a program to find the area of triangle using base and height.
+#include&amp;lt;stdio.h&amp;gt; int main() { printf(&amp;#34;\n\n\t\tC Programs\n\n\n&amp;#34;); int h, b; float area; printf(&amp;#34;\n\nEnter the height of the Triangle: &amp;#34;); scanf(&amp;#34;%d&amp;#34;, &amp;amp;h); printf(&amp;#34;\n\nEnter the base of the Triangle: &amp;#34;); scanf(&amp;#34;%d&amp;#34;, &amp;amp;b); /* Formula for the area of the triangle = (height x base)/2 Also, typecasting denominator from int to float to get the output in float */ area = (h*b)/(float)2; printf(&amp;#34;\n\n\nThe area of the triangle is: %f&amp;#34;, area); printf(&amp;#34;\n\n\t\t\tCoding is Fun !</description>
+    </item>
+    
+    <item>
+      <title>C Program to find the largest Element in an Array using Recursion</title>
+      <link>https://example.com/c-program-to-find-the-largest-element-in-an-array-using-recursion/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://example.com/c-program-to-find-the-largest-element-in-an-array-using-recursion/</guid>
+      <description>C Program to find the largest Element in an Array using Recursion Below is a program to find the largest array element in a given array using recursion.
+#define is used to initialize a value which is more like a constant.
+#include&amp;lt;stdio.h&amp;gt; #define MAX 100  int getMaxElement(int []); // takes array of int as parameter int size; int main() { printf(&amp;#34;\n\n\t\tC Programs\n\n\n&amp;#34;); int arr[MAX], max, i; printf(&amp;#34;\n\nEnter the size of the array: &amp;#34;); scanf(&amp;#34;%d&amp;#34;, &amp;amp;size); printf(&amp;#34;\n\nEnter %d elements\n\n&amp;#34;, size); for(i = 0; i &amp;lt; size; i++) { scanf(&amp;#34;%d&amp;#34;, &amp;amp;arr[i]); } max = getMaxElement(arr); // passing the complete array as parameter  printf(&amp;#34;\n\nLargest element of the array is %d\n\n&amp;#34;, max); printf(&amp;#34;\n\n\t\t\tCoding is Fun !</description>
+    </item>
+    
+    <item>
+      <title>C Program to find the Largest of Three Numbers</title>
+      <link>https://example.com/c-program-to-find-the-largest-of-three-numbers/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://example.com/c-program-to-find-the-largest-of-three-numbers/</guid>
+      <description>C Program to find the Largest of Three Numbers Below is a program to find the largest amongst the three user input numbers.
+#include&amp;lt;stdio.h&amp;gt; int main() { printf(&amp;#34;\n\n\t\tC Programs\n\n\n&amp;#34;); float a, b, c; printf(&amp;#34;Enter 3 numbers:\n\n&amp;#34;); scanf(&amp;#34;%f%f%f&amp;#34;, &amp;amp;a, &amp;amp;b, &amp;amp;c); if(a &amp;gt;= b &amp;amp;&amp;amp; a &amp;gt;= c) { /* %.3f prints the floating number upto 3 decimal places */ printf(&amp;#34;\n\nLargest number = %.3f &amp;#34;, a); } else if(b &amp;gt;= a &amp;amp;&amp;amp; b &amp;gt;= c) { printf(&amp;#34;\n\nLargest number is = %.</description>
+    </item>
+    
+    <item>
+      <title>C program to find the second Largest number among Three user input Numbers</title>
+      <link>https://example.com/c-program-to-find-the-second-largest-number-among-three-user-input-numbers/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://example.com/c-program-to-find-the-second-largest-number-among-three-user-input-numbers/</guid>
+      <description>C program to find the second Largest number among Three user input Numbers .2lf restricts the number till 2 decimal places
+Below is a program to find the second largest number out of the three user input numbers using nested if-else loops:
+#include&amp;lt;stdio.h&amp;gt; int main() { printf(&amp;#34;\n\n\t\tC Programs\n\n\n&amp;#34;); double a, b, c; printf(&amp;#34;Enter 3 numbers:\n&amp;#34;); scanf(&amp;#34;%lf%lf%lf&amp;#34;, &amp;amp;a, &amp;amp;b, &amp;amp;c); //lf is a format specifier to take double as input  // a is the largest  if(a &amp;gt;= b &amp;amp;&amp;amp; a &amp;gt;= c) { if(b &amp;gt;= c) { /* .</description>
+    </item>
+    
+    <item>
+      <title>C Program to find the Size of any File</title>
+      <link>https://example.com/c-program-to-find-the-size-of-any-file/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://example.com/c-program-to-find-the-size-of-any-file/</guid>
+      <description>C Program to find the Size of any File We will be using fseek() and ftell() functions to find the size of the file. There are others ways to find the file size as well, like looping on the whole content of file and finding out the size, but the File Handling functions makes it a lot easier.
+Below is a program to find size of file.
+#include&amp;lt;stdio.h&amp;gt;#include&amp;lt;conio.h&amp;gt; void main() { FILE *fp; char ch; int size = 0; fp = fopen(&amp;#34;MyFile.</description>
+    </item>
+    
+    <item>
+      <title>C Program to find whether a Number is Prime Or Composite using Recursion</title>
+      <link>https://example.com/c-program-to-find-whether-a-number-is-prime-or-composite-using-recursion/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://example.com/c-program-to-find-whether-a-number-is-prime-or-composite-using-recursion/</guid>
+      <description>C Program to find whether a Number is Prime Or Composite using Recursion Note: 1 is neither prime nor composite.</description>
+    </item>
+    
+    <item>
+      <title>C Program to identify a Leap Year</title>
+      <link>https://example.com/c-program-to-identify-a-leap-year/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://example.com/c-program-to-identify-a-leap-year/</guid>
+      <description>C Program to identify a Leap Year Below is a program to identify whether the user input year is a leap year or not.
+%nd is used to align the text, representing the values within n spaces with remaining leading by blank spaces.
+#include&amp;lt;stdio.h&amp;gt; int main() { printf(&amp;#34;\n\n\t\tC Programs\n\n\n&amp;#34;); int year; printf(&amp;#34;Enter the year to check if it is a leap year: &amp;#34;); scanf(&amp;#34;%d&amp;#34;, &amp;amp;year); // divisible by 4, 100 and 400  if(year%400 == 0) printf(&amp;#34;\n\n%d is a leap year\n&amp;#34;, year); // divisible by 100 and 4 and not divisible by 400  else if(year%100 == 0) printf(&amp;#34;\n\n%d is not a leap year\n&amp;#34;, year); // divisible only by 4 and not by 100  else if(year%4 == 0) { /* %0nd is used to represent the number in n digits with leading 0&amp;#39;s */ printf(&amp;#34;\n\n%07d is a leap year\n&amp;#34;, year); } // not divisible by 4  else printf(&amp;#34;\n\n%d is not a leap year\n&amp;#34;, year); printf(&amp;#34;\n\n\t\t\tCoding is Fun !</description>
+    </item>
+    
+    <item>
+      <title>C Program to Print names of all Files present in a Directory</title>
+      <link>https://example.com/c-program-to-print-names-of-all-files-present-in-a-directory/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://example.com/c-program-to-print-names-of-all-files-present-in-a-directory/</guid>
+      <description>C Program to Print names of all Files present in a Directory dirent.h header file contains variables and functions related to directory streams.
+Below is a program to print the names of all the files in a directory.
+We can also take the directory name as input from the user, and can also create a simple C program to search for a particular file in a directory.
+#include&amp;lt;stdio.h&amp;gt;#include&amp;lt;dirent.h&amp;gt; int main(void) { DIR *d; struct dirent *dir; d = opendir(&amp;#34;.</description>
+    </item>
+    
+    <item>
+      <title>C Program to Reverse a String using Pointer</title>
+      <link>https://example.com/c-program-to-reverse-a-string-using-pointer/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://example.com/c-program-to-reverse-a-string-using-pointer/</guid>
+      <description>C Program to Reverse a String using Pointer Below is a program to reverse a string using pointer:
+#include &amp;lt;stdio.h&amp;gt; int main() { printf(&amp;#34;\n\n\t\tC Programs\n\n\n&amp;#34;); char str[100]; char rev[100]; char *sptr = str; // sptr stores the base address of the str  char *rptr = rev; // rptr stores the base address of the reverse  int i = -1; printf(&amp;#34;\n\nEnter a string: &amp;#34;); scanf(&amp;#34;%s&amp;#34;, str); // storing the ending address of str in sptr  while(*sptr) { sptr++; i++; // i is the index of the end location  } // storing the string str in rev in reverse order  while(i &amp;gt;= 0) { /* First decrementing then using as it stores the location after the end location due to above while loop */ sptr--; *rptr = *sptr; // storing the value in sptr in rptr  rptr++; // pointing to next location  i--; // decrementing the index  } /* String should always end with &amp;#39;\0&amp;#39; so explicitly putting it at the end of the string */ *rptr = &amp;#39;\0&amp;#39;; rptr = rev; // restoring the base address of the reverse string  // storing the reverse string in the original string  while(*rptr) { *sptr = *rptr; sptr++; rptr++; } // printing the reverse string  printf(&amp;#34;\n\nReverse of the string is: %s &amp;#34;, str); printf(&amp;#34;\n\n\t\t\tCoding is Fun !</description>
+    </item>
+    
+    <item>
+      <title>C Program to reverse a string using strrev() Function</title>
+      <link>https://example.com/c-program-to-reverse-a-string-using-strrev-function/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://example.com/c-program-to-reverse-a-string-using-strrev-function/</guid>
+      <description>C Program to reverse a string using strrev() Function In this program we will compare strings using the strrev() defined within the string.h library. It can be used to check if the string is pallindrome or not by using this function along with the strcmp() function.
+Below is a program on strrev() function.
+#include&amp;lt;stdio.h&amp;gt;#include&amp;lt;string.h&amp;gt; int main() { printf(&amp;#34;\n\n\t\tC Programs\n\n\n&amp;#34;); char aj[1000]; printf(&amp;#34;\n\nstrrev(string): Function to reverse the string and storing in the same string.</description>
+    </item>
+    
+    <item>
+      <title>C Program to reverse the content of a File</title>
+      <link>https://example.com/c-program-to-reverse-the-content-of-a-file/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://example.com/c-program-to-reverse-the-content-of-a-file/</guid>
+      <description>C Program to reverse the content of a File Below is a program to reverse the contents of a file.
+#include&amp;lt;stdio.h&amp;gt;#include&amp;lt;errno.h&amp;gt; /* to count the total number of characters inside the source file */ long count_characters(FILE *); void main() { int i; long cnt; char ch, ch1; FILE *fp1, *fp2; if (fp1 = fopen(&amp;#34;File_1.txt&amp;#34;, &amp;#34;r&amp;#34;)) { printf(&amp;#34;The FILE has been opened...\n&amp;#34;); fp2 = fopen(&amp;#34;File_2.txt&amp;#34;, &amp;#34;w&amp;#34;); cnt = count_characters(fp1); /* Make the pointer fp1 to point at the last character of the file */ fseek(fp1, -1L, 2); printf(&amp;#34;Number of characters to be copied %d\n&amp;#34;, ftell(fp1)); while (cnt) { ch = fgetc(fp1); fputc(ch, fp2); fseek(fp1, -2L, 1); // shifts the pointer to the previous character  cnt--; } printf(&amp;#34;\n**File copied successfully in reverse order**\n&amp;#34;); } else { perror(&amp;#34;Error occured\n&amp;#34;); } fclose(fp1); fclose(fp2); } /* Count the total number of characters in the file that *f points to */ long count_characters(FILE *f) { fseek(f, -1L, 2); /* returns the position of the last element of the file */ long last_pos = ftell(f); last_pos++; return last_pos; } </description>
+    </item>
+    
+    <item>
+      <title>C program to show basic Arithmetic Operations and role of Typecasting</title>
+      <link>https://example.com/c-program-to-show-basic-arithmetic-operations-and-role-of-typecasting/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://example.com/c-program-to-show-basic-arithmetic-operations-and-role-of-typecasting/</guid>
+      <description>C program to show basic Arithmetic Operations and role of Typecasting Here we have 2 simple programs to showcase various basic arithmetic operations and how typecasting is handled by C language with and without explicitly using Typecasting in our program.
+Arithmetic Operations without Typecasting Below is a program to perform basic arithmetic operations without typecasting.
+#include&amp;lt;stdio.h&amp;gt; int main() { printf(&amp;#34;\n\n\t\tC Programs\n\n\n&amp;#34;); int a, b, add, subtract, multiply; float divide; printf(&amp;#34;Enter two integers: \n&amp;#34;); scanf(&amp;#34;%d%d&amp;#34;, &amp;amp;a, &amp;amp;b); add = a+b; subtract = a-b; multiply = a*b; divide = a/b; printf(&amp;#34;\nAddition of the numbers = %d\n&amp;#34;, add); printf(&amp;#34;Subtraction of 2nd number from 1st = %d\n&amp;#34;, subtract); printf(&amp;#34;Multiplication of the numbers = %d\n&amp;#34;, multiply); printf(&amp;#34;Dividing 1st number from 2nd = %f\n&amp;#34;, divide); printf(&amp;#34;\n\n\t\t\tCoding is Fun !</description>
+    </item>
+    
+    <item>
+      <title>C Program to Swap Two Numbers using Pointers</title>
+      <link>https://example.com/c-program-to-swap-two-numbers-using-pointers/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://example.com/c-program-to-swap-two-numbers-using-pointers/</guid>
+      <description>C Program to Swap Two Numbers using Pointers Below is a program to swap two numbers using pointers.
+#include&amp;lt;stdio.h&amp;gt; int main() { printf(&amp;#34;\n\n\t\tC Programs\n\n\n&amp;#34;); int a, b; int *ptra, *ptrb; int temp; printf(&amp;#34;Enter value for a: &amp;#34;); scanf(&amp;#34;%d&amp;#34;, &amp;amp;a); printf(&amp;#34;\n\nEnter value for b: &amp;#34;); scanf(&amp;#34;%d&amp;#34;, &amp;amp;b); printf(&amp;#34;\n\nThe values before swapping are: a = %d b = %d&amp;#34;, a, b); ptra = &amp;amp;a; // to store the location of a  ptrb = &amp;amp;b; // to store the location of b  temp = *ptra; // temp stores the value at location ptra  *ptra = *ptrb; // assigning value at location ptrb to ptra  *ptrb = temp; // assign value of themp to the variable at location ptrb  printf(&amp;#34;\n\nThe values after swapping are: a = %d b = %d&amp;#34;, a, b); printf(&amp;#34;\n\n\n\n\t\t\tCoding is Fun !</description>
+    </item>
+    
+    <item>
+      <title>C Program without a main() function</title>
+      <link>https://example.com/c-program-without-a-main-function/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://example.com/c-program-without-a-main-function/</guid>
+      <description>C Program without a main() function Below is a program without main().
+In the below program, main() function is there, but hidden using the preprocessors.
+As you can see in the second line, #define decode() function is used, which holds a character combination of m,a,i,n and is followed by ##m##a##i##n.
+Here ## operator is used to merge the characters in the order mentioned using ##, which is main
+In the 3rd line #define go decode(m,a,i,n) as we have specified the characters in same order, the decode function will assign value main for go.</description>
+    </item>
+    
+    <item>
+      <title>C Programs to showcase the conversion between various Number Systems</title>
+      <link>https://example.com/c-programs-to-showcase-the-conversion-between-various-number-systems/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://example.com/c-programs-to-showcase-the-conversion-between-various-number-systems/</guid>
+      <description>C Programs to showcase the conversion between various Number Systems Here we have multiple programs to showcase conversion between various Number systems like Binary to Decimal, Octal to Decimal, Decimal to Binary and we will even use recursion to help you understand how recursion can be used in such programs. So let&amp;rsquo;s start.
+Program to convert Binary to Decimal Equivalent Below is a program to convert binary number to its decimal equivalent.</description>
+    </item>
+    
+    <item>
+      <title>Checking for Odd and Even Numbers using Bitwise Operator</title>
+      <link>https://example.com/checking-for-odd-and-even-numbers-using-bitwise-operator/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://example.com/checking-for-odd-and-even-numbers-using-bitwise-operator/</guid>
+      <description>Checking for Odd and Even Numbers using Bitwise Operator Below is a program to find whether a number is even or odd using bitwise operator.
+x&amp;amp;1 returns true if the LSB(Least significant Bit) of binary representation of an integer x is 1. It returns false if the LSB or the Right most bit in a binary sequence is 0.
+In binary representation of an integer, if LSB is 1 then it is odd and if LSB is 0 then it is even.</description>
+    </item>
+    
+    <item>
+      <title>Difference between strlen() and sizeof() function</title>
+      <link>https://example.com/difference-between-strlen-and-sizeof-function/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://example.com/difference-between-strlen-and-sizeof-function/</guid>
+      <description>Difference between strlen() and sizeof() function Below is a program on strlen() and sizeof() function.
+strlen() is a system defined function that does not consider the null character \0.
+#include&amp;lt;stdio.h&amp;gt;#include&amp;lt;conio.h&amp;gt;#include&amp;lt;string.h&amp;gt; int main() { printf(&amp;#34;\n\n\t\tC Programs\n\n\n&amp;#34;); char aj[] = &amp;#34;C Programs&amp;#34;; int length1, length2; length1 = sizeof(aj); length2 = strlen(aj); // need to put in backslash infront to print the quote symbol  printf(&amp;#34;\n\n\nsizeof() of string \&amp;#34;C Programs\&amp;#34;returns %d and strlen() returns %d.</description>
+    </item>
+    
+    <item>
+      <title>Hello World Program</title>
+      <link>https://example.com/hello-world-program/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://example.com/hello-world-program/</guid>
+      <description>Hello World Program Below is a simple program printing Hello World in C language.
+printf() is a system defined function under the header file stdio.h, used to print data onto the screen
+\n is used to move the control onto the next line
+\t is used to give a horizontal tab i.e. continuous five spaces
+#include &amp;lt;stdio.h&amp;gt; int main() { printf(&amp;#34;\n\n\t\tC Programs\n\n\n&amp;#34;); int num; printf(&amp;#34;\nHello world!\nWelcome to C Programs: Best place to learn\n&amp;#34;); printf(&amp;#34;\n\n\t\t\tCoding is Fun !</description>
+    </item>
+    
+    <item>
+      <title>How to use gets() function</title>
+      <link>https://example.com/how-to-use-gets-function/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://example.com/how-to-use-gets-function/</guid>
+      <description>How to use gets() function Some of the important points about scanf() and gets() are:
+Below is a program on use of gets().
+gets() takes only a single line at a time i.e all the words before hitting \n(enter key).
+#include&amp;lt;stdio.h&amp;gt; int main() { printf(&amp;#34;\n\n\t\tC Programs\n\n\n&amp;#34;); char str[50]; // char array of size 50  printf(&amp;#34;Enter your complete name:\n\n\n&amp;#34;); gets(str); printf(&amp;#34;\n\nWelcome to C Programs %s\n\n\n&amp;#34;, str); printf(&amp;#34;\n\n\t\t\tCoding is Fun !\n\n\n&amp;#34;); return 0; } </description>
+    </item>
+    
+    <item>
+      <title>Null Pointer Program</title>
+      <link>https://example.com/null-pointer-program/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://example.com/null-pointer-program/</guid>
+      <description>Null Pointer Program Null pointer is a special reserved value of a pointer. A pointer of any type has this reserved value. Formally, each specific pointer type(int _, char _, etc) has its own dedicated null-pointer value. Conceptually, when a pointer has that Null value it is not pointing anywhere.
+Void pointer is a specific pointer type. void * which is a pointer that points to some data location in storage, which doesn&amp;rsquo;t have any specific type.</description>
+    </item>
+    
+    <item>
+      <title>Pointer Comparison in C</title>
+      <link>https://example.com/pointer-comparison-in-c/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://example.com/pointer-comparison-in-c/</guid>
+      <description>Pointer Comparison in C In C language pointers can be compared if the two pointers are pointing to the same array.
+All relational operators can be used for pointer comparison, but a pointer cannot Multiplied or Divided.
+Below is a program on pointer comparison for same type of pointer:
+#include &amp;lt;stdio.h&amp;gt; int main() { int *ptrA,*ptrB; ptrA = (int *)1; ptrB = (int *)2; if(ptr2 &amp;gt; ptr1) printf(&amp;#34;PtrB is greater than ptrA&amp;#34;); return(0); } Below is a program on pointer comparison for different type of pointer:</description>
+    </item>
+    
+    <item>
+      <title>Program for Dynamic Memory Allocation using malloc()</title>
+      <link>https://example.com/program-for-dynamic-memory-allocation-using-malloc/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://example.com/program-for-dynamic-memory-allocation-using-malloc/</guid>
+      <description>Program for Dynamic Memory Allocation using malloc() Below is a program on dynamic memory allocation using malloc() and clearing out memory space using free().
+sizeof() returns the number of bytes occupied by any datatype, in this case by an integer.
+#include &amp;lt;stdio.h&amp;gt; int main() { printf(&amp;#34;\n\n\t\tC Programs\n\n\n&amp;#34;); int n, i, *ptr, sum = 0; printf(&amp;#34;\n\nEnter number of elements: &amp;#34;); scanf(&amp;#34;%d&amp;#34;, &amp;amp;n); // dynamic memory allocation using malloc()  ptr = (int *) malloc(n*sizeof(int)); if(ptr == NULL) // if empty array  { printf(&amp;#34;\n\nError!</description>
+    </item>
+    
+    <item>
+      <title>Program to access Array of int Pointers</title>
+      <link>https://example.com/program-to-access-array-of-int-pointers/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://example.com/program-to-access-array-of-int-pointers/</guid>
+      <description>Program to access Array of int Pointers Below is a program to access an array of int pointers:
+#include &amp;lt;stdio.h&amp;gt;/* Global declaration. Value of a const variable cannot be changed throughout the execution of program */ const int MAX = 5; int main() { printf(&amp;#34;\n\n\t\tC Programs\n\n\n&amp;#34;); int var[]={10, 20, 30, 40, 50}; // initializing an array(here var) of int pointers  int i = 0; /* ptr is an array of int pointers i.</description>
+    </item>
+    
+    <item>
+      <title>Program to check if input character is a vowel using Switch Case</title>
+      <link>https://example.com/program-to-check-if-input-character-is-a-vowel-using-switch-case/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://example.com/program-to-check-if-input-character-is-a-vowel-using-switch-case/</guid>
+      <description>Program to check if input character is a vowel using Switch Case Below is a program to check vowel using switch case.
+#include&amp;lt;stdio.h&amp;gt; int main() { printf(&amp;#34;\n\n\t\tC Programs\n\n\n&amp;#34;); char ch; printf(&amp;#34;Input a Character : &amp;#34;); scanf(&amp;#34;%c&amp;#34;, &amp;amp;ch); switch(ch) { case &amp;#39;a&amp;#39;: case &amp;#39;A&amp;#39;: case &amp;#39;e&amp;#39;: case &amp;#39;E&amp;#39;: case &amp;#39;i&amp;#39;: case &amp;#39;I&amp;#39;: case &amp;#39;o&amp;#39;: case &amp;#39;O&amp;#39;: case &amp;#39;u&amp;#39;: case &amp;#39;U&amp;#39;: printf(&amp;#34;\n\n%c is a vowel.\n\n&amp;#34;, ch); break; default: printf(&amp;#34;%c is not a vowel.</description>
+    </item>
+    
+    <item>
+      <title>Program to check if input Number is int or float</title>
+      <link>https://example.com/program-to-check-if-input-number-is-int-or-float/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://example.com/program-to-check-if-input-number-is-int-or-float/</guid>
+      <description>Program to check if input Number is int or float Below is a program to check whether the user input number is of integer or float datatype.
+strlen() does not count the null character &amp;lsquo;\0&amp;rsquo;.
+#include&amp;lt;stdio.h&amp;gt; #include&amp;lt;conio.h&amp;gt;#include&amp;lt;string.h&amp;gt; int main() { printf(&amp;#34;\n\n\t\tC Programs\n\n\n&amp;#34;); char number[10]; int flag = 0; int length, i = 0; printf(&amp;#34;\n\nEnter a number: &amp;#34;); scanf(&amp;#34;%s&amp;#34;, number); length = strlen(number); // till string does not end  while(number[i++] !</description>
+    </item>
+    
+    <item>
+      <title>Program to check whether a Number is a Palindrome</title>
+      <link>https://example.com/program-to-check-whether-a-number-is-a-palindrome/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://example.com/program-to-check-whether-a-number-is-a-palindrome/</guid>
+      <description>Program to check whether a Number is a Palindrome Below is a program to check whether a number is a palindrome or not.
+A palindrome is a number or a string which is similar when read from the front and from the rear. For example: 121 or Oppo etc.
+#include&amp;lt;stdio.h&amp;gt;#include&amp;lt;conio.h&amp;gt; void main() { int a, b, c, s = 0; clrscr(); printf(&amp;#34;Enter a number:\t&amp;#34;); scanf(&amp;#34;%d&amp;#34;, &amp;amp;a;); c = a; // the number is reversed inside the while loop.</description>
+    </item>
+    
+    <item>
+      <title>Program to check whether a two dimensional array is a Sparse Matrix</title>
+      <link>https://example.com/program-to-check-whether-a-two-dimensional-array-is-a-sparse-matrix/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://example.com/program-to-check-whether-a-two-dimensional-array-is-a-sparse-matrix/</guid>
+      <description>Program to check whether a two dimensional array is a Sparse Matrix A Sparse Matrix is a matrix(two-dimensional array) in which number of 0&amp;rsquo;s is greater than the number of non-zero elements.
+Below is a program to check whether a matrix is sparse or not.
+#include&amp;lt;stdio.h&amp;gt; int main() { printf(&amp;#34;\n\n\t\tC Programs\n\n\n&amp;#34;); int n, m, c, d, matrix[10][10]; int counter = 0; printf(&amp;#34;\nEnter the number of rows and columns of the matrix \n\n&amp;#34;); scanf(&amp;#34;%d%d&amp;#34;,&amp;amp;m,&amp;amp;n); printf(&amp;#34;\nEnter the %d elements of the matrix \n\n&amp;#34;, m*n); for(c = 0; c &amp;lt; m; c++) // to iterate the rows  { for(d = 0; d &amp;lt; n; d++) // to iterate the columns  { scanf(&amp;#34;%d&amp;#34;, &amp;amp;matrix[c][d]); if(matrix[c][d] == 0) counter++; // same as counter=counter +1  } } // printing the matrix  printf(&amp;#34;\n\nThe entered matrix is: \n\n&amp;#34;); for(c = 0; c &amp;lt; m; c++) // to iterate the rows  { for(d = 0; d &amp;lt; n; d++) // to iterate the columns  { printf(&amp;#34;%d\t&amp;#34;, matrix[c][d]); } printf(&amp;#34;\n&amp;#34;); // to take the control to the next row  } // checking if the matrix is sparse or not  if(counter &amp;gt; (m*n)/2) printf(&amp;#34;\n\nThe entered matrix is a sparse matrix\n\n&amp;#34;); else printf(&amp;#34;\n\nThe entered matrix is not a sparse matrix\n\n&amp;#34;); printf(&amp;#34;\n\n\t\t\tCoding is Fun !</description>
+    </item>
+    
+    <item>
+      <title>Program to check whether given Square Matrix is symmetric or not</title>
+      <link>https://example.com/program-to-check-whether-given-square-matrix-is-symmetric-or-not/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://example.com/program-to-check-whether-given-square-matrix-is-symmetric-or-not/</guid>
+      <description>Program to check whether given Square Matrix is symmetric or not Few important points to remember:
+Below is a program to check whether sqaure matrix is symmetric or not.
+#include&amp;lt;stdio.h&amp;gt; int main() { printf(&amp;#34;\n\n\t\tC Programs\n\n\n&amp;#34;); int c, d, a[10][10], b[10][10], n, temp; printf(&amp;#34;\nEnter the dimension of the matrix: \n\n&amp;#34;); scanf(&amp;#34;%d&amp;#34;, &amp;amp;n); printf(&amp;#34;\nEnter the %d elements of the matrix: \n\n&amp;#34;,n*n); for(c = 0; c &amp;lt; n; c++) // to iterate the rows  for(d = 0; d &amp;lt; n; d++) // to iterate the columns  scanf(&amp;#34;%d&amp;#34;, &amp;amp;a[c][d]); // finding transpose of a matrix and storing it in b[][]  for(c = 0; c &amp;lt; n; c++) // to iterate the rows  for(d = 0; d &amp;lt; n; d++) //to iterate the columns  b[d][c] = a[c][d]; // printing the original matrix  printf(&amp;#34;\n\nThe original matrix is: \n\n&amp;#34;); for(c = 0; c &amp;lt; n; c++) // to iterate the rows  { for(d = 0; d &amp;lt; n; d++) // to iterate the columns  { printf(&amp;#34;%d\t&amp;#34;, a[c][d]); } printf(&amp;#34;\n&amp;#34;); } // printing the transpose of the entered matrix  printf(&amp;#34;\n\nThe Transpose matrix is: \n\n&amp;#34;); for(c = 0; c &amp;lt; n; c++) // to iterate the rows  { for(d = 0; d &amp;lt; n; d++) // to iterate the columns  { printf(&amp;#34;%d\t&amp;#34;, b[c][d]); } printf(&amp;#34;\n&amp;#34;); } // checking if the original matrix is same as its transpose  for(c = 0; c &amp;lt; n; c++) // to iterate the rows  { for(d = 0; d &amp;lt; n; d++) // to iterate the columns  { /* even if they differ by a single element, the matrix is not symmetric */ if(a[c][d] !</description>
+    </item>
+    
+    <item>
+      <title>Program to Delete an Element from Array in C</title>
+      <link>https://example.com/program-to-delete-an-element-from-array-in-c/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://example.com/program-to-delete-an-element-from-array-in-c/</guid>
+      <description>Program to Delete an Element from Array in C Below is a simple program to delete an element from array, where the position of element to be deleted is given by user.
+#include&amp;lt;stdio.h&amp;gt; int main() { printf(&amp;#34;\n\n\t\tC Programs\n\n\n&amp;#34;); int array[100], position, c, n; printf(&amp;#34;\n\nEnter number of elements in array:&amp;#34;); scanf(&amp;#34;%d&amp;#34;, &amp;amp;n); printf(&amp;#34;\n\nEnter %d elements\n&amp;#34;, n); for(c = 0; c &amp;lt; n; c++) scanf(&amp;#34;%d&amp;#34;, &amp;amp;array[c]); printf(&amp;#34;\n\nEnter the location where you want to delete element from: &amp;#34;); scanf(&amp;#34;%d&amp;#34;, &amp;amp;position); if(position &amp;gt;= n+1) printf(&amp;#34;\n\nDeletion not possible\n\n&amp;#34;); else // updating the locations with next elements  for(c = position-1; c &amp;lt; n-1; c++) array[c] = array[c+1]; printf(&amp;#34;\n\nResultant array is: &amp;#34;); /* the array size gets reduced by 1 after deletion of the element */ for(c = 0; c &amp;lt; n-1; c++) printf(&amp;#34;%d &amp;#34;, array[c]); printf(&amp;#34;\n\n\t\t\tCoding is Fun !</description>
+    </item>
+    
+    <item>
+      <title>Program to find Armstrong Number between 1 to 500</title>
+      <link>https://example.com/program-to-find-armstrong-number-between-1-to-500/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://example.com/program-to-find-armstrong-number-between-1-to-500/</guid>
+      <description>Program to find Armstrong Number between 1 to 500 An Armstrong number or Narcissistic number is a n digit number such that the sum of its digits raised to the nth power is equal to the number itself.
+For example, Let&amp;rsquo;s take an armstrong number: 153, which is 3 digit number, here 13 + 53 + 33 is 1 + 125 + 27 which is equal to 153.
+Below is a program to find armstrong numbers between 1 to 500.</description>
+    </item>
+    
+    <item>
+      <title>Program to find average of N Numbers</title>
+      <link>https://example.com/program-to-find-average-of-n-numbers/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://example.com/program-to-find-average-of-n-numbers/</guid>
+      <description>Program to find average of N Numbers Below is a program to calculate average of n numbers.
+#include&amp;lt;stdio.h&amp;gt; int main() { printf(&amp;#34;\n\n\t\tC Programs\n\n\n&amp;#34;); int n, i; float sum = 0, x; printf(&amp;#34;Enter number of elements: &amp;#34;); scanf(&amp;#34;%d&amp;#34;, &amp;amp;n); printf(&amp;#34;\n\n\nEnter %d elements\n\n&amp;#34;, n); for(i = 0; i &amp;lt; n; i++) { scanf(&amp;#34;%f&amp;#34;, &amp;amp;x); sum += x; } printf(&amp;#34;\n\n\nAverage of the entered numbers is = %f&amp;#34;, (sum/n)); printf(&amp;#34;\n\n\n\n\t\t\tCoding is Fun !\n\n\n&amp;#34;); return 0; } </description>
+    </item>
+    
+    <item>
+      <title>Program to find Deteminant of 2x2 Matrix</title>
+      <link>https://example.com/program-to-find-deteminant-of-2x2-matrix/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://example.com/program-to-find-deteminant-of-2x2-matrix/</guid>
+      <description>Program to find Deteminant of 2x2 Matrix Below is a program to find the determinant of a 2x2 matrix.
+Please note that, when we say a 2x2 matrix, we mean an array of 2x2.
+#include&amp;lt;stdio.h&amp;gt; int main() { printf(&amp;#34;\n\n\t\tC Programs\n\n\n&amp;#34;); int a[2][2], i, j; long determinant; printf(&amp;#34;\n\nEnter the 4 elements of the array\n&amp;#34;); for(i = 0; i &amp;lt; 2; i++) for(j = 0; j &amp;lt; 2; j++) scanf(&amp;#34;%d&amp;#34;, &amp;amp;a[i][j]); printf(&amp;#34;\n\nThe entered matrix is: \n\n&amp;#34;); for(i = 0; i &amp;lt; 2; i++) { for(j = 0; j &amp;lt; 2; j++) { printf(&amp;#34;%d\t&amp;#34;, a[i][j]); // to print the complete row  } printf(&amp;#34;\n&amp;#34;); // to move to the next row  } // finding the determinant of a 2x2 matrix  determinant = a[0][0]*a[1][1] - a[1][0]*a[0][1]; printf(&amp;#34;\n\nDterminant of 2x2 matrix is : %d - %d = %d&amp;#34;, a[0][0]*a[1][1], a[1][0]*a[0][1], determinant); printf(&amp;#34;\n\n\t\t\tCoding is Fun !</description>
+    </item>
+    
+    <item>
+      <title>Program to find exponential without using pow() method</title>
+      <link>https://example.com/program-to-find-exponential-without-using-pow-method/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://example.com/program-to-find-exponential-without-using-pow-method/</guid>
+      <description>Program to find exponential without using pow() method Below is a program to find exponential without using pow() method.
+long long int is of double the size of long int.
+%lld is the format specifier for long long int.
+#include&amp;lt;stdio.h&amp;gt;int main() { printf(&amp;#34;\n\n\t\tC Programs\n\n\n&amp;#34;); int n, exp, exp1; long long int value = 1; printf(&amp;#34;Enter the number and its exponential:\n\n&amp;#34;); scanf(&amp;#34;%d%d&amp;#34;,&amp;amp;n, &amp;amp;exp); exp1 = exp; // storing original value for future use  // same as while((--exp)!</description>
+    </item>
+    
+    <item>
+      <title>Program to find Factorial of a Number using Recursion</title>
+      <link>https://example.com/program-to-find-factorial-of-a-number-using-recursion/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://example.com/program-to-find-factorial-of-a-number-using-recursion/</guid>
+      <description>Program to find Factorial of a Number using Recursion Below is a program for finding factorial of a given number using recursion.
+#include&amp;lt;stdio.h&amp;gt;// declaring the function int fact(int); int main() { printf(&amp;#34;\n\n\t\tC Programs\n\n\n&amp;#34;); int num, f; printf(&amp;#34;\n\nEnter a number: &amp;#34;); scanf(&amp;#34;%d&amp;#34;, &amp;amp;num); f= fact(num); printf(&amp;#34;\n\nFactorial of %d is %d\n\n&amp;#34;, num, f); printf(&amp;#34;\n\n\t\t\tCoding is Fun !\n\n\n&amp;#34;); return 0; } int fact(int aj) { if(aj==1 || aj==0) return 1; else return (aj*fact(aj-1)); } </description>
+    </item>
+    
+    <item>
+      <title>Program to find Factors of a Number</title>
+      <link>https://example.com/program-to-find-factors-of-a-number/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://example.com/program-to-find-factors-of-a-number/</guid>
+      <description>Program to find Factors of a Number Below is a program to find factors of a number.
+#include&amp;lt;stdio.h&amp;gt; int main() { printf(&amp;#34;\n\n\t\tC Programs\n\n\n&amp;#34;); int num, i; printf(&amp;#34;Enter the number to find the factors of : &amp;#34;); scanf(&amp;#34;%d&amp;#34;,&amp;amp;num); printf(&amp;#34;\n\n\nFactors of %d are \n\n&amp;#34;, num); for(i = 1; i &amp;lt;= num/2; i++) { if(num%i == 0) printf(&amp;#34;\t\t\t%d\n&amp;#34;, i); } printf(&amp;#34;\n\n\n\n\t\t\tCoding is Fun !\n\n\n&amp;#34;); return 0; } </description>
+    </item>
+    
+    <item>
+      <title>Program to find first N Prime Numbers</title>
+      <link>https://example.com/program-to-find-first-n-prime-numbers/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://example.com/program-to-find-first-n-prime-numbers/</guid>
+      <description>Program to find first N Prime Numbers Below is a program to find first n prime numbers using nested for loops, where the value of n is input by the user.
+#include&amp;lt;stdio.h&amp;gt; int main() { printf(&amp;#34;\n\n\t\tC Programs\n\n\n&amp;#34;); int n,i = 3, count, c; printf(&amp;#34;\nEnter the number of prime numbers required : &amp;#34;); scanf(&amp;#34;%d&amp;#34;, &amp;amp;n); if(n &amp;gt;= 1) { printf(&amp;#34;\n\nFirst %d prime numbers are : &amp;#34;, n); printf(&amp;#34;2 &amp;#34;); } // iteration for n prime numbers  // i is the number to be checked in each iteration starting from 3  for(count = 2; count &amp;lt;= n; i++) { // iteration to check c is prime or not  for(c = 2; c &amp;lt; i; c++) { if(i%c == 0) break; } if(c == i) // c is prime  { printf(&amp;#34;%d &amp;#34;, i); count++; // increment the count of prime numbers  } } printf(&amp;#34;\n\n\n\n\t\t\tCoding is Fun !</description>
+    </item>
+    
+    <item>
+      <title>Program to find Largest and Smallest Element in an Array</title>
+      <link>https://example.com/program-to-find-largest-and-smallest-element-in-an-array/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://example.com/program-to-find-largest-and-smallest-element-in-an-array/</guid>
+      <description>Program to find Largest and Smallest Element in an Array Below is a program to find the largest and smallest elements in array.
+#include&amp;lt;stdio.h&amp;gt; int main() { printf(&amp;#34;\n\n\t\tC Programs\n\n\n&amp;#34;); int a[50], size, i, big, small; printf(&amp;#34;\nEnter the size of the array: &amp;#34;); scanf(&amp;#34;%d&amp;#34;, &amp;amp;size); printf(&amp;#34;\n\nEnter the %d elements of the array: \n\n&amp;#34;, size); for(i = 0; i &amp;lt; size; i++) scanf(&amp;#34;%d&amp;#34;, &amp;amp;a[i]); big = a[0]; // initializing  /* from 2nd element to the last element find the bigger element than big and update the value of big */ for(i = 1; i &amp;lt; size; i++) { if(big &amp;lt; a[i]) // if larger value is encountered  { big = a[i]; // update the value of big  } } printf(&amp;#34;\n\nThe largest element is: %d&amp;#34;, big); small = a[0]; // initializing  /* from 2nd element to the last element find the smaller element than small and update the value of small */ for(i = 1; i &amp;lt; size; i++) { if(small&amp;gt;a[i]) // if smaller value is encountered  { small = a[i]; // update the value of small  } } printf(&amp;#34;\n\nThe smallest element is: %d&amp;#34;, small); printf(&amp;#34;\n\n\t\t\tCoding is Fun !</description>
+    </item>
+    
+    <item>
+      <title>Program to find Normal and Trace of a Square Matrix</title>
+      <link>https://example.com/program-to-find-normal-and-trace-of-a-square-matrix/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://example.com/program-to-find-normal-and-trace-of-a-square-matrix/</guid>
+      <description>Program to find Normal and Trace of a Square Matrix Few important points to remember:
+Let&amp;rsquo;s have a simple example to understand these terms better:
+Below is a program to find Normal and Trace of Square Matrix.
+#include&amp;lt;stdio.h&amp;gt;/* to use the sqrt method to find the square root of a number we include math.h header file */ #include&amp;lt;math.h&amp;gt; int main() { printf(&amp;#34;\n\n\t\tC Programs\n\n\n&amp;#34;); int i, j, n, aj[10][10], sum = 0, sum1 = 0, a = 0, normal; printf(&amp;#34;\nEnter the number of rows (columns) of the matrix: \n\n&amp;#34;); scanf(&amp;#34;%d&amp;#34;, &amp;amp;n); printf(&amp;#34;\nEnter the %d elements of the first matrix: \n\n&amp;#34;, n*n); for(i = 0; i &amp;lt; n; i++) // to iterate the rows  { for(j = 0; j &amp;lt; n; j++) // to iterate the columns  { scanf(&amp;#34;%d&amp;#34;, &amp;amp;aj[i][j]); a = aj[i][j]*aj[i][j]; // finding square of each element  sum1 += a; // same as sum1 = sum1 + a  } } normal = sqrt((double)sum1); // typecasting to double value  printf(&amp;#34;\n\nThe normal of the given matrix is: %d&amp;#34;, normal); for(i = 0; i &amp;lt; n; i++) { sum = sum + aj[i][i]; // sum of the diagonal elements  } printf(&amp;#34;\n\nThe Trace of the given matrix is: %d&amp;#34;, sum); printf(&amp;#34;\n\n\t\t\tCoding is Fun !</description>
+    </item>
+    
+    <item>
+      <title>Program to find Palindrome using Recursion</title>
+      <link>https://example.com/program-to-find-palindrome-using-recursion/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://example.com/program-to-find-palindrome-using-recursion/</guid>
+      <description>Program to find Palindrome using Recursion A Palindrome is a sequence that if reversed looks identical to the original sequence Eg : abba, level, 999 etc.
+Below is a simple C program to find whether the user input number is a palindrome or not using recursion:
+#include&amp;lt;stdio.h&amp;gt; // declaring the recursive function int isPal(int ); /* global declaration to use the same value in both the functions */ int n; int main() { printf(&amp;#34;\n\n\t\tC Programs\n\n\n&amp;#34;); int palindrome; printf(&amp;#34;\n\nEnter a number to check for Palindrome: &amp;#34;); scanf(&amp;#34;%d&amp;#34;, &amp;amp;n); palindrome = isPal(n); if(palindrome == 1) printf(&amp;#34;\n\n\n%d is palindrome\n\n&amp;#34;, n); else printf(&amp;#34;\n\n\n%d is not palindrome\n\n&amp;#34;, n); printf(&amp;#34;\n\n\t\t\tCoding is Fun !</description>
+    </item>
+    
+    <item>
+      <title>Program to find Sum of Digits of a Number</title>
+      <link>https://example.com/program-to-find-sum-of-digits-of-a-number/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://example.com/program-to-find-sum-of-digits-of-a-number/</guid>
+      <description>Program to find Sum of Digits of a Number Below is a program for sum of digits of a number.
+#include&amp;lt;stdio.h&amp;gt; int main() { printf(&amp;#34;\n\n\t\tC Programs\n\n\n&amp;#34;); int n, sum = 0, c, remainder; printf(&amp;#34;Enter the number you want to add digits of: &amp;#34;); scanf(&amp;#34;%d&amp;#34;, &amp;amp;n); while(n != 0) { remainder = n%10; sum += remainder; n = n/10; } printf(&amp;#34;\n\nSum of the digits of the entered number is = %d\n\n&amp;#34;, sum); printf(&amp;#34;\n\n\n\n\t\t\tCoding is Fun !</description>
+    </item>
+    
+    <item>
+      <title>Program to find Sum of digits of a Number using Recursion</title>
+      <link>https://example.com/program-to-find-sum-of-digits-of-a-number-using-recursion/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://example.com/program-to-find-sum-of-digits-of-a-number-using-recursion/</guid>
+      <description>Program to find Sum of digits of a Number using Recursion Below is a program to find sum of digits of a given number using recursion.
+#include&amp;lt;stdio.h&amp;gt;#include&amp;lt;conio.h&amp;gt; //declaring the recursive function int sumOfDigit(int num); void main() { int num, sum; clrscr(); printf(&amp;#34;Enter a number:\t&amp;#34;); scanf(&amp;#34;%d&amp;#34;, &amp;amp;num;); sum = sumOfDigit(num); printf(&amp;#34;The sum of digits of %d is: %d&amp;#34;, num, sum); getch(); } int sumOfDigit(int num) { int s, a; s = s + (num%10); a = num/10; if(a &amp;gt; 0) { sumOfDigit(a); } return s; } </description>
+    </item>
+    
+    <item>
+      <title>Program to find Sum of First N Numbers</title>
+      <link>https://example.com/program-to-find-sum-of-first-n-numbers/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://example.com/program-to-find-sum-of-first-n-numbers/</guid>
+      <description>Program to find Sum of First N Numbers Below is a program to find sum of the first n numbers using recursion, where the value of n is provided by the user.
+#include&amp;lt;stdio.h&amp;gt;// declaring the recursive function int getSum(int); int main() { printf(&amp;#34;\n\n\t\tC Programs\n\n\n&amp;#34;); int n, sum; printf(&amp;#34;\n\nEnter the range of n: &amp;#34;); scanf(&amp;#34;%d&amp;#34;, &amp;amp;n); sum = getSum(n); printf(&amp;#34;\n\nThe sum of first %d numbers is %d\n&amp;#34;, n, sum); printf(&amp;#34;\n\n\t\t\tCoding is Fun !</description>
+    </item>
+    
+    <item>
+      <title>Program to find Sum of N input Numbers in C</title>
+      <link>https://example.com/program-to-find-sum-of-n-input-numbers-in-c/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://example.com/program-to-find-sum-of-n-input-numbers-in-c/</guid>
+      <description>Program to find Sum of N input Numbers in C Below is a program on sum of n numbers.
+#include&amp;lt;stdio.h&amp;gt; int main() { printf(&amp;#34;\n\n\t\tC Programs\n\n\n&amp;#34;); int n,sum=0,c,value; printf(&amp;#34;\n\nEnter the number of integers you want to add: &amp;#34;); scanf(&amp;#34;%d&amp;#34;, &amp;amp;n); printf(&amp;#34;Enter %d integers\n\n&amp;#34;,n); for(c = 1; c &amp;lt;= n; c++) { scanf(&amp;#34;%d&amp;#34;, &amp;amp;value); /* need to initialise sum before using otherwise garbage value will get printed */ sum += value; } printf(&amp;#34;\n\n\nsum of entered numbers = %d&amp;#34;, sum); printf(&amp;#34;\n\n\t\t\tCoding is Fun !</description>
+    </item>
+    
+    <item>
+      <title>Program to find Sum of N input Numbers using Array</title>
+      <link>https://example.com/program-to-find-sum-of-n-input-numbers-using-array/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://example.com/program-to-find-sum-of-n-input-numbers-using-array/</guid>
+      <description>Program to find Sum of N input Numbers using Array Below is a program to find and print the sum of n numbers using arrays.
+#include&amp;lt;stdio.h&amp;gt; int main() { printf(&amp;#34;\n\n\t\tC Programs\n\n\n&amp;#34;); int n, sum = 0, c, array[100]; printf(&amp;#34;Enter the number of integers you want to add: &amp;#34;); scanf(&amp;#34;%d&amp;#34;, &amp;amp;n); printf(&amp;#34;\n\nEnter %d integers \n\n&amp;#34;, n); for(c = 0; c &amp;lt; n; c++) { scanf(&amp;#34;%d&amp;#34;, &amp;amp;array[c]); sum += array[c]; // same as sum = sum + array[c]  } printf(&amp;#34;\n\nSum = %d\n\n&amp;#34;, sum); printf(&amp;#34;\n\n\t\t\tCoding is Fun !</description>
+    </item>
+    
+    <item>
+      <title>Program to find the Largest number among n input Numbers</title>
+      <link>https://example.com/program-to-find-the-largest-number-among-n-input-numbers/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://example.com/program-to-find-the-largest-number-among-n-input-numbers/</guid>
+      <description>Program to find the Largest number among n input Numbers Below is a program to find largest number among n user input numbers.
+#include&amp;lt;stdio.h&amp;gt; int main() { printf(&amp;#34;\n\n\t\tC Programs\n\n\n&amp;#34;); int n,i; float c,big; printf(&amp;#34;\n\nEnter the number of elements you wish to find the greatest element of: &amp;#34;); scanf(&amp;#34;%d&amp;#34;, &amp;amp;n); printf(&amp;#34;\n\nEnter %d numbers :\n&amp;#34;, n); printf(&amp;#34;\n\n\t\t\tElement 1: &amp;#34;); //Important step- always initialize big to the first element  scanf(&amp;#34;%f&amp;#34;, &amp;amp;big); for(i = 2; i &amp;lt;= n; i++) { printf(&amp;#34;\n\t\t\tElement %d : &amp;#34;, i); scanf(&amp;#34;%f&amp;#34;, &amp;amp;c); /* if input number is larger than the current largest number */ if(big &amp;lt; c) big = c; // update big to the larger value  } printf(&amp;#34;\n\n\nThe largest of the %d numbers is %f &amp;#34;, n, big); printf(&amp;#34;\n\n\n\n\t\t\tCoding is Fun !</description>
+    </item>
+    
+    <item>
+      <title>Program to insert an element in an Array</title>
+      <link>https://example.com/program-to-insert-an-element-in-an-array/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://example.com/program-to-insert-an-element-in-an-array/</guid>
+      <description>Program to insert an element in an Array Below is a simple program to insert an element in an array.
+In the above program we take an array as user input and then ask the user for a new number that they wish to add to the original array, and the position where they want to add the new number.
+The we shift the existing numbers from the index position to the end of the array one position to the right, therby vacating a space for the new element.</description>
+    </item>
+    
+    <item>
+      <title>Program to perform addition and subtraction of Matrices</title>
+      <link>https://example.com/program-to-perform-addition-and-subtraction-of-matrices/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://example.com/program-to-perform-addition-and-subtraction-of-matrices/</guid>
+      <description>Program to perform addition and subtraction of Matrices Below is a program to perform Addition and Subtraction on two matrices.
+\n is used to take the control to the next row.
+\t is used to take control 5 spaces(tab) ahead.
+#include&amp;lt;stdio.h&amp;gt; int main() { printf(&amp;#34;\n\n\t\tC Programs\n\n\n&amp;#34;); int n, m, c, d, first[10][10], second[10][10], sum[10][10], diff[10][10]; printf(&amp;#34;\nEnter the number of rows and columns of the first matrix \n\n&amp;#34;); scanf(&amp;#34;%d%d&amp;#34;, &amp;amp;m, &amp;amp;n); printf(&amp;#34;\nEnter the %d elements of the first matrix \n\n&amp;#34;, m*n); for(c = 0; c &amp;lt; m; c++) // to iterate the rows  for(d = 0; d &amp;lt; n; d++) // to iterate the columns  scanf(&amp;#34;%d&amp;#34;, &amp;amp;first[c][d]); printf(&amp;#34;\nEnter the %d elements of the second matrix \n\n&amp;#34;, m*n); for(c = 0; c &amp;lt; m; c++) // to iterate the rows  for(d = 0; d &amp;lt; n; d++) // to iterate the columns  scanf(&amp;#34;%d&amp;#34;, &amp;amp;second[c][d]); /* printing the first matrix */ printf(&amp;#34;\n\nThe first matrix is: \n\n&amp;#34;); for(c = 0; c &amp;lt; m; c++) // to iterate the rows  { for(d = 0; d &amp;lt; n; d++) // to iterate the columns  { printf(&amp;#34;%d\t&amp;#34;, first[c][d]); } printf(&amp;#34;\n&amp;#34;); } /* printing the second matrix */ printf(&amp;#34;\n\nThe second matrix is: \n\n&amp;#34;); for(c = 0; c &amp;lt; m; c++) // to iterate the rows  { for(d = 0; d &amp;lt; n; d++) // to iterate the columns  { printf(&amp;#34;%d\t&amp;#34;, second[c][d]); } printf(&amp;#34;\n&amp;#34;); } /* finding the SUM of the two matrices and storing in another matrix sum of the same size */ for(c = 0; c &amp;lt; m; c++) for(d = 0; d &amp;lt; n; d++) sum[c][d] = first[c][d] + second[c][d]; // printing the elements of the sum matrix  printf(&amp;#34;\n\nThe sum of the two entered matrices is: \n\n&amp;#34;); for(c = 0; c &amp;lt; m; c++) { for(d = 0; d &amp;lt; n; d++) { printf(&amp;#34;%d\t&amp;#34;, sum[c][d]); } printf(&amp;#34;\n&amp;#34;); } /* finding the DIFFERENCE of the two matrices and storing in another matrix difference of the same size */ for(c = 0; c &amp;lt; m; c++) for(d = 0; d &amp;lt; n; d++) diff[c][d] = first[c][d] - second[c][d]; // printing the elements of the diff matrix  printf(&amp;#34;\n\nThe difference(subtraction) of the two entered matrices is: \n\n&amp;#34;); for(c = 0; c &amp;lt; m; c++) { for(d = 0; d &amp;lt; n; d++) { printf(&amp;#34;%d\t&amp;#34;, diff[c][d]); } printf(&amp;#34;\n&amp;#34;); } printf(&amp;#34;\n\n\t\t\tCoding is Fun !</description>
+    </item>
+    
+    <item>
+      <title>Program to print Factorial of a Number</title>
+      <link>https://example.com/program-to-print-factorial-of-a-number/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://example.com/program-to-print-factorial-of-a-number/</guid>
+      <description>Program to print Factorial of a Number #include&amp;lt;stdio.h&amp;gt;#include&amp;lt;conio.h&amp;gt;void main() { int fact, i, n; fact = 1; printf(&amp;#34;Enter the number\t&amp;#34;); scanf(&amp;#34;%d&amp;#34; , &amp;amp;n;); for(i = 1; i &amp;lt;= n; i++) { fact = fact*i; } printf(&amp;#34;Factorial of %d is %d&amp;#34;, n , fact); getch(); } </description>
+    </item>
+    
+    <item>
+      <title>Program to print Fibonacci Series using Recursion</title>
+      <link>https://example.com/program-to-print-fibonacci-series-using-recursion/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://example.com/program-to-print-fibonacci-series-using-recursion/</guid>
+      <description>Program to print Fibonacci Series using Recursion A Fibonacci series is defined as a series in which each number is the sum of the previous two numbers with 1, 1 being the first two elements of the series.
+static keyword is used to initialize the variables only once.
+Below is a program to print the fibonacci series using recursion.
+#include&amp;lt;stdio.h&amp;gt;// declaring the function void printFibo(int ); int main() { printf(&amp;#34;\n\n\t\tC Programs\n\n\n&amp;#34;); int k, n; long int i = 0, j = 1; printf(&amp;#34;Enter the length of the Fibonacci series: &amp;#34;); scanf(&amp;#34;%d&amp;#34;, &amp;amp;n); printf(&amp;#34;\n\nfirst %d terms of Fibonacci series are:\n\n\n&amp;#34;,n); printf(&amp;#34;%d &amp;#34;, 1); printFibo(n); printf(&amp;#34;\n\n\t\t\tCoding is Fun !</description>
+    </item>
+    
+    <item>
+      <title>Program to print the Fibonacci Series</title>
+      <link>https://example.com/program-to-print-the-fibonacci-series/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://example.com/program-to-print-the-fibonacci-series/</guid>
+      <description>Program to print the Fibonacci Series #include&amp;lt;stdio.h&amp;gt;#include&amp;lt;conio.h&amp;gt; void fibonacci(int num); void main() { int num = 0; clrscr(); printf(&amp;#34;Enter number of terms\t&amp;#34;); scanf(&amp;#34;%d&amp;#34;, &amp;amp;num); fibonacci(num); getch(); } void fibonacci(int num) { int a, b, c, i = 3; a = 0; b = 1; if(num == 1) printf(&amp;#34;%d&amp;#34;,a); if(num &amp;gt;= 2) printf(&amp;#34;%d\t%d&amp;#34;,a,b); while(i &amp;lt;= num) { c = a+b; printf(&amp;#34;\t%d&amp;#34;, c); a = b; b = c; i++; } } </description>
+    </item>
+    
+    <item>
+      <title>Program to print the Largest and Smallest using Global Declaration</title>
+      <link>https://example.com/program-to-print-the-largest-and-smallest-using-global-declaration/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://example.com/program-to-print-the-largest-and-smallest-using-global-declaration/</guid>
+      <description>Program to print the Largest and Smallest using Global Declaration Some important points about Global variable declaration are:
+%0nd is used to represent numbers in n digit format with leading 0&amp;rsquo;s.
+Below is a program to find largest and smallest value using global declaration.
+#include&amp;lt;stdio.h&amp;gt; int a,b; int main() { printf(&amp;#34;\n\n\t\tC Programs\n\n\n&amp;#34;); printf(&amp;#34;\n\nEnter the two values to find the greatest and smallest number: \n&amp;#34;); scanf(&amp;#34;%d%d&amp;#34;, &amp;amp;a, &amp;amp;b); if(a == b) printf(&amp;#34;Both are equal\n&amp;#34;); else if(a &amp;lt; b) { printf(&amp;#34;\n\nThe largest number is %03d\n&amp;#34;, b); printf(&amp;#34;\nThe smallest number is %03d\n&amp;#34;, a); printf(&amp;#34;\nThe largest number is %03d\n&amp;#34;, b); } else //Only possibility remaining  { printf(&amp;#34;The largest number is %03d\n&amp;#34;, a); printf(&amp;#34;The smallest number is %03d\n&amp;#34;, b); } printf(&amp;#34;\n\n\t\t\tCoding is Fun !</description>
+    </item>
+    
+    <item>
+      <title>Program to print the Multiplication Table of any Number</title>
+      <link>https://example.com/program-to-print-the-multiplication-table-of-any-number/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://example.com/program-to-print-the-multiplication-table-of-any-number/</guid>
+      <description>Program to print the Multiplication Table of any Number Below is a program to print the multiplication table of any user input number.
+#include&amp;lt;stdio.h&amp;gt; int main() { printf(&amp;#34;\n\n\t\tC Programs\n\n\n&amp;#34;); int n,i; printf(&amp;#34;Enter an integer you need to print the table of: &amp;#34;); scanf(&amp;#34;%d&amp;#34;, &amp;amp;n); printf(&amp;#34;\n\n\n&amp;#34;); for(i = 1; i &amp;lt;= 10; i++) { printf(&amp;#34;\n\t\t\t%d * %d = %d \n&amp;#34;, n, i, n*i); } printf(&amp;#34;\n\n\n\n\t\t\tCoding is Fun !\n\n\n&amp;#34;); return 0; } </description>
+    </item>
+    
+    <item>
+      <title>Program to print the reverse of an Array</title>
+      <link>https://example.com/program-to-print-the-reverse-of-an-array/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://example.com/program-to-print-the-reverse-of-an-array/</guid>
+      <description>Program to print the reverse of an Array Below is a simple program to reverse an array.
+#include&amp;lt;stdio.h&amp;gt; int main() { printf(&amp;#34;\n\n\t\tC Programs\n\n\n&amp;#34;); int c, d, n, a[100], b[100]; printf(&amp;#34;\n\nEnter number of elements in array :&amp;#34;); scanf(&amp;#34;%d&amp;#34;, &amp;amp;n); printf(&amp;#34;\n\nEnter %d elements\n&amp;#34;, n); for(c = 0; c &amp;lt; n; c++) scanf(&amp;#34;%d&amp;#34;, &amp;amp;a[c]); /* temporarily storing elements into array b starting from end of array a */ for(c = n-1, d = 0; c &amp;gt;= 0; c--, d++) b[d] = a[c]; /* copying reversed array into original.</description>
+    </item>
+    
+    <item>
+      <title>Program to reverse a String</title>
+      <link>https://example.com/program-to-reverse-a-string/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://example.com/program-to-reverse-a-string/</guid>
+      <description>Program to reverse a String It is advised to go through these topics if you are not familiar with C programs
+Below is a program to reverse a string in C language.
+#include&amp;lt;stdio.h&amp;gt;#include&amp;lt;conio.h&amp;gt;void main() { int i, j, k; char str[100]; char rev[100]; printf(&amp;#34;Enter a string:\t&amp;#34;); scanf(&amp;#34;%s&amp;#34;, str); printf(&amp;#34;The original string is %s\n&amp;#34;, str); for(i = 0; str[i] != &amp;#39;\0&amp;#39;; i++); { k = i-1; } for(j = 0; j &amp;lt;= i-1; j++) { rev[j] = str[k]; k--; } printf(&amp;#34;The reverse string is %s\n&amp;#34;, rev); getch(); } </description>
+    </item>
+    
+    <item>
+      <title>Program to Reverse a String Using Recursion</title>
+      <link>https://example.com/program-to-reverse-a-string-using-recursion/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://example.com/program-to-reverse-a-string-using-recursion/</guid>
+      <description>Program to Reverse a String Using Recursion Below is a program to reverse a user input string using recursion in C language.
+#include&amp;lt;stdio.h&amp;gt;#include&amp;lt;conio.h&amp;gt; // declaring recursive function char* reverse(char* str); void main() { int i, j, k; char str[100]; char *rev; printf(&amp;#34;Enter the string:\t&amp;#34;); scanf(&amp;#34;%s&amp;#34;, str); printf(&amp;#34;The original string is: %s\n&amp;#34;, str); rev = reverse(str); printf(&amp;#34;The reversed string is: %s\n&amp;#34;, rev); getch(); } // defining the function char* reverse(char *str) { static int i = 0; static char rev[100]; if(*str) { reverse(str+1); rev[i++] = *str; } return rev; } </description>
+    </item>
+    
+    <item>
+      <title>Program to reverse the case of input character</title>
+      <link>https://example.com/program-to-reverse-the-case-of-input-character/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://example.com/program-to-reverse-the-case-of-input-character/</guid>
+      <description>Program to reverse the case of input character Below is a program to reverse the case of input character.
+getchar() is similar to scanf().
+islower() is system defined function under ctype.h header file to check if the character is in lowercase or not.
+toupper() converts the input parameter into equivalent uppercase char.
+putchar() is similar to printf().
+#include&amp;lt;stdio.h&amp;gt;#include&amp;lt;ctype.h&amp;gt; // to use system defined function islower &amp;amp; toupper int main() { printf(&amp;#34;\n\n\t\tC Programs\n\n\n&amp;#34;); char alphabet; printf(&amp;#34;Enter an alphabet : &amp;#34;); putchar(&amp;#39;\n&amp;#39;); // to move to next Line  alphabet=getchar(); printf(&amp;#34;\n\nReverse case of %c is : &amp;#34;,alphabet); if(islower(alphabet)) putchar(toupper(alphabet)); else // must be an uppercase character  printf(&amp;#34;%c&amp;#34;,tolower(alphabet)) ; printf(&amp;#34;\n\n\t\t\tCoding is Fun !</description>
+    </item>
+    
+    <item>
+      <title>Program to take input of various datatypes in C</title>
+      <link>https://example.com/program-to-take-input-of-various-datatypes-in-c/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://example.com/program-to-take-input-of-various-datatypes-in-c/</guid>
+      <description>Program to take input of various datatypes in C Below is a program to explain how to take input from user for different datatypes available in C language. The different datatypes are int(integer values), float(decimal values) and char(character values).
+printf() is used to display text onto the screen
+&amp;amp; is used to assign the input value to the variable and store it at that particular location.
+scanf() is uded to take input from the user using format specifier discussed in upcoming tutorials</description>
+    </item>
+    
+    <item>
+      <title>Simple Program to remove Duplicate Element in an Array</title>
+      <link>https://example.com/simple-program-to-remove-duplicate-element-in-an-array/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://example.com/simple-program-to-remove-duplicate-element-in-an-array/</guid>
+      <description>Simple Program to remove Duplicate Element in an Array Below is a program to find and remove any duplicate element present in the specified array.
+#include&amp;lt;stdio.h&amp;gt;#include&amp;lt;conio.h&amp;gt;void main() { int a[20], i, j, k, n; clrscr(); printf(&amp;#34;\nEnter array size: &amp;#34;); scanf(&amp;#34;%d&amp;#34;, &amp;amp;n;); printf(&amp;#34;\nEnter %d array element: &amp;#34;, n); for(i = 0; i &amp;lt; n; i++) { scanf(&amp;#34;%d&amp;#34;, &amp;amp;a;[i]); } printf(&amp;#34;\nOriginal array is: &amp;#34;); for(i = 0; i &amp;lt; n; i++) { printf(&amp;#34; %d&amp;#34;, a[i]); } printf(&amp;#34;\nNew array is: &amp;#34;); for(i = 0; i &amp;lt; n; i++) { for(j = i+1; j &amp;lt; n; ) { if(a[j] == a[i]) { for(k = j; k &amp;lt; n; k++) { a[k] = a[k+1]; } n--; } else { j++; } } } for(i = 0; i &amp;lt; n; i++) { printf(&amp;#34;%d &amp;#34;, a[i]); } getch(); } </description>
+    </item>
+    
+    <item>
+      <title>Simple Program to Sort Array elements</title>
+      <link>https://example.com/simple-program-to-sort-array-elements/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://example.com/simple-program-to-sort-array-elements/</guid>
+      <description>Simple Program to Sort Array elements Below is a program to sort array elements in an array.
+#include&amp;lt;stdio.h&amp;gt;#include&amp;lt;conio.h&amp;gt; void sorting(int *x, int y); void main() { int a[20], i, c, n; clrscr(); printf(&amp;#34;Enter number of elements you want to sort: &amp;#34;); scanf(&amp;#34;%d&amp;#34;, &amp;amp;n); for(i = 0; i &amp;lt; n; i++) scanf(&amp;#34;%d&amp;#34;, &amp;amp;a[i]); sorting(a, n); for(i = 0; i &amp;lt;n; i++) printf(&amp;#34;%d\t&amp;#34;, a[i]); getch(); } void sorting(int *x, int y) { int i, j, temp; for(i = 1; i &amp;lt;= y-1; i++) { for(j = 0; j &amp;lt; y-i; j++) { if(*(x+j) &amp;gt; *(x+j+1)) { temp = *(x+j); *(x+j) = *(x+j+1); *(x+j+1) = temp; } } } } </description>
+    </item>
+    
+    <item>
+      <title>Simple while Loop Program</title>
+      <link>https://example.com/simple-while-loop-program/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://example.com/simple-while-loop-program/</guid>
+      <description>Simple while Loop Program Every loop consists of three parts in sequence
+Below is a simple program on while loop.
+#include&amp;lt;stdio.h&amp;gt; int main() { printf(&amp;#34;\n\n\t\tC Programs\n\n\n&amp;#34;); /* always declare the variables before using them */ int i = 0; // declaration and initialization at the same time  printf(&amp;#34;\nPrinting numbers using while loop from 0 to 9\n\n&amp;#34;); /* while i is less than 10 */ while(i&amp;lt;10) { printf(&amp;#34;%d\n&amp;#34;,i); /* Update i so the condition can be met eventually to terminate the loop */ i++; // same as i=i+1;  } printf(&amp;#34;\n\n\t\t\tCoding is Fun !</description>
+    </item>
+    
+    <item>
+      <title>Swapping two Numbers using a Temporary Variable</title>
+      <link>https://example.com/swapping-two-numbers-using-a-temporary-variable/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://example.com/swapping-two-numbers-using-a-temporary-variable/</guid>
+      <description>Swapping two Numbers using a Temporary Variable Below is a program to swap two numbers using temporary variable.
+#include&amp;lt;stdio.h&amp;gt;#include&amp;lt;conio.h&amp;gt; void main() { int x = 10, y = 15, temp; temp = x; x = y; y = temp; printf(&amp;#34;x = %d and y = %d&amp;#34;, x, y); getch(); } Swapping tow Numbers without using a Temporary Variable Below is a program to swap two numbers without using any temporary variable.</description>
+    </item>
+    
+    <item>
+      <title>Switch Case with break</title>
+      <link>https://example.com/switch-case-with-break/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://example.com/switch-case-with-break/</guid>
+      <description>Switch Case with break Below is a program on switch case with break.
+switch() can only contain char and int.
+break is used to exit from switch statement.
+switch case can be without default case.
+Another piece of information here is that a char variable is always initialized within &amp;lsquo;&#39;(single quotes).
+#include&amp;lt;stdio.h&amp;gt; int main() { printf(&amp;#34;\n\n\t\tC Programs\n\n\n&amp;#34;); // Local Variable Definition  char grade; printf(&amp;#34;Enter your grade:\n&amp;#34;); scanf(&amp;#34;%c&amp;#34;, &amp;amp;grade); switch(grade) { case &amp;#39;A&amp;#39;: printf(&amp;#34;Excellent\n&amp;#34;); break; case &amp;#39;B&amp;#39;: printf(&amp;#34;Keep it up!</description>
+    </item>
+    
+    <item>
+      <title>Using isgraph() and isprint() Function in C Program</title>
+      <link>https://example.com/using-isgraph-and-isprint-function-in-c-program/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://example.com/using-isgraph-and-isprint-function-in-c-program/</guid>
+      <description>Using isgraph() and isprint() Function in C Program In this program we will check if a particular character can be printed or not. This functionality can be achieved by making use of the isgraph() and isprint() method.
+Though it is recommended to go through the basic difference among them, but they are almost alike. Both of them are defined under ctype.h library.
+Below is a program on isgraph() and isprint() function.</description>
+    </item>
+    
+  </channel>
+</rss>

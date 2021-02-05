@@ -60,4 +60,4 @@ hasCJKLanguage = true
     url = "mailto:username@example.com"
     weight = 40
 
-
+publishDir = "docs"

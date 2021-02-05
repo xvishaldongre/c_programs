@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  <title>
+      
+          C Program to copy content of one File into another File - C Programs
+      
+  </title>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="author" content="By Vishal Dongre" />
+  <link rel="shortcut icon" type="image/x-icon" href="https://example.com/img/favicon.ico">
+
+  
+  
+  
+  
+  
+  <link rel="stylesheet" href="https://example.com/style.min.98f7f84c1576b3a7b05ee5507e0cb5d0cd796b2b47f0ca966b53a9651ae67ccd.css" integrity="sha256-mPf4TBV2s6ewXuVQfgy10M15aytH8MqWa1OpZRrmfM0=">
+  
+  
+  
+  <link rel="stylesheet" href="https://example.com/style-dark.min.0a647fb6c07e04b77b54fa0515d0a683d39ecdb251dba960fe1f966f7ff36fc2.css" media="(prefers-color-scheme: dark)" integrity="sha256-CmR/tsB&#43;BLd7VPoFFdCmg9OezbJR26lg/h&#43;Wb3/zb8I=">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+
+  
+  
+
+  <meta property="og:title" content="C Program to copy content of one File into another File" />
+<meta property="og:description" content="C Program to copy content of one File into another File We already know how to open a file, read contents of a file and write into a file. So in this program, we will read from one file and simultaneously write into the other file, till we reach end of first file.
+#include&lt;stdio.h&gt;#include&lt;stdio.h&gt; void main() { /* File_1.txt is the file with content and, File_2.txt is the file in which content of File_1 will be copied." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://example.com/c-program-to-copy-content-of-one-file-into-another-file/" />
+
+<meta itemprop="name" content="C Program to copy content of one File into another File">
+<meta itemprop="description" content="C Program to copy content of one File into another File We already know how to open a file, read contents of a file and write into a file. So in this program, we will read from one file and simultaneously write into the other file, till we reach end of first file.
+#include&lt;stdio.h&gt;#include&lt;stdio.h&gt; void main() { /* File_1.txt is the file with content and, File_2.txt is the file in which content of File_1 will be copied.">
+
+<meta itemprop="wordCount" content="149">
+
+
+
+<meta itemprop="keywords" content="files_and_streams," />
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:image" content="https://example.com//img/avatar3.png"/>
+<meta name="twitter:title" content="C Program to copy content of one File into another File"/>
+<meta name="twitter:description" content="C Program to copy content of one File into another File We already know how to open a file, read contents of a file and write into a file. So in this program, we will read from one file and simultaneously write into the other file, till we reach end of first file.
+#include&lt;stdio.h&gt;#include&lt;stdio.h&gt; void main() { /* File_1.txt is the file with content and, File_2.txt is the file in which content of File_1 will be copied."/>
+
+  <!--[if lte IE 9]>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/classlist/1.1.20170427/classList.min.js"></script>
+  <![endif]-->
+
+  <!--[if lt IE 9]>
+  <script src="https://cdn.jsdelivr.net/npm/html5shiv@3.7.3/dist/html5shiv.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/respond.js@1.4.2/dest/respond.min.js"></script>
+  <![endif]-->
+
+  
+  
+</head>
+
+  <body>
+    <nav>
+      <ul id="nav-list">
+        <li class="nav-item"><a href="https://example.com/">Home</a></li>
+        <li class="nav-item"><a href="https://example.com/tags">Tags</a></li>
+        <li class="nav-item"><a href="https://example.com/about">About me</a></li>
+        <li class="nav-item"><a href="https://example.com/contact">Contact</a></li>
+      </ul>
+    </nav>
+    <div class="openNav">
+      <div class="icon"></div>
+    </div>
+    <div class="wrapper">
+  <h1>C Program to copy content of one File into another File</h1>
+  <header>
+  
+  <div class="avatar">
+    <a href="https://example.com/">
+    <img class="avatarMask" src="https://example.com//img/avatar3.png" alt=""></a>
+  </div>
+  
+  <h2><a class="author" href="https://example.com/">By Vishal Dongre</a></h2>
+</header>
+
+  
+  
+  
+  <div id="tags">
+    <ul>
+      
+        
+        
+          <li><a href="https://example.com/tags/files_and_streams/">files_and_streams</a></li>
+        
+      
+    </ul>
+  </div>
+  
+  
+  <div id="contentBody">
+    <h2 id="c-program-to-copy-content-of-one-file-into-another-file">C Program to copy content of one File into another File</h2>
+<p>We already know how to open a file, read contents of a file and write into a file. So in this program, we will read from one file and simultaneously write into the other file, till we reach end of first file.</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-c" data-lang="c"><span style="color:#75715e">#include</span><span style="color:#75715e">&lt;stdio.h&gt;</span><span style="color:#75715e">
+</span><span style="color:#75715e">#include</span><span style="color:#75715e">&lt;stdio.h&gt;</span><span style="color:#75715e">
+</span><span style="color:#75715e"></span>
+<span style="color:#66d9ef">void</span> <span style="color:#a6e22e">main</span>()
+{
+    <span style="color:#75715e">/*
+</span><span style="color:#75715e">        File_1.txt is the file with content and,
+</span><span style="color:#75715e">        File_2.txt is the file in which content of File_1
+</span><span style="color:#75715e">        will be copied.
+</span><span style="color:#75715e">    */</span>
+    FILE <span style="color:#f92672">*</span>fp1, <span style="color:#f92672">*</span>fp2;
+    <span style="color:#66d9ef">char</span> ch;
+    <span style="color:#66d9ef">int</span> pos;
+
+    <span style="color:#66d9ef">if</span> ((fp1 <span style="color:#f92672">=</span> fopen(<span style="color:#e6db74">&#34;File_1.txt&#34;</span>, <span style="color:#e6db74">&#34;r&#34;</span>)) <span style="color:#f92672">==</span> NULL)
+    {
+        printf(<span style="color:#e6db74">&#34;</span><span style="color:#ae81ff">\n</span><span style="color:#e6db74">File cannot be opened.&#34;</span>);
+        <span style="color:#66d9ef">return</span>;
+    }
+    <span style="color:#66d9ef">else</span>
+    {
+        printf(<span style="color:#e6db74">&#34;</span><span style="color:#ae81ff">\n</span><span style="color:#e6db74">File opened for copy...</span><span style="color:#ae81ff">\n</span><span style="color:#e6db74"> &#34;</span>);
+    }
+    fp2 <span style="color:#f92672">=</span> fopen(<span style="color:#e6db74">&#34;File_2.txt&#34;</span>, <span style="color:#e6db74">&#34;w&#34;</span>);
+    fseek(fp1, <span style="color:#ae81ff">0L</span>, SEEK_END);   <span style="color:#75715e">// File pointer at end of file
+</span><span style="color:#75715e"></span>    pos <span style="color:#f92672">=</span> ftell(fp1);
+    fseek(fp1, <span style="color:#ae81ff">0L</span>, SEEK_SET);   <span style="color:#75715e">// File pointer set at start
+</span><span style="color:#75715e"></span>    <span style="color:#66d9ef">while</span> (pos<span style="color:#f92672">--</span>)
+    {
+        ch <span style="color:#f92672">=</span> fgetc(fp1);    <span style="color:#75715e">// Copying file character by character
+</span><span style="color:#75715e"></span>        fputc(ch, fp2);
+    }
+    fcloseall();
+}
+</code></pre></div>
+  </div>
+  <footer>
+  <p>
+  &copy; 2021 By Vishal Dongre.
+  Powered by <a href="https://gohugo.io/">Hugo</a>
+  using the <a href="https://github.com/koirand/pulp/">pulp</a> theme.
+  </p>
+</footer>
+
+  
+  
+  
+  
+  
+    
+  <script src="https://example.com/bundle.min.978b8c0968bb3037d3317a53bb44a8aa132302c68a32646c90053f4a8ac9de6c.js"></script>
+  <script>
+    $(".openNav").click(function() {
+      $("body").toggleClass("navOpen");
+      $("nav").toggleClass("open");
+      $(".wrapper").toggleClass("open");
+      $(this).toggleClass("open");
+    });
+  </script>
+</div>
+  </body>
+</html>

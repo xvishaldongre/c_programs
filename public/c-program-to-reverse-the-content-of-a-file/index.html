@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  <title>
+      
+          C Program to reverse the content of a File - C Programs
+      
+  </title>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="author" content="By Vishal Dongre" />
+  <link rel="shortcut icon" type="image/x-icon" href="https://example.com/img/favicon.ico">
+
+  
+  
+  
+  
+  
+  <link rel="stylesheet" href="https://example.com/style.min.98f7f84c1576b3a7b05ee5507e0cb5d0cd796b2b47f0ca966b53a9651ae67ccd.css" integrity="sha256-mPf4TBV2s6ewXuVQfgy10M15aytH8MqWa1OpZRrmfM0=">
+  
+  
+  
+  <link rel="stylesheet" href="https://example.com/style-dark.min.0a647fb6c07e04b77b54fa0515d0a683d39ecdb251dba960fe1f966f7ff36fc2.css" media="(prefers-color-scheme: dark)" integrity="sha256-CmR/tsB&#43;BLd7VPoFFdCmg9OezbJR26lg/h&#43;Wb3/zb8I=">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+
+  
+  
+
+  <meta property="og:title" content="C Program to reverse the content of a File" />
+<meta property="og:description" content="C Program to reverse the content of a File Below is a program to reverse the contents of a file.
+#include&lt;stdio.h&gt;#include&lt;errno.h&gt; /* to count the total number of characters inside the source file */ long count_characters(FILE *); void main() { int i; long cnt; char ch, ch1; FILE *fp1, *fp2; if (fp1 = fopen(&#34;File_1.txt&#34;, &#34;r&#34;)) { printf(&#34;The FILE has been opened...\n&#34;); fp2 = fopen(&#34;File_2.txt&#34;, &#34;w&#34;); cnt = count_characters(fp1); /* Make the pointer fp1 to point at the last character of the file */ fseek(fp1, -1L, 2); printf(&#34;Number of characters to be copied %d\n&#34;, ftell(fp1)); while (cnt) { ch = fgetc(fp1); fputc(ch, fp2); fseek(fp1, -2L, 1); // shifts the pointer to the previous character  cnt--; } printf(&#34;\n**File copied successfully in reverse order**\n&#34;); } else { perror(&#34;Error occured\n&#34;); } fclose(fp1); fclose(fp2); } /* Count the total number of characters in the file that *f points to */ long count_characters(FILE *f) { fseek(f, -1L, 2); /* returns the position of the last element of the file */ long last_pos = ftell(f); last_pos&#43;&#43;; return last_pos; } " />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://example.com/c-program-to-reverse-the-content-of-a-file/" />
+
+<meta itemprop="name" content="C Program to reverse the content of a File">
+<meta itemprop="description" content="C Program to reverse the content of a File Below is a program to reverse the contents of a file.
+#include&lt;stdio.h&gt;#include&lt;errno.h&gt; /* to count the total number of characters inside the source file */ long count_characters(FILE *); void main() { int i; long cnt; char ch, ch1; FILE *fp1, *fp2; if (fp1 = fopen(&#34;File_1.txt&#34;, &#34;r&#34;)) { printf(&#34;The FILE has been opened...\n&#34;); fp2 = fopen(&#34;File_2.txt&#34;, &#34;w&#34;); cnt = count_characters(fp1); /* Make the pointer fp1 to point at the last character of the file */ fseek(fp1, -1L, 2); printf(&#34;Number of characters to be copied %d\n&#34;, ftell(fp1)); while (cnt) { ch = fgetc(fp1); fputc(ch, fp2); fseek(fp1, -2L, 1); // shifts the pointer to the previous character  cnt--; } printf(&#34;\n**File copied successfully in reverse order**\n&#34;); } else { perror(&#34;Error occured\n&#34;); } fclose(fp1); fclose(fp2); } /* Count the total number of characters in the file that *f points to */ long count_characters(FILE *f) { fseek(f, -1L, 2); /* returns the position of the last element of the file */ long last_pos = ftell(f); last_pos&#43;&#43;; return last_pos; } ">
+
+<meta itemprop="wordCount" content="172">
+
+
+
+<meta itemprop="keywords" content="files_and_streams," />
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:image" content="https://example.com//img/avatar3.png"/>
+<meta name="twitter:title" content="C Program to reverse the content of a File"/>
+<meta name="twitter:description" content="C Program to reverse the content of a File Below is a program to reverse the contents of a file.
+#include&lt;stdio.h&gt;#include&lt;errno.h&gt; /* to count the total number of characters inside the source file */ long count_characters(FILE *); void main() { int i; long cnt; char ch, ch1; FILE *fp1, *fp2; if (fp1 = fopen(&#34;File_1.txt&#34;, &#34;r&#34;)) { printf(&#34;The FILE has been opened...\n&#34;); fp2 = fopen(&#34;File_2.txt&#34;, &#34;w&#34;); cnt = count_characters(fp1); /* Make the pointer fp1 to point at the last character of the file */ fseek(fp1, -1L, 2); printf(&#34;Number of characters to be copied %d\n&#34;, ftell(fp1)); while (cnt) { ch = fgetc(fp1); fputc(ch, fp2); fseek(fp1, -2L, 1); // shifts the pointer to the previous character  cnt--; } printf(&#34;\n**File copied successfully in reverse order**\n&#34;); } else { perror(&#34;Error occured\n&#34;); } fclose(fp1); fclose(fp2); } /* Count the total number of characters in the file that *f points to */ long count_characters(FILE *f) { fseek(f, -1L, 2); /* returns the position of the last element of the file */ long last_pos = ftell(f); last_pos&#43;&#43;; return last_pos; } "/>
+
+  <!--[if lte IE 9]>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/classlist/1.1.20170427/classList.min.js"></script>
+  <![endif]-->
+
+  <!--[if lt IE 9]>
+  <script src="https://cdn.jsdelivr.net/npm/html5shiv@3.7.3/dist/html5shiv.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/respond.js@1.4.2/dest/respond.min.js"></script>
+  <![endif]-->
+
+  
+  
+</head>
+
+  <body>
+    <nav>
+      <ul id="nav-list">
+        <li class="nav-item"><a href="https://example.com/">Home</a></li>
+        <li class="nav-item"><a href="https://example.com/tags">Tags</a></li>
+        <li class="nav-item"><a href="https://example.com/about">About me</a></li>
+        <li class="nav-item"><a href="https://example.com/contact">Contact</a></li>
+      </ul>
+    </nav>
+    <div class="openNav">
+      <div class="icon"></div>
+    </div>
+    <div class="wrapper">
+  <h1>C Program to reverse the content of a File</h1>
+  <header>
+  
+  <div class="avatar">
+    <a href="https://example.com/">
+    <img class="avatarMask" src="https://example.com//img/avatar3.png" alt=""></a>
+  </div>
+  
+  <h2><a class="author" href="https://example.com/">By Vishal Dongre</a></h2>
+</header>
+
+  
+  
+  
+  <div id="tags">
+    <ul>
+      
+        
+        
+          <li><a href="https://example.com/tags/files_and_streams/">files_and_streams</a></li>
+        
+      
+    </ul>
+  </div>
+  
+  
+  <div id="contentBody">
+    <h2 id="c-program-to-reverse-the-content-of-a-file">C Program to reverse the content of a File</h2>
+<p>Below is a program to reverse the contents of a file.</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-c" data-lang="c"><span style="color:#75715e">#include</span><span style="color:#75715e">&lt;stdio.h&gt;</span><span style="color:#75715e">
+</span><span style="color:#75715e">#include</span><span style="color:#75715e">&lt;errno.h&gt;</span><span style="color:#75715e">
+</span><span style="color:#75715e"></span>
+<span style="color:#75715e">/*
+</span><span style="color:#75715e">    to count the total number of characters
+</span><span style="color:#75715e">    inside the source file
+</span><span style="color:#75715e">*/</span>
+<span style="color:#66d9ef">long</span> <span style="color:#a6e22e">count_characters</span>(FILE <span style="color:#f92672">*</span>);
+
+<span style="color:#66d9ef">void</span> <span style="color:#a6e22e">main</span>()
+{
+    <span style="color:#66d9ef">int</span> i;
+    <span style="color:#66d9ef">long</span> cnt;
+    <span style="color:#66d9ef">char</span> ch, ch1;
+    FILE <span style="color:#f92672">*</span>fp1, <span style="color:#f92672">*</span>fp2;
+
+    <span style="color:#66d9ef">if</span> (fp1 <span style="color:#f92672">=</span> fopen(<span style="color:#e6db74">&#34;File_1.txt&#34;</span>, <span style="color:#e6db74">&#34;r&#34;</span>))
+    {
+        printf(<span style="color:#e6db74">&#34;The FILE has been opened...</span><span style="color:#ae81ff">\n</span><span style="color:#e6db74">&#34;</span>);
+        fp2 <span style="color:#f92672">=</span> fopen(<span style="color:#e6db74">&#34;File_2.txt&#34;</span>, <span style="color:#e6db74">&#34;w&#34;</span>);
+        cnt <span style="color:#f92672">=</span> count_characters(fp1);
+
+        <span style="color:#75715e">/*
+</span><span style="color:#75715e">            Make the pointer fp1 to point at the
+</span><span style="color:#75715e">            last character of the file
+</span><span style="color:#75715e">        */</span>
+        fseek(fp1, <span style="color:#f92672">-</span><span style="color:#ae81ff">1L</span>, <span style="color:#ae81ff">2</span>);
+        printf(<span style="color:#e6db74">&#34;Number of characters to be copied %d</span><span style="color:#ae81ff">\n</span><span style="color:#e6db74">&#34;</span>, ftell(fp1));
+
+        <span style="color:#66d9ef">while</span> (cnt)
+        {
+            ch <span style="color:#f92672">=</span> fgetc(fp1);
+            fputc(ch, fp2);
+            fseek(fp1, <span style="color:#f92672">-</span><span style="color:#ae81ff">2L</span>, <span style="color:#ae81ff">1</span>); <span style="color:#75715e">// shifts the pointer to the previous character
+</span><span style="color:#75715e"></span>            cnt<span style="color:#f92672">--</span>;
+        }
+        printf(<span style="color:#e6db74">&#34;</span><span style="color:#ae81ff">\n</span><span style="color:#e6db74">**File copied successfully in reverse order**</span><span style="color:#ae81ff">\n</span><span style="color:#e6db74">&#34;</span>);
+    }
+    <span style="color:#66d9ef">else</span>
+    {
+        perror(<span style="color:#e6db74">&#34;Error occured</span><span style="color:#ae81ff">\n</span><span style="color:#e6db74">&#34;</span>);
+    }
+    fclose(fp1);
+    fclose(fp2);
+}
+
+<span style="color:#75715e">/*
+</span><span style="color:#75715e">    Count the total number of characters in the file
+</span><span style="color:#75715e">    that *f points to
+</span><span style="color:#75715e">*/</span>
+<span style="color:#66d9ef">long</span> <span style="color:#a6e22e">count_characters</span>(FILE <span style="color:#f92672">*</span>f)
+{
+    fseek(f, <span style="color:#f92672">-</span><span style="color:#ae81ff">1L</span>, <span style="color:#ae81ff">2</span>);
+    <span style="color:#75715e">/*
+</span><span style="color:#75715e">        returns the position of the
+</span><span style="color:#75715e">        last element of the file
+</span><span style="color:#75715e">    */</span>
+    <span style="color:#66d9ef">long</span> last_pos <span style="color:#f92672">=</span> ftell(f);
+    last_pos<span style="color:#f92672">++</span>;
+    <span style="color:#66d9ef">return</span> last_pos;
+}
+</code></pre></div>
+  </div>
+  <footer>
+  <p>
+  &copy; 2021 By Vishal Dongre.
+  Powered by <a href="https://gohugo.io/">Hugo</a>
+  using the <a href="https://github.com/koirand/pulp/">pulp</a> theme.
+  </p>
+</footer>
+
+  
+  
+  
+  
+  
+    
+  <script src="https://example.com/bundle.min.978b8c0968bb3037d3317a53bb44a8aa132302c68a32646c90053f4a8ac9de6c.js"></script>
+  <script>
+    $(".openNav").click(function() {
+      $("body").toggleClass("navOpen");
+      $("nav").toggleClass("open");
+      $(".wrapper").toggleClass("open");
+      $(this).toggleClass("open");
+    });
+  </script>
+</div>
+  </body>
+</html>

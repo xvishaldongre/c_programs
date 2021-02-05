@@ -1,0 +1,136 @@
+[
+    {
+        "ref": "https://example.com/c-program-to-add-two-user-input-numbers-using-pointers/",
+        "title": "C Program to Add two user input numbers using Pointers",
+        "section": "",
+        "tags": ["important_concepts"],
+        "date" : "0001.01.01",
+        "body": "C Program to Add two user input numbers using Pointers Few important points to remember:\nBelow is a program adding two numbers using pointers.\n#include\u0026lt;stdio.h\u0026gt; int main() { printf(\u0026#34;\\n\\n\\t\\tC Programs\\n\\n\\n\u0026#34;); int first, second, *p , *q, sum; printf(\u0026#34;Enter two integers to add using pointers:\\n\u0026#34;); scanf(\u0026#34;%d%d\u0026#34;, \u0026amp;first, \u0026amp;second); p = \u0026amp;first; q = \u0026amp;second; sum = *p + *q; printf(\u0026#34;\\n\\nThe sum of the entered numbers is: %d\u0026#34;, sum); printf(\u0026#34;\\n\\n\\t\\t\\tCoding is Fun !\\n\\n\\n\u0026#34;); return 0; } "
+    }
+,
+    {
+        "ref": "https://example.com/c-program-to-calculate-permutation-npr-and-combination-ncr/",
+        "title": "C Program to Calculate Permutation (nPr) and Combination (nCr)",
+        "section": "",
+        "tags": ["important_concepts"],
+        "date" : "0001.01.01",
+        "body": "C Program to Calculate Permutation (nPr) and Combination (nCr) Below is a program to calculate nPr and nCr.\nGlobal declaration scope is within the complete program.\nLocal declarations scope is limited to the function only.\n#include\u0026lt;stdio.h\u0026gt; // function prototype declarations long factorial(int); long find_npr(int, int); long find_ncr(int, int); int main() { printf(\u0026#34;\\n\\n\\t\\tC Programs\\n\\n\\n\u0026#34;); int n, r; long npr, ncr; printf(\u0026#34;Enter the value of n and r respectively: \\n\\n\u0026#34;); scanf(\u0026#34;%d%d\u0026#34;, \u0026amp;n, \u0026amp;r); // function calls  npr = find_npr(n, r); ncr = find_ncr(n, r); printf(\u0026#34;\\n\\n\\n\\t\\t%dC%d = %ld\\n\u0026#34;, n, r, ncr); printf(\u0026#34;\\n\\n\\t\\t%dP%d = %ld\\n\u0026#34;, n, r, npr); printf(\u0026#34;\\n\\n\\t\\t\\tCoding is Fun !\\n\\n\\n\u0026#34;); return 0; } /* function definition for nCr */ long find_ncr(int a, int b) { return (factorial(a)/(factorial(b)*factorial(a-b))); } /* function definition for nPr */ long find_npr(int a, int b) { return (factorial(a)/factorial(a-b)); } /* recursive function definition for finding factorial of a number */ long factorial(int c) { if(c == 1 || c == 0) return 1; else return c*factorial(c-1); } "
+    }
+,
+    {
+        "ref": "https://example.com/c-program-to-calculate-simple-interest/",
+        "title": "C Program to calculate Simple Interest",
+        "section": "",
+        "tags": ["important_concepts"],
+        "date" : "0001.01.01",
+        "body": "C Program to calculate Simple Interest Below is a program to calculate the Simple Interest for a given prinicipal amount, rate of interest and time duration.\n%7.3f means the float value will be represented in 7 digits including 3 digits after decimal places.\n#include\u0026lt;stdio.h\u0026gt; void main() { printf(\u0026#34;\\n\\n\\t\\tC Programs\\n\\n\\n\u0026#34;); float principal_amt, rate, simple_interest; int time; printf(\u0026#34;Enter the value of principal amount, rate and time\\n\\n\\n\u0026#34;); scanf(\u0026#34;%f%f%d\u0026#34;, \u0026amp;principal_amt, \u0026amp;rate, \u0026amp;time); // considering rate is in percentage  simple_interest = (principal_amt*rate*time)/100.0; // usually used to align text in form of columns in table  printf(\u0026#34;\\n\\n\\t\\t\\tAmount = Rs.%7.3f\\n\u0026#34;, principal_amt); printf(\u0026#34;\\n\\n\\t\\t\\tRate = Rs.%7.3f\\n\u0026#34;, rate); printf(\u0026#34;\\n\\n\\t\\t\\tTime= %d years \\n\u0026#34;, time); printf(\u0026#34;\\n\\n\\t\\t\\tSimple Interest = Rs.%7.3f\\n\u0026#34;, simple_interest); printf(\u0026#34;\\n\\n\\t\\t\\tCoding is Fun !\\n\\n\\n\u0026#34;); return 0; } "
+    }
+,
+    {
+        "ref": "https://example.com/c-program-to-check-for-a-perfect-square/",
+        "title": "C program to Check for a Perfect Square",
+        "section": "",
+        "tags": ["important_concepts"],
+        "date" : "0001.01.01",
+        "body": "C program to Check for a Perfect Square Below is a program to check whether the user input number is a perfect square or not.\n#include\u0026lt;stdio.h\u0026gt;int main() { printf(\u0026#34;\\n\\n\\t\\tC Programs\\n\\n\\n\u0026#34;); // variable declaration  int i, number; // take user input  printf(\u0026#34;Enter a number: \u0026#34;); scanf(\u0026#34;%d\u0026#34;, \u0026amp;number); // loop to check number is perfect square or not  for(i = 0; i \u0026lt;= number; i++) { if(number == i*i) { printf(\u0026#34;\\n\\n\\n\\t\\t\\t%d is a perfect square\\n\\n\\n\u0026#34;, number); printf(\u0026#34;\\n\\n\\t\\t\\tCoding is Fun !\\n\\n\\n\u0026#34;); return 0; // same as using break in this case to end the program  } } printf(\u0026#34;\\n\\n\\n\\t\\t\\t%d is not a perfect square\\n\u0026#34;, number); printf(\u0026#34;\\n\\n\\t\\t\\tCoding is Fun !\\n\\n\\n\u0026#34;); return 0; } "
+    }
+,
+    {
+        "ref": "https://example.com/c-program-to-convert-temparature-in-celsius-to-fahrenheit/",
+        "title": "C Program to convert Temparature in Celsius to Fahrenheit",
+        "section": "",
+        "tags": ["important_concepts"],
+        "date" : "0001.01.01",
+        "body": "C Program to convert Temparature in Celsius to Fahrenheit C Program to convert Temparature in Celsius to Fahrenheit Below is a program for temperature conversion from Celsius to Fahrenheit. All we have to do is use the simple formula in our program, which is, if a temparature value is in Celsius, multiply it with 1.8 or 9/5 and add 32 to the result, this will give the equivalent Fahrenhiet value.\nTo convert a temparature in Fahrenheit to Celsius, the formula will be, to subtract 32 from the value and then multiply it with 0.5556 or 5/9\nSo all you have to do is replace the conversion formula in the avove program. Go ahead and try it out yourself.\n#include\u0026lt;stdio.h\u0026gt; int main() { printf(\u0026#34;\\n\\n\\t\\tC Programs\\n\\n\\n\u0026#34;); float celsius, fahrenheit; printf(\u0026#34;\\n\\nEnter temperature in Celsius: \u0026#34;); scanf(\u0026#34;%f\u0026#34;, \u0026amp;celsius); fahrenheit = (1.8*celsius) + 32; printf(\u0026#34;\\n\\n\\nTemperature in Fahrenheit is: %f \u0026#34;, fahrenheit); printf(\u0026#34;\\n\\n\\t\\t\\tCoding is Fun !\\n\\n\\n\u0026#34;); return 0; } "
+    }
+,
+    {
+        "ref": "https://example.com/c-program-to-find-gcd-of-n-numbers/",
+        "title": "C Program to find GCD of N Numbers",
+        "section": "",
+        "tags": ["important_concepts"],
+        "date" : "0001.01.01",
+        "body": "C Program to find GCD of N Numbers Below is a program to find GCD of N user input numbers.\n#include\u0026lt;stdio.h\u0026gt; int main() { printf(\u0026#34;\\n\\n\\t\\tC Programs\\n\\n\\n\u0026#34;); int x, y =- 1; printf(\u0026#34;Enter numbers. To exit enter 0\\n\u0026#34;); while(1) // infinite loop to take input  { scanf(\u0026#34;%d\u0026#34;, \u0026amp;x); if(x \u0026lt; 1) break; else if(y ==- 1) // only 1 number entered, its GCD is itself  y = x; else if(x \u0026lt; y) y = gcd(x, y); else y = gcd(y, x); } printf(\u0026#34;\\n\\n\\nGCD of all the entered number is: %d\u0026#34;, y); printf(\u0026#34;\\n\\n\\t\\t\\tCoding is Fun !\\n\\n\\n\u0026#34;); return 0; } // GCD of 2 numbers is calculated at a time int gcd(int a, int b) { int i; /* a is the smallest of the two numbers of which GCD is to be calculated */ for(i = a; i \u0026gt;= 1; i--) { // Greatest number that divides both the numbers  if(a%i == 0 \u0026amp;\u0026amp; b%i == 0) break; // exits the loop  } return i; } C Program to find GCD of Two Numbers Using Functions Below is a program to find GCD of two numbers using a function.\n#include\u0026lt;stdio.h\u0026gt; int gcd(int c, int d) // function definition { if(d == 0) return c; else return gcd(d, c%d); } int main() { printf(\u0026#34;\\n\\n\\t\\tC Programs\\n\\n\\n\u0026#34;); int a, b; printf(\u0026#34;Enter 2 numbers: \\n\\n\u0026#34;); scanf(\u0026#34;%d%d\u0026#34;, \u0026amp;a, \u0026amp;b); printf(\u0026#34;\\n\\nGreatest Common Divisor is: %d\u0026#34;, gcd(a, b)); // function calling  printf(\u0026#34;\\n\\n\\t\\t\\tCoding is Fun !\\n\\n\\n\u0026#34;); return 0; } "
+    }
+,
+    {
+        "ref": "https://example.com/c-program-to-find-roots-of-quadratic-equation/",
+        "title": "C Program to Find Roots of Quadratic Equation",
+        "section": "",
+        "tags": ["important_concepts"],
+        "date" : "0001.01.01",
+        "body": "C Program to Find Roots of Quadratic Equation Below is a program to find roots of a quadratic equation.\n%.nf is used to limit the value of a decimal value to n decimal places.\n#include\u0026lt;stdio.h\u0026gt;#include\u0026lt;math.h\u0026gt; // This is needed to use sqrt() function int main() { printf(\u0026#34;\\n\\n\\t\\tC Programs\\n\\n\\n\u0026#34;); float a, b, c, determinant, r1, r2, real, imag; printf(\u0026#34;\\n\\nEnter coefficients a, b and c: \\n\\n\\n\u0026#34;); scanf(\u0026#34;%f%f%f\u0026#34;, \u0026amp;a, \u0026amp;b, \u0026amp;c); /* mathematical formula to know the nature of the roots */ determinant == b*b - 4*a*c; if(determinant \u0026gt; 0) // both roots are real  { r1 = (-b + sqrt(determinant))/2*a; // Brackets are important  r2 = (-b - sqrt(determinant))/2*a; printf(\u0026#34;\\n\\n\\nRoots are: %.2f and %.2f \u0026#34;, r1, r2); } else if(determinant == 0) // both roots are real and equal  { r1 = r2 = -b/(2*a); // brackets are important  printf(\u0026#34;\\n\\n\\nRoots are: %.2f and %.2f \u0026#34;, r1, r2); } /* Determinant \u0026lt; 0 - both roots are imaginary of the form real + i*imaginary */ else { real = -b/(2*a); imag = sqrt(-determinant)/(2*a); printf(\u0026#34;\\n\\n\\nRoots are %.2f + i%.2f and %.2f - i%.2f \u0026#34;, real, imag, real, imag); } printf(\u0026#34;\\n\\n\\n\\n\\t\\t\\tCoding is Fun !\\n\\n\\n\u0026#34;); return 0; } "
+    }
+,
+    {
+        "ref": "https://example.com/c-program-to-find-sum-of-first-and-last-digits-of-a-number/",
+        "title": "C program to find Sum of First and Last Digits of a Number",
+        "section": "",
+        "tags": ["important_concepts"],
+        "date" : "0001.01.01",
+        "body": "C program to find Sum of First and Last Digits of a Number Note: % or the mod operator is used to find the remainder of division operation.\nBelow is a program to find sum of first and last digits of the user input number.\n#include\u0026lt;stdio.h\u0026gt; int main() { printf(\u0026#34;\\n\\n\\t\\tC Programs\\n\\n\\n\u0026#34;); int input, firstNumber, lastNumber; printf(\u0026#34;Enter a number: \u0026#34;); scanf(\u0026#34;%d\u0026#34;, \u0026amp;input); /* gives remainder when the input value is divided by 10 i.e. the digit at units place */ lastNumber = input%10; firstNumber = input; while(firstNumber \u0026gt;= 10) { firstNumber /= 10; // same as firstNumber = firstNumber/10  } printf(\u0026#34;\\n\\n\\nAddition of first and last number is: %d + %d = %d\\n\u0026#34;, firstNumber, lastNumber, firstNumber+lastNumber); printf(\u0026#34;\\n\\n\\t\\t\\tCoding is Fun !\\n\\n\\n\u0026#34;); return 0; } "
+    }
+,
+    {
+        "ref": "https://example.com/c-program-to-find-the-area-and-circumference-of-a-circle/",
+        "title": "C Program to find the Area and Circumference of a Circle",
+        "section": "",
+        "tags": ["important_concepts"],
+        "date" : "0001.01.01",
+        "body": "C Program to find the Area and Circumference of a Circle Below is a program to find the area and circumference of a circle.\n#include\u0026lt;stdio.h\u0026gt; int main() { printf(\u0026#34;\\n\\n\\t\\tC Programs\\n\\n\\n\u0026#34;); int rad; float PI = 3.14, area, ci; printf(\u0026#34;\\nEnter the radius of the circle: \u0026#34;); scanf(\u0026#34;%d\u0026#34;, \u0026amp;rad); area = PI*rad*rad; printf(\u0026#34;\\n\\n\\nArea of the circle is: %f \u0026#34;, area); ci = 2*PI*rad; printf(\u0026#34;\\n\\n\\nCircumference of the circle is: %f\u0026#34;, ci); printf(\u0026#34;\\n\\n\\t\\t\\tCoding is Fun !\\n\\n\\n\u0026#34;); return 0; } "
+    }
+,
+    {
+        "ref": "https://example.com/c-program-to-find-the-area-of-triangle-using-base-and-height/",
+        "title": "C Program to find the Area of Triangle using Base and Height",
+        "section": "",
+        "tags": ["important_concepts"],
+        "date" : "0001.01.01",
+        "body": "C Program to find the Area of Triangle using Base and Height Below is a program to find the area of triangle using base and height.\n#include\u0026lt;stdio.h\u0026gt; int main() { printf(\u0026#34;\\n\\n\\t\\tC Programs\\n\\n\\n\u0026#34;); int h, b; float area; printf(\u0026#34;\\n\\nEnter the height of the Triangle: \u0026#34;); scanf(\u0026#34;%d\u0026#34;, \u0026amp;h); printf(\u0026#34;\\n\\nEnter the base of the Triangle: \u0026#34;); scanf(\u0026#34;%d\u0026#34;, \u0026amp;b); /* Formula for the area of the triangle = (height x base)/2 Also, typecasting denominator from int to float to get the output in float */ area = (h*b)/(float)2; printf(\u0026#34;\\n\\n\\nThe area of the triangle is: %f\u0026#34;, area); printf(\u0026#34;\\n\\n\\t\\t\\tCoding is Fun !\\n\\n\\n\u0026#34;); return 0; } Program to find the Area of Triangle using Heron\u0026rsquo;s Formula Below is a program to find the area of triangle using heron\u0026rsquo;s formula.\n#include\u0026lt;stdio.h\u0026gt;#include\u0026lt;math.h\u0026gt; // to use sqrt() function int main() { printf(\u0026#34;\\n\\n\\t\\tC Programs\\n\\n\\n\u0026#34;); double a, b, c, area, s; printf(\u0026#34;\\nEnter the sides of the triangle:\\n\\n\u0026#34;); scanf(\u0026#34;%lf%lf%lf\u0026#34;, \u0026amp;a, \u0026amp;b, \u0026amp;c); // lf is format specifier for double input  s = (a+b+c)/2; /* sqrt is a predefined system function that returns the square root of the input value */ area = sqrt(s*(s-a)*(s-b)*(s-c)); printf(\u0026#34;\\n\\n\\n\\nThe area of the Triangle calculated using Heron\u0026#39;s formula is: %lf\u0026#34;, area); printf(\u0026#34;\\n\\n\\t\\t\\tCoding is Fun !\\n\\n\\n\u0026#34;); return 0; } "
+    }
+,
+    {
+        "ref": "https://example.com/c-program-to-find-the-largest-of-three-numbers/",
+        "title": "C Program to find the Largest of Three Numbers",
+        "section": "",
+        "tags": ["important_concepts"],
+        "date" : "0001.01.01",
+        "body": "C Program to find the Largest of Three Numbers Below is a program to find the largest amongst the three user input numbers.\n#include\u0026lt;stdio.h\u0026gt; int main() { printf(\u0026#34;\\n\\n\\t\\tC Programs\\n\\n\\n\u0026#34;); float a, b, c; printf(\u0026#34;Enter 3 numbers:\\n\\n\u0026#34;); scanf(\u0026#34;%f%f%f\u0026#34;, \u0026amp;a, \u0026amp;b, \u0026amp;c); if(a \u0026gt;= b \u0026amp;\u0026amp; a \u0026gt;= c) { /* %.3f prints the floating number upto 3 decimal places */ printf(\u0026#34;\\n\\nLargest number = %.3f \u0026#34;, a); } else if(b \u0026gt;= a \u0026amp;\u0026amp; b \u0026gt;= c) { printf(\u0026#34;\\n\\nLargest number is = %.3f\u0026#34;, b); } else { printf(\u0026#34;\\n\\nLargest number is = %.3f\u0026#34;, c); } printf(\u0026#34;\\n\\n\\t\\t\\tCoding is Fun !\\n\\n\\n\u0026#34;); return 0; } "
+    }
+,
+    {
+        "ref": "https://example.com/c-program-to-find-the-second-largest-number-among-three-user-input-numbers/",
+        "title": "C program to find the second Largest number among Three user input Numbers",
+        "section": "",
+        "tags": ["important_concepts"],
+        "date" : "0001.01.01",
+        "body": "C program to find the second Largest number among Three user input Numbers .2lf restricts the number till 2 decimal places\nBelow is a program to find the second largest number out of the three user input numbers using nested if-else loops:\n#include\u0026lt;stdio.h\u0026gt; int main() { printf(\u0026#34;\\n\\n\\t\\tC Programs\\n\\n\\n\u0026#34;); double a, b, c; printf(\u0026#34;Enter 3 numbers:\\n\u0026#34;); scanf(\u0026#34;%lf%lf%lf\u0026#34;, \u0026amp;a, \u0026amp;b, \u0026amp;c); //lf is a format specifier to take double as input  // a is the largest  if(a \u0026gt;= b \u0026amp;\u0026amp; a \u0026gt;= c) { if(b \u0026gt;= c) { /* .2lf restricts the number till 2 decimal places */ printf(\u0026#34;\\n\\n%.2lf is the 2nd largest number\\n\u0026#34;, b); } else { printf(\u0026#34;\\n\\n%.2lf is the 2nd largest number\\n\u0026#34;, c); } } else if(b \u0026gt;= a \u0026amp;\u0026amp; b \u0026gt;= c) { if(a \u0026gt;= c) { printf(\u0026#34;\\n\\n%.2lf is the 2nd largest number\\n\u0026#34;,a); } else { printf(\u0026#34;\\n\\n%.2lf is the 2nd largest number\\n\u0026#34;,c); } } // c is the largest number of the three  else if(a \u0026gt;= b) { printf(\u0026#34;\\n\\n%.2lf is the 2nd largest number\\n\u0026#34;, a); else { printf(\u0026#34;\\n\\n%.2lf is the 2nd largest number\\n\u0026#34;, b); } printf(\u0026#34;\\n\\n\\t\\t\\tCoding is Fun !\\n\\n\\n\u0026#34;); return 0; } "
+    }
+,
+    {
+        "ref": "https://example.com/c-program-to-identify-a-leap-year/",
+        "title": "C Program to identify a Leap Year",
+        "section": "",
+        "tags": ["important_concepts"],
+        "date" : "0001.01.01",
+        "body": "C Program to identify a Leap Year Below is a program to identify whether the user input year is a leap year or not.\n%nd is used to align the text, representing the values within n spaces with remaining leading by blank spaces.\n#include\u0026lt;stdio.h\u0026gt; int main() { printf(\u0026#34;\\n\\n\\t\\tC Programs\\n\\n\\n\u0026#34;); int year; printf(\u0026#34;Enter the year to check if it is a leap year: \u0026#34;); scanf(\u0026#34;%d\u0026#34;, \u0026amp;year); // divisible by 4, 100 and 400  if(year%400 == 0) printf(\u0026#34;\\n\\n%d is a leap year\\n\u0026#34;, year); // divisible by 100 and 4 and not divisible by 400  else if(year%100 == 0) printf(\u0026#34;\\n\\n%d is not a leap year\\n\u0026#34;, year); // divisible only by 4 and not by 100  else if(year%4 == 0) { /* %0nd is used to represent the number in n digits with leading 0\u0026#39;s */ printf(\u0026#34;\\n\\n%07d is a leap year\\n\u0026#34;, year); } // not divisible by 4  else printf(\u0026#34;\\n\\n%d is not a leap year\\n\u0026#34;, year); printf(\u0026#34;\\n\\n\\t\\t\\tCoding is Fun !\\n\\n\\n\u0026#34;); return 0; } "
+    }
+,
+    {
+        "ref": "https://example.com/c-program-to-show-basic-arithmetic-operations-and-role-of-typecasting/",
+        "title": "C program to show basic Arithmetic Operations and role of Typecasting",
+        "section": "",
+        "tags": ["important_concepts"],
+        "date" : "0001.01.01",
+        "body": "C program to show basic Arithmetic Operations and role of Typecasting Here we have 2 simple programs to showcase various basic arithmetic operations and how typecasting is handled by C language with and without explicitly using Typecasting in our program.\nArithmetic Operations without Typecasting Below is a program to perform basic arithmetic operations without typecasting.\n#include\u0026lt;stdio.h\u0026gt; int main() { printf(\u0026#34;\\n\\n\\t\\tC Programs\\n\\n\\n\u0026#34;); int a, b, add, subtract, multiply; float divide; printf(\u0026#34;Enter two integers: \\n\u0026#34;); scanf(\u0026#34;%d%d\u0026#34;, \u0026amp;a, \u0026amp;b); add = a+b; subtract = a-b; multiply = a*b; divide = a/b; printf(\u0026#34;\\nAddition of the numbers = %d\\n\u0026#34;, add); printf(\u0026#34;Subtraction of 2nd number from 1st = %d\\n\u0026#34;, subtract); printf(\u0026#34;Multiplication of the numbers = %d\\n\u0026#34;, multiply); printf(\u0026#34;Dividing 1st number from 2nd = %f\\n\u0026#34;, divide); printf(\u0026#34;\\n\\n\\t\\t\\tCoding is Fun !\\n\\n\\n\u0026#34;); return 0; } Arithmetic Operations with Typecasting C Language do handle typecasting implicitly, still user can handle it in their programs too.\nBelow is a simple program to perform basic arithmetic operations with typecasting.\n#include\u0026lt;stdio.h\u0026gt; int main() { printf(\u0026#34;\\n\\n\\t\\tC Programs\\n\\n\\n\u0026#34;); int a, b, add, subtract, multiply, remainder; float divide; printf(\u0026#34;Enter two integers: \\n\u0026#34;); scanf(\u0026#34;%d%d\u0026#34;, \u0026amp;a, \u0026amp;b); add = a+b; subtract = a-b; multiply = a*b; divide = a/(float)b; remainder = a%b; printf(\u0026#34;\\n\\nAddition of the numbers = %d\\n\u0026#34;, add); printf(\u0026#34;\\nSubtraction of 2nd number from 1st = %d\\n\u0026#34;, subtract); printf(\u0026#34;\\nMultiplication of the numbers = %d\\n\u0026#34;, multiply); printf(\u0026#34;\\nDividing 1st number from 2nd = %f\\n\u0026#34;, divide); printf(\u0026#34;\\nRemainder on Dividing 1st number by 2nd is %d\\n\u0026#34;, remainder); printf(\u0026#34;\\n\\n\\t\\t\\tCoding is Fun !\\n\\n\\n\u0026#34;); return 0; } "
+    }
+,
+    {
+        "ref": "https://example.com/c-programs-to-showcase-the-conversion-between-various-number-systems/",
+        "title": "C Programs to showcase the conversion between various Number Systems",
+        "section": "",
+        "tags": ["important_concepts"],
+        "date" : "0001.01.01",
+        "body": "C Programs to showcase the conversion between various Number Systems Here we have multiple programs to showcase conversion between various Number systems like Binary to Decimal, Octal to Decimal, Decimal to Binary and we will even use recursion to help you understand how recursion can be used in such programs. So let\u0026rsquo;s start.\nProgram to convert Binary to Decimal Equivalent Below is a program to convert binary number to its decimal equivalent.\n#include\u0026lt;stdio.h\u0026gt;#include\u0026lt;math.h\u0026gt; // Function prototype declaration int binary_decimal(int n); int main() { printf(\u0026#34;\\n\\n\\t\\tC Programs\\n\\n\\n\u0026#34;); int n; char c; printf(\u0026#34;Enter the binary number: \u0026#34;); scanf(\u0026#34;%d\u0026#34;, \u0026amp;n); printf(\u0026#34;\\n\\n\\nThe decimal equivalent of %d is %d\\n\\n\u0026#34;, n, binary_decimal(n)); // function calling  printf(\u0026#34;\\n\\n\\t\\t\\tCoding is Fun !\\n\\n\\n\u0026#34;); return 0; } // Definition of the function to convert binary to decimal. int binary_decimal(int n) { int decimal = 0, i = 0, rem; while(n != 0) { rem = n%10; // gives the digit at the units place  n = n/10; // gives the number excluding its units digit  /* pow is a system defined function that takes two integers as input parameters */ decimal += rem*pow(2, i++); } /* return the decimal equivalent of the input binary number to the function call */ return decimal; } Program to convert Octal to Decimal Equivalent Below is a program to convert octal number to its decimal equivalent.\n%ld is the format specifier to input a long value.\n#include\u0026lt;stdio.h\u0026gt;#include\u0026lt;stdio.h\u0026gt;#include\u0026lt;math.h\u0026gt; int main() { printf(\u0026#34;\\n\\n\\t\\tC Programs\\n\\n\\n\u0026#34;); long int octal, val, decimal = 0; int i = 0; printf(\u0026#34;Enter any octal number: \u0026#34;); scanf(\u0026#34;%ld\u0026#34;, \u0026amp;val); octal = val; while(octal != 0) { /* i++ is post increment, where value is first assigned and then incremented */ decimal += (octal % 10)*pow(8, i++); octal/=10; // same as octal=octal/10  } printf(\u0026#34;\\n\\n\\nEquivalent decimal value of %ld is %ld\\n\\n\\n\u0026#34;, val, decimal); printf(\u0026#34;\\n\\n\\t\\t\\tCoding is Fun !\\n\\n\\n\u0026#34;); return 0; } Program to convert Decimal to Binary Equivalent Below is a program to convert decimal number to its binary equivalent without recursion.\n#include\u0026lt;stdio.h\u0026gt; int main() { printf(\u0026#34;\\n\\n\\t\\tC Programs\\n\\n\\n\u0026#34;); int n,c,k; printf(\u0026#34;Enter an integer in decimal number system: \u0026#34;); scanf(\u0026#34;%d\u0026#34;, \u0026amp;n); // In 31 bit format  printf(\u0026#34;\\n\\n\\nThe binary equivalent of decimal value %d is:\u0026#34;, n); for(c = 31; c \u0026gt;= 0; c--) { k = n\u0026gt;\u0026gt;c; /* num\u0026amp;1 = returns true if the last digit of num is 1 else false */ if(k\u0026amp;1) printf(\u0026#34;1\u0026#34;); else printf(\u0026#34;0\u0026#34;); } printf(\u0026#34;\\n\u0026#34;); printf(\u0026#34;\\n\\n\\t\\t\\tCoding is Fun !\\n\\n\\n\u0026#34;); return 0; } Program to convert Decimal to Binary Equivalent using Recursion Below is a program to convert decimal number to its binary equivalent with recursion:\n#include\u0026lt;stdio.h\u0026gt; //Function prototype declarations void decimal_binary(int ); void F(int ); void reverse(int ); int main() { printf(\u0026#34;\\n\\n\\t\\tC Programs\\n\\n\\n\u0026#34;); int n; printf(\u0026#34;\\n\\nEnter an integer in decimal number system: \u0026#34;); scanf(\u0026#34;%d\u0026#34;, \u0026amp;n); //In 31 bit format  printf(\u0026#34;\\n\\nThe binary equivalent of decimal value %d using decimal_binary method is: \u0026#34;, n); decimal_binary(n); // function call  printf(\u0026#34;\\n\\nThe binary equivalent of decimal value %d using F() method is: \u0026#34;, n); F(n); // function call  printf(\u0026#34;\\n\\nThe Reverse of the binary representation of value %d is: \u0026#34;, n); reverse(n); // function call  printf(\u0026#34;\\n\\n\\t\\t\\tCoding is Fun !\\n\\n\\n\u0026#34;); return 0; } // function definition void decimal_binary(int i) { if(i \u0026lt;= 1) printf(\u0026#34;%d\u0026#34;, i); // to print in up to down format  else { decimal_binary(i/2); printf(\u0026#34;%d\u0026#34;, i%2); } } void F(int j) { if(j/2) { F(j/2); } printf(\u0026#34;%d\u0026#34;, j%2); } void reverse(int k) { if(k \u0026lt;= 1) printf(\u0026#34;%d\u0026#34;, k); else { printf(\u0026#34;%d\u0026#34;, k%2); F(k/2); } printf(\u0026#34;\\n\\n\u0026#34;); } "
+    }
+]

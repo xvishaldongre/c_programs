@@ -1,0 +1,73 @@
+[
+    {
+        "ref": "https://example.com/c-gets-and-strlen-function/",
+        "title": "C gets() and strlen() function",
+        "section": "",
+        "tags": ["string"],
+        "date" : "0001.01.01",
+        "body": "C gets() and strlen() function Some important points about gets() and scanf() methods are:\nBelow is a program on gets() and strlen() function.\n#include\u0026lt;stdio.h\u0026gt;#include\u0026lt;string.h\u0026gt; int main() { printf(\u0026#34;\\n\\n\\t\\tC Programs\\n\\n\\n\u0026#34;); char a[100]; int length; printf(\u0026#34;\\n\\nEnter a string you wish to calculate the length of : \u0026#34;); /* to take a single string (including spaces) as input at a time */ gets(a); /* Return the length of the string or the number of characters in the string */ length = strlen(a); printf(\u0026#34;\\n\\nThe length of the input string is: %d\\n\\n\u0026#34;, length); printf(\u0026#34;\\n\\n\\t\\t\\tCoding is Fun !\\n\\n\\n\u0026#34;); return 0; } C Program to find Length of a string without strlen() function Below is a program to find the length of a string without the use of strlen() function.\nYou must be wondering why we have not added any statement to our for loop. It\u0026rsquo;s because we are traversing our string until we encounter \\0 and are doing i++ every time, hence we do not have to do anything else inside the loop, as the value of i will be equal to the length of the string by the time we encounter the \\0 character.\n#include\u0026lt;stdio.h\u0026gt; int main() { printf(\u0026#34;\\n\\n\\t\\tC Programs\\n\\n\\n\u0026#34;); char aj[1000]; int i = 0; printf(\u0026#34;\\n\\nEnter the string: \u0026#34;); gets(aj); // \\0 marks the end of the string  for(i = 0; aj[i] != \u0026#39;\\0\u0026#39; ;i++); // updation is done after checking condition  printf(\u0026#34;\\n\\nThe length of the input string is : %d\u0026#34;, i); printf(\u0026#34;\\n\\n\\t\\t\\tCoding is Fun !\\n\\n\\n\u0026#34;); return 0; } "
+    }
+,
+    {
+        "ref": "https://example.com/c-program-for-removing-whitespaces-in-a-string/",
+        "title": "C Program for removing Whitespaces in a String",
+        "section": "",
+        "tags": ["string"],
+        "date" : "0001.01.01",
+        "body": "C Program for removing Whitespaces in a String Below is a program to remove whitespaces from a given string.\n#include\u0026lt;stdio.h\u0026gt;#include\u0026lt;string.h\u0026gt; int main() { printf(\u0026#34;\\n\\n\\t\\tC Programs\\n\\n\\n\u0026#34;); char aj[1000], mj[1000]; int i = 0, j = 0, len; printf(\u0026#34;\\n\\nEnter the string: \u0026#34;); gets(aj); len = strlen(aj); // len stores the length of the input string  while(aj[i] != \u0026#39;\\0\u0026#39;) // till string doesn\u0026#39;t terminate  { if(aj[i] != \u0026#39; \u0026#39;) // if the char is not a white space  { /* incrementing index j only when the char is not space */ mj[j++] = aj[i]; } /* i is the index of the actual string and is incremented irrespective of the spaces */ i++; } mj[j] = \u0026#39;\\0\u0026#39;; printf(\u0026#34;\\n\\nThe string after removing all the spaces is: %s\u0026#34;, mj); printf(\u0026#34;\\n\\n\\t\\t\\tCoding is Fun !\\n\\n\\n\u0026#34;); return 0; } "
+    }
+,
+    {
+        "ref": "https://example.com/c-program-to-calculate-the-frequency-of-characters-in-a-string/",
+        "title": "C Program to calculate the Frequency of characters in a string",
+        "section": "",
+        "tags": ["string"],
+        "date" : "0001.01.01",
+        "body": "C Program to calculate the Frequency of characters in a string Below is a program to find the frequency of characters in a given string.\n#include\u0026lt;stdio.h\u0026gt; int main() { printf(\u0026#34;\\n\\n\\t\\tC Programs\\n\\n\\n\u0026#34;); char aj[1000]; int c = 0; int count[26] = {0}; // initializing all the elements of array to 0  printf(\u0026#34;\\n\\nEnter the string : \u0026#34;); gets(aj); while(aj[c] != \u0026#39;\\0\u0026#39;) { if(aj[c] \u0026gt;= \u0026#39;a\u0026#39; \u0026amp;\u0026amp; aj[c] \u0026lt;= \u0026#39;z\u0026#39;) { /* Incrementing the count of the letter in the array, converting its index within the range 0 to 25 */ count[aj[c] - \u0026#39;a\u0026#39;]++; } c++; } for(c = 0; c \u0026lt; 26; c++) { /* If the character appears in the input string atleast once */ if(count[c] != 0) { printf(\u0026#34;\\n\\t\\t%c occurs %d times in the string, \\n\u0026#34;,c+\u0026#39;a\u0026#39; ,count[c]); } } printf(\u0026#34;\\n\\n\\n\\n\\t\\t\\tCoding is Fun !\\n\\n\\n\u0026#34;); return 0; } "
+    }
+,
+    {
+        "ref": "https://example.com/c-program-to-compare-two-strings-using-strcmp-function/",
+        "title": "C Program to compare two strings using strcmp() Function",
+        "section": "",
+        "tags": ["string"],
+        "date" : "0001.01.01",
+        "body": "C Program to compare two strings using strcmp() Function In this program we will compare strings using strcmp() function defined in the string.h library.\nstrcmp(a, b) returns 0 if both the strings a and b are exactly same else returns -1.\nIt is case sensitive so \u0026lsquo;ABC\u0026rsquo; and \u0026lsquo;abc\u0026rsquo; are considered to be different strings. It can be used with with strrev() function(function to reverse a string) to check whether a given string is a Pallindrome or not.\nBelow is a program on strcmp() function.\n#include\u0026lt;stdio.h\u0026gt;#include\u0026lt;string.h\u0026gt; // for strcmp() function int main() { printf(\u0026#34;\\n\\n\\t\\tC Programs\\n\\n\\n\u0026#34;); char aj1[100], aj2[100]; int compare; printf(\u0026#34;\\n\\nstrcmp(a,b) returns : 0 if both the strings are exactly same and -1 otherwise.\\n\\n\\n\u0026#34;); printf(\u0026#34;\\n\\nstrcmp(a,b) is Case Sensitive.\\n\\n\\n\u0026#34;); printf(\u0026#34;\\n\\nEnter 1st string: \u0026#34;); gets(aj1); printf(\u0026#34;\\n\\nEnter 2nd string: \u0026#34;); gets(aj2); compare = strcmp(aj1, aj2); if(compare == 0) printf(\u0026#34;\\n\\nBoth the strings are exactly same.\\n\\n\u0026#34;); else printf(\u0026#34;\\n\\nBoth the strings are different.\\n\u0026#34;); printf(\u0026#34;\\n\\n\\n\\t\\t\\tCoding is Fun !\\n\\n\\n\u0026#34;); return 0; } C Program to compare strings without strcmp() function Below is a program to compare strings, without the use of strcmp() function.\n#include\u0026lt;stdio.h\u0026gt; int stringCompare(char[], char[]); // function prototype declaration  int main() { printf(\u0026#34;\\n\\n\\t\\tC Programs\\n\\n\\n\u0026#34;); char aj1[100], aj2[100]; int compare; printf(\u0026#34;\\n\\nEnter 1st string: \u0026#34;); scanf(\u0026#34;%s\u0026#34;, aj1); printf(\u0026#34;\\n\\nEnter 2nd string: \u0026#34;); scanf(\u0026#34;%s\u0026#34;, aj2); compare = stringCompare(aj1, aj2); // function call  if(compare == 1) printf(\u0026#34;\\n\\nBoth the strings are exactly same.\\n\\n\u0026#34;); else printf(\u0026#34;\\n\\nBoth the strings are different.\\n\u0026#34;); printf(\u0026#34;\\n\\n\\t\\t\\tCoding is Fun !\\n\\n\\n\u0026#34;); return 0; } int stringCompare(char mj1[], char mj2[]) // function definition { int i = 0, flag = 0; while(mj1[i] != \u0026#39;\\0\u0026#39; \u0026amp;\u0026amp; mj2[i] != \u0026#39;\\0\u0026#39;) // until atleast one string ends  { /* Even if they differ by a single character, don\u0026#39;t iterate further */ if(mj1[i] != mj2[i]) { flag = 1; break; } i++; } /* If all the characters are sequentially same as well as both strings have ended */ if(flag == 0 \u0026amp;\u0026amp; mj1[i] == \u0026#39;\\0\u0026#39; \u0026amp;\u0026amp; mj2[i] == \u0026#39;\\0\u0026#39;) return 1; else return 0; } "
+    }
+,
+    {
+        "ref": "https://example.com/c-program-to-copy-string-using-strcpy-function/",
+        "title": "C Program to copy string using strcpy() Function",
+        "section": "",
+        "tags": ["string"],
+        "date" : "0001.01.01",
+        "body": "C Program to copy string using strcpy() Function In this program we will copy one string into another, using the strcpy() method defined under the string.h library.\nstrcpy(destination, source) is a system defined method used to copy the source string into the destination variable.\nBelow is a program on strcpy() function.\n#include\u0026lt;stdio.h\u0026gt;#include\u0026lt;string.h\u0026gt; // for using strcpy() function int main() { printf(\u0026#34;\\n\\n\\t\\tC Programs\\n\\n\\n\u0026#34;); char mj[100]; char aj[100]; printf(\u0026#34;\\n\\nstrcpy(destination, source): is a system defined method used to copy the source string into the destination.\\n\\n\u0026#34;); printf(\u0026#34;\\n\\nEnter the string: \u0026#34;); gets(aj); strcpy(mj, aj); printf(\u0026#34;\\n\\nThe copied string is: %s\\n\\n\u0026#34;, mj); printf(\u0026#34;\\n\\n\\t\\t\\tCoding is Fun !\\n\\n\\n\u0026#34;); return 0; } C Program to copy string without strcpy() function What if you do not want to use the system defined function?\nWhile initializing a string, there is no need to put a null character at the end, as the compiler provides it automatically.\nFor example, char aj[] = \u0026ldquo;aditya\u0026rdquo;; is a correct statement. However while copying one string into another, terminating the destination string with a null character is mandatory, to use it in future.\nBelow is a program for copying string without the use of strcpy() function.\n#include\u0026lt;stdio.h\u0026gt; void stringCopy(char[], char[]); // function prototype declaration  int main() { printf(\u0026#34;\\n\\n\\t\\tC Programs\\n\\n\\n\u0026#34;); char aj[100], mj[100]; printf(\u0026#34;\\n\\nEnter 1st string: \u0026#34;); gets(aj); stringCopy(aj, mj); // function call  printf(\u0026#34;\\n\\nThe copied string is: %s\\n\\n\u0026#34;, mj); printf(\u0026#34;\\n\\n\\t\\t\\tCoding is Fun !\\n\\n\\n\u0026#34;); return 0; } void stringCopy(char a[], char b[]) // function definition { int i = 0; while(a[i] != \u0026#39;\\0\u0026#39;) { b[i] = a[i]; i++; } /* The string must always terminate with a \u0026#39;\\0\u0026#39; - null character */ b[i] =\u0026#39; \\0\u0026#39;; // most important step } "
+    }
+,
+    {
+        "ref": "https://example.com/c-program-to-count-number-of-vowels-in-a-string/",
+        "title": "C Program to Count number of vowels in a String",
+        "section": "",
+        "tags": ["string"],
+        "date" : "0001.01.01",
+        "body": "C Program to Count number of vowels in a String Below is a program to count number of vowels in a given string.\n#include\u0026lt;stdio.h\u0026gt; // Global method declaration int count_vowels(char []); int check_vowel(char); int main() { printf(\u0026#34;\\n\\n\\t\\tC Programs\\n\\n\\n\u0026#34;); char aj[100]; int mj; printf(\u0026#34;\\n\\nEnter a string : \u0026#34;); gets(aj); // inputting a string from user  mj = count_vowels(aj); // function call  printf(\u0026#34;\\n\\nNumber of vowels in string \\\u0026#39;%s\\\u0026#39;is: %d\u0026#34;, aj, mj); printf(\u0026#34;\\n\\n\\n\\n\\t\\t\\tCoding is Fun !\\n\\n\\n\u0026#34;); return 0; } /* Collecting the input string in char array adi[], all at a time */ int count_vowels(char adi[]) { int count = 0, c= 0, flag = 0; char d; do { /* Storing each character of string in char \u0026#39;d\u0026#39; one at a time */ d = adi[c]; /* Calling function to check if char is vowel or not */ flag = check_vowel(d); if(flag ==1) // if the char is vowel  { count++; // increment the count of the vowel  } c++; // updating the string character to be checked  }while(d != \u0026#39;\\0\u0026#39;); // terminating condition till it reaches the end of the string  return count; } int check_vowel(char ajj) { if(ajj \u0026gt;= \u0026#39;A\u0026#39; \u0026amp;\u0026amp; ajj \u0026lt;= \u0026#39;Z\u0026#39;) // if the char is uppercase  ajj = ajj+\u0026#39;a\u0026#39; - \u0026#39;A\u0026#39;; // converting to lowercase using the ASCII values  // if the char is any of the vowel  if(ajj == \u0026#39;a\u0026#39; || ajj == \u0026#39;e\u0026#39; || ajj == \u0026#39;i\u0026#39; || ajj == \u0026#39;o\u0026#39; || ajj == \u0026#39;u\u0026#39;) return 1; // making flag=1  return 0; // if not a vowel, flag remains 0 } "
+    }
+,
+    {
+        "ref": "https://example.com/c-program-to-reverse-a-string-using-strrev-function/",
+        "title": "C Program to reverse a string using strrev() Function",
+        "section": "",
+        "tags": ["string"],
+        "date" : "0001.01.01",
+        "body": "C Program to reverse a string using strrev() Function In this program we will compare strings using the strrev() defined within the string.h library. It can be used to check if the string is pallindrome or not by using this function along with the strcmp() function.\nBelow is a program on strrev() function.\n#include\u0026lt;stdio.h\u0026gt;#include\u0026lt;string.h\u0026gt; int main() { printf(\u0026#34;\\n\\n\\t\\tC Programs\\n\\n\\n\u0026#34;); char aj[1000]; printf(\u0026#34;\\n\\nstrrev(string): Function to reverse the string and storing in the same string.\\n\\n\\n\u0026#34;); printf(\u0026#34;\\n\\nEnter the string: \u0026#34;); gets(aj); /* system defined function to reverse the string and storing in the same string */ strrev(aj); printf(\u0026#34;\\n\\nReverse of entered string is: %s\u0026#34;, aj); printf(\u0026#34;\\n\\n\\n\\n\\t\\t\\tCoding is Fun !\\n\\n\\n\u0026#34;); return 0; } "
+    }
+,
+    {
+        "ref": "https://example.com/difference-between-strlen-and-sizeof-function/",
+        "title": "Difference between strlen() and sizeof() function",
+        "section": "",
+        "tags": ["string"],
+        "date" : "0001.01.01",
+        "body": "Difference between strlen() and sizeof() function Below is a program on strlen() and sizeof() function.\nstrlen() is a system defined function that does not consider the null character \\0.\n#include\u0026lt;stdio.h\u0026gt;#include\u0026lt;conio.h\u0026gt;#include\u0026lt;string.h\u0026gt; int main() { printf(\u0026#34;\\n\\n\\t\\tC Programs\\n\\n\\n\u0026#34;); char aj[] = \u0026#34;C Programs\u0026#34;; int length1, length2; length1 = sizeof(aj); length2 = strlen(aj); // need to put in backslash infront to print the quote symbol  printf(\u0026#34;\\n\\n\\nsizeof() of string \\\u0026#34;C Programs\\\u0026#34;returns %d and strlen() returns %d.\u0026#34;, length1, length2); printf(\u0026#34;\\n\\n\\nsizeof() also considers \\\u0026#39;\\\\0\\\u0026#39;as a part of the string.\\n\u0026#34;); printf(\u0026#34;\\n\\n\\nHence, for a predefined string: sizeof() = strlen() + 1 \\n\u0026#34;); printf(\u0026#34;\\n\\n\\t\\t\\tCoding is Fun !\\n\\n\\n\u0026#34;); return 0; } "
+    }
+]

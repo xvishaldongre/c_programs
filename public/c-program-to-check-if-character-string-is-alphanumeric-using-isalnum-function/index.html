@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  <title>
+      
+          C Program to check if character string is alphanumeric using isalnum() Function - C Programs
+      
+  </title>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="author" content="By Vishal Dongre" />
+  <link rel="shortcut icon" type="image/x-icon" href="https://example.com/img/favicon.ico">
+
+  
+  
+  
+  
+  
+  <link rel="stylesheet" href="https://example.com/style.min.98f7f84c1576b3a7b05ee5507e0cb5d0cd796b2b47f0ca966b53a9651ae67ccd.css" integrity="sha256-mPf4TBV2s6ewXuVQfgy10M15aytH8MqWa1OpZRrmfM0=">
+  
+  
+  
+  <link rel="stylesheet" href="https://example.com/style-dark.min.0a647fb6c07e04b77b54fa0515d0a683d39ecdb251dba960fe1f966f7ff36fc2.css" media="(prefers-color-scheme: dark)" integrity="sha256-CmR/tsB&#43;BLd7VPoFFdCmg9OezbJR26lg/h&#43;Wb3/zb8I=">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+
+  
+  
+
+  <meta property="og:title" content="C Program to check if character string is alphanumeric using isalnum() Function" />
+<meta property="og:description" content="C Program to check if character string is alphanumeric using isalnum() Function In this program we will check if character string is alphanumeric(either an alphabet or a number or both). We will be using a system defined function isalnum() defined under the ctype.h library for this. This method is used for various valid password checking options.
+Below is a program on isalnum() function.
+#include&lt;stdio.h&gt;#include&lt;ctype.h&gt; // to make use of system defined function isalnum() int main() { printf(&#34;\n\n\t\tC Programs\n\n\n&#34;); /* As datatypes are int, hence all the variables store the ASCII values of the character on the RHS */ int var1 = &#39;d&#39;; int var2 = &#39;2&#39;; int var3 = &#39;%&#39;; int var4 = &#39; &#39;; /* Returns true if the input parameter is an ASCII value of an alphanumberic character */ if(isalnum(var1)) { printf(&#34;\nvar1 = |%c| is alphanumeric\n&#34;, var1); } else { printf(&#34;\nvar1 =|%c| is not alphanumeric\n&#34;, var1); } if(isalnum(var2)) { printf(&#34;\nvar2 = |%c| is alphanumeric\n&#34;, var2); } else { printf(&#34;\nvar2 =|%c| is not alphanumeric\n&#34;, var2); } if(isalnum(var3)) { printf(&#34;\nvar3 = |%c| is alphanumeric\n&#34;, var3); } else { printf(&#34;\nvar3 =|%c| is not alphanumeric\n&#34;, var3); } if(isalnum(var4)) { printf(&#34;\nvar4 = |%c| is alphanumeric\n&#34;, var4); } else { printf(&#34;\nvar4 =|%c| is not alphanumeric\n&#34;, var4); } printf(&#34;\n\n\t\t\tCoding is Fun !" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://example.com/c-program-to-check-if-character-string-is-alphanumeric-using-isalnum-function/" />
+
+<meta itemprop="name" content="C Program to check if character string is alphanumeric using isalnum() Function">
+<meta itemprop="description" content="C Program to check if character string is alphanumeric using isalnum() Function In this program we will check if character string is alphanumeric(either an alphabet or a number or both). We will be using a system defined function isalnum() defined under the ctype.h library for this. This method is used for various valid password checking options.
+Below is a program on isalnum() function.
+#include&lt;stdio.h&gt;#include&lt;ctype.h&gt; // to make use of system defined function isalnum() int main() { printf(&#34;\n\n\t\tC Programs\n\n\n&#34;); /* As datatypes are int, hence all the variables store the ASCII values of the character on the RHS */ int var1 = &#39;d&#39;; int var2 = &#39;2&#39;; int var3 = &#39;%&#39;; int var4 = &#39; &#39;; /* Returns true if the input parameter is an ASCII value of an alphanumberic character */ if(isalnum(var1)) { printf(&#34;\nvar1 = |%c| is alphanumeric\n&#34;, var1); } else { printf(&#34;\nvar1 =|%c| is not alphanumeric\n&#34;, var1); } if(isalnum(var2)) { printf(&#34;\nvar2 = |%c| is alphanumeric\n&#34;, var2); } else { printf(&#34;\nvar2 =|%c| is not alphanumeric\n&#34;, var2); } if(isalnum(var3)) { printf(&#34;\nvar3 = |%c| is alphanumeric\n&#34;, var3); } else { printf(&#34;\nvar3 =|%c| is not alphanumeric\n&#34;, var3); } if(isalnum(var4)) { printf(&#34;\nvar4 = |%c| is alphanumeric\n&#34;, var4); } else { printf(&#34;\nvar4 =|%c| is not alphanumeric\n&#34;, var4); } printf(&#34;\n\n\t\t\tCoding is Fun !">
+
+<meta itemprop="wordCount" content="210">
+
+
+
+<meta itemprop="keywords" content="CTYPE.H," />
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:image" content="https://example.com//img/avatar3.png"/>
+<meta name="twitter:title" content="C Program to check if character string is alphanumeric using isalnum() Function"/>
+<meta name="twitter:description" content="C Program to check if character string is alphanumeric using isalnum() Function In this program we will check if character string is alphanumeric(either an alphabet or a number or both). We will be using a system defined function isalnum() defined under the ctype.h library for this. This method is used for various valid password checking options.
+Below is a program on isalnum() function.
+#include&lt;stdio.h&gt;#include&lt;ctype.h&gt; // to make use of system defined function isalnum() int main() { printf(&#34;\n\n\t\tC Programs\n\n\n&#34;); /* As datatypes are int, hence all the variables store the ASCII values of the character on the RHS */ int var1 = &#39;d&#39;; int var2 = &#39;2&#39;; int var3 = &#39;%&#39;; int var4 = &#39; &#39;; /* Returns true if the input parameter is an ASCII value of an alphanumberic character */ if(isalnum(var1)) { printf(&#34;\nvar1 = |%c| is alphanumeric\n&#34;, var1); } else { printf(&#34;\nvar1 =|%c| is not alphanumeric\n&#34;, var1); } if(isalnum(var2)) { printf(&#34;\nvar2 = |%c| is alphanumeric\n&#34;, var2); } else { printf(&#34;\nvar2 =|%c| is not alphanumeric\n&#34;, var2); } if(isalnum(var3)) { printf(&#34;\nvar3 = |%c| is alphanumeric\n&#34;, var3); } else { printf(&#34;\nvar3 =|%c| is not alphanumeric\n&#34;, var3); } if(isalnum(var4)) { printf(&#34;\nvar4 = |%c| is alphanumeric\n&#34;, var4); } else { printf(&#34;\nvar4 =|%c| is not alphanumeric\n&#34;, var4); } printf(&#34;\n\n\t\t\tCoding is Fun !"/>
+
+  <!--[if lte IE 9]>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/classlist/1.1.20170427/classList.min.js"></script>
+  <![endif]-->
+
+  <!--[if lt IE 9]>
+  <script src="https://cdn.jsdelivr.net/npm/html5shiv@3.7.3/dist/html5shiv.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/respond.js@1.4.2/dest/respond.min.js"></script>
+  <![endif]-->
+
+  
+  
+</head>
+
+  <body>
+    <nav>
+      <ul id="nav-list">
+        <li class="nav-item"><a href="https://example.com/">Home</a></li>
+        <li class="nav-item"><a href="https://example.com/tags">Tags</a></li>
+        <li class="nav-item"><a href="https://example.com/about">About me</a></li>
+        <li class="nav-item"><a href="https://example.com/contact">Contact</a></li>
+      </ul>
+    </nav>
+    <div class="openNav">
+      <div class="icon"></div>
+    </div>
+    <div class="wrapper">
+  <h1>C Program to check if character string is alphanumeric using isalnum() Function</h1>
+  <header>
+  
+  <div class="avatar">
+    <a href="https://example.com/">
+    <img class="avatarMask" src="https://example.com//img/avatar3.png" alt=""></a>
+  </div>
+  
+  <h2><a class="author" href="https://example.com/">By Vishal Dongre</a></h2>
+</header>
+
+  
+  
+  
+  <div id="tags">
+    <ul>
+      
+        
+        
+          <li><a href="https://example.com/tags/ctype.h/">CTYPE.H</a></li>
+        
+      
+    </ul>
+  </div>
+  
+  
+  <div id="contentBody">
+    <h2 id="c-program-to-check-if-character-string-is-alphanumeric-using-isalnum-function">C Program to check if character string is alphanumeric using isalnum() Function</h2>
+<p>In this program we will check if character string is alphanumeric(either an alphabet or a number or both). We will be using a system defined function isalnum() defined under the ctype.h library for this. This method is used for various valid password checking options.</p>
+<p>Below is a program on isalnum() function.</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-c" data-lang="c"><span style="color:#75715e">#include</span><span style="color:#75715e">&lt;stdio.h&gt;</span><span style="color:#75715e">
+</span><span style="color:#75715e">#include</span><span style="color:#75715e">&lt;ctype.h&gt; // to make use of system defined function isalnum()</span><span style="color:#75715e">
+</span><span style="color:#75715e"></span>
+<span style="color:#66d9ef">int</span> <span style="color:#a6e22e">main</span>()
+{
+    printf(<span style="color:#e6db74">&#34;</span><span style="color:#ae81ff">\n\n\t\t</span><span style="color:#e6db74">C Programs</span><span style="color:#ae81ff">\n\n\n</span><span style="color:#e6db74">&#34;</span>);
+    <span style="color:#75715e">/*
+</span><span style="color:#75715e">        As datatypes are int, hence all the variables store the
+</span><span style="color:#75715e">        ASCII values of the character on the RHS
+</span><span style="color:#75715e">    */</span>
+    <span style="color:#66d9ef">int</span> var1 <span style="color:#f92672">=</span> <span style="color:#e6db74">&#39;d&#39;</span>;
+    <span style="color:#66d9ef">int</span> var2 <span style="color:#f92672">=</span> <span style="color:#e6db74">&#39;2&#39;</span>;
+    <span style="color:#66d9ef">int</span> var3 <span style="color:#f92672">=</span> <span style="color:#e6db74">&#39;%&#39;</span>;
+    <span style="color:#66d9ef">int</span> var4 <span style="color:#f92672">=</span> <span style="color:#e6db74">&#39; &#39;</span>;
+
+    <span style="color:#75715e">/*
+</span><span style="color:#75715e">        Returns true if the input parameter is an ASCII value
+</span><span style="color:#75715e">        of an alphanumberic character
+</span><span style="color:#75715e">    */</span>
+    <span style="color:#66d9ef">if</span>(isalnum(var1))
+    {
+        printf(<span style="color:#e6db74">&#34;</span><span style="color:#ae81ff">\n</span><span style="color:#e6db74"> var1 = |%c| is alphanumeric</span><span style="color:#ae81ff">\n</span><span style="color:#e6db74">&#34;</span>, var1);
+    }
+    <span style="color:#66d9ef">else</span>
+    {
+        printf(<span style="color:#e6db74">&#34;</span><span style="color:#ae81ff">\n</span><span style="color:#e6db74">var1 =|%c| is not alphanumeric</span><span style="color:#ae81ff">\n</span><span style="color:#e6db74">&#34;</span>, var1);
+    }
+
+    <span style="color:#66d9ef">if</span>(isalnum(var2))
+    {
+        printf(<span style="color:#e6db74">&#34;</span><span style="color:#ae81ff">\n</span><span style="color:#e6db74"> var2 = |%c| is alphanumeric</span><span style="color:#ae81ff">\n</span><span style="color:#e6db74">&#34;</span>, var2);
+    }
+    <span style="color:#66d9ef">else</span>
+    {
+        printf(<span style="color:#e6db74">&#34;</span><span style="color:#ae81ff">\n</span><span style="color:#e6db74">var2 =|%c| is not alphanumeric</span><span style="color:#ae81ff">\n</span><span style="color:#e6db74">&#34;</span>, var2);
+    }
+
+    <span style="color:#66d9ef">if</span>(isalnum(var3))
+    {
+        printf(<span style="color:#e6db74">&#34;</span><span style="color:#ae81ff">\n</span><span style="color:#e6db74"> var3 = |%c| is alphanumeric</span><span style="color:#ae81ff">\n</span><span style="color:#e6db74">&#34;</span>, var3);
+    }
+    <span style="color:#66d9ef">else</span>
+    {
+        printf(<span style="color:#e6db74">&#34;</span><span style="color:#ae81ff">\n</span><span style="color:#e6db74">var3 =|%c| is not alphanumeric</span><span style="color:#ae81ff">\n</span><span style="color:#e6db74">&#34;</span>, var3);
+    }
+
+    <span style="color:#66d9ef">if</span>(isalnum(var4))
+    {
+        printf(<span style="color:#e6db74">&#34;</span><span style="color:#ae81ff">\n</span><span style="color:#e6db74"> var4 = |%c| is alphanumeric</span><span style="color:#ae81ff">\n</span><span style="color:#e6db74">&#34;</span>, var4);
+    }
+    <span style="color:#66d9ef">else</span>
+    {
+        printf(<span style="color:#e6db74">&#34;</span><span style="color:#ae81ff">\n</span><span style="color:#e6db74">var4 =|%c| is not alphanumeric</span><span style="color:#ae81ff">\n</span><span style="color:#e6db74">&#34;</span>, var4);
+    }
+
+    printf(<span style="color:#e6db74">&#34;</span><span style="color:#ae81ff">\n\n\t\t\t</span><span style="color:#e6db74">Coding is Fun !</span><span style="color:#ae81ff">\n\n\n</span><span style="color:#e6db74">&#34;</span>);
+    <span style="color:#66d9ef">return</span> <span style="color:#ae81ff">0</span>;
+}
+</code></pre></div>
+  </div>
+  <footer>
+  <p>
+  &copy; 2021 By Vishal Dongre.
+  Powered by <a href="https://gohugo.io/">Hugo</a>
+  using the <a href="https://github.com/koirand/pulp/">pulp</a> theme.
+  </p>
+</footer>
+
+  
+  
+  
+  
+  
+    
+  <script src="https://example.com/bundle.min.978b8c0968bb3037d3317a53bb44a8aa132302c68a32646c90053f4a8ac9de6c.js"></script>
+  <script>
+    $(".openNav").click(function() {
+      $("body").toggleClass("navOpen");
+      $("nav").toggleClass("open");
+      $(".wrapper").toggleClass("open");
+      $(this).toggleClass("open");
+    });
+  </script>
+</div>
+  </body>
+</html>

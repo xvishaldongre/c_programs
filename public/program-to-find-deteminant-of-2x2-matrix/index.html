@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  <title>
+      
+          Program to find Deteminant of 2x2 Matrix - C Programs
+      
+  </title>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="author" content="By Vishal Dongre" />
+  <link rel="shortcut icon" type="image/x-icon" href="https://example.com/img/favicon.ico">
+
+  
+  
+  
+  
+  
+  <link rel="stylesheet" href="https://example.com/style.min.98f7f84c1576b3a7b05ee5507e0cb5d0cd796b2b47f0ca966b53a9651ae67ccd.css" integrity="sha256-mPf4TBV2s6ewXuVQfgy10M15aytH8MqWa1OpZRrmfM0=">
+  
+  
+  
+  <link rel="stylesheet" href="https://example.com/style-dark.min.0a647fb6c07e04b77b54fa0515d0a683d39ecdb251dba960fe1f966f7ff36fc2.css" media="(prefers-color-scheme: dark)" integrity="sha256-CmR/tsB&#43;BLd7VPoFFdCmg9OezbJR26lg/h&#43;Wb3/zb8I=">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+
+  
+  
+
+  <meta property="og:title" content="Program to find Deteminant of 2x2 Matrix" />
+<meta property="og:description" content="Program to find Deteminant of 2x2 Matrix Below is a program to find the determinant of a 2x2 matrix.
+Please note that, when we say a 2x2 matrix, we mean an array of 2x2.
+#include&lt;stdio.h&gt; int main() { printf(&#34;\n\n\t\tC Programs\n\n\n&#34;); int a[2][2], i, j; long determinant; printf(&#34;\n\nEnter the 4 elements of the array\n&#34;); for(i = 0; i &lt; 2; i&#43;&#43;) for(j = 0; j &lt; 2; j&#43;&#43;) scanf(&#34;%d&#34;, &amp;a[i][j]); printf(&#34;\n\nThe entered matrix is: \n\n&#34;); for(i = 0; i &lt; 2; i&#43;&#43;) { for(j = 0; j &lt; 2; j&#43;&#43;) { printf(&#34;%d\t&#34;, a[i][j]); // to print the complete row  } printf(&#34;\n&#34;); // to move to the next row  } // finding the determinant of a 2x2 matrix  determinant = a[0][0]*a[1][1] - a[1][0]*a[0][1]; printf(&#34;\n\nDterminant of 2x2 matrix is : %d - %d = %d&#34;, a[0][0]*a[1][1], a[1][0]*a[0][1], determinant); printf(&#34;\n\n\t\t\tCoding is Fun !" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://example.com/program-to-find-deteminant-of-2x2-matrix/" />
+
+<meta itemprop="name" content="Program to find Deteminant of 2x2 Matrix">
+<meta itemprop="description" content="Program to find Deteminant of 2x2 Matrix Below is a program to find the determinant of a 2x2 matrix.
+Please note that, when we say a 2x2 matrix, we mean an array of 2x2.
+#include&lt;stdio.h&gt; int main() { printf(&#34;\n\n\t\tC Programs\n\n\n&#34;); int a[2][2], i, j; long determinant; printf(&#34;\n\nEnter the 4 elements of the array\n&#34;); for(i = 0; i &lt; 2; i&#43;&#43;) for(j = 0; j &lt; 2; j&#43;&#43;) scanf(&#34;%d&#34;, &amp;a[i][j]); printf(&#34;\n\nThe entered matrix is: \n\n&#34;); for(i = 0; i &lt; 2; i&#43;&#43;) { for(j = 0; j &lt; 2; j&#43;&#43;) { printf(&#34;%d\t&#34;, a[i][j]); // to print the complete row  } printf(&#34;\n&#34;); // to move to the next row  } // finding the determinant of a 2x2 matrix  determinant = a[0][0]*a[1][1] - a[1][0]*a[0][1]; printf(&#34;\n\nDterminant of 2x2 matrix is : %d - %d = %d&#34;, a[0][0]*a[1][1], a[1][0]*a[0][1], determinant); printf(&#34;\n\n\t\t\tCoding is Fun !">
+
+<meta itemprop="wordCount" content="142">
+
+
+
+<meta itemprop="keywords" content="array," />
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:image" content="https://example.com//img/avatar3.png"/>
+<meta name="twitter:title" content="Program to find Deteminant of 2x2 Matrix"/>
+<meta name="twitter:description" content="Program to find Deteminant of 2x2 Matrix Below is a program to find the determinant of a 2x2 matrix.
+Please note that, when we say a 2x2 matrix, we mean an array of 2x2.
+#include&lt;stdio.h&gt; int main() { printf(&#34;\n\n\t\tC Programs\n\n\n&#34;); int a[2][2], i, j; long determinant; printf(&#34;\n\nEnter the 4 elements of the array\n&#34;); for(i = 0; i &lt; 2; i&#43;&#43;) for(j = 0; j &lt; 2; j&#43;&#43;) scanf(&#34;%d&#34;, &amp;a[i][j]); printf(&#34;\n\nThe entered matrix is: \n\n&#34;); for(i = 0; i &lt; 2; i&#43;&#43;) { for(j = 0; j &lt; 2; j&#43;&#43;) { printf(&#34;%d\t&#34;, a[i][j]); // to print the complete row  } printf(&#34;\n&#34;); // to move to the next row  } // finding the determinant of a 2x2 matrix  determinant = a[0][0]*a[1][1] - a[1][0]*a[0][1]; printf(&#34;\n\nDterminant of 2x2 matrix is : %d - %d = %d&#34;, a[0][0]*a[1][1], a[1][0]*a[0][1], determinant); printf(&#34;\n\n\t\t\tCoding is Fun !"/>
+
+  <!--[if lte IE 9]>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/classlist/1.1.20170427/classList.min.js"></script>
+  <![endif]-->
+
+  <!--[if lt IE 9]>
+  <script src="https://cdn.jsdelivr.net/npm/html5shiv@3.7.3/dist/html5shiv.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/respond.js@1.4.2/dest/respond.min.js"></script>
+  <![endif]-->
+
+  
+  
+</head>
+
+  <body>
+    <nav>
+      <ul id="nav-list">
+        <li class="nav-item"><a href="https://example.com/">Home</a></li>
+        <li class="nav-item"><a href="https://example.com/tags">Tags</a></li>
+        <li class="nav-item"><a href="https://example.com/about">About me</a></li>
+        <li class="nav-item"><a href="https://example.com/contact">Contact</a></li>
+      </ul>
+    </nav>
+    <div class="openNav">
+      <div class="icon"></div>
+    </div>
+    <div class="wrapper">
+  <h1>Program to find Deteminant of 2x2 Matrix</h1>
+  <header>
+  
+  <div class="avatar">
+    <a href="https://example.com/">
+    <img class="avatarMask" src="https://example.com//img/avatar3.png" alt=""></a>
+  </div>
+  
+  <h2><a class="author" href="https://example.com/">By Vishal Dongre</a></h2>
+</header>
+
+  
+  
+  
+  <div id="tags">
+    <ul>
+      
+        
+        
+          <li><a href="https://example.com/tags/array/">array</a></li>
+        
+      
+    </ul>
+  </div>
+  
+  
+  <div id="contentBody">
+    <h2 id="program-to-find-deteminant-of-2x2-matrix">Program to find Deteminant of 2x2 Matrix</h2>
+<p>Below is a program to find the determinant of a 2x2 matrix.</p>
+<p>Please note that, when we say a 2x2 matrix, we mean an array of 2x2.</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-c" data-lang="c"><span style="color:#75715e">#include</span><span style="color:#75715e">&lt;stdio.h&gt;</span><span style="color:#75715e">
+</span><span style="color:#75715e"></span>
+<span style="color:#66d9ef">int</span> <span style="color:#a6e22e">main</span>()
+{
+    printf(<span style="color:#e6db74">&#34;</span><span style="color:#ae81ff">\n\n\t\t</span><span style="color:#e6db74">C Programs</span><span style="color:#ae81ff">\n\n\n</span><span style="color:#e6db74">&#34;</span>);
+
+    <span style="color:#66d9ef">int</span> a[<span style="color:#ae81ff">2</span>][<span style="color:#ae81ff">2</span>], i, j;
+    <span style="color:#66d9ef">long</span> determinant;
+
+    printf(<span style="color:#e6db74">&#34;</span><span style="color:#ae81ff">\n\n</span><span style="color:#e6db74">Enter the 4 elements of the array</span><span style="color:#ae81ff">\n</span><span style="color:#e6db74">&#34;</span>);
+    <span style="color:#66d9ef">for</span>(i <span style="color:#f92672">=</span> <span style="color:#ae81ff">0</span>; i <span style="color:#f92672">&lt;</span> <span style="color:#ae81ff">2</span>; i<span style="color:#f92672">++</span>)
+    <span style="color:#66d9ef">for</span>(j <span style="color:#f92672">=</span> <span style="color:#ae81ff">0</span>; j <span style="color:#f92672">&lt;</span> <span style="color:#ae81ff">2</span>; j<span style="color:#f92672">++</span>)
+    scanf(<span style="color:#e6db74">&#34;%d&#34;</span>, <span style="color:#f92672">&amp;</span>a[i][j]);
+
+    printf(<span style="color:#e6db74">&#34;</span><span style="color:#ae81ff">\n\n</span><span style="color:#e6db74">The entered matrix is: </span><span style="color:#ae81ff">\n\n</span><span style="color:#e6db74">&#34;</span>);
+    <span style="color:#66d9ef">for</span>(i <span style="color:#f92672">=</span> <span style="color:#ae81ff">0</span>; i <span style="color:#f92672">&lt;</span> <span style="color:#ae81ff">2</span>; i<span style="color:#f92672">++</span>)
+    {
+        <span style="color:#66d9ef">for</span>(j <span style="color:#f92672">=</span> <span style="color:#ae81ff">0</span>; j <span style="color:#f92672">&lt;</span> <span style="color:#ae81ff">2</span>; j<span style="color:#f92672">++</span>)
+        {
+            printf(<span style="color:#e6db74">&#34;%d</span><span style="color:#ae81ff">\t</span><span style="color:#e6db74">&#34;</span>, a[i][j]);   <span style="color:#75715e">// to print the complete row
+</span><span style="color:#75715e"></span>        }
+        printf(<span style="color:#e6db74">&#34;</span><span style="color:#ae81ff">\n</span><span style="color:#e6db74">&#34;</span>); <span style="color:#75715e">// to move to the next row
+</span><span style="color:#75715e"></span>    }
+
+    <span style="color:#75715e">// finding the determinant of a 2x2 matrix
+</span><span style="color:#75715e"></span>    determinant <span style="color:#f92672">=</span> a[<span style="color:#ae81ff">0</span>][<span style="color:#ae81ff">0</span>]<span style="color:#f92672">*</span>a[<span style="color:#ae81ff">1</span>][<span style="color:#ae81ff">1</span>] <span style="color:#f92672">-</span> a[<span style="color:#ae81ff">1</span>][<span style="color:#ae81ff">0</span>]<span style="color:#f92672">*</span>a[<span style="color:#ae81ff">0</span>][<span style="color:#ae81ff">1</span>];
+    printf(<span style="color:#e6db74">&#34;</span><span style="color:#ae81ff">\n\n</span><span style="color:#e6db74">Dterminant of 2x2 matrix is : %d - %d =  %d&#34;</span>, a[<span style="color:#ae81ff">0</span>][<span style="color:#ae81ff">0</span>]<span style="color:#f92672">*</span>a[<span style="color:#ae81ff">1</span>][<span style="color:#ae81ff">1</span>], a[<span style="color:#ae81ff">1</span>][<span style="color:#ae81ff">0</span>]<span style="color:#f92672">*</span>a[<span style="color:#ae81ff">0</span>][<span style="color:#ae81ff">1</span>], determinant);
+
+    printf(<span style="color:#e6db74">&#34;</span><span style="color:#ae81ff">\n\n\t\t\t</span><span style="color:#e6db74">Coding is Fun !</span><span style="color:#ae81ff">\n\n\n</span><span style="color:#e6db74">&#34;</span>);
+    <span style="color:#66d9ef">return</span> <span style="color:#ae81ff">0</span>;
+}
+</code></pre></div>
+  </div>
+  <footer>
+  <p>
+  &copy; 2021 By Vishal Dongre.
+  Powered by <a href="https://gohugo.io/">Hugo</a>
+  using the <a href="https://github.com/koirand/pulp/">pulp</a> theme.
+  </p>
+</footer>
+
+  
+  
+  
+  
+  
+    
+  <script src="https://example.com/bundle.min.978b8c0968bb3037d3317a53bb44a8aa132302c68a32646c90053f4a8ac9de6c.js"></script>
+  <script>
+    $(".openNav").click(function() {
+      $("body").toggleClass("navOpen");
+      $("nav").toggleClass("open");
+      $(".wrapper").toggleClass("open");
+      $(this).toggleClass("open");
+    });
+  </script>
+</div>
+  </body>
+</html>

@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  <title>
+      
+          C Programs to showcase the conversion between various Number Systems - C Programs
+      
+  </title>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="author" content="By Vishal Dongre" />
+  <link rel="shortcut icon" type="image/x-icon" href="https://example.com/img/favicon.ico">
+
+  
+  
+  
+  
+  
+  <link rel="stylesheet" href="https://example.com/style.min.98f7f84c1576b3a7b05ee5507e0cb5d0cd796b2b47f0ca966b53a9651ae67ccd.css" integrity="sha256-mPf4TBV2s6ewXuVQfgy10M15aytH8MqWa1OpZRrmfM0=">
+  
+  
+  
+  <link rel="stylesheet" href="https://example.com/style-dark.min.0a647fb6c07e04b77b54fa0515d0a683d39ecdb251dba960fe1f966f7ff36fc2.css" media="(prefers-color-scheme: dark)" integrity="sha256-CmR/tsB&#43;BLd7VPoFFdCmg9OezbJR26lg/h&#43;Wb3/zb8I=">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+
+  
+  
+
+  <meta property="og:title" content="C Programs to showcase the conversion between various Number Systems" />
+<meta property="og:description" content="C Programs to showcase the conversion between various Number Systems Here we have multiple programs to showcase conversion between various Number systems like Binary to Decimal, Octal to Decimal, Decimal to Binary and we will even use recursion to help you understand how recursion can be used in such programs. So let&rsquo;s start.
+Program to convert Binary to Decimal Equivalent Below is a program to convert binary number to its decimal equivalent." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://example.com/c-programs-to-showcase-the-conversion-between-various-number-systems/" />
+
+<meta itemprop="name" content="C Programs to showcase the conversion between various Number Systems">
+<meta itemprop="description" content="C Programs to showcase the conversion between various Number Systems Here we have multiple programs to showcase conversion between various Number systems like Binary to Decimal, Octal to Decimal, Decimal to Binary and we will even use recursion to help you understand how recursion can be used in such programs. So let&rsquo;s start.
+Program to convert Binary to Decimal Equivalent Below is a program to convert binary number to its decimal equivalent.">
+
+<meta itemprop="wordCount" content="565">
+
+
+
+<meta itemprop="keywords" content="important_concepts," />
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:image" content="https://example.com//img/avatar3.png"/>
+<meta name="twitter:title" content="C Programs to showcase the conversion between various Number Systems"/>
+<meta name="twitter:description" content="C Programs to showcase the conversion between various Number Systems Here we have multiple programs to showcase conversion between various Number systems like Binary to Decimal, Octal to Decimal, Decimal to Binary and we will even use recursion to help you understand how recursion can be used in such programs. So let&rsquo;s start.
+Program to convert Binary to Decimal Equivalent Below is a program to convert binary number to its decimal equivalent."/>
+
+  <!--[if lte IE 9]>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/classlist/1.1.20170427/classList.min.js"></script>
+  <![endif]-->
+
+  <!--[if lt IE 9]>
+  <script src="https://cdn.jsdelivr.net/npm/html5shiv@3.7.3/dist/html5shiv.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/respond.js@1.4.2/dest/respond.min.js"></script>
+  <![endif]-->
+
+  
+  
+</head>
+
+  <body>
+    <nav>
+      <ul id="nav-list">
+        <li class="nav-item"><a href="https://example.com/">Home</a></li>
+        <li class="nav-item"><a href="https://example.com/tags">Tags</a></li>
+        <li class="nav-item"><a href="https://example.com/about">About me</a></li>
+        <li class="nav-item"><a href="https://example.com/contact">Contact</a></li>
+      </ul>
+    </nav>
+    <div class="openNav">
+      <div class="icon"></div>
+    </div>
+    <div class="wrapper">
+  <h1>C Programs to showcase the conversion between various Number Systems</h1>
+  <header>
+  
+  <div class="avatar">
+    <a href="https://example.com/">
+    <img class="avatarMask" src="https://example.com//img/avatar3.png" alt=""></a>
+  </div>
+  
+  <h2><a class="author" href="https://example.com/">By Vishal Dongre</a></h2>
+</header>
+
+  
+  
+  
+  <div id="tags">
+    <ul>
+      
+        
+        
+          <li><a href="https://example.com/tags/important_concepts/">important_concepts</a></li>
+        
+      
+    </ul>
+  </div>
+  
+  
+  <div id="contentBody">
+    <h2 id="c-programs-to-showcase-the-conversion-between-various-number-systems">C Programs to showcase the conversion between various Number Systems</h2>
+<p>Here we have multiple programs to showcase conversion between various Number systems like Binary to Decimal, Octal to Decimal, Decimal to Binary and we will even use recursion to help you understand how recursion can be used in such programs. So let&rsquo;s start.</p>
+<h2 id="program-to-convert-binary-to-decimal-equivalent">Program to convert Binary to Decimal Equivalent</h2>
+<p>Below is a program to convert binary number to its decimal equivalent.</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-c" data-lang="c"><span style="color:#75715e">#include</span><span style="color:#75715e">&lt;stdio.h&gt;</span><span style="color:#75715e">
+</span><span style="color:#75715e">#include</span><span style="color:#75715e">&lt;math.h&gt;</span><span style="color:#75715e">
+</span><span style="color:#75715e"></span>
+<span style="color:#75715e">// Function prototype declaration
+</span><span style="color:#75715e"></span><span style="color:#66d9ef">int</span> <span style="color:#a6e22e">binary_decimal</span>(<span style="color:#66d9ef">int</span> n);
+
+<span style="color:#66d9ef">int</span> <span style="color:#a6e22e">main</span>()
+{
+    printf(<span style="color:#e6db74">&#34;</span><span style="color:#ae81ff">\n\n\t\t</span><span style="color:#e6db74">C Programs</span><span style="color:#ae81ff">\n\n\n</span><span style="color:#e6db74">&#34;</span>);
+    <span style="color:#66d9ef">int</span> n;
+    <span style="color:#66d9ef">char</span> c;
+    printf(<span style="color:#e6db74">&#34;Enter the binary number: &#34;</span>);
+    scanf(<span style="color:#e6db74">&#34;%d&#34;</span>, <span style="color:#f92672">&amp;</span>n);
+    printf(<span style="color:#e6db74">&#34;</span><span style="color:#ae81ff">\n\n\n</span><span style="color:#e6db74">The decimal equivalent of %d is  %d</span><span style="color:#ae81ff">\n\n</span><span style="color:#e6db74">&#34;</span>, n, binary_decimal(n)); <span style="color:#75715e">// function calling
+</span><span style="color:#75715e"></span>    printf(<span style="color:#e6db74">&#34;</span><span style="color:#ae81ff">\n\n\t\t\t</span><span style="color:#e6db74">Coding is Fun !</span><span style="color:#ae81ff">\n\n\n</span><span style="color:#e6db74">&#34;</span>);
+    <span style="color:#66d9ef">return</span> <span style="color:#ae81ff">0</span>;
+}
+
+<span style="color:#75715e">// Definition of the function to convert binary to decimal.
+</span><span style="color:#75715e"></span><span style="color:#66d9ef">int</span> <span style="color:#a6e22e">binary_decimal</span>(<span style="color:#66d9ef">int</span> n)
+{
+    <span style="color:#66d9ef">int</span> decimal <span style="color:#f92672">=</span> <span style="color:#ae81ff">0</span>, i <span style="color:#f92672">=</span> <span style="color:#ae81ff">0</span>, rem;
+    <span style="color:#66d9ef">while</span>(n <span style="color:#f92672">!=</span> <span style="color:#ae81ff">0</span>)
+    {
+        rem <span style="color:#f92672">=</span> n<span style="color:#f92672">%</span><span style="color:#ae81ff">10</span>;   <span style="color:#75715e">// gives the digit at the units place
+</span><span style="color:#75715e"></span>        n <span style="color:#f92672">=</span> n<span style="color:#f92672">/</span><span style="color:#ae81ff">10</span>; <span style="color:#75715e">// gives the number excluding its units digit
+</span><span style="color:#75715e"></span>        <span style="color:#75715e">/*
+</span><span style="color:#75715e">            pow is a system defined function that takes
+</span><span style="color:#75715e">            two integers as input parameters
+</span><span style="color:#75715e">        */</span>
+        decimal <span style="color:#f92672">+=</span> rem<span style="color:#f92672">*</span>pow(<span style="color:#ae81ff">2</span>, i<span style="color:#f92672">++</span>);
+    }
+    <span style="color:#75715e">/*
+</span><span style="color:#75715e">        return the decimal equivalent of the input
+</span><span style="color:#75715e">        binary number to the function call
+</span><span style="color:#75715e">    */</span>
+    <span style="color:#66d9ef">return</span> decimal;
+}
+</code></pre></div><h2 id="program-to-convert-octal-to-decimal-equivalent">Program to convert Octal to Decimal Equivalent</h2>
+<p>Below is a program to convert octal number to its decimal equivalent.</p>
+<p>%ld is the format specifier to input a long value.</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-c" data-lang="c"><span style="color:#75715e">#include</span><span style="color:#75715e">&lt;stdio.h&gt;</span><span style="color:#75715e">
+</span><span style="color:#75715e">#include</span><span style="color:#75715e">&lt;stdio.h&gt;</span><span style="color:#75715e">
+</span><span style="color:#75715e">#include</span><span style="color:#75715e">&lt;math.h&gt;</span><span style="color:#75715e">
+</span><span style="color:#75715e"></span>
+<span style="color:#66d9ef">int</span> <span style="color:#a6e22e">main</span>()
+{
+    printf(<span style="color:#e6db74">&#34;</span><span style="color:#ae81ff">\n\n\t\t</span><span style="color:#e6db74">C Programs</span><span style="color:#ae81ff">\n\n\n</span><span style="color:#e6db74">&#34;</span>);
+    <span style="color:#66d9ef">long</span> <span style="color:#66d9ef">int</span> octal, val, decimal <span style="color:#f92672">=</span> <span style="color:#ae81ff">0</span>;
+    <span style="color:#66d9ef">int</span> i <span style="color:#f92672">=</span> <span style="color:#ae81ff">0</span>;
+    printf(<span style="color:#e6db74">&#34;Enter any octal number: &#34;</span>);
+    scanf(<span style="color:#e6db74">&#34;%ld&#34;</span>, <span style="color:#f92672">&amp;</span>val);
+    octal <span style="color:#f92672">=</span> val;
+    <span style="color:#66d9ef">while</span>(octal <span style="color:#f92672">!=</span> <span style="color:#ae81ff">0</span>)
+    {
+        <span style="color:#75715e">/*
+</span><span style="color:#75715e">            i++ is post increment, where value is
+</span><span style="color:#75715e">            first assigned and then incremented
+</span><span style="color:#75715e">        */</span>
+      decimal <span style="color:#f92672">+=</span> (octal <span style="color:#f92672">%</span> <span style="color:#ae81ff">10</span>)<span style="color:#f92672">*</span>pow(<span style="color:#ae81ff">8</span>, i<span style="color:#f92672">++</span>);
+      octal<span style="color:#f92672">/=</span><span style="color:#ae81ff">10</span>;    <span style="color:#75715e">// same as octal=octal/10
+</span><span style="color:#75715e"></span>    }
+    printf(<span style="color:#e6db74">&#34;</span><span style="color:#ae81ff">\n\n\n</span><span style="color:#e6db74">Equivalent decimal value of %ld is %ld</span><span style="color:#ae81ff">\n\n\n</span><span style="color:#e6db74">&#34;</span>, val, decimal);
+    printf(<span style="color:#e6db74">&#34;</span><span style="color:#ae81ff">\n\n\t\t\t</span><span style="color:#e6db74">Coding is Fun !</span><span style="color:#ae81ff">\n\n\n</span><span style="color:#e6db74">&#34;</span>);
+    <span style="color:#66d9ef">return</span> <span style="color:#ae81ff">0</span>;
+}
+</code></pre></div><h2 id="program-to-convert-decimal-to-binary-equivalent">Program to convert Decimal to Binary Equivalent</h2>
+<p>Below is a program to convert decimal number to its binary equivalent without recursion.</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-c" data-lang="c"><span style="color:#75715e">#include</span><span style="color:#75715e">&lt;stdio.h&gt;</span><span style="color:#75715e">
+</span><span style="color:#75715e"></span>
+<span style="color:#66d9ef">int</span> <span style="color:#a6e22e">main</span>()
+{
+    printf(<span style="color:#e6db74">&#34;</span><span style="color:#ae81ff">\n\n\t\t</span><span style="color:#e6db74">C Programs</span><span style="color:#ae81ff">\n\n\n</span><span style="color:#e6db74">&#34;</span>);
+    <span style="color:#66d9ef">int</span> n,c,k;
+    printf(<span style="color:#e6db74">&#34;Enter an integer in decimal number system: &#34;</span>);
+    scanf(<span style="color:#e6db74">&#34;%d&#34;</span>, <span style="color:#f92672">&amp;</span>n);
+
+    <span style="color:#75715e">// In 31 bit format
+</span><span style="color:#75715e"></span>    printf(<span style="color:#e6db74">&#34;</span><span style="color:#ae81ff">\n\n\n</span><span style="color:#e6db74">The binary equivalent of decimal value %d is:&#34;</span>, n);
+
+    <span style="color:#66d9ef">for</span>(c <span style="color:#f92672">=</span> <span style="color:#ae81ff">31</span>; c <span style="color:#f92672">&gt;=</span> <span style="color:#ae81ff">0</span>; c<span style="color:#f92672">--</span>)
+    {
+        k <span style="color:#f92672">=</span> n<span style="color:#f92672">&gt;&gt;</span>c;
+        <span style="color:#75715e">/*
+</span><span style="color:#75715e">            num&amp;1 = returns true if the last digit of num is 1
+</span><span style="color:#75715e">            else false
+</span><span style="color:#75715e">        */</span>
+        <span style="color:#66d9ef">if</span>(k<span style="color:#f92672">&amp;</span><span style="color:#ae81ff">1</span>)
+            printf(<span style="color:#e6db74">&#34;1&#34;</span>);
+        <span style="color:#66d9ef">else</span>
+            printf(<span style="color:#e6db74">&#34;0&#34;</span>);
+    }
+    printf(<span style="color:#e6db74">&#34;</span><span style="color:#ae81ff">\n</span><span style="color:#e6db74">&#34;</span>);
+    printf(<span style="color:#e6db74">&#34;</span><span style="color:#ae81ff">\n\n\t\t\t</span><span style="color:#e6db74">Coding is Fun !</span><span style="color:#ae81ff">\n\n\n</span><span style="color:#e6db74">&#34;</span>);
+    <span style="color:#66d9ef">return</span> <span style="color:#ae81ff">0</span>;
+}
+</code></pre></div><h2 id="program-to-convert-decimal-to-binary-equivalent-using-recursion">Program to convert Decimal to Binary Equivalent using Recursion</h2>
+<p>Below is a program to convert decimal number to its binary equivalent with recursion:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-c" data-lang="c"><span style="color:#75715e">#include</span><span style="color:#75715e">&lt;stdio.h&gt;</span><span style="color:#75715e">
+</span><span style="color:#75715e"></span>
+<span style="color:#75715e">//Function prototype declarations
+</span><span style="color:#75715e"></span><span style="color:#66d9ef">void</span> <span style="color:#a6e22e">decimal_binary</span>(<span style="color:#66d9ef">int</span> );
+<span style="color:#66d9ef">void</span> <span style="color:#a6e22e">F</span>(<span style="color:#66d9ef">int</span> );
+<span style="color:#66d9ef">void</span> <span style="color:#a6e22e">reverse</span>(<span style="color:#66d9ef">int</span> );
+
+<span style="color:#66d9ef">int</span> <span style="color:#a6e22e">main</span>()
+{
+    printf(<span style="color:#e6db74">&#34;</span><span style="color:#ae81ff">\n\n\t\t</span><span style="color:#e6db74">C Programs</span><span style="color:#ae81ff">\n\n\n</span><span style="color:#e6db74">&#34;</span>);
+    <span style="color:#66d9ef">int</span> n;
+    printf(<span style="color:#e6db74">&#34;</span><span style="color:#ae81ff">\n\n</span><span style="color:#e6db74">Enter an integer in decimal number system: &#34;</span>);
+    scanf(<span style="color:#e6db74">&#34;%d&#34;</span>, <span style="color:#f92672">&amp;</span>n);
+
+    <span style="color:#75715e">//In 31 bit format
+</span><span style="color:#75715e"></span>    printf(<span style="color:#e6db74">&#34;</span><span style="color:#ae81ff">\n\n</span><span style="color:#e6db74">The binary equivalent of decimal value %d using decimal_binary method is: &#34;</span>, n);
+
+    decimal_binary(n);  <span style="color:#75715e">// function call
+</span><span style="color:#75715e"></span>
+    printf(<span style="color:#e6db74">&#34;</span><span style="color:#ae81ff">\n\n</span><span style="color:#e6db74">The binary equivalent of decimal value %d using F() method is: &#34;</span>, n);
+    F(n);   <span style="color:#75715e">// function call
+</span><span style="color:#75715e"></span>    printf(<span style="color:#e6db74">&#34;</span><span style="color:#ae81ff">\n\n</span><span style="color:#e6db74">The Reverse of the binary representation of value %d is: &#34;</span>, n);
+    reverse(n); <span style="color:#75715e">// function call
+</span><span style="color:#75715e"></span>    printf(<span style="color:#e6db74">&#34;</span><span style="color:#ae81ff">\n\n\t\t\t</span><span style="color:#e6db74">Coding is Fun !</span><span style="color:#ae81ff">\n\n\n</span><span style="color:#e6db74">&#34;</span>);
+    <span style="color:#66d9ef">return</span> <span style="color:#ae81ff">0</span>;
+}
+
+<span style="color:#75715e">// function definition
+</span><span style="color:#75715e"></span><span style="color:#66d9ef">void</span> <span style="color:#a6e22e">decimal_binary</span>(<span style="color:#66d9ef">int</span> i)
+{
+    <span style="color:#66d9ef">if</span>(i <span style="color:#f92672">&lt;=</span> <span style="color:#ae81ff">1</span>)
+    printf(<span style="color:#e6db74">&#34;%d&#34;</span>, i);   <span style="color:#75715e">// to print in up to down format
+</span><span style="color:#75715e"></span>    <span style="color:#66d9ef">else</span>
+    {
+        decimal_binary(i<span style="color:#f92672">/</span><span style="color:#ae81ff">2</span>);
+        printf(<span style="color:#e6db74">&#34;%d&#34;</span>, i<span style="color:#f92672">%</span><span style="color:#ae81ff">2</span>);
+    }
+}
+
+<span style="color:#66d9ef">void</span> <span style="color:#a6e22e">F</span>(<span style="color:#66d9ef">int</span> j)
+{
+    <span style="color:#66d9ef">if</span>(j<span style="color:#f92672">/</span><span style="color:#ae81ff">2</span>)
+    {
+        F(j<span style="color:#f92672">/</span><span style="color:#ae81ff">2</span>);
+    }
+    printf(<span style="color:#e6db74">&#34;%d&#34;</span>, j<span style="color:#f92672">%</span><span style="color:#ae81ff">2</span>);
+}
+
+<span style="color:#66d9ef">void</span> <span style="color:#a6e22e">reverse</span>(<span style="color:#66d9ef">int</span> k)
+{
+    <span style="color:#66d9ef">if</span>(k <span style="color:#f92672">&lt;=</span> <span style="color:#ae81ff">1</span>)
+        printf(<span style="color:#e6db74">&#34;%d&#34;</span>, k);
+    <span style="color:#66d9ef">else</span>
+    {
+        printf(<span style="color:#e6db74">&#34;%d&#34;</span>, k<span style="color:#f92672">%</span><span style="color:#ae81ff">2</span>);
+        F(k<span style="color:#f92672">/</span><span style="color:#ae81ff">2</span>);
+    }
+    printf(<span style="color:#e6db74">&#34;</span><span style="color:#ae81ff">\n\n</span><span style="color:#e6db74">&#34;</span>);
+}
+</code></pre></div>
+  </div>
+  <footer>
+  <p>
+  &copy; 2021 By Vishal Dongre.
+  Powered by <a href="https://gohugo.io/">Hugo</a>
+  using the <a href="https://github.com/koirand/pulp/">pulp</a> theme.
+  </p>
+</footer>
+
+  
+  
+  
+  
+  
+    
+  <script src="https://example.com/bundle.min.978b8c0968bb3037d3317a53bb44a8aa132302c68a32646c90053f4a8ac9de6c.js"></script>
+  <script>
+    $(".openNav").click(function() {
+      $("body").toggleClass("navOpen");
+      $("nav").toggleClass("open");
+      $(".wrapper").toggleClass("open");
+      $(this).toggleClass("open");
+    });
+  </script>
+</div>
+  </body>
+</html>

@@ -1,0 +1,100 @@
+[
+    {
+        "ref": "https://example.com/accessing-array-elementstraversing-array-by-incrementing-a-pointer/",
+        "title": "Accessing array elements(Traversing array) by incrementing a Pointer",
+        "section": "",
+        "tags": ["pointers"],
+        "date" : "0001.01.01",
+        "body": "Accessing array elements(Traversing array) by incrementing a Pointer Name of the array refers to the base address of the array.\nBelow is a program to access elements of an array using pointer increment.\n#include \u0026lt;stdio.h\u0026gt; const int MAX = 3; // Global declaration int main() { printf(\u0026#34;\\n\\n\\t\\tC Programs\\n\\n\\n\u0026#34;); int var[] = {100, 200, 300}; int i, *ptr; /* storing address of the first element of the array in pointer variable */ ptr = var; for(i = 0; i \u0026lt; MAX; i++) { printf(\u0026#34;\\n\\n\\nAddress of var[%d] = %x \u0026#34;, i, ptr); printf(\u0026#34;\\nValue of var[%d] = %d \u0026#34;, i, *ptr); // move to the next location  ptr++; } printf(\u0026#34;\\n\\n\\t\\t\\tCoding is Fun !\\n\\n\\n\u0026#34;); return 0; } Traversing array elements by decrementing a Pointer Below is a program to access elements of an array using pointer decrement.\n#include \u0026lt;stdio.h\u0026gt; const int MAX = 3; // Global declaration int main() { printf(\u0026#34;\\n\\n\\t\\tC Programs\\n\\n\\n\u0026#34;); int var[] = {100, 200, 300}; int i, *ptr; /* storing address of the last element of the array in pointer variable */ ptr = \u0026amp;var[MAX-1]; for(i = MAX; i \u0026gt; 0; i--) { printf(\u0026#34;\\n\\n\\nAddress of var[%d] = %x \u0026#34;, i, ptr); printf(\u0026#34;\\nValue of var[%d] = %d \u0026#34;, i, *ptr); // move to the previous location  ptr--; } printf(\u0026#34;\\n\\n\\t\\t\\tCoding is Fun !\\n\\n\\n\u0026#34;); return 0; } "
+    }
+,
+    {
+        "ref": "https://example.com/basic-c-program-for-pointer-to-a-pointer/",
+        "title": "Basic C Program for Pointer to a Pointer",
+        "section": "",
+        "tags": ["pointers"],
+        "date" : "0001.01.01",
+        "body": "Basic C Program for Pointer to a Pointer A pointer variable stores the address of a value. Similarly, a pointer to a pointer stores the address of the pointer variable. Pointer to a pointer is executed making use of **.\nBelow is a program on pointer to a pointer.\nint var; is a integer variable which stores value.\nint *ptr; is a pointer variable which stores the address of an integer variable.\nint **pptr; is a pointer to a pointer variable which stores the address of a pointer variable.\n#include\u0026lt;stdio.h\u0026gt; int main() { printf(\u0026#34;\\n\\n\\t\\tC Programs\\n\\n\\n\u0026#34;); int var; int *ptr; int **pptr; var = 50; // take the address of the variable var  ptr = \u0026amp;var; // taking the address of ptr using address of operator-\u0026amp;  pptr = \u0026amp;ptr; // take the value using the pptr  printf(\u0026#34;\\n\\nValue of var = %d\\n\\n\u0026#34;, var); printf(\u0026#34;\\n\\nValue available at *ptr = %d\\n\\n\u0026#34;, *ptr); printf(\u0026#34;\\n\\nValue available at **pptr = %d\\n\\n\u0026#34;, **pptr); printf(\u0026#34;\\n\\n\\t\\t\\tCoding is Fun !\\n\\n\\n\u0026#34;); return 0; } "
+    }
+,
+    {
+        "ref": "https://example.com/basic-c-program-to-concatenate-strings-using-pointer/",
+        "title": "Basic C Program to Concatenate Strings using Pointer",
+        "section": "",
+        "tags": ["pointers"],
+        "date" : "0001.01.01",
+        "body": "Basic C Program to Concatenate Strings using Pointer Below is a program to concatenate strings using pointer:\n#include \u0026lt;stdio.h\u0026gt; int main() { printf(\u0026#34;\\n\\n\\t\\tC Programs\\n\\n\\n\u0026#34;); char aa[100], bb[100]; printf(\u0026#34;\\nEnter the first string: \u0026#34;); gets(aa); // inputting first string  printf(\u0026#34;\\nEnter the second string to be concatenated: \u0026#34;); gets(bb); // inputting second string  char *a = aa; char *b = bb; // pointing to the end of the 1st string  while(*a) // till it doesn\u0026#39;t point to NULL-till string is not empty  { a++; // point to the next letter of the string  } while(*b) // till second string is not empty  { *a = *b; b++; a++; } *a = \u0026#39;\\0\u0026#39;; // string must end with \u0026#39;\\0\u0026#39;  printf(\u0026#34;\\n\\n\\nThe string after concatenation is: %s \u0026#34;, aa); printf(\u0026#34;\\n\\n\\t\\t\\tCoding is Fun !\\n\\n\\n\u0026#34;); return 0; } "
+    }
+,
+    {
+        "ref": "https://example.com/basic-program-for-pointers/",
+        "title": "Basic Program for Pointers",
+        "section": "",
+        "tags": ["pointers"],
+        "date" : "0001.01.01",
+        "body": "Basic Program for Pointers Few important points to remember:\nBelow is a simple program on pointer.\nint *p; is a pointer variable declaration where p is a pointer to an int variable i.e. it stores the location of an integer.\n%x is a format specifier to print hexadecimal value. It is usually used to print the location.\n#include \u0026lt;stdio.h\u0026gt; int main() { printf(\u0026#34;\\n\\n\\t\\tC Programs\\n\\n\\n\u0026#34;); int var = 24; // actual variable declaration  int *p; p = \u0026amp;var; // storing address of int variable var in pointer p  printf(\u0026#34;\\n\\nAddress of var variable is: %x \\n\\n\u0026#34;, \u0026amp;var); // address stored in pointer variable  printf(\u0026#34;\\n\\nAddress stored in pointer variable p is: %x\u0026#34;, p); // access the value using the pointer variable  printf(\u0026#34;\\n\\nValue of var variable or the value stored at address p is %d \u0026#34;, *p); printf(\u0026#34;\\n\\n\\t\\t\\tCoding is Fun !\\n\\n\\n\u0026#34;); return 0; } "
+    }
+,
+    {
+        "ref": "https://example.com/c-program-for-pointer-to-a-function/",
+        "title": "C program for Pointer to a Function",
+        "section": "",
+        "tags": ["pointers"],
+        "date" : "0001.01.01",
+        "body": "C program for Pointer to a Function Below is a program on pointer to a function.\n#include\u0026lt;stdio.h\u0026gt; int func(int a, int b) // function definition { printf(\u0026#34;\\n\\na = %d \\n\u0026#34;, a); printf(\u0026#34;\\n\\nb = %d \\n\u0026#34;, b); } int main() { printf(\u0026#34;\\n\\n\\t\\tC Programs\\n\\n\\n\u0026#34;); // function pointer  int(*fptr)(int , int); // assign address to function pointer  fptr = func; // function calling  func(2,3); fptr(2,3); // calling a function referring to pointer to a function  printf(\u0026#34;\\n\\n\\t\\t\\tCoding is Fun !\\n\\n\\n\u0026#34;); return 0; } "
+    }
+,
+    {
+        "ref": "https://example.com/c-program-to-reverse-a-string-using-pointer/",
+        "title": "C Program to Reverse a String using Pointer",
+        "section": "",
+        "tags": ["pointers"],
+        "date" : "0001.01.01",
+        "body": "C Program to Reverse a String using Pointer Below is a program to reverse a string using pointer:\n#include \u0026lt;stdio.h\u0026gt; int main() { printf(\u0026#34;\\n\\n\\t\\tC Programs\\n\\n\\n\u0026#34;); char str[100]; char rev[100]; char *sptr = str; // sptr stores the base address of the str  char *rptr = rev; // rptr stores the base address of the reverse  int i = -1; printf(\u0026#34;\\n\\nEnter a string: \u0026#34;); scanf(\u0026#34;%s\u0026#34;, str); // storing the ending address of str in sptr  while(*sptr) { sptr++; i++; // i is the index of the end location  } // storing the string str in rev in reverse order  while(i \u0026gt;= 0) { /* First decrementing then using as it stores the location after the end location due to above while loop */ sptr--; *rptr = *sptr; // storing the value in sptr in rptr  rptr++; // pointing to next location  i--; // decrementing the index  } /* String should always end with \u0026#39;\\0\u0026#39; so explicitly putting it at the end of the string */ *rptr = \u0026#39;\\0\u0026#39;; rptr = rev; // restoring the base address of the reverse string  // storing the reverse string in the original string  while(*rptr) { *sptr = *rptr; sptr++; rptr++; } // printing the reverse string  printf(\u0026#34;\\n\\nReverse of the string is: %s \u0026#34;, str); printf(\u0026#34;\\n\\n\\t\\t\\tCoding is Fun !\\n\\n\\n\u0026#34;); return 0; } "
+    }
+,
+    {
+        "ref": "https://example.com/c-program-to-swap-two-numbers-using-pointers/",
+        "title": "C Program to Swap Two Numbers using Pointers",
+        "section": "",
+        "tags": ["pointers"],
+        "date" : "0001.01.01",
+        "body": "C Program to Swap Two Numbers using Pointers Below is a program to swap two numbers using pointers.\n#include\u0026lt;stdio.h\u0026gt; int main() { printf(\u0026#34;\\n\\n\\t\\tC Programs\\n\\n\\n\u0026#34;); int a, b; int *ptra, *ptrb; int temp; printf(\u0026#34;Enter value for a: \u0026#34;); scanf(\u0026#34;%d\u0026#34;, \u0026amp;a); printf(\u0026#34;\\n\\nEnter value for b: \u0026#34;); scanf(\u0026#34;%d\u0026#34;, \u0026amp;b); printf(\u0026#34;\\n\\nThe values before swapping are: a = %d b = %d\u0026#34;, a, b); ptra = \u0026amp;a; // to store the location of a  ptrb = \u0026amp;b; // to store the location of b  temp = *ptra; // temp stores the value at location ptra  *ptra = *ptrb; // assigning value at location ptrb to ptra  *ptrb = temp; // assign value of themp to the variable at location ptrb  printf(\u0026#34;\\n\\nThe values after swapping are: a = %d b = %d\u0026#34;, a, b); printf(\u0026#34;\\n\\n\\n\\n\\t\\t\\tCoding is Fun !\\n\\n\\n\u0026#34;); return 0; } "
+    }
+,
+    {
+        "ref": "https://example.com/null-pointer-program/",
+        "title": "Null Pointer Program",
+        "section": "",
+        "tags": ["pointers"],
+        "date" : "0001.01.01",
+        "body": "Null Pointer Program Null pointer is a special reserved value of a pointer. A pointer of any type has this reserved value. Formally, each specific pointer type(int _, char _, etc) has its own dedicated null-pointer value. Conceptually, when a pointer has that Null value it is not pointing anywhere.\nVoid pointer is a specific pointer type. void * which is a pointer that points to some data location in storage, which doesn\u0026rsquo;t have any specific type.\nNull pointer is a value whereas, Void pointer is a type.\nBelow is a program on NULL pointer.\n#include\u0026lt;stdio.h\u0026gt; int main() { printf(\u0026#34;\\n\\n\\t\\tC Programs\\n\\n\\n\u0026#34;); int *ptr = NULL; // ptr is a NULL pointer  printf(\u0026#34;\\n\\nThe value of ptr is: %x \u0026#34;, ptr); printf(\u0026#34;\\n\\n\\t\\t\\tCoding is Fun !\\n\\n\\n\u0026#34;); return 0; } "
+    }
+,
+    {
+        "ref": "https://example.com/pointer-comparison-in-c/",
+        "title": "Pointer Comparison in C",
+        "section": "",
+        "tags": ["pointers"],
+        "date" : "0001.01.01",
+        "body": "Pointer Comparison in C In C language pointers can be compared if the two pointers are pointing to the same array.\nAll relational operators can be used for pointer comparison, but a pointer cannot Multiplied or Divided.\nBelow is a program on pointer comparison for same type of pointer:\n#include \u0026lt;stdio.h\u0026gt; int main() { int *ptrA,*ptrB; ptrA = (int *)1; ptrB = (int *)2; if(ptr2 \u0026gt; ptr1) printf(\u0026#34;PtrB is greater than ptrA\u0026#34;); return(0); } Below is a program on pointer comparison for different type of pointer:\n#include \u0026lt;stdio.h\u0026gt; int main() { int *ptrA; float *ptrB; ptrA = (int *)1000; ptrB = (float *)2000; if(ptrB \u0026gt; ptrA) printf(\u0026#34;PtrB is greater than ptrA\u0026#34;); return(0); } "
+    }
+,
+    {
+        "ref": "https://example.com/program-for-dynamic-memory-allocation-using-malloc/",
+        "title": "Program for Dynamic Memory Allocation using malloc()",
+        "section": "",
+        "tags": ["pointers"],
+        "date" : "0001.01.01",
+        "body": "Program for Dynamic Memory Allocation using malloc() Below is a program on dynamic memory allocation using malloc() and clearing out memory space using free().\nsizeof() returns the number of bytes occupied by any datatype, in this case by an integer.\n#include \u0026lt;stdio.h\u0026gt; int main() { printf(\u0026#34;\\n\\n\\t\\tC Programs\\n\\n\\n\u0026#34;); int n, i, *ptr, sum = 0; printf(\u0026#34;\\n\\nEnter number of elements: \u0026#34;); scanf(\u0026#34;%d\u0026#34;, \u0026amp;n); // dynamic memory allocation using malloc()  ptr = (int *) malloc(n*sizeof(int)); if(ptr == NULL) // if empty array  { printf(\u0026#34;\\n\\nError! Memory not allocated\\n\u0026#34;); return 0; // end of program  } printf(\u0026#34;\\n\\nEnter elements of array: \\n\\n\u0026#34;); for(i = 0; i \u0026lt; n; i++) { // storing elements at contiguous memory locations  scanf(\u0026#34;%d\u0026#34;, ptr+i); sum = sum + *(ptr + i); } // printing the array elements using pointer to the location  printf(\u0026#34;\\n\\nThe elements of the array are: \u0026#34;); for(i = 0; i \u0026lt; n; i++) { printf(\u0026#34;%d \u0026#34;,ptr[i]); // ptr[i] is same as *(ptr + i)  } /* freeing memory of ptr allocated by malloc using the free() method */ free(ptr); printf(\u0026#34;\\n\\n\\t\\t\\tCoding is Fun !\\n\\n\\n\u0026#34;); return 0; } "
+    }
+,
+    {
+        "ref": "https://example.com/program-to-access-array-of-int-pointers/",
+        "title": "Program to access Array of int Pointers",
+        "section": "",
+        "tags": ["pointers"],
+        "date" : "0001.01.01",
+        "body": "Program to access Array of int Pointers Below is a program to access an array of int pointers:\n#include \u0026lt;stdio.h\u0026gt;/* Global declaration. Value of a const variable cannot be changed throughout the execution of program */ const int MAX = 5; int main() { printf(\u0026#34;\\n\\n\\t\\tC Programs\\n\\n\\n\u0026#34;); int var[]={10, 20, 30, 40, 50}; // initializing an array(here var) of int pointers  int i = 0; /* ptr is an array of int pointers i.e. it stores the address of each array element */ int *ptr[MAX]; for(i = 0; i \u0026lt; MAX; i++) { /* Assign the address of each of the array element to the ptr array */ ptr[i] = \u0026amp;var[i]; } for(i = 0; i \u0026lt; MAX; i++) { /* ptr[i] stores the address of the element var[i]. Hence, *ptr[i] returns the value of the element stored at location ptr[i] */ printf(\u0026#34;Value of var[%d] = %i\\n\\n\u0026#34;, i, *ptr[i]); } printf(\u0026#34;\\n\\n\\t\\t\\tCoding is Fun !\\n\\n\\n\u0026#34;); return 0; } printf(\u0026#34;Value of var[%d] = %i\\n\\n\u0026#34;, i, *ptr[i]); Here ptr[i] stores the address of the element var[i]. Hence, *ptr[i] returns the value of the element stored at location var[i].\nProgram to access Array of char pointers Array of char pointers is used to access the complete string just using the address of the first char(base address) of each string.\nBelow is a program to access an array of char pointers.\n#include \u0026lt;stdio.h\u0026gt;const int MAX = 4; // Global declaration.  int main() { printf(\u0026#34;\\n\\n\\t\\tC Programs\\n\\n\\n\u0026#34;); char *names[] = {\u0026#34;Google\u0026#34;, \u0026#34;Amazon\u0026#34;, \u0026#34;Facebook\u0026#34;, \u0026#34;Apple\u0026#34;}; // initializing an array(here names) of char pointers  int i = 0; for(i = 0; i \u0026lt; MAX; i++) { printf(\u0026#34;Value of names[%d] = %s\\n\\n\u0026#34;, i, names[i]); } printf(\u0026#34;\\n\\n\\t\\t\\tCoding is Fun !\\n\\n\\n\u0026#34;); return 0; } Explanation:\nprintf(\u0026#34;Value of names[%d] = %s\\n\\n\u0026#34;,i,names[i]); This statement is used for printing the complete name just using the pointer to the first character of each element of the names array.\n"
+    }
+]

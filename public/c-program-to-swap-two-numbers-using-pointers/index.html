@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  <title>
+      
+          C Program to Swap Two Numbers using Pointers - C Programs
+      
+  </title>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="author" content="By Vishal Dongre" />
+  <link rel="shortcut icon" type="image/x-icon" href="https://example.com/img/favicon.ico">
+
+  
+  
+  
+  
+  
+  <link rel="stylesheet" href="https://example.com/style.min.98f7f84c1576b3a7b05ee5507e0cb5d0cd796b2b47f0ca966b53a9651ae67ccd.css" integrity="sha256-mPf4TBV2s6ewXuVQfgy10M15aytH8MqWa1OpZRrmfM0=">
+  
+  
+  
+  <link rel="stylesheet" href="https://example.com/style-dark.min.0a647fb6c07e04b77b54fa0515d0a683d39ecdb251dba960fe1f966f7ff36fc2.css" media="(prefers-color-scheme: dark)" integrity="sha256-CmR/tsB&#43;BLd7VPoFFdCmg9OezbJR26lg/h&#43;Wb3/zb8I=">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+
+  
+  
+
+  <meta property="og:title" content="C Program to Swap Two Numbers using Pointers" />
+<meta property="og:description" content="C Program to Swap Two Numbers using Pointers Below is a program to swap two numbers using pointers.
+#include&lt;stdio.h&gt; int main() { printf(&#34;\n\n\t\tC Programs\n\n\n&#34;); int a, b; int *ptra, *ptrb; int temp; printf(&#34;Enter value for a: &#34;); scanf(&#34;%d&#34;, &amp;a); printf(&#34;\n\nEnter value for b: &#34;); scanf(&#34;%d&#34;, &amp;b); printf(&#34;\n\nThe values before swapping are: a = %d b = %d&#34;, a, b); ptra = &amp;a; // to store the location of a  ptrb = &amp;b; // to store the location of b  temp = *ptra; // temp stores the value at location ptra  *ptra = *ptrb; // assigning value at location ptrb to ptra  *ptrb = temp; // assign value of themp to the variable at location ptrb  printf(&#34;\n\nThe values after swapping are: a = %d b = %d&#34;, a, b); printf(&#34;\n\n\n\n\t\t\tCoding is Fun !" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://example.com/c-program-to-swap-two-numbers-using-pointers/" />
+
+<meta itemprop="name" content="C Program to Swap Two Numbers using Pointers">
+<meta itemprop="description" content="C Program to Swap Two Numbers using Pointers Below is a program to swap two numbers using pointers.
+#include&lt;stdio.h&gt; int main() { printf(&#34;\n\n\t\tC Programs\n\n\n&#34;); int a, b; int *ptra, *ptrb; int temp; printf(&#34;Enter value for a: &#34;); scanf(&#34;%d&#34;, &amp;a); printf(&#34;\n\nEnter value for b: &#34;); scanf(&#34;%d&#34;, &amp;b); printf(&#34;\n\nThe values before swapping are: a = %d b = %d&#34;, a, b); ptra = &amp;a; // to store the location of a  ptrb = &amp;b; // to store the location of b  temp = *ptra; // temp stores the value at location ptra  *ptra = *ptrb; // assigning value at location ptrb to ptra  *ptrb = temp; // assign value of themp to the variable at location ptrb  printf(&#34;\n\nThe values after swapping are: a = %d b = %d&#34;, a, b); printf(&#34;\n\n\n\n\t\t\tCoding is Fun !">
+
+<meta itemprop="wordCount" content="135">
+
+
+
+<meta itemprop="keywords" content="pointers," />
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:image" content="https://example.com//img/avatar3.png"/>
+<meta name="twitter:title" content="C Program to Swap Two Numbers using Pointers"/>
+<meta name="twitter:description" content="C Program to Swap Two Numbers using Pointers Below is a program to swap two numbers using pointers.
+#include&lt;stdio.h&gt; int main() { printf(&#34;\n\n\t\tC Programs\n\n\n&#34;); int a, b; int *ptra, *ptrb; int temp; printf(&#34;Enter value for a: &#34;); scanf(&#34;%d&#34;, &amp;a); printf(&#34;\n\nEnter value for b: &#34;); scanf(&#34;%d&#34;, &amp;b); printf(&#34;\n\nThe values before swapping are: a = %d b = %d&#34;, a, b); ptra = &amp;a; // to store the location of a  ptrb = &amp;b; // to store the location of b  temp = *ptra; // temp stores the value at location ptra  *ptra = *ptrb; // assigning value at location ptrb to ptra  *ptrb = temp; // assign value of themp to the variable at location ptrb  printf(&#34;\n\nThe values after swapping are: a = %d b = %d&#34;, a, b); printf(&#34;\n\n\n\n\t\t\tCoding is Fun !"/>
+
+  <!--[if lte IE 9]>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/classlist/1.1.20170427/classList.min.js"></script>
+  <![endif]-->
+
+  <!--[if lt IE 9]>
+  <script src="https://cdn.jsdelivr.net/npm/html5shiv@3.7.3/dist/html5shiv.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/respond.js@1.4.2/dest/respond.min.js"></script>
+  <![endif]-->
+
+  
+  
+</head>
+
+  <body>
+    <nav>
+      <ul id="nav-list">
+        <li class="nav-item"><a href="https://example.com/">Home</a></li>
+        <li class="nav-item"><a href="https://example.com/tags">Tags</a></li>
+        <li class="nav-item"><a href="https://example.com/about">About me</a></li>
+        <li class="nav-item"><a href="https://example.com/contact">Contact</a></li>
+      </ul>
+    </nav>
+    <div class="openNav">
+      <div class="icon"></div>
+    </div>
+    <div class="wrapper">
+  <h1>C Program to Swap Two Numbers using Pointers</h1>
+  <header>
+  
+  <div class="avatar">
+    <a href="https://example.com/">
+    <img class="avatarMask" src="https://example.com//img/avatar3.png" alt=""></a>
+  </div>
+  
+  <h2><a class="author" href="https://example.com/">By Vishal Dongre</a></h2>
+</header>
+
+  
+  
+  
+  <div id="tags">
+    <ul>
+      
+        
+        
+          <li><a href="https://example.com/tags/pointers/">pointers</a></li>
+        
+      
+    </ul>
+  </div>
+  
+  
+  <div id="contentBody">
+    <h2 id="c-program-to-swap-two-numbers-using-pointers">C Program to Swap Two Numbers using Pointers</h2>
+<p>Below is a program to swap two numbers using pointers.</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-c" data-lang="c"><span style="color:#75715e">#include</span><span style="color:#75715e">&lt;stdio.h&gt;</span><span style="color:#75715e">
+</span><span style="color:#75715e"></span>
+<span style="color:#66d9ef">int</span> <span style="color:#a6e22e">main</span>()
+{
+    printf(<span style="color:#e6db74">&#34;</span><span style="color:#ae81ff">\n\n\t\t</span><span style="color:#e6db74">C Programs</span><span style="color:#ae81ff">\n\n\n</span><span style="color:#e6db74">&#34;</span>);
+
+    <span style="color:#66d9ef">int</span> a, b;
+    <span style="color:#66d9ef">int</span> <span style="color:#f92672">*</span>ptra, <span style="color:#f92672">*</span>ptrb;
+    <span style="color:#66d9ef">int</span> temp;
+
+    printf(<span style="color:#e6db74">&#34;Enter value for a: &#34;</span>);
+    scanf(<span style="color:#e6db74">&#34;%d&#34;</span>, <span style="color:#f92672">&amp;</span>a);
+
+    printf(<span style="color:#e6db74">&#34;</span><span style="color:#ae81ff">\n\n</span><span style="color:#e6db74">Enter value for b: &#34;</span>);
+    scanf(<span style="color:#e6db74">&#34;%d&#34;</span>, <span style="color:#f92672">&amp;</span>b);
+
+    printf(<span style="color:#e6db74">&#34;</span><span style="color:#ae81ff">\n\n</span><span style="color:#e6db74">The values before swapping are: a = %d     b = %d&#34;</span>, a, b);
+
+    ptra <span style="color:#f92672">=</span> <span style="color:#f92672">&amp;</span>a;    <span style="color:#75715e">// to store the location of a
+</span><span style="color:#75715e"></span>    ptrb <span style="color:#f92672">=</span> <span style="color:#f92672">&amp;</span>b;    <span style="color:#75715e">// to store the location of b
+</span><span style="color:#75715e"></span>
+    temp <span style="color:#f92672">=</span> <span style="color:#f92672">*</span>ptra;   <span style="color:#75715e">// temp stores the value at location ptra
+</span><span style="color:#75715e"></span>    <span style="color:#f92672">*</span>ptra <span style="color:#f92672">=</span> <span style="color:#f92672">*</span>ptrb;  <span style="color:#75715e">// assigning value at location  ptrb to ptra
+</span><span style="color:#75715e"></span>    <span style="color:#f92672">*</span>ptrb <span style="color:#f92672">=</span> temp;   <span style="color:#75715e">// assign value of themp to  the variable at location ptrb
+</span><span style="color:#75715e"></span>
+    printf(<span style="color:#e6db74">&#34;</span><span style="color:#ae81ff">\n\n</span><span style="color:#e6db74">The values after swapping are: a = %d    b = %d&#34;</span>, a, b);
+
+    printf(<span style="color:#e6db74">&#34;</span><span style="color:#ae81ff">\n\n\n\n\t\t\t</span><span style="color:#e6db74">Coding is Fun !</span><span style="color:#ae81ff">\n\n\n</span><span style="color:#e6db74">&#34;</span>);
+    <span style="color:#66d9ef">return</span> <span style="color:#ae81ff">0</span>;
+
+}
+</code></pre></div>
+  </div>
+  <footer>
+  <p>
+  &copy; 2021 By Vishal Dongre.
+  Powered by <a href="https://gohugo.io/">Hugo</a>
+  using the <a href="https://github.com/koirand/pulp/">pulp</a> theme.
+  </p>
+</footer>
+
+  
+  
+  
+  
+  
+    
+  <script src="https://example.com/bundle.min.978b8c0968bb3037d3317a53bb44a8aa132302c68a32646c90053f4a8ac9de6c.js"></script>
+  <script>
+    $(".openNav").click(function() {
+      $("body").toggleClass("navOpen");
+      $("nav").toggleClass("open");
+      $(".wrapper").toggleClass("open");
+      $(this).toggleClass("open");
+    });
+  </script>
+</div>
+  </body>
+</html>

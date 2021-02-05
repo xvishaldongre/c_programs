@@ -1,0 +1,37 @@
+[
+    {
+        "ref": "https://example.com/c-program-to-change-the-text-background-color/",
+        "title": "C program to Change the Text Background Color",
+        "section": "",
+        "tags": ["miscellaneous"],
+        "date" : "0001.01.01",
+        "body": "C program to Change the Text Background Color Syntax:\nBOOL WINAPI SetConsoleTextAttribute(_In_ HANDLE hConsoleOutput , _In_ WORD wAttributes); Below is the program for changing text background color.\n#include\u0026lt;windows.h\u0026gt;#include\u0026lt;stdio.h\u0026gt; int main() { printf(\u0026#34;\\n\\n\\t\\tC Programs\\n\\n\\n\u0026#34;); //BACKGROUND_RED| BACKGROUND_GREEN| BACKGROUND_BLUE| BACKGROUND_INTENSITY  SetConsoleTextAttribute(GetStdHandle(STD_OUTPUT_HANDLE),BACKGROUND_BLUE|BACKGROUND_RED|BACKGROUND_INTENSITY); printf(\u0026#34;\\n\\nC Programs just showed you how to put colors to your code!!\u0026#34;); SetConsoleTextAttribute(GetStdHandle(STD_OUTPUT_HANDLE),BACKGROUND_GREEN); printf(\u0026#34;\\n\\nIsn\u0026#39;t this Awesome?\u0026#34;); SetConsoleTextAttribute(GetStdHandle(STD_OUTPUT_HANDLE),BACKGROUND_INTENSITY|BACKGROUND_RED); printf(\u0026#34;\\n\\nYou just did something that only 1 out of 10 coders are familiar of :)\\n\u0026#34;); SetConsoleTextAttribute(GetStdHandle(STD_OUTPUT_HANDLE),BACKGROUND_GREEN|BACKGROUND_INTENSITY); printf(\u0026#34;\\n\\nYou are doing great!!\u0026#34;); SetConsoleTextAttribute(GetStdHandle(STD_OUTPUT_HANDLE),BACKGROUND_BLUE|BACKGROUND_INTENSITY); printf(\u0026#34;\\n\\nThe best is yet to come!\u0026#34;); SetConsoleTextAttribute(GetStdHandle(STD_OUTPUT_HANDLE),BACKGROUND_GREEN|BACKGROUND_INTENSITY); printf(\u0026#34;\\n\\nWhat are you waiting for?? Just play with it!!\u0026#34;); printf(\u0026#34;\\n\\n\\t\\t\\tCoding is Fun !\\n\\n\\n\u0026#34;); return 0; } "
+    }
+,
+    {
+        "ref": "https://example.com/c-program-to-create-a-menu-driven-software-using-switch-case/",
+        "title": "C Program to create a Menu Driven software using Switch Case",
+        "section": "",
+        "tags": ["miscellaneous"],
+        "date" : "0001.01.01",
+        "body": "C Program to create a Menu Driven software using Switch Case Below is a menu driven program using switch case.\nunsigned is doubled the size of signed as it only considers positive values.\n%lu is the format specifier for unsigned integer.\nA number divisible by an integer other than 1 and itself is called a composite number.\n#include\u0026lt;stdio.h\u0026gt; int main() { printf(\u0026#34;\\n\\n\\t\\tC Programs\\n\\n\\n\u0026#34;); int choice, num, i; unsigned long int fact; while(1) { printf(\u0026#34;1. Factorial \\n\u0026#34;); printf(\u0026#34;2. Prime\\n\u0026#34;); printf(\u0026#34;3. Odd\\\\Even\\n\u0026#34;); printf(\u0026#34;4. Exit\\n\\n\\n\u0026#34;); printf(\u0026#34;Enter your choice : \u0026#34;); scanf(\u0026#34;%d\u0026#34;,\u0026amp;choice); switch(choice) { case 1: printf(\u0026#34;Enter number:\\n\u0026#34;); scanf(\u0026#34;%d\u0026#34;, \u0026amp;num); fact = 1; for(i = 1; i \u0026lt;= num; i++) { fact = fact*i; } printf(\u0026#34;\\n\\nFactorial value of %d is = %lu\\n\\n\\n\u0026#34;,num,fact); break; case 2: printf(\u0026#34;Enter number:\\n\u0026#34;); scanf(\u0026#34;%d\u0026#34;, \u0026amp;num); if(num == 1) printf(\u0026#34;\\n1 is neither prime nor composite\\n\\n\u0026#34;); for(i = 2; i \u0026lt; num; i++) { if(num%i == 0) { printf(\u0026#34;\\n%d is not a prime number\\n\\n\u0026#34;, num); break; } } /* Not divisible by any number other than 1 and itself */ if(i == num) { printf(\u0026#34;\\n\\n%d is a Prime number\\n\\n\u0026#34;, num); break; } case 3: printf(\u0026#34;Enter number:\\n\u0026#34;); scanf(\u0026#34;%d\u0026#34;, \u0026amp;num); if(num%2 == 0) // 0 is considered to be an even number  printf(\u0026#34;\\n\\n%d is an Even number\\n\\n\u0026#34;,num); else printf(\u0026#34;\\n\\n%d is an Odd number\\n\\n\u0026#34;,num); break; case 4: printf(\u0026#34;\\n\\n\\t\\t\\tCoding is Fun !\\n\\n\\n\u0026#34;); exit(0); // terminates the complete program execution  } } printf(\u0026#34;\\n\\n\\t\\t\\tCoding is Fun !\\n\\n\\n\u0026#34;); return 0; } "
+    }
+,
+    {
+        "ref": "https://example.com/c-program-to-display-the-current-date-and-time/",
+        "title": "C Program to Display the current Date and Time",
+        "section": "",
+        "tags": ["miscellaneous"],
+        "date" : "0001.01.01",
+        "body": "C Program to Display the current Date and Time Below is the program to display current date and time.\n#include\u0026lt;time.h\u0026gt; is used for time and ctime function and time_t datatype.\n#include\u0026lt;stdio.h\u0026gt;#include\u0026lt;time.h\u0026gt; int main() { printf(\u0026#34;\\n\\n\\t\\tC Programs\\n\\n\\n\u0026#34;); time_t t; // not a primitive datatype  time(\u0026amp;t); printf(\u0026#34;\\nThis program has been writeen at (date and time): %s\u0026#34;, ctime(\u0026amp;t)); printf(\u0026#34;\\n\\n\\t\\t\\tCoding is Fun !\\n\\n\\n\u0026#34;); return 0; } "
+    }
+,
+    {
+        "ref": "https://example.com/c-program-without-a-main-function/",
+        "title": "C Program without a main() function",
+        "section": "",
+        "tags": ["miscellaneous"],
+        "date" : "0001.01.01",
+        "body": "C Program without a main() function Below is a program without main().\nIn the below program, main() function is there, but hidden using the preprocessors.\nAs you can see in the second line, #define decode() function is used, which holds a character combination of m,a,i,n and is followed by ##m##a##i##n.\nHere ## operator is used to merge the characters in the order mentioned using ##, which is main\nIn the 3rd line #define go decode(m,a,i,n) as we have specified the characters in same order, the decode function will assign value main for go.\n#include\u0026lt;stdio.h\u0026gt;//Need to include the following statements in same manner #define decode(m,a,i,n) m##a##i##n #define go decode(m,a,i,n)  int go() { printf(\u0026#34;\\n\\n\\t\\tC Programs\\n\\n\\n\u0026#34;); printf(\u0026#34;You have just executed your first program without making use of main() function!\\n\u0026#34;); printf(\u0026#34;\\n\\n\\t\\t\\tCoding is Fun !\\n\\n\\n\u0026#34;); return 0; } We can use different words and combination here, like\n#define decode(s,t,u,m,p,e,d) m##s##u##t #define go decode(a,n,i,m,a,t,e) Using macro to define main #include\u0026lt;stdio.h\u0026gt;#define go main int go(void) { printf(\u0026#34;Welcome to C Programs\u0026#34;); return 0; } This is is the simplest technique, where all we have done is provided our main() function with a different name, which is set the main before the program is executed.\nUsing Token-Pasting operator #include\u0026lt;stdio.h\u0026gt;#define go m##a##i##n int go(void) { printf(\u0026#34;Welcome to C Programs\u0026#34;); return 0; } "
+    }
+]

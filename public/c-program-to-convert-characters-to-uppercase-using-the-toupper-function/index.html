@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  <title>
+      
+          C Program to convert character(s) to uppercase using the toupper() Function - C Programs
+      
+  </title>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="author" content="By Vishal Dongre" />
+  <link rel="shortcut icon" type="image/x-icon" href="https://example.com/img/favicon.ico">
+
+  
+  
+  
+  
+  
+  <link rel="stylesheet" href="https://example.com/style.min.98f7f84c1576b3a7b05ee5507e0cb5d0cd796b2b47f0ca966b53a9651ae67ccd.css" integrity="sha256-mPf4TBV2s6ewXuVQfgy10M15aytH8MqWa1OpZRrmfM0=">
+  
+  
+  
+  <link rel="stylesheet" href="https://example.com/style-dark.min.0a647fb6c07e04b77b54fa0515d0a683d39ecdb251dba960fe1f966f7ff36fc2.css" media="(prefers-color-scheme: dark)" integrity="sha256-CmR/tsB&#43;BLd7VPoFFdCmg9OezbJR26lg/h&#43;Wb3/zb8I=">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+
+  
+  
+
+  <meta property="og:title" content="C Program to convert character(s) to uppercase using the toupper() Function" />
+<meta property="og:description" content="C Program to convert character(s) to uppercase using the toupper() Function In this program we will convert all the characters of an input string to uppercase characters. We will be using a system defined function toupper() defined under the ctype.h library.
+This can also be achieved by subtracting 32 from each lowercase character to get its equivalent uppercase format.
+Below is the program on toupper() function. Try running the program and you will see all the explanation printed on the output screen." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://example.com/c-program-to-convert-characters-to-uppercase-using-the-toupper-function/" />
+
+<meta itemprop="name" content="C Program to convert character(s) to uppercase using the toupper() Function">
+<meta itemprop="description" content="C Program to convert character(s) to uppercase using the toupper() Function In this program we will convert all the characters of an input string to uppercase characters. We will be using a system defined function toupper() defined under the ctype.h library.
+This can also be achieved by subtracting 32 from each lowercase character to get its equivalent uppercase format.
+Below is the program on toupper() function. Try running the program and you will see all the explanation printed on the output screen.">
+
+<meta itemprop="wordCount" content="205">
+
+
+
+<meta itemprop="keywords" content="CTYPE.H," />
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:image" content="https://example.com//img/avatar3.png"/>
+<meta name="twitter:title" content="C Program to convert character(s) to uppercase using the toupper() Function"/>
+<meta name="twitter:description" content="C Program to convert character(s) to uppercase using the toupper() Function In this program we will convert all the characters of an input string to uppercase characters. We will be using a system defined function toupper() defined under the ctype.h library.
+This can also be achieved by subtracting 32 from each lowercase character to get its equivalent uppercase format.
+Below is the program on toupper() function. Try running the program and you will see all the explanation printed on the output screen."/>
+
+  <!--[if lte IE 9]>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/classlist/1.1.20170427/classList.min.js"></script>
+  <![endif]-->
+
+  <!--[if lt IE 9]>
+  <script src="https://cdn.jsdelivr.net/npm/html5shiv@3.7.3/dist/html5shiv.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/respond.js@1.4.2/dest/respond.min.js"></script>
+  <![endif]-->
+
+  
+  
+</head>
+
+  <body>
+    <nav>
+      <ul id="nav-list">
+        <li class="nav-item"><a href="https://example.com/">Home</a></li>
+        <li class="nav-item"><a href="https://example.com/tags">Tags</a></li>
+        <li class="nav-item"><a href="https://example.com/about">About me</a></li>
+        <li class="nav-item"><a href="https://example.com/contact">Contact</a></li>
+      </ul>
+    </nav>
+    <div class="openNav">
+      <div class="icon"></div>
+    </div>
+    <div class="wrapper">
+  <h1>C Program to convert character(s) to uppercase using the toupper() Function</h1>
+  <header>
+  
+  <div class="avatar">
+    <a href="https://example.com/">
+    <img class="avatarMask" src="https://example.com//img/avatar3.png" alt=""></a>
+  </div>
+  
+  <h2><a class="author" href="https://example.com/">By Vishal Dongre</a></h2>
+</header>
+
+  
+  
+  
+  <div id="tags">
+    <ul>
+      
+        
+        
+          <li><a href="https://example.com/tags/ctype.h/">CTYPE.H</a></li>
+        
+      
+    </ul>
+  </div>
+  
+  
+  <div id="contentBody">
+    <h2 id="c-program-to-convert-characters-to-uppercase-using-the-toupper-function">C Program to convert character(s) to uppercase using the toupper() Function</h2>
+<p>In this program we will convert all the characters of an input string to uppercase characters. We will be using a system defined function toupper() defined under the ctype.h library.</p>
+<p>This can also be achieved by subtracting 32 from each lowercase character to get its equivalent uppercase format.</p>
+<p>Below is the program on toupper() function. Try running the program and you will see all the explanation printed on the output screen. Yay!</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-c" data-lang="c"><span style="color:#75715e">#include</span><span style="color:#75715e">&lt;stdio.h&gt;</span><span style="color:#75715e">
+</span><span style="color:#75715e">#include</span><span style="color:#75715e">&lt;ctype.h&gt;</span><span style="color:#75715e">
+</span><span style="color:#75715e"></span>
+<span style="color:#66d9ef">int</span> <span style="color:#a6e22e">main</span>()
+{
+    printf(<span style="color:#e6db74">&#34;</span><span style="color:#ae81ff">\n\n\t\t</span><span style="color:#e6db74">C Programs</span><span style="color:#ae81ff">\n\n\n</span><span style="color:#e6db74">&#34;</span>);
+    printf(<span style="color:#e6db74">&#34;putchar() is used to print a single character at a time on the console.</span><span style="color:#ae81ff">\n\n\n</span><span style="color:#e6db74">&#34;</span>);
+    printf(<span style="color:#e6db74">&#34;toupper() takes a character as an input and converts it into an equivalent upper-case character.</span><span style="color:#ae81ff">\n\n\n</span><span style="color:#e6db74">&#34;</span>);
+    printf(<span style="color:#e6db74">&#34;This can also be achieved by subtracting 32 from each lowercase character</span><span style="color:#ae81ff">\n</span><span style="color:#e6db74"> to get its equivalent uppercase format. </span><span style="color:#ae81ff">\n\n\n</span><span style="color:#e6db74">&#34;</span>);
+    printf(<span style="color:#e6db74">&#34;As we know ASCII value of a = %d and that of A = %d.</span><span style="color:#ae81ff">\n\n\n</span><span style="color:#e6db74"> &#34;</span>,<span style="color:#e6db74">&#39;a&#39;</span>,<span style="color:#e6db74">&#39;A&#39;</span>);
+    printf(<span style="color:#e6db74">&#34;</span><span style="color:#ae81ff">\n\n</span><span style="color:#e6db74">Let&#39;s first get the concept:</span><span style="color:#ae81ff">\n\n\n</span><span style="color:#e6db74"> &#34;</span>);
+    printf(<span style="color:#e6db74">&#34;</span><span style="color:#ae81ff">\n\n</span><span style="color:#e6db74">The uppercase equivalent of letter &#39;a&#39; is %c.</span><span style="color:#ae81ff">\n\n</span><span style="color:#e6db74"> &#34;</span>,<span style="color:#e6db74">&#39;a&#39;</span><span style="color:#f92672">-</span><span style="color:#ae81ff">32</span>);
+
+    <span style="color:#66d9ef">int</span> aj <span style="color:#f92672">=</span> <span style="color:#ae81ff">0</span>;
+    <span style="color:#66d9ef">char</span> mj[] <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34; </span><span style="color:#ae81ff">\n\n</span><span style="color:#e6db74">Keep learning, as what you know will never be enough!</span><span style="color:#ae81ff">\n\n</span><span style="color:#e6db74">&#34;</span>;
+
+    <span style="color:#66d9ef">while</span>(mj[aj])   <span style="color:#75715e">// until string terminates
+</span><span style="color:#75715e"></span>    {
+        <span style="color:#75715e">// converting one character at a time
+</span><span style="color:#75715e"></span>        putchar(toupper(mj[aj]));
+        aj<span style="color:#f92672">++</span>;
+    }
+
+    printf(<span style="color:#e6db74">&#34;</span><span style="color:#ae81ff">\n\n\t\t\t</span><span style="color:#e6db74">Coding is Fun !</span><span style="color:#ae81ff">\n\n\n</span><span style="color:#e6db74">&#34;</span>);
+    <span style="color:#66d9ef">return</span> <span style="color:#ae81ff">0</span>;
+}
+</code></pre></div>
+  </div>
+  <footer>
+  <p>
+  &copy; 2021 By Vishal Dongre.
+  Powered by <a href="https://gohugo.io/">Hugo</a>
+  using the <a href="https://github.com/koirand/pulp/">pulp</a> theme.
+  </p>
+</footer>
+
+  
+  
+  
+  
+  
+    
+  <script src="https://example.com/bundle.min.978b8c0968bb3037d3317a53bb44a8aa132302c68a32646c90053f4a8ac9de6c.js"></script>
+  <script>
+    $(".openNav").click(function() {
+      $("body").toggleClass("navOpen");
+      $("nav").toggleClass("open");
+      $(".wrapper").toggleClass("open");
+      $(this).toggleClass("open");
+    });
+  </script>
+</div>
+  </body>
+</html>

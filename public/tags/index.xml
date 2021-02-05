@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on C Programs</title>
+    <link>https://example.com/tags/</link>
+    <description>Recent content in Tags on C Programs</description>
+    <generator>Hugo -- gohugo.io</generator><atom:link href="https://example.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>array</title>
+      <link>https://example.com/tags/array/index.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://example.com/tags/array/index.json</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Basic Programs</title>
+      <link>https://example.com/tags/basic-programs/index.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://example.com/tags/basic-programs/index.json</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>CTYPE.H</title>
+      <link>https://example.com/tags/ctype.h/index.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://example.com/tags/ctype.h/index.json</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>files_and_streams</title>
+      <link>https://example.com/tags/files_and_streams/index.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://example.com/tags/files_and_streams/index.json</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>important_concepts</title>
+      <link>https://example.com/tags/important_concepts/index.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://example.com/tags/important_concepts/index.json</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>loops</title>
+      <link>https://example.com/tags/loops/index.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://example.com/tags/loops/index.json</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>miscellaneous</title>
+      <link>https://example.com/tags/miscellaneous/index.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://example.com/tags/miscellaneous/index.json</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>numbers</title>
+      <link>https://example.com/tags/numbers/index.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://example.com/tags/numbers/index.json</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>pointers</title>
+      <link>https://example.com/tags/pointers/index.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://example.com/tags/pointers/index.json</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>recursion</title>
+      <link>https://example.com/tags/recursion/index.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://example.com/tags/recursion/index.json</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>string</title>
+      <link>https://example.com/tags/string/index.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://example.com/tags/string/index.json</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

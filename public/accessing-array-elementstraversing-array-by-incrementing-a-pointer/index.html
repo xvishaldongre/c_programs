@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  <title>
+      
+          Accessing array elements(Traversing array) by incrementing a Pointer - C Programs
+      
+  </title>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="author" content="By Vishal Dongre" />
+  <link rel="shortcut icon" type="image/x-icon" href="https://example.com/img/favicon.ico">
+
+  
+  
+  
+  
+  
+  <link rel="stylesheet" href="https://example.com/style.min.98f7f84c1576b3a7b05ee5507e0cb5d0cd796b2b47f0ca966b53a9651ae67ccd.css" integrity="sha256-mPf4TBV2s6ewXuVQfgy10M15aytH8MqWa1OpZRrmfM0=">
+  
+  
+  
+  <link rel="stylesheet" href="https://example.com/style-dark.min.0a647fb6c07e04b77b54fa0515d0a683d39ecdb251dba960fe1f966f7ff36fc2.css" media="(prefers-color-scheme: dark)" integrity="sha256-CmR/tsB&#43;BLd7VPoFFdCmg9OezbJR26lg/h&#43;Wb3/zb8I=">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+
+  
+  
+
+  <meta property="og:title" content="Accessing array elements(Traversing array) by incrementing a Pointer" />
+<meta property="og:description" content="Accessing array elements(Traversing array) by incrementing a Pointer Name of the array refers to the base address of the array.
+Below is a program to access elements of an array using pointer increment.
+#include &lt;stdio.h&gt; const int MAX = 3; // Global declaration int main() { printf(&#34;\n\n\t\tC Programs\n\n\n&#34;); int var[] = {100, 200, 300}; int i, *ptr; /* storing address of the first element of the array in pointer variable */ ptr = var; for(i = 0; i &lt; MAX; i&#43;&#43;) { printf(&#34;\n\n\nAddress of var[%d] = %x &#34;, i, ptr); printf(&#34;\nValue of var[%d] = %d &#34;, i, *ptr); // move to the next location  ptr&#43;&#43;; } printf(&#34;\n\n\t\t\tCoding is Fun !" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://example.com/accessing-array-elementstraversing-array-by-incrementing-a-pointer/" />
+
+<meta itemprop="name" content="Accessing array elements(Traversing array) by incrementing a Pointer">
+<meta itemprop="description" content="Accessing array elements(Traversing array) by incrementing a Pointer Name of the array refers to the base address of the array.
+Below is a program to access elements of an array using pointer increment.
+#include &lt;stdio.h&gt; const int MAX = 3; // Global declaration int main() { printf(&#34;\n\n\t\tC Programs\n\n\n&#34;); int var[] = {100, 200, 300}; int i, *ptr; /* storing address of the first element of the array in pointer variable */ ptr = var; for(i = 0; i &lt; MAX; i&#43;&#43;) { printf(&#34;\n\n\nAddress of var[%d] = %x &#34;, i, ptr); printf(&#34;\nValue of var[%d] = %d &#34;, i, *ptr); // move to the next location  ptr&#43;&#43;; } printf(&#34;\n\n\t\t\tCoding is Fun !">
+
+<meta itemprop="wordCount" content="213">
+
+
+
+<meta itemprop="keywords" content="pointers," />
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:image" content="https://example.com//img/avatar3.png"/>
+<meta name="twitter:title" content="Accessing array elements(Traversing array) by incrementing a Pointer"/>
+<meta name="twitter:description" content="Accessing array elements(Traversing array) by incrementing a Pointer Name of the array refers to the base address of the array.
+Below is a program to access elements of an array using pointer increment.
+#include &lt;stdio.h&gt; const int MAX = 3; // Global declaration int main() { printf(&#34;\n\n\t\tC Programs\n\n\n&#34;); int var[] = {100, 200, 300}; int i, *ptr; /* storing address of the first element of the array in pointer variable */ ptr = var; for(i = 0; i &lt; MAX; i&#43;&#43;) { printf(&#34;\n\n\nAddress of var[%d] = %x &#34;, i, ptr); printf(&#34;\nValue of var[%d] = %d &#34;, i, *ptr); // move to the next location  ptr&#43;&#43;; } printf(&#34;\n\n\t\t\tCoding is Fun !"/>
+
+  <!--[if lte IE 9]>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/classlist/1.1.20170427/classList.min.js"></script>
+  <![endif]-->
+
+  <!--[if lt IE 9]>
+  <script src="https://cdn.jsdelivr.net/npm/html5shiv@3.7.3/dist/html5shiv.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/respond.js@1.4.2/dest/respond.min.js"></script>
+  <![endif]-->
+
+  
+  
+</head>
+
+  <body>
+    <nav>
+      <ul id="nav-list">
+        <li class="nav-item"><a href="https://example.com/">Home</a></li>
+        <li class="nav-item"><a href="https://example.com/tags">Tags</a></li>
+        <li class="nav-item"><a href="https://example.com/about">About me</a></li>
+        <li class="nav-item"><a href="https://example.com/contact">Contact</a></li>
+      </ul>
+    </nav>
+    <div class="openNav">
+      <div class="icon"></div>
+    </div>
+    <div class="wrapper">
+  <h1>Accessing array elements(Traversing array) by incrementing a Pointer</h1>
+  <header>
+  
+  <div class="avatar">
+    <a href="https://example.com/">
+    <img class="avatarMask" src="https://example.com//img/avatar3.png" alt=""></a>
+  </div>
+  
+  <h2><a class="author" href="https://example.com/">By Vishal Dongre</a></h2>
+</header>
+
+  
+  
+  
+  <div id="tags">
+    <ul>
+      
+        
+        
+          <li><a href="https://example.com/tags/pointers/">pointers</a></li>
+        
+      
+    </ul>
+  </div>
+  
+  
+  <div id="contentBody">
+    <h2 id="accessing-array-elementstraversing-array-by-incrementing-a-pointer">Accessing array elements(Traversing array) by incrementing a Pointer</h2>
+<p>Name of the array refers to the base address of the array.</p>
+<p>Below is a program to access elements of an array using pointer increment.</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-c" data-lang="c"><span style="color:#75715e">#include</span> <span style="color:#75715e">&lt;stdio.h&gt;</span><span style="color:#75715e">
+</span><span style="color:#75715e"></span>
+<span style="color:#66d9ef">const</span> <span style="color:#66d9ef">int</span> MAX <span style="color:#f92672">=</span> <span style="color:#ae81ff">3</span>;  <span style="color:#75715e">// Global declaration
+</span><span style="color:#75715e"></span><span style="color:#66d9ef">int</span> <span style="color:#a6e22e">main</span>()
+{
+	printf(<span style="color:#e6db74">&#34;</span><span style="color:#ae81ff">\n\n\t\t</span><span style="color:#e6db74">C Programs</span><span style="color:#ae81ff">\n\n\n</span><span style="color:#e6db74">&#34;</span>);
+	<span style="color:#66d9ef">int</span> var[] <span style="color:#f92672">=</span> {<span style="color:#ae81ff">100</span>, <span style="color:#ae81ff">200</span>, <span style="color:#ae81ff">300</span>};
+    <span style="color:#66d9ef">int</span> i, <span style="color:#f92672">*</span>ptr;
+
+    <span style="color:#75715e">/*
+</span><span style="color:#75715e">        storing address of the first element
+</span><span style="color:#75715e">        of the array in pointer variable
+</span><span style="color:#75715e">    */</span>
+    ptr <span style="color:#f92672">=</span> var;
+
+    <span style="color:#66d9ef">for</span>(i <span style="color:#f92672">=</span> <span style="color:#ae81ff">0</span>; i <span style="color:#f92672">&lt;</span> MAX; i<span style="color:#f92672">++</span>)
+    {
+        printf(<span style="color:#e6db74">&#34;</span><span style="color:#ae81ff">\n\n\n</span><span style="color:#e6db74">Address of var[%d] = %x &#34;</span>, i, ptr);
+        printf(<span style="color:#e6db74">&#34;</span><span style="color:#ae81ff">\n</span><span style="color:#e6db74">Value of var[%d] = %d &#34;</span>, i, <span style="color:#f92672">*</span>ptr);
+
+       <span style="color:#75715e">// move to the next location
+</span><span style="color:#75715e"></span>        ptr<span style="color:#f92672">++</span>;
+    }
+	printf(<span style="color:#e6db74">&#34;</span><span style="color:#ae81ff">\n\n\t\t\t</span><span style="color:#e6db74">Coding is Fun !</span><span style="color:#ae81ff">\n\n\n</span><span style="color:#e6db74">&#34;</span>);
+    <span style="color:#66d9ef">return</span> <span style="color:#ae81ff">0</span>;
+}
+</code></pre></div><h2 id="traversing-array-elements-by-decrementing-a-pointer">Traversing array elements by decrementing a Pointer</h2>
+<p>Below is a program to access elements of an array using pointer decrement.</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-c" data-lang="c"><span style="color:#75715e">#include</span> <span style="color:#75715e">&lt;stdio.h&gt;</span><span style="color:#75715e">
+</span><span style="color:#75715e"></span>
+<span style="color:#66d9ef">const</span> <span style="color:#66d9ef">int</span> MAX <span style="color:#f92672">=</span> <span style="color:#ae81ff">3</span>;  <span style="color:#75715e">// Global declaration
+</span><span style="color:#75715e"></span><span style="color:#66d9ef">int</span> <span style="color:#a6e22e">main</span>()
+{
+	printf(<span style="color:#e6db74">&#34;</span><span style="color:#ae81ff">\n\n\t\t</span><span style="color:#e6db74">C Programs</span><span style="color:#ae81ff">\n\n\n</span><span style="color:#e6db74">&#34;</span>);
+	<span style="color:#66d9ef">int</span> var[] <span style="color:#f92672">=</span> {<span style="color:#ae81ff">100</span>, <span style="color:#ae81ff">200</span>, <span style="color:#ae81ff">300</span>};
+    <span style="color:#66d9ef">int</span> i, <span style="color:#f92672">*</span>ptr;
+
+    <span style="color:#75715e">/*
+</span><span style="color:#75715e">        storing address of the last element
+</span><span style="color:#75715e">        of the array in pointer variable
+</span><span style="color:#75715e">    */</span>
+    ptr <span style="color:#f92672">=</span> <span style="color:#f92672">&amp;</span>var[MAX<span style="color:#f92672">-</span><span style="color:#ae81ff">1</span>];
+
+	<span style="color:#66d9ef">for</span>(i <span style="color:#f92672">=</span> MAX; i <span style="color:#f92672">&gt;</span> <span style="color:#ae81ff">0</span>; i<span style="color:#f92672">--</span>)
+    {
+    	printf(<span style="color:#e6db74">&#34;</span><span style="color:#ae81ff">\n\n\n</span><span style="color:#e6db74">Address of var[%d] = %x &#34;</span>, i, ptr);
+        printf(<span style="color:#e6db74">&#34;</span><span style="color:#ae81ff">\n</span><span style="color:#e6db74">Value of var[%d] = %d &#34;</span>, i, <span style="color:#f92672">*</span>ptr);
+
+		<span style="color:#75715e">// move to the previous location
+</span><span style="color:#75715e"></span>        ptr<span style="color:#f92672">--</span>;
+	}
+	printf(<span style="color:#e6db74">&#34;</span><span style="color:#ae81ff">\n\n\t\t\t</span><span style="color:#e6db74">Coding is Fun !</span><span style="color:#ae81ff">\n\n\n</span><span style="color:#e6db74">&#34;</span>);
+    <span style="color:#66d9ef">return</span> <span style="color:#ae81ff">0</span>;
+}
+</code></pre></div>
+  </div>
+  <footer>
+  <p>
+  &copy; 2021 By Vishal Dongre.
+  Powered by <a href="https://gohugo.io/">Hugo</a>
+  using the <a href="https://github.com/koirand/pulp/">pulp</a> theme.
+  </p>
+</footer>
+
+  
+  
+  
+  
+  
+    
+  <script src="https://example.com/bundle.min.978b8c0968bb3037d3317a53bb44a8aa132302c68a32646c90053f4a8ac9de6c.js"></script>
+  <script>
+    $(".openNav").click(function() {
+      $("body").toggleClass("navOpen");
+      $("nav").toggleClass("open");
+      $(".wrapper").toggleClass("open");
+      $(this).toggleClass("open");
+    });
+  </script>
+</div>
+  </body>
+</html>

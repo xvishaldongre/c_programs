@@ -1,0 +1,486 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>https://example.com/about/</loc>
+    <lastmod>2021-02-04T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://example.com/contact/</loc>
+  </url>
+  
+  <url>
+    <loc>https://example.com/accessing-array-elementstraversing-array-by-incrementing-a-pointer/</loc>
+  </url>
+  
+  <url>
+    <loc>https://example.com/tags/array/</loc>
+  </url>
+  
+  <url>
+    <loc>https://example.com/ascii-value-of-character/</loc>
+  </url>
+  
+  <url>
+    <loc>https://example.com/basic-c-program-for-pointer-to-a-pointer/</loc>
+  </url>
+  
+  <url>
+    <loc>https://example.com/basic-c-program-to-concatenate-strings-using-pointer/</loc>
+  </url>
+  
+  <url>
+    <loc>https://example.com/basic-do-while-loop-program/</loc>
+  </url>
+  
+  <url>
+    <loc>https://example.com/basic-ifelse-condition-program/</loc>
+  </url>
+  
+  <url>
+    <loc>https://example.com/basic-program-for-pointers/</loc>
+  </url>
+  
+  <url>
+    <loc>https://example.com/basic-program-to-show-use-of-nested-for-loops/</loc>
+  </url>
+  
+  <url>
+    <loc>https://example.com/tags/basic-programs/</loc>
+  </url>
+  
+  <url>
+    <loc>https://example.com/c-gets-and-strlen-function/</loc>
+  </url>
+  
+  <url>
+    <loc>https://example.com/c-program-for-adding-two-numbers-using-recursion/</loc>
+  </url>
+  
+  <url>
+    <loc>https://example.com/c-program-for-pointer-to-a-function/</loc>
+  </url>
+  
+  <url>
+    <loc>https://example.com/c-program-for-removing-whitespaces-in-a-string/</loc>
+  </url>
+  
+  <url>
+    <loc>https://example.com/c-program-to-add-two-user-input-numbers-using-pointers/</loc>
+  </url>
+  
+  <url>
+    <loc>https://example.com/c-program-to-calculate-a-number-raised-to-the-power-of-n-using-recursion/</loc>
+  </url>
+  
+  <url>
+    <loc>https://example.com/c-program-to-calculate-permutation-npr-and-combination-ncr/</loc>
+  </url>
+  
+  <url>
+    <loc>https://example.com/c-program-to-calculate-simple-interest/</loc>
+  </url>
+  
+  <url>
+    <loc>https://example.com/c-program-to-calculate-the-frequency-of-characters-in-a-string/</loc>
+  </url>
+  
+  <url>
+    <loc>https://example.com/c-program-to-change-the-text-background-color/</loc>
+  </url>
+  
+  <url>
+    <loc>https://example.com/c-program-to-check-for-a-perfect-square/</loc>
+  </url>
+  
+  <url>
+    <loc>https://example.com/c-program-to-check-for-punctuation-characters-using-the-ispunct-function/</loc>
+  </url>
+  
+  <url>
+    <loc>https://example.com/c-program-to-check-for-whitespace-using-isspace-function/</loc>
+  </url>
+  
+  <url>
+    <loc>https://example.com/c-program-to-check-if-character-is-alphabet-using-isalpha-function/</loc>
+  </url>
+  
+  <url>
+    <loc>https://example.com/c-program-to-check-if-character-string-is-alphanumeric-using-isalnum-function/</loc>
+  </url>
+  
+  <url>
+    <loc>https://example.com/c-program-to-check-lowercase-using-islower-function/</loc>
+  </url>
+  
+  <url>
+    <loc>https://example.com/c-program-to-check-uppercase-using-isupper-function/</loc>
+  </url>
+  
+  <url>
+    <loc>https://example.com/c-program-to-compare-two-strings-using-strcmp-function/</loc>
+  </url>
+  
+  <url>
+    <loc>https://example.com/c-program-to-convert-characters-to-uppercase-using-the-toupper-function/</loc>
+  </url>
+  
+  <url>
+    <loc>https://example.com/c-program-to-convert-temparature-in-celsius-to-fahrenheit/</loc>
+  </url>
+  
+  <url>
+    <loc>https://example.com/c-program-to-copy-content-of-one-file-into-another-file/</loc>
+  </url>
+  
+  <url>
+    <loc>https://example.com/c-program-to-copy-string-using-strcpy-function/</loc>
+  </url>
+  
+  <url>
+    <loc>https://example.com/c-program-to-count-number-of-vowels-in-a-string/</loc>
+  </url>
+  
+  <url>
+    <loc>https://example.com/c-program-to-covert-character-to-lowercase-using-tolower-function/</loc>
+  </url>
+  
+  <url>
+    <loc>https://example.com/c-program-to-create-a-file-write-data-in-it/</loc>
+  </url>
+  
+  <url>
+    <loc>https://example.com/c-program-to-create-a-menu-driven-software-using-switch-case/</loc>
+  </url>
+  
+  <url>
+    <loc>https://example.com/c-program-to-display-the-current-date-and-time/</loc>
+  </url>
+  
+  <url>
+    <loc>https://example.com/c-program-to-find-gcd-of-n-numbers/</loc>
+  </url>
+  
+  <url>
+    <loc>https://example.com/c-program-to-find-gcd-of-two-numbers-using-recursion/</loc>
+  </url>
+  
+  <url>
+    <loc>https://example.com/c-program-to-find-lcm-of-two-numbers-using-recursion/</loc>
+  </url>
+  
+  <url>
+    <loc>https://example.com/c-program-to-find-roots-of-quadratic-equation/</loc>
+  </url>
+  
+  <url>
+    <loc>https://example.com/c-program-to-find-sum-of-first-and-last-digits-of-a-number/</loc>
+  </url>
+  
+  <url>
+    <loc>https://example.com/c-program-to-find-the-area-and-circumference-of-a-circle/</loc>
+  </url>
+  
+  <url>
+    <loc>https://example.com/c-program-to-find-the-area-of-triangle-using-base-and-height/</loc>
+  </url>
+  
+  <url>
+    <loc>https://example.com/c-program-to-find-the-largest-element-in-an-array-using-recursion/</loc>
+  </url>
+  
+  <url>
+    <loc>https://example.com/c-program-to-find-the-largest-of-three-numbers/</loc>
+  </url>
+  
+  <url>
+    <loc>https://example.com/c-program-to-find-the-second-largest-number-among-three-user-input-numbers/</loc>
+  </url>
+  
+  <url>
+    <loc>https://example.com/c-program-to-find-the-size-of-any-file/</loc>
+  </url>
+  
+  <url>
+    <loc>https://example.com/c-program-to-find-whether-a-number-is-prime-or-composite-using-recursion/</loc>
+  </url>
+  
+  <url>
+    <loc>https://example.com/c-program-to-identify-a-leap-year/</loc>
+  </url>
+  
+  <url>
+    <loc>https://example.com/c-program-to-print-names-of-all-files-present-in-a-directory/</loc>
+  </url>
+  
+  <url>
+    <loc>https://example.com/c-program-to-reverse-a-string-using-pointer/</loc>
+  </url>
+  
+  <url>
+    <loc>https://example.com/c-program-to-reverse-a-string-using-strrev-function/</loc>
+  </url>
+  
+  <url>
+    <loc>https://example.com/c-program-to-reverse-the-content-of-a-file/</loc>
+  </url>
+  
+  <url>
+    <loc>https://example.com/c-program-to-show-basic-arithmetic-operations-and-role-of-typecasting/</loc>
+  </url>
+  
+  <url>
+    <loc>https://example.com/c-program-to-swap-two-numbers-using-pointers/</loc>
+  </url>
+  
+  <url>
+    <loc>https://example.com/c-program-without-a-main-function/</loc>
+  </url>
+  
+  <url>
+    <loc>https://example.com/</loc>
+  </url>
+  
+  <url>
+    <loc>https://example.com/c-programs-to-showcase-the-conversion-between-various-number-systems/</loc>
+  </url>
+  
+  <url>
+    <loc>https://example.com/categories/</loc>
+  </url>
+  
+  <url>
+    <loc>https://example.com/checking-for-odd-and-even-numbers-using-bitwise-operator/</loc>
+  </url>
+  
+  <url>
+    <loc>https://example.com/tags/ctype.h/</loc>
+  </url>
+  
+  <url>
+    <loc>https://example.com/difference-between-strlen-and-sizeof-function/</loc>
+  </url>
+  
+  <url>
+    <loc>https://example.com/tags/files_and_streams/</loc>
+  </url>
+  
+  <url>
+    <loc>https://example.com/hello-world-program/</loc>
+  </url>
+  
+  <url>
+    <loc>https://example.com/how-to-use-gets-function/</loc>
+  </url>
+  
+  <url>
+    <loc>https://example.com/tags/important_concepts/</loc>
+  </url>
+  
+  <url>
+    <loc>https://example.com/tags/loops/</loc>
+  </url>
+  
+  <url>
+    <loc>https://example.com/tags/miscellaneous/</loc>
+  </url>
+  
+  <url>
+    <loc>https://example.com/null-pointer-program/</loc>
+  </url>
+  
+  <url>
+    <loc>https://example.com/tags/numbers/</loc>
+  </url>
+  
+  <url>
+    <loc>https://example.com/pointer-comparison-in-c/</loc>
+  </url>
+  
+  <url>
+    <loc>https://example.com/tags/pointers/</loc>
+  </url>
+  
+  <url>
+    <loc>https://example.com/program-for-dynamic-memory-allocation-using-malloc/</loc>
+  </url>
+  
+  <url>
+    <loc>https://example.com/program-to-access-array-of-int-pointers/</loc>
+  </url>
+  
+  <url>
+    <loc>https://example.com/program-to-check-if-input-character-is-a-vowel-using-switch-case/</loc>
+  </url>
+  
+  <url>
+    <loc>https://example.com/program-to-check-if-input-number-is-int-or-float/</loc>
+  </url>
+  
+  <url>
+    <loc>https://example.com/program-to-check-whether-a-number-is-a-palindrome/</loc>
+  </url>
+  
+  <url>
+    <loc>https://example.com/program-to-check-whether-a-two-dimensional-array-is-a-sparse-matrix/</loc>
+  </url>
+  
+  <url>
+    <loc>https://example.com/program-to-check-whether-given-square-matrix-is-symmetric-or-not/</loc>
+  </url>
+  
+  <url>
+    <loc>https://example.com/program-to-delete-an-element-from-array-in-c/</loc>
+  </url>
+  
+  <url>
+    <loc>https://example.com/program-to-find-armstrong-number-between-1-to-500/</loc>
+  </url>
+  
+  <url>
+    <loc>https://example.com/program-to-find-average-of-n-numbers/</loc>
+  </url>
+  
+  <url>
+    <loc>https://example.com/program-to-find-deteminant-of-2x2-matrix/</loc>
+  </url>
+  
+  <url>
+    <loc>https://example.com/program-to-find-exponential-without-using-pow-method/</loc>
+  </url>
+  
+  <url>
+    <loc>https://example.com/program-to-find-factorial-of-a-number-using-recursion/</loc>
+  </url>
+  
+  <url>
+    <loc>https://example.com/program-to-find-factors-of-a-number/</loc>
+  </url>
+  
+  <url>
+    <loc>https://example.com/program-to-find-first-n-prime-numbers/</loc>
+  </url>
+  
+  <url>
+    <loc>https://example.com/program-to-find-largest-and-smallest-element-in-an-array/</loc>
+  </url>
+  
+  <url>
+    <loc>https://example.com/program-to-find-normal-and-trace-of-a-square-matrix/</loc>
+  </url>
+  
+  <url>
+    <loc>https://example.com/program-to-find-palindrome-using-recursion/</loc>
+  </url>
+  
+  <url>
+    <loc>https://example.com/program-to-find-sum-of-digits-of-a-number/</loc>
+  </url>
+  
+  <url>
+    <loc>https://example.com/program-to-find-sum-of-digits-of-a-number-using-recursion/</loc>
+  </url>
+  
+  <url>
+    <loc>https://example.com/program-to-find-sum-of-first-n-numbers/</loc>
+  </url>
+  
+  <url>
+    <loc>https://example.com/program-to-find-sum-of-n-input-numbers-in-c/</loc>
+  </url>
+  
+  <url>
+    <loc>https://example.com/program-to-find-sum-of-n-input-numbers-using-array/</loc>
+  </url>
+  
+  <url>
+    <loc>https://example.com/program-to-find-the-largest-number-among-n-input-numbers/</loc>
+  </url>
+  
+  <url>
+    <loc>https://example.com/program-to-insert-an-element-in-an-array/</loc>
+  </url>
+  
+  <url>
+    <loc>https://example.com/program-to-perform-addition-and-subtraction-of-matrices/</loc>
+  </url>
+  
+  <url>
+    <loc>https://example.com/program-to-print-factorial-of-a-number/</loc>
+  </url>
+  
+  <url>
+    <loc>https://example.com/program-to-print-fibonacci-series-using-recursion/</loc>
+  </url>
+  
+  <url>
+    <loc>https://example.com/program-to-print-the-fibonacci-series/</loc>
+  </url>
+  
+  <url>
+    <loc>https://example.com/program-to-print-the-largest-and-smallest-using-global-declaration/</loc>
+  </url>
+  
+  <url>
+    <loc>https://example.com/program-to-print-the-multiplication-table-of-any-number/</loc>
+  </url>
+  
+  <url>
+    <loc>https://example.com/program-to-print-the-reverse-of-an-array/</loc>
+  </url>
+  
+  <url>
+    <loc>https://example.com/program-to-reverse-a-string/</loc>
+  </url>
+  
+  <url>
+    <loc>https://example.com/program-to-reverse-a-string-using-recursion/</loc>
+  </url>
+  
+  <url>
+    <loc>https://example.com/program-to-reverse-the-case-of-input-character/</loc>
+  </url>
+  
+  <url>
+    <loc>https://example.com/program-to-take-input-of-various-datatypes-in-c/</loc>
+  </url>
+  
+  <url>
+    <loc>https://example.com/tags/recursion/</loc>
+  </url>
+  
+  <url>
+    <loc>https://example.com/simple-program-to-remove-duplicate-element-in-an-array/</loc>
+  </url>
+  
+  <url>
+    <loc>https://example.com/simple-program-to-sort-array-elements/</loc>
+  </url>
+  
+  <url>
+    <loc>https://example.com/simple-while-loop-program/</loc>
+  </url>
+  
+  <url>
+    <loc>https://example.com/tags/string/</loc>
+  </url>
+  
+  <url>
+    <loc>https://example.com/swapping-two-numbers-using-a-temporary-variable/</loc>
+  </url>
+  
+  <url>
+    <loc>https://example.com/switch-case-with-break/</loc>
+  </url>
+  
+  <url>
+    <loc>https://example.com/tags/</loc>
+  </url>
+  
+  <url>
+    <loc>https://example.com/using-isgraph-and-isprint-function-in-c-program/</loc>
+  </url>
+  
+</urlset>

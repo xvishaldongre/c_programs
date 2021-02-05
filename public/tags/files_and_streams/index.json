@@ -1,0 +1,46 @@
+[
+    {
+        "ref": "https://example.com/c-program-to-copy-content-of-one-file-into-another-file/",
+        "title": "C Program to copy content of one File into another File",
+        "section": "",
+        "tags": ["files_and_streams"],
+        "date" : "0001.01.01",
+        "body": "C Program to copy content of one File into another File We already know how to open a file, read contents of a file and write into a file. So in this program, we will read from one file and simultaneously write into the other file, till we reach end of first file.\n#include\u0026lt;stdio.h\u0026gt;#include\u0026lt;stdio.h\u0026gt; void main() { /* File_1.txt is the file with content and, File_2.txt is the file in which content of File_1 will be copied. */ FILE *fp1, *fp2; char ch; int pos; if ((fp1 = fopen(\u0026#34;File_1.txt\u0026#34;, \u0026#34;r\u0026#34;)) == NULL) { printf(\u0026#34;\\nFile cannot be opened.\u0026#34;); return; } else { printf(\u0026#34;\\nFile opened for copy...\\n\u0026#34;); } fp2 = fopen(\u0026#34;File_2.txt\u0026#34;, \u0026#34;w\u0026#34;); fseek(fp1, 0L, SEEK_END); // File pointer at end of file  pos = ftell(fp1); fseek(fp1, 0L, SEEK_SET); // File pointer set at start  while (pos--) { ch = fgetc(fp1); // Copying file character by character  fputc(ch, fp2); } fcloseall(); } "
+    }
+,
+    {
+        "ref": "https://example.com/c-program-to-create-a-file-write-data-in-it/",
+        "title": "C Program to create a File \u0026 write Data in it",
+        "section": "",
+        "tags": ["files_and_streams"],
+        "date" : "0001.01.01",
+        "body": "C Program to create a File \u0026amp; write Data in it Below is a program to create a new file and then storing information in it.\nYou can add any information in the file, like we have added Name, Age and Salary for some employees, you can change the program as per your requirements.\nYou can even initialise a for loop, to add details of multiple employees to the file. All you have to do is, ask user for number of employees for which data has to be stored, run the for loop that many times and keep on adding the data to the file.\n#include\u0026lt;stdio.h\u0026gt;#include\u0026lt;conio.h\u0026gt; void main() { FILE *fptr; char name[20]; int age; float salary; /* open for writing */ fptr = fopen(\u0026#34;emp.txt\u0026#34;, \u0026#34;w\u0026#34;); if (fptr == NULL) { printf(\u0026#34;File does not exist.\\n\u0026#34;); return; } printf(\u0026#34;Enter the name:\\n\u0026#34;); scanf(\u0026#34;%s\u0026#34;, name); fprintf(fptr, \u0026#34;Name = %s\\n\u0026#34;, name); printf(\u0026#34;Enter the age:\\n\u0026#34;); scanf(\u0026#34;%d\u0026#34;, \u0026amp;age;); fprintf(fptr, \u0026#34;Age = %d\\n\u0026#34;, age); printf(\u0026#34;Enter the salary:\\n\u0026#34;); scanf(\u0026#34;%f\u0026#34;, \u0026amp;salary;); fprintf(fptr, \u0026#34;Salary = %.2f\\n\u0026#34;, salary); fclose(fptr); } "
+    }
+,
+    {
+        "ref": "https://example.com/c-program-to-find-the-size-of-any-file/",
+        "title": "C Program to find the Size of any File",
+        "section": "",
+        "tags": ["files_and_streams"],
+        "date" : "0001.01.01",
+        "body": "C Program to find the Size of any File We will be using fseek() and ftell() functions to find the size of the file. There are others ways to find the file size as well, like looping on the whole content of file and finding out the size, but the File Handling functions makes it a lot easier.\nBelow is a program to find size of file.\n#include\u0026lt;stdio.h\u0026gt;#include\u0026lt;conio.h\u0026gt; void main() { FILE *fp; char ch; int size = 0; fp = fopen(\u0026#34;MyFile.txt\u0026#34;, \u0026#34;r\u0026#34;); if (fp == NULL) { printf(\u0026#34;\\nFile unable to open...\u0026#34;); } else { printf(\u0026#34;\\nFile opened...\u0026#34;); } fseek(fp, 0, 2); /* File pointer at the end of file */ size = ftell(fp); /* Take a position of file pointer in size variable */ printf(\u0026#34;The size of given file is: %d\\n\u0026#34;, size); fclose(fp); } "
+    }
+,
+    {
+        "ref": "https://example.com/c-program-to-print-names-of-all-files-present-in-a-directory/",
+        "title": "C Program to Print names of all Files present in a Directory",
+        "section": "",
+        "tags": ["files_and_streams"],
+        "date" : "0001.01.01",
+        "body": "C Program to Print names of all Files present in a Directory dirent.h header file contains variables and functions related to directory streams.\nBelow is a program to print the names of all the files in a directory.\nWe can also take the directory name as input from the user, and can also create a simple C program to search for a particular file in a directory.\n#include\u0026lt;stdio.h\u0026gt;#include\u0026lt;dirent.h\u0026gt; int main(void) { DIR *d; struct dirent *dir; d = opendir(\u0026#34;.\u0026#34;); if (d) { while ((dir = readdir(d)) != NULL) { printf(\u0026#34;%s\\n\u0026#34;, dir-\u0026gt;d_name); } closedir(d); } return(0); } "
+    }
+,
+    {
+        "ref": "https://example.com/c-program-to-reverse-the-content-of-a-file/",
+        "title": "C Program to reverse the content of a File",
+        "section": "",
+        "tags": ["files_and_streams"],
+        "date" : "0001.01.01",
+        "body": "C Program to reverse the content of a File Below is a program to reverse the contents of a file.\n#include\u0026lt;stdio.h\u0026gt;#include\u0026lt;errno.h\u0026gt; /* to count the total number of characters inside the source file */ long count_characters(FILE *); void main() { int i; long cnt; char ch, ch1; FILE *fp1, *fp2; if (fp1 = fopen(\u0026#34;File_1.txt\u0026#34;, \u0026#34;r\u0026#34;)) { printf(\u0026#34;The FILE has been opened...\\n\u0026#34;); fp2 = fopen(\u0026#34;File_2.txt\u0026#34;, \u0026#34;w\u0026#34;); cnt = count_characters(fp1); /* Make the pointer fp1 to point at the last character of the file */ fseek(fp1, -1L, 2); printf(\u0026#34;Number of characters to be copied %d\\n\u0026#34;, ftell(fp1)); while (cnt) { ch = fgetc(fp1); fputc(ch, fp2); fseek(fp1, -2L, 1); // shifts the pointer to the previous character  cnt--; } printf(\u0026#34;\\n**File copied successfully in reverse order**\\n\u0026#34;); } else { perror(\u0026#34;Error occured\\n\u0026#34;); } fclose(fp1); fclose(fp2); } /* Count the total number of characters in the file that *f points to */ long count_characters(FILE *f) { fseek(f, -1L, 2); /* returns the position of the last element of the file */ long last_pos = ftell(f); last_pos++; return last_pos; } "
+    }
+]

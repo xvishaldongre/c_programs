@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  <title>
+      
+          C Program to Reverse a String using Pointer - C Programs
+      
+  </title>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="author" content="By Vishal Dongre" />
+  <link rel="shortcut icon" type="image/x-icon" href="https://example.com/img/favicon.ico">
+
+  
+  
+  
+  
+  
+  <link rel="stylesheet" href="https://example.com/style.min.98f7f84c1576b3a7b05ee5507e0cb5d0cd796b2b47f0ca966b53a9651ae67ccd.css" integrity="sha256-mPf4TBV2s6ewXuVQfgy10M15aytH8MqWa1OpZRrmfM0=">
+  
+  
+  
+  <link rel="stylesheet" href="https://example.com/style-dark.min.0a647fb6c07e04b77b54fa0515d0a683d39ecdb251dba960fe1f966f7ff36fc2.css" media="(prefers-color-scheme: dark)" integrity="sha256-CmR/tsB&#43;BLd7VPoFFdCmg9OezbJR26lg/h&#43;Wb3/zb8I=">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+
+  
+  
+
+  <meta property="og:title" content="C Program to Reverse a String using Pointer" />
+<meta property="og:description" content="C Program to Reverse a String using Pointer Below is a program to reverse a string using pointer:
+#include &lt;stdio.h&gt; int main() { printf(&#34;\n\n\t\tC Programs\n\n\n&#34;); char str[100]; char rev[100]; char *sptr = str; // sptr stores the base address of the str  char *rptr = rev; // rptr stores the base address of the reverse  int i = -1; printf(&#34;\n\nEnter a string: &#34;); scanf(&#34;%s&#34;, str); // storing the ending address of str in sptr  while(*sptr) { sptr&#43;&#43;; i&#43;&#43;; // i is the index of the end location  } // storing the string str in rev in reverse order  while(i &gt;= 0) { /* First decrementing then using as it stores the location after the end location due to above while loop */ sptr--; *rptr = *sptr; // storing the value in sptr in rptr  rptr&#43;&#43;; // pointing to next location  i--; // decrementing the index  } /* String should always end with &#39;\0&#39; so explicitly putting it at the end of the string */ *rptr = &#39;\0&#39;; rptr = rev; // restoring the base address of the reverse string  // storing the reverse string in the original string  while(*rptr) { *sptr = *rptr; sptr&#43;&#43;; rptr&#43;&#43;; } // printing the reverse string  printf(&#34;\n\nReverse of the string is: %s &#34;, str); printf(&#34;\n\n\t\t\tCoding is Fun !" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://example.com/c-program-to-reverse-a-string-using-pointer/" />
+
+<meta itemprop="name" content="C Program to Reverse a String using Pointer">
+<meta itemprop="description" content="C Program to Reverse a String using Pointer Below is a program to reverse a string using pointer:
+#include &lt;stdio.h&gt; int main() { printf(&#34;\n\n\t\tC Programs\n\n\n&#34;); char str[100]; char rev[100]; char *sptr = str; // sptr stores the base address of the str  char *rptr = rev; // rptr stores the base address of the reverse  int i = -1; printf(&#34;\n\nEnter a string: &#34;); scanf(&#34;%s&#34;, str); // storing the ending address of str in sptr  while(*sptr) { sptr&#43;&#43;; i&#43;&#43;; // i is the index of the end location  } // storing the string str in rev in reverse order  while(i &gt;= 0) { /* First decrementing then using as it stores the location after the end location due to above while loop */ sptr--; *rptr = *sptr; // storing the value in sptr in rptr  rptr&#43;&#43;; // pointing to next location  i--; // decrementing the index  } /* String should always end with &#39;\0&#39; so explicitly putting it at the end of the string */ *rptr = &#39;\0&#39;; rptr = rev; // restoring the base address of the reverse string  // storing the reverse string in the original string  while(*rptr) { *sptr = *rptr; sptr&#43;&#43;; rptr&#43;&#43;; } // printing the reverse string  printf(&#34;\n\nReverse of the string is: %s &#34;, str); printf(&#34;\n\n\t\t\tCoding is Fun !">
+
+<meta itemprop="wordCount" content="216">
+
+
+
+<meta itemprop="keywords" content="pointers," />
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:image" content="https://example.com//img/avatar3.png"/>
+<meta name="twitter:title" content="C Program to Reverse a String using Pointer"/>
+<meta name="twitter:description" content="C Program to Reverse a String using Pointer Below is a program to reverse a string using pointer:
+#include &lt;stdio.h&gt; int main() { printf(&#34;\n\n\t\tC Programs\n\n\n&#34;); char str[100]; char rev[100]; char *sptr = str; // sptr stores the base address of the str  char *rptr = rev; // rptr stores the base address of the reverse  int i = -1; printf(&#34;\n\nEnter a string: &#34;); scanf(&#34;%s&#34;, str); // storing the ending address of str in sptr  while(*sptr) { sptr&#43;&#43;; i&#43;&#43;; // i is the index of the end location  } // storing the string str in rev in reverse order  while(i &gt;= 0) { /* First decrementing then using as it stores the location after the end location due to above while loop */ sptr--; *rptr = *sptr; // storing the value in sptr in rptr  rptr&#43;&#43;; // pointing to next location  i--; // decrementing the index  } /* String should always end with &#39;\0&#39; so explicitly putting it at the end of the string */ *rptr = &#39;\0&#39;; rptr = rev; // restoring the base address of the reverse string  // storing the reverse string in the original string  while(*rptr) { *sptr = *rptr; sptr&#43;&#43;; rptr&#43;&#43;; } // printing the reverse string  printf(&#34;\n\nReverse of the string is: %s &#34;, str); printf(&#34;\n\n\t\t\tCoding is Fun !"/>
+
+  <!--[if lte IE 9]>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/classlist/1.1.20170427/classList.min.js"></script>
+  <![endif]-->
+
+  <!--[if lt IE 9]>
+  <script src="https://cdn.jsdelivr.net/npm/html5shiv@3.7.3/dist/html5shiv.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/respond.js@1.4.2/dest/respond.min.js"></script>
+  <![endif]-->
+
+  
+  
+</head>
+
+  <body>
+    <nav>
+      <ul id="nav-list">
+        <li class="nav-item"><a href="https://example.com/">Home</a></li>
+        <li class="nav-item"><a href="https://example.com/tags">Tags</a></li>
+        <li class="nav-item"><a href="https://example.com/about">About me</a></li>
+        <li class="nav-item"><a href="https://example.com/contact">Contact</a></li>
+      </ul>
+    </nav>
+    <div class="openNav">
+      <div class="icon"></div>
+    </div>
+    <div class="wrapper">
+  <h1>C Program to Reverse a String using Pointer</h1>
+  <header>
+  
+  <div class="avatar">
+    <a href="https://example.com/">
+    <img class="avatarMask" src="https://example.com//img/avatar3.png" alt=""></a>
+  </div>
+  
+  <h2><a class="author" href="https://example.com/">By Vishal Dongre</a></h2>
+</header>
+
+  
+  
+  
+  <div id="tags">
+    <ul>
+      
+        
+        
+          <li><a href="https://example.com/tags/pointers/">pointers</a></li>
+        
+      
+    </ul>
+  </div>
+  
+  
+  <div id="contentBody">
+    <h2 id="c-program-to-reverse-a-string-using-pointer">C Program to Reverse a String using Pointer</h2>
+<p>Below is a program to reverse a string using pointer:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-c" data-lang="c"><span style="color:#75715e">#include</span> <span style="color:#75715e">&lt;stdio.h&gt;</span><span style="color:#75715e">
+</span><span style="color:#75715e"></span>
+<span style="color:#66d9ef">int</span> <span style="color:#a6e22e">main</span>()
+{
+    printf(<span style="color:#e6db74">&#34;</span><span style="color:#ae81ff">\n\n\t\t</span><span style="color:#e6db74">C Programs</span><span style="color:#ae81ff">\n\n\n</span><span style="color:#e6db74">&#34;</span>);
+
+    <span style="color:#66d9ef">char</span> str[<span style="color:#ae81ff">100</span>];
+    <span style="color:#66d9ef">char</span> rev[<span style="color:#ae81ff">100</span>];
+    <span style="color:#66d9ef">char</span> <span style="color:#f92672">*</span>sptr <span style="color:#f92672">=</span> str; <span style="color:#75715e">// sptr stores the base address of the str
+</span><span style="color:#75715e"></span>    <span style="color:#66d9ef">char</span> <span style="color:#f92672">*</span>rptr <span style="color:#f92672">=</span> rev; <span style="color:#75715e">// rptr stores the base address of the reverse
+</span><span style="color:#75715e"></span>
+    <span style="color:#66d9ef">int</span> i <span style="color:#f92672">=</span> <span style="color:#f92672">-</span><span style="color:#ae81ff">1</span>;
+
+    printf(<span style="color:#e6db74">&#34;</span><span style="color:#ae81ff">\n\n</span><span style="color:#e6db74">Enter a string: &#34;</span>);
+    scanf(<span style="color:#e6db74">&#34;%s&#34;</span>, str);
+
+    <span style="color:#75715e">// storing the ending address of str in sptr
+</span><span style="color:#75715e"></span>    <span style="color:#66d9ef">while</span>(<span style="color:#f92672">*</span>sptr)
+    {
+        sptr<span style="color:#f92672">++</span>;
+        i<span style="color:#f92672">++</span>; <span style="color:#75715e">// i is the index of the end location
+</span><span style="color:#75715e"></span>    }
+
+    <span style="color:#75715e">// storing the string str in rev in reverse order
+</span><span style="color:#75715e"></span>    <span style="color:#66d9ef">while</span>(i <span style="color:#f92672">&gt;=</span> <span style="color:#ae81ff">0</span>)
+    {
+        <span style="color:#75715e">/*
+</span><span style="color:#75715e">            First decrementing then using as it stores
+</span><span style="color:#75715e">            the location after the end location due to above while loop
+</span><span style="color:#75715e">        */</span>
+        sptr<span style="color:#f92672">--</span>;
+        <span style="color:#f92672">*</span>rptr <span style="color:#f92672">=</span> <span style="color:#f92672">*</span>sptr;  <span style="color:#75715e">// storing the value in sptr in rptr
+</span><span style="color:#75715e"></span>        rptr<span style="color:#f92672">++</span>; <span style="color:#75715e">// pointing to next location
+</span><span style="color:#75715e"></span>        i<span style="color:#f92672">--</span>;    <span style="color:#75715e">// decrementing the index
+</span><span style="color:#75715e"></span>    }
+    <span style="color:#75715e">/*
+</span><span style="color:#75715e">        String should always end with &#39;\0&#39; so explicitly
+</span><span style="color:#75715e">        putting it at the end of the string
+</span><span style="color:#75715e">    */</span>
+    <span style="color:#f92672">*</span>rptr <span style="color:#f92672">=</span> <span style="color:#e6db74">&#39;\0&#39;</span>;
+    rptr <span style="color:#f92672">=</span> rev; <span style="color:#75715e">// restoring the base address of the reverse string
+</span><span style="color:#75715e"></span>
+    <span style="color:#75715e">// storing the reverse string in the original string
+</span><span style="color:#75715e"></span>    <span style="color:#66d9ef">while</span>(<span style="color:#f92672">*</span>rptr)
+    {
+        <span style="color:#f92672">*</span>sptr <span style="color:#f92672">=</span> <span style="color:#f92672">*</span>rptr;
+        sptr<span style="color:#f92672">++</span>;
+        rptr<span style="color:#f92672">++</span>;
+    }
+
+    <span style="color:#75715e">// printing the reverse string
+</span><span style="color:#75715e"></span>    printf(<span style="color:#e6db74">&#34;</span><span style="color:#ae81ff">\n\n</span><span style="color:#e6db74">Reverse of the string is: %s &#34;</span>, str);
+    printf(<span style="color:#e6db74">&#34;</span><span style="color:#ae81ff">\n\n\t\t\t</span><span style="color:#e6db74">Coding is Fun !</span><span style="color:#ae81ff">\n\n\n</span><span style="color:#e6db74">&#34;</span>);
+    <span style="color:#66d9ef">return</span> <span style="color:#ae81ff">0</span>;
+}
+</code></pre></div>
+  </div>
+  <footer>
+  <p>
+  &copy; 2021 By Vishal Dongre.
+  Powered by <a href="https://gohugo.io/">Hugo</a>
+  using the <a href="https://github.com/koirand/pulp/">pulp</a> theme.
+  </p>
+</footer>
+
+  
+  
+  
+  
+  
+    
+  <script src="https://example.com/bundle.min.978b8c0968bb3037d3317a53bb44a8aa132302c68a32646c90053f4a8ac9de6c.js"></script>
+  <script>
+    $(".openNav").click(function() {
+      $("body").toggleClass("navOpen");
+      $("nav").toggleClass("open");
+      $(".wrapper").toggleClass("open");
+      $(this).toggleClass("open");
+    });
+  </script>
+</div>
+  </body>
+</html>

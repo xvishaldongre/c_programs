@@ -15,7 +15,7 @@ ram: true
 I'm a BCA Student, Programmer & Linux Enthusiast!
 
 - 🔭 I’m currently doing life related stuff
-- 🌱 I’m currently learning `python`
+- 🌱 I’m currently learning `Javascript`
 - 🥅 2021 Goals: Improve World little bit.
 - ⚡ Fun fact: I love 🐶 | 👨‍💻
 

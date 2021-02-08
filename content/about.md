@@ -1,7 +1,7 @@
 ---
 title: "About me"
 weight: 10
-date: 2021-02-04
+
 draft: false
 ram: true
 
@@ -10,13 +10,11 @@ ram: true
 
 ##
 
-### Hi there, I'm Vishal Dongre 👋
+### Hi there, I'm Tanmay Tank 👋
 
-I'm a BCA Student, Programmer & Linux Enthusiast!
+I'm a BCA Student and Programmer/
 
 - 🔭 I’m currently doing life related stuff
-- 🌱 I’m currently learning `Javascript`
-- 🥅 2021 Goals: Improve World little bit.
-- ⚡ Fun fact: I love 🐶 | 👨‍💻
+- ⚡ Fun fact: I love 📷
 
 ##

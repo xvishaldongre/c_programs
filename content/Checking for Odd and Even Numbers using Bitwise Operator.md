@@ -1,5 +1,6 @@
 ---
 title: "Checking for Odd and Even Numbers using Bitwise Operator"
+weight: 1
 #date: 2021-02-05
 draft: false
 tags: ["numbers"]

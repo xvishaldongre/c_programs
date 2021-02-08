@@ -1,5 +1,6 @@
 ---
 title: "Program to print the Largest and Smallest using Global Declaration"
+weight: 1
 #date: 2021-02-05
 draft: false
 tags: ["Basic Programs"]

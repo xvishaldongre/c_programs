@@ -1,5 +1,6 @@
 ---
 title: "C Program to Calculate Permutation (nPr) and Combination (nCr)"
+weight: 1
 #date: 2021-02-05
 draft: false
 tags: ["important_concepts"]

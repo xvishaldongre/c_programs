@@ -1,5 +1,6 @@
 ---
 title: "Program to check if input Number is int or float"
+weight: 1
 #date: 2021-02-05
 draft: false
 tags: ["numbers"]

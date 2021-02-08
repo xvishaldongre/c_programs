@@ -1,5 +1,6 @@
 ---
 title: "C program to find the second Largest number among Three user input Numbers"
+weight: 1
 #date: 2021-02-05
 draft: false
 tags: ["important_concepts"]

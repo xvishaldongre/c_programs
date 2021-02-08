@@ -1,5 +1,6 @@
 ---
 title: "C Program to convert Temparature in Celsius to Fahrenheit"
+weight: 1
 #date: 2021-02-05
 draft: false
 tags: ["important_concepts"]

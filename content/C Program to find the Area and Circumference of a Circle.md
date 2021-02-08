@@ -1,5 +1,6 @@
 ---
 title: "C Program to find the Area and Circumference of a Circle"
+weight: 1
 #date: 2021-02-05
 draft: false
 tags: ["important_concepts"]

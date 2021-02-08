@@ -1,5 +1,6 @@
 ---
 title: "Program to take input of various datatypes in C"
+weight: 1
 #date: 2021-02-05
 draft: false
 tags: ["Basic Programs"]

@@ -1,5 +1,6 @@
 ---
 title: "Program to find Deteminant of 2x2 Matrix"
+weight: 1
 #date: 2021-02-05
 draft: false
 tags: ["array"]

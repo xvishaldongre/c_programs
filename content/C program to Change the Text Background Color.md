@@ -1,5 +1,6 @@
 ---
 title: "C program to Change the Text Background Color"
+weight: 1
 #date: 2021-02-05
 draft: false
 tags: ["miscellaneous"]

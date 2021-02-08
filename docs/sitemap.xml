@@ -3,20 +3,7 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://xvishaldongre.github.io/c_programs/about/</loc>
-    <lastmod>2021-02-04T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://xvishaldongre.github.io/c_programs/contact/</loc>
-  </url>
-  
-  <url>
     <loc>https://xvishaldongre.github.io/c_programs/accessing-array-elementstraversing-array-by-incrementing-a-pointer/</loc>
-  </url>
-  
-  <url>
-    <loc>https://xvishaldongre.github.io/c_programs/tags/array/</loc>
   </url>
   
   <url>
@@ -45,10 +32,6 @@
   
   <url>
     <loc>https://xvishaldongre.github.io/c_programs/basic-program-to-show-use-of-nested-for-loops/</loc>
-  </url>
-  
-  <url>
-    <loc>https://xvishaldongre.github.io/c_programs/tags/basic-programs/</loc>
   </url>
   
   <url>
@@ -240,15 +223,7 @@
   </url>
   
   <url>
-    <loc>https://xvishaldongre.github.io/c_programs/</loc>
-  </url>
-  
-  <url>
     <loc>https://xvishaldongre.github.io/c_programs/c-programs-to-showcase-the-conversion-between-various-number-systems/</loc>
-  </url>
-  
-  <url>
-    <loc>https://xvishaldongre.github.io/c_programs/categories/</loc>
   </url>
   
   <url>
@@ -256,15 +231,7 @@
   </url>
   
   <url>
-    <loc>https://xvishaldongre.github.io/c_programs/tags/ctype.h/</loc>
-  </url>
-  
-  <url>
     <loc>https://xvishaldongre.github.io/c_programs/difference-between-strlen-and-sizeof-function/</loc>
-  </url>
-  
-  <url>
-    <loc>https://xvishaldongre.github.io/c_programs/tags/files_and_streams/</loc>
   </url>
   
   <url>
@@ -276,31 +243,11 @@
   </url>
   
   <url>
-    <loc>https://xvishaldongre.github.io/c_programs/tags/important_concepts/</loc>
-  </url>
-  
-  <url>
-    <loc>https://xvishaldongre.github.io/c_programs/tags/loops/</loc>
-  </url>
-  
-  <url>
-    <loc>https://xvishaldongre.github.io/c_programs/tags/miscellaneous/</loc>
-  </url>
-  
-  <url>
     <loc>https://xvishaldongre.github.io/c_programs/null-pointer-program/</loc>
   </url>
   
   <url>
-    <loc>https://xvishaldongre.github.io/c_programs/tags/numbers/</loc>
-  </url>
-  
-  <url>
     <loc>https://xvishaldongre.github.io/c_programs/pointer-comparison-in-c/</loc>
-  </url>
-  
-  <url>
-    <loc>https://xvishaldongre.github.io/c_programs/tags/pointers/</loc>
   </url>
   
   <url>
@@ -448,10 +395,6 @@
   </url>
   
   <url>
-    <loc>https://xvishaldongre.github.io/c_programs/tags/recursion/</loc>
-  </url>
-  
-  <url>
     <loc>https://xvishaldongre.github.io/c_programs/simple-program-to-remove-duplicate-element-in-an-array/</loc>
   </url>
   
@@ -464,10 +407,6 @@
   </url>
   
   <url>
-    <loc>https://xvishaldongre.github.io/c_programs/tags/string/</loc>
-  </url>
-  
-  <url>
     <loc>https://xvishaldongre.github.io/c_programs/swapping-two-numbers-using-a-temporary-variable/</loc>
   </url>
   
@@ -476,11 +415,71 @@
   </url>
   
   <url>
-    <loc>https://xvishaldongre.github.io/c_programs/tags/</loc>
+    <loc>https://xvishaldongre.github.io/c_programs/using-isgraph-and-isprint-function-in-c-program/</loc>
   </url>
   
   <url>
-    <loc>https://xvishaldongre.github.io/c_programs/using-isgraph-and-isprint-function-in-c-program/</loc>
+    <loc>https://xvishaldongre.github.io/c_programs/about/</loc>
+  </url>
+  
+  <url>
+    <loc>https://xvishaldongre.github.io/c_programs/contact/</loc>
+  </url>
+  
+  <url>
+    <loc>https://xvishaldongre.github.io/c_programs/tags/array/</loc>
+  </url>
+  
+  <url>
+    <loc>https://xvishaldongre.github.io/c_programs/tags/basic-programs/</loc>
+  </url>
+  
+  <url>
+    <loc>https://xvishaldongre.github.io/c_programs/</loc>
+  </url>
+  
+  <url>
+    <loc>https://xvishaldongre.github.io/c_programs/categories/</loc>
+  </url>
+  
+  <url>
+    <loc>https://xvishaldongre.github.io/c_programs/tags/ctype.h/</loc>
+  </url>
+  
+  <url>
+    <loc>https://xvishaldongre.github.io/c_programs/tags/files_and_streams/</loc>
+  </url>
+  
+  <url>
+    <loc>https://xvishaldongre.github.io/c_programs/tags/important_concepts/</loc>
+  </url>
+  
+  <url>
+    <loc>https://xvishaldongre.github.io/c_programs/tags/loops/</loc>
+  </url>
+  
+  <url>
+    <loc>https://xvishaldongre.github.io/c_programs/tags/miscellaneous/</loc>
+  </url>
+  
+  <url>
+    <loc>https://xvishaldongre.github.io/c_programs/tags/numbers/</loc>
+  </url>
+  
+  <url>
+    <loc>https://xvishaldongre.github.io/c_programs/tags/pointers/</loc>
+  </url>
+  
+  <url>
+    <loc>https://xvishaldongre.github.io/c_programs/tags/recursion/</loc>
+  </url>
+  
+  <url>
+    <loc>https://xvishaldongre.github.io/c_programs/tags/string/</loc>
+  </url>
+  
+  <url>
+    <loc>https://xvishaldongre.github.io/c_programs/tags/</loc>
   </url>
   
 </urlset>

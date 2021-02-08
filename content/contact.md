@@ -8,9 +8,9 @@ ram: true
 
 ## Connect with me:
 
-- **E-mail** - xvishaldongre@gmail.com
-- **Facebook** - https://www.facebook.com/xvishaldongre
-- **Instagram** - https://www.instagram.com/_vishal_dongre
-- **Telegram** - https://www.t.me/xvishaldongre
+- **E-mail** - tt@gmail.com
+- **Facebook** - https://www.facebook.com/tt
+- **Instagram** - https://www.instagram.com/tt
+- **Telegram** - https://www.t.me/tt
 
 ##

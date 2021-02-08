@@ -1,5 +1,6 @@
 ---
 title: "C Program to create a File & write Data in it"
+weight: 1
 #date: 2021-02-05
 draft: false
 tags: ["files_and_streams"]

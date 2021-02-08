@@ -1,5 +1,6 @@
 ---
 title: "Program to print the Multiplication Table of any Number"
+weight: 1
 #date: 2021-02-05
 draft: false
 tags: ["numbers"]

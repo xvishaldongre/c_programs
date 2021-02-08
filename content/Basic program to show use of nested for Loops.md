@@ -1,5 +1,6 @@
 ---
 title: "Basic program to show use of nested for Loops"
+weight: 1
 #date: 2021-02-05
 draft: false
 tags: ["loops"]

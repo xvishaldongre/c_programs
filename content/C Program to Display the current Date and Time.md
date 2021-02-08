@@ -1,5 +1,6 @@
 ---
 title: "C Program to Display the current Date and Time"
+weight: 1
 #date: 2021-02-05
 draft: false
 tags: ["miscellaneous"]

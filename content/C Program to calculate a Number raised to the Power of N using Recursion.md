@@ -1,5 +1,6 @@
 ---
 title: "C Program to calculate a Number raised to the Power of N using Recursion"
+weight: 1
 #date: 2021-02-05
 draft: false
 tags: ["recursion"]

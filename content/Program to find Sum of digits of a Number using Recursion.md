@@ -1,5 +1,6 @@
 ---
 title: "Program to find Sum of digits of a Number using Recursion"
+weight: 1
 #date: 2021-02-05
 draft: false
 tags: ["recursion"]

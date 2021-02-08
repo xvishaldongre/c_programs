@@ -1,5 +1,6 @@
 ---
 title: "Accessing array elements(Traversing array) by incrementing a Pointer"
+weight: 1
 #date: 2021-02-05
 draft: false
 tags: ["pointers"]

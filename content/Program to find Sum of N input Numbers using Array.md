@@ -1,5 +1,6 @@
 ---
 title: "Program to find Sum of N input Numbers using Array"
+weight: 1
 #date: 2021-02-05
 draft: false
 tags: ["array"]

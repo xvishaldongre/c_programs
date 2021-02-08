@@ -1,5 +1,6 @@
 ---
 title: "Program for Dynamic Memory Allocation using malloc()"
+weight: 1
 #date: 2021-02-05
 draft: false
 tags: ["pointers"]

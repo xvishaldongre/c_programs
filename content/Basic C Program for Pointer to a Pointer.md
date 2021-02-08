@@ -1,5 +1,6 @@
 ---
 title: "Basic C Program for Pointer to a Pointer"
+weight: 1
 #date: 2021-02-05
 draft: false
 tags: ["pointers"]

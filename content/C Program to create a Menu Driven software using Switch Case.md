@@ -1,5 +1,6 @@
 ---
 title: "C Program to create a Menu Driven software using Switch Case"
+weight: 1
 #date: 2021-02-05
 draft: false
 tags: ["miscellaneous"]

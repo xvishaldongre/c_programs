@@ -1,5 +1,6 @@
 ---
 title: "C Program to check lowercase using islower() Function"
+weight: 1
 #date: 2021-02-05
 draft: false
 tags: ["CTYPE.H"]

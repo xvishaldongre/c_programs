@@ -1,5 +1,6 @@
 ---
 title: "Program to find Armstrong Number between 1 to 500"
+weight: 1
 #date: 2021-02-05
 draft: false
 tags: ["numbers"]

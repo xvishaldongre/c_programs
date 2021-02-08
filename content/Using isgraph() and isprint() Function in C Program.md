@@ -1,5 +1,6 @@
 ---
 title: "Using isgraph() and isprint() Function in C Program"
+weight: 1
 #date: 2021-02-05
 draft: false
 tags: ["CTYPE.H"]

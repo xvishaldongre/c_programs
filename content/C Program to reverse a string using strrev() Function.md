@@ -1,5 +1,6 @@
 ---
 title: "C Program to reverse a string using strrev() Function"
+weight: 1
 #date: 2021-02-05
 draft: false
 tags: ["string"]

@@ -1,5 +1,6 @@
 ---
 title: "Null Pointer Program"
+weight: 1
 #date: 2021-02-05
 draft: false
 tags: ["pointers"]

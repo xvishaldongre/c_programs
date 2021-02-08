@@ -12,7 +12,7 @@ publishDir = "docs"
     unsafe = true # Allow user HTML tags
 
 [params]
-    author = "By Vishal Dongre"
+    author = "By Tanmay Tank"
     avatar = "avatar3.png"
     # avatarDescriptio = "My avatar description"
     favicon = "favicon.ico"

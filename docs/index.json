@@ -1,23 +1,5 @@
 [
     {
-        "ref": "https://xvishaldongre.github.io/c_programs/about/",
-        "title": "About me",
-        "section": "",
-        "tags": null,
-        "date" : "2021.02.04",
-        "body": " Hi there, I\u0026rsquo;m Vishal Dongre 👋 I\u0026rsquo;m a BCA Student, Programmer \u0026amp; Linux Enthusiast!\n 🔭 I’m currently doing life related stuff 🌱 I’m currently learning Javascript 🥅 2021 Goals: Improve World little bit. ⚡ Fun fact: I love 🐶 | 👨‍💻   "
-    }
-,
-    {
-        "ref": "https://xvishaldongre.github.io/c_programs/contact/",
-        "title": "Contact",
-        "section": "",
-        "tags": null,
-        "date" : "0001.01.01",
-        "body": "Connect with me:  E-mail - xvishaldongre@gmail.com Facebook - https://www.facebook.com/xvishaldongre Instagram - https://www.instagram.com/_vishal_dongre Telegram - https://www.t.me/xvishaldongre   "
-    }
-,
-    {
         "ref": "https://xvishaldongre.github.io/c_programs/accessing-array-elementstraversing-array-by-incrementing-a-pointer/",
         "title": "Accessing array elements(Traversing array) by incrementing a Pointer",
         "section": "",
@@ -951,5 +933,23 @@
         "tags": ["CTYPE.H"],
         "date" : "0001.01.01",
         "body": "Using isgraph() and isprint() Function in C Program In this program we will check if a particular character can be printed or not. This functionality can be achieved by making use of the isgraph() and isprint() method.\nThough it is recommended to go through the basic difference among them, but they are almost alike. Both of them are defined under ctype.h library.\nBelow is a program on isgraph() and isprint() function.\n#include\u0026lt;stdio.h\u0026gt;#include\u0026lt;ctype.h\u0026gt; // to use isgraph() and isprint() method int main() { printf(\u0026#34;\\n\\n\\t\\tC Programs\\n\\n\\n\u0026#34;); /* As datatypes are int, hence all the variables store the ASCII values of the character on the rhs */ int var1 = \u0026#39;D\u0026#39;; int var2 = \u0026#39;2\u0026#39;; int var3 = \u0026#39; \\t\u0026#39;; int var4 = \u0026#39;Y\u0026#39;; /* Returns true if the input parameter is an ASCII value of an alphanumberic character */ if(isgraph(var1)) { printf(\u0026#34;\\nvar1 = |%c| can be printed\\n\u0026#34;, var1); } else { printf(\u0026#34;\\nvar1 =|%c| cannot be printed\\n\u0026#34;, var1); } if(isprint(var2)) { printf(\u0026#34;\\nvar2 = |%c| can be printed\\n\u0026#34;, var2); } else { printf(\u0026#34;\\nvar2 =|%c| can\u0026#39;t be printed\\n\u0026#34;, var2); } if(isgraph(var3)) { printf(\u0026#34;\\nvar3 = |%c| can be printed\\n\u0026#34;, var3); } else { printf(\u0026#34;\\nvar3 =|%c| can\u0026#39;t be printed\\n\u0026#34;, var3); } if(isprint(var4)) { printf(\u0026#34;\\nvar4 = |%c| can be printed\\n\u0026#34;, var4); } else { printf(\u0026#34;\\nvar4 =|%c| can\u0026#39;t be printed\\n\u0026#34;, var4); } printf(\u0026#34;\\n\\n\\t\\t\\tCoding is Fun !\\n\\n\\n\u0026#34;); return 0; } "
+    }
+,
+    {
+        "ref": "https://xvishaldongre.github.io/c_programs/about/",
+        "title": "About me",
+        "section": "",
+        "tags": null,
+        "date" : "0001.01.01",
+        "body": " Hi there, I\u0026rsquo;m Tanmay Tank 👋 I\u0026rsquo;m a BCA Student and Programmer/\n 🔭 I’m currently doing life related stuff ⚡ Fun fact: I love 📷   "
+    }
+,
+    {
+        "ref": "https://xvishaldongre.github.io/c_programs/contact/",
+        "title": "Contact",
+        "section": "",
+        "tags": null,
+        "date" : "0001.01.01",
+        "body": "Connect with me:  E-mail - tt@gmail.com Facebook - https://www.facebook.com/tt Instagram - https://www.instagram.com/tt Telegram - https://www.t.me/tt   "
     }
 ]

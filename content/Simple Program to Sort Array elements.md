@@ -1,5 +1,6 @@
 ---
 title: "Simple Program to Sort Array elements"
+weight: 1
 #date: 2021-02-05
 draft: false
 tags: ["array"]

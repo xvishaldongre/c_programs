@@ -1,5 +1,6 @@
 ---
 title: "C Program to compare two strings using strcmp() Function"
+weight: 1
 #date: 2021-02-05
 draft: false
 tags: ["string"]

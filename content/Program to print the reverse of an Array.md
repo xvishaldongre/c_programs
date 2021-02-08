@@ -1,5 +1,6 @@
 ---
 title: "Program to print the reverse of an Array"
+weight: 1
 #date: 2021-02-05
 draft: false
 tags: ["array"]

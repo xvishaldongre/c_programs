@@ -1,5 +1,6 @@
 ---
 title: "C program to show basic Arithmetic Operations and role of Typecasting"
+weight: 1
 #date: 2021-02-05
 draft: false
 tags: ["important_concepts"]

@@ -1,5 +1,6 @@
 ---
 title: "C Program to copy content of one File into another File"
+weight: 1
 #date: 2021-02-05
 draft: false
 tags: ["files_and_streams"]

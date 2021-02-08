@@ -1,5 +1,6 @@
 ---
 title: "Program to check whether given Square Matrix is symmetric or not"
+weight: 1
 #date: 2021-02-05
 draft: false
 tags: ["array"]

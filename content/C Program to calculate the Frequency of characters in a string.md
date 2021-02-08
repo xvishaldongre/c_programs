@@ -1,5 +1,6 @@
 ---
 title: "C Program to calculate the Frequency of characters in a string"
+weight: 1
 #date: 2021-02-05
 draft: false
 tags: ["string"]

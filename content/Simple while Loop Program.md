@@ -1,5 +1,6 @@
 ---
 title: "Simple while Loop Program"
+weight: 1
 #date: 2021-02-05
 draft: false
 tags: ["loops"]

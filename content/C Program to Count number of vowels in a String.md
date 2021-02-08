@@ -1,5 +1,6 @@
 ---
 title: "C Program to Count number of vowels in a String"
+weight: 1
 #date: 2021-02-05
 draft: false
 tags: ["string"]

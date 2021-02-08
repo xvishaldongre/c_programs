@@ -1,5 +1,6 @@
 ---
 title: "Program to reverse a String"
+weight: 1
 #date: 2021-02-05
 draft: false
 tags: ["loops"]
